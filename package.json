@@ -1,0 +1,46 @@
+{
+    "name": "@softvisio/cli",
+    "version": "0.12.8",
+    "description": "Softisio CLI Tool",
+    "keywords": [
+        "softvisio",
+        "cli"
+    ],
+    "homepage": "https://bitbucket.org/softvisio/softvisio-cli",
+    "bugs": {
+        "url": "https://bitbucket.org/softvisio/softvisio-cli/issues",
+        "email": "zdm@softvisio.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/softvisio/softvisio-cli.git"
+    },
+    "license": "ISC",
+    "author": "zdm <zdm@softvisio.net>",
+    "type": "commonjs",
+    "exports": {
+        ".": "./lib/index.js",
+        "./": "./lib/",
+        "./resources/": "./resources/"
+    },
+    "bin": {
+        "softvisio-cli": "./bin/softvisio-cli.js"
+    },
+    "scripts": {
+        "lint": "softvisio-cli lint *.* bin lib resources"
+    },
+    "dependencies": {
+        "@softvisio/core": ">=0.27.0",
+        "@softvisio/eslint-plugin": ">=0.14.0",
+        "babel-eslint": ">=10.1.0",
+        "eslint": ">=7.4.0",
+        "eslint-plugin-babel": ">=5.3.1",
+        "eslint-plugin-vue": ">=6.2.2",
+        "glob": ">=7.1.6",
+        "jimp": ">=0.14.0",
+        "prettier": ">=1.19.1",
+        "prettier-plugin-packagejson": ">=2.2.5",
+        "prettier-plugin-sh": ">=0.4.0",
+        "terser": ">=4.4.3"
+    }
+}
