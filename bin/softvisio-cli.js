@@ -7,6 +7,7 @@ const Wiki = require( "@softvisio/cli/commands/wiki" );
 const Icons = require( "@softvisio/cli/commands/icons" );
 const Lint = require( "@softvisio/cli/commands/lint" );
 const Release = require( "@softvisio/cli/commands/release" );
+const Ls = require( "@softvisio/cli/commands/ls" );
 
 class App {
     static cli () {
@@ -18,6 +19,7 @@ class App {
                 "icons": Icons,
                 "lint": Lint,
                 "release": Release,
+                "ls": Ls,
             },
         };
     }
