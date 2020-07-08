@@ -9,6 +9,7 @@ const Lint = require( "@softvisio/cli/commands/lint" );
 const Release = require( "@softvisio/cli/commands/release" );
 const Ls = require( "@softvisio/cli/commands/ls" );
 const Log = require( "@softvisio/cli/commands/log" );
+const Docker = require( "@softvisio/cli/commands/docker" );
 
 class App {
     static cli () {
@@ -22,6 +23,7 @@ class App {
                 "release": Release,
                 "ls": Ls,
                 "log": Log,
+                "docker": Docker,
             },
         };
     }
