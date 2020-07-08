@@ -1,3 +1,8 @@
+## v0.16.0 (Wed, 08 Jul 2020 18:18:33 GMT)
+
+-   colorize lint output
+-   git pre-commit hook added
+
 ## v0.15.0 (Wed, 08 Jul 2020 17:12:37 GMT)
 
 -   docker build command added
