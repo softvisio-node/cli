@@ -2,7 +2,7 @@
 
 const cli = require( "@softvisio/core/cli" );
 
-const Vim = require( "@softvisio/cli/commands/vim" );
+const Rpc = require( "@softvisio/cli/commands/rpc" );
 const Wiki = require( "@softvisio/cli/commands/wiki" );
 const Icons = require( "@softvisio/cli/commands/icons" );
 const Lint = require( "@softvisio/cli/commands/lint" );
@@ -17,7 +17,7 @@ class App {
         return {
             "summary": "Softvisio build tool.",
             "commands": {
-                "vim": Vim,
+                "rpc": Rpc,
                 "wiki": Wiki,
                 "icons": Icons,
                 "lint": Lint,
