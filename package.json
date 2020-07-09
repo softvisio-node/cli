@@ -27,7 +27,7 @@
         "softvisio-cli": "./bin/softvisio-cli.js"
     },
     "scripts": {
-        "lint": "softvisio-cli lint *.* bin lib resources"
+        "lint": "softvisio-cli lint"
     },
     "dependencies": {
         "@softvisio/core": ">=0.27.0",
@@ -44,5 +44,11 @@
         "prettier-plugin-sh": ">=0.4.0",
         "table": ">=5.4.6",
         "terser": ">=4.4.3"
-    }
+    },
+    "lint": [
+        "*.*",
+        "bin",
+        "lib",
+        "resources"
+    ]
 }
