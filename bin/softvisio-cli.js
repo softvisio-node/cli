@@ -10,7 +10,6 @@ const Release = require( "@softvisio/cli/commands/release" );
 const Ls = require( "@softvisio/cli/commands/ls" );
 const Log = require( "@softvisio/cli/commands/log" );
 const Docker = require( "@softvisio/cli/commands/docker" );
-const GitPreCommitHook = require( "@softvisio/cli/commands/git-pre-commit-hook" );
 
 class App {
     static cli () {
@@ -25,7 +24,6 @@ class App {
                 "ls": Ls,
                 "log": Log,
                 "docker": Docker,
-                "git-pre-commit-hook": GitPreCommitHook,
             },
         };
     }
