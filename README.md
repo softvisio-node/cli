@@ -1,5 +1,7 @@
 # INSTALL AND USE
 
 ```
-yarn add --dev @softvisio/cli
+npm i -g @softvisio/cli
+
+softvisio-cli --help
 ```
