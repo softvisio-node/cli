@@ -1,3 +1,7 @@
+## v0.17.1 (Sat, 11 Jul 2020 07:58:32 GMT)
+
+-   pre-commit checks that package.json exists before linting files
+
 ## v0.17.0 (Sat, 11 Jul 2020 07:20:03 GMT)
 
 -   pre-commit command added
