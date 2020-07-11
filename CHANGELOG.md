@@ -1,3 +1,8 @@
+## v0.18.0 (Sat, 11 Jul 2020 09:41:41 GMT)
+
+-   git install-hooks command added
+-   pre-commit hook template added
+
 ## v0.17.1 (Sat, 11 Jul 2020 07:58:32 GMT)
 
 -   pre-commit checks that package.json exists before linting files
