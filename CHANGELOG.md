@@ -1,3 +1,21 @@
+## v0.17.0 (Sat, 11 Jul 2020 07:20:03 GMT)
+
+-   pre-commit command added
+-   ignoreUnsupported option renamed to processUnsupported
+-   release --force option added
+-   docker build --force option added
+-   icons os filter added
+-   detect file type using shebang
+-   vim lint append extension depending on vim file type
+-   use mime db for file type detection
+-   lint config added to package.json
+-   lint read config from the nearest package.json
+-   write icons to root/resources if started from project
+-   vim command renamed to rpc
+-   git pre-commit hook refactored
+-   src return status refactored
+-   lint added "-" argument to read from stdin
+
 ## v0.16.0 (Wed, 08 Jul 2020 18:18:33 GMT)
 
 -   colorize lint output
