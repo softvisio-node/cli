@@ -1,17 +1,17 @@
-## v0.18.1 (Sun, 12 Jul 2020 06:37:45 GMT)
+## 0.18.1 (2020-07-12)
 
 -   .eslintrc.yaml updated
 
-## v0.18.0 (Sat, 11 Jul 2020 09:41:41 GMT)
+## 0.18.0 (2020-07-11)
 
 -   git install-hooks command added
 -   pre-commit hook template added
 
-## v0.17.1 (Sat, 11 Jul 2020 07:58:32 GMT)
+## 0.17.1 (2020-07-11)
 
 -   pre-commit checks that package.json exists before linting files
 
-## v0.17.0 (Sat, 11 Jul 2020 07:20:03 GMT)
+## 0.17.0 (2020-07-11)
 
 -   pre-commit command added
 -   ignoreUnsupported option renamed to processUnsupported
@@ -29,12 +29,12 @@
 -   src return status refactored
 -   lint added "-" argument to read from stdin
 
-## v0.16.0 (Wed, 08 Jul 2020 18:18:33 GMT)
+## 0.16.0 (2020-07-08)
 
 -   colorize lint output
 -   git pre-commit hook added
 
-## v0.15.0 (Wed, 08 Jul 2020 17:12:37 GMT)
+## 0.15.0 (2020-07-08)
 
 -   docker build command added
 -   cli spec for release command fixed
@@ -47,12 +47,12 @@
 -   use git version on release
 -   update version in sub-projects and config.xml on release
 
-## v0.14.0 (Wed, 08 Jul 2020 06:12:07 GMT)
+## 0.14.0 (2020-07-08)
 
 -   log command added
 -   ls command added
 -   util getProjectRoot() function added
 
-## v0.13.0 (Tue, 07 Jul 2020 20:23:23 GMT)
+## 0.13.0 (2020-07-07)
 
 -   init
