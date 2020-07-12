@@ -1,3 +1,7 @@
+## 0.18.2 (2020-07-12)
+
+-   changelog format updated
+
 ## 0.18.1 (2020-07-12)
 
 -   .eslintrc.yaml updated
