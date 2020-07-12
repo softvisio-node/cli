@@ -1,3 +1,7 @@
+## v0.18.1 (Sun, 12 Jul 2020 06:37:45 GMT)
+
+-   .eslintrc.yaml updated
+
 ## v0.18.0 (Sat, 11 Jul 2020 09:41:41 GMT)
 
 -   git install-hooks command added
