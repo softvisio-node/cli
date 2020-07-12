@@ -1,3 +1,7 @@
+## 0.18.4 (2020-07-12)
+
+-   release publish root fixed
+
 ## 0.18.3 (2020-07-12)
 
 -   relese - set latest tag only if release version is latest
