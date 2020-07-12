@@ -1,3 +1,9 @@
+## 0.18.3 (2020-07-12)
+
+-   relese - set latest tag only if release version is latest
+-   missed spaces in log added
+-   relese - check for master branch removed
+
 ## 0.18.2 (2020-07-12)
 
 -   changelog format updated
