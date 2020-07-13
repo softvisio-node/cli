@@ -1,3 +1,9 @@
+## 0.18.5 (2020-07-13)
+
+-   git options reordered in help
+-   git sort releases in desc order
+-   docker build logs added
+
 ## 0.18.4 (2020-07-12)
 
 -   release publish root fixed
