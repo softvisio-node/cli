@@ -1,3 +1,7 @@
+## 0.19.0 (2020-07-13)
+
+-   docker build --single option added
+
 ## 0.18.5 (2020-07-13)
 
 -   git options reordered in help
