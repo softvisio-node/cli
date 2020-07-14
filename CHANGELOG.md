@@ -1,3 +1,7 @@
+## 0.19.1 (2020-07-14)
+
+-   ios icons added
+
 ## 0.19.0 (2020-07-13)
 
 -   docker build --single option added
