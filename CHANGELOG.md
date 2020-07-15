@@ -1,3 +1,10 @@
+## 0.20.0 (2020-07-15)
+
+-   wiki
+-   use editor from user config to edit changelog
+-   ls can list projects in all configured workspaces
+-   ios icons names updated
+
 ## 0.19.1 (2020-07-14)
 
 -   ios icons added
