@@ -1,3 +1,9 @@
+## 0.21.0 (2020-07-16)
+
+-   ansi color moved to @softvisio/core
+-   upstream clone url fixed
+-   id command added
+
 ## 0.20.3 (2020-07-16)
 
 -   console log fixed
