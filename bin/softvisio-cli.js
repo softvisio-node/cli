@@ -11,6 +11,7 @@ const Ls = require( "@softvisio/cli/commands/ls" );
 const Log = require( "@softvisio/cli/commands/log" );
 const Docker = require( "@softvisio/cli/commands/docker" );
 const Git = require( "@softvisio/cli/commands/git" );
+const Id = require( "@softvisio/cli/commands/id" );
 
 class App {
     static cli () {
@@ -26,6 +27,7 @@ class App {
                 "log": Log,
                 "docker": Docker,
                 "git": Git,
+                "id": Id,
             },
         };
     }
