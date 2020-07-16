@@ -1,3 +1,7 @@
+## 0.20.3 (2020-07-16)
+
+-   console log fixed
+
 ## 0.20.2 (2020-07-16)
 
 -   console log fixed
