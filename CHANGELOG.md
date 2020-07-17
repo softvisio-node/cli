@@ -1,3 +1,10 @@
+## 0.22.0 (2020-07-17)
+
+-   show total changes for unreleased projects
+-   lint for package fixed
+-   lint directory patterns must include glob
+-   lint patterns updated
+
 ## 0.21.0 (2020-07-16)
 
 -   ansi color moved to @softvisio/core
