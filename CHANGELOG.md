@@ -1,3 +1,7 @@
+## 0.24.0 (2020-07-18)
+
+-   ls don't highlight release dispance for unreleased projects
+
 ## 0.23.0 (2020-07-18)
 
 -   id command renamed to status
