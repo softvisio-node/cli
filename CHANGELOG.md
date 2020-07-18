@@ -1,3 +1,12 @@
+## 0.25.0 (2020-07-18)
+
+-   git releaseDistance -> currentReleaseDistance
+-   git id.release -> id.currentRelease
+-   git getReleases combined with getId
+-   git push status combined with id
+-   release latest tag fixed
+-   don't highlight release dispance for unreleased projects
+
 ## 0.24.0 (2020-07-18)
 
 -   ls don't highlight release dispance for unreleased projects
