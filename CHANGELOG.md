@@ -1,3 +1,7 @@
+## 0.25.1 (2020-07-18)
+
+-   current release distance fixed
+
 ## 0.25.0 (2020-07-18)
 
 -   git releaseDistance -> currentReleaseDistance
