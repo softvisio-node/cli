@@ -1,3 +1,7 @@
+## 0.23.0 (2020-07-18)
+
+-   id command renamed to status
+
 ## 0.22.0 (2020-07-17)
 
 -   show total changes for unreleased projects
