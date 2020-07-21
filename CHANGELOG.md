@@ -1,3 +1,7 @@
+## 0.25.2 (2020-07-21)
+
+-   yaml comments parser fixed
+
 ## 0.25.1 (2020-07-18)
 
 -   current release distance fixed
