@@ -1,3 +1,7 @@
+## 0.26.0 (2020-07-22)
+
+-   allow to release project without changes (bump version)
+
 ## 0.25.2 (2020-07-21)
 
 -   yaml comments parser fixed
