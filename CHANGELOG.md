@@ -1,3 +1,10 @@
+## 0.27.0 (2020-07-25)
+
+-   workspace indexes added
+-   named workspaces
+-   priv / pub filter added
+-   priv / pub label added
+
 ## 0.26.0 (2020-07-22)
 
 -   allow to release project without changes (bump version)
