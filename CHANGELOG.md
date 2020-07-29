@@ -1,3 +1,7 @@
+## 0.27.1 (2020-07-29)
+
+-   git upstream url parser fixed
+
 ## 0.27.0 (2020-07-25)
 
 -   workspace indexes added
