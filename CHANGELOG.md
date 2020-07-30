@@ -1,3 +1,7 @@
+## 0.28.0 (2020-07-30)
+
+-   docker build refactored
+
 ## 0.27.1 (2020-07-29)
 
 -   git upstream url parser fixed
