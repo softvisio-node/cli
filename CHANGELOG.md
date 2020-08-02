@@ -1,3 +1,7 @@
+## 0.29.1 (2020-08-02)
+
+-   docs yaml dump settings updated
+
 ## 0.29.0 (2020-08-02)
 
 -   wiki commands added
