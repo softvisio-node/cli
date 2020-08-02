@@ -1,3 +1,8 @@
+## 0.29.0 (2020-08-02)
+
+-   wiki commands added
+-   git upstream urls updated
+
 ## 0.28.0 (2020-07-30)
 
 -   docker build refactored
