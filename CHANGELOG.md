@@ -1,3 +1,8 @@
+## 0.29.2 (2020-08-03)
+
+-   shrinkwrap added
+-   deps updated
+
 ## 0.29.1 (2020-08-02)
 
 -   docs yaml dump settings updated
