@@ -1,3 +1,7 @@
+## 0.29.4 (2020-08-03)
+
+-   update package-lock.json version on release
+
 ## 0.29.3 (2020-08-03)
 
 -   update shrinkwrap version on release
