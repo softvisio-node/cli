@@ -33,4 +33,6 @@ class App {
     }
 }
 
-cli( App );
+( async () => {
+    cli( App );
+} )();
