@@ -29,8 +29,8 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.45.0",
-        "@softvisio/eslint-plugin": ">=0.15.3",
+        "@softvisio/core": ">=0.45.3",
+        "@softvisio/eslint-plugin": ">=0.15.6",
         "babel-eslint": ">=10.1.0",
         "eslint": ">=7.6.0",
         "eslint-plugin-babel": ">=5.3.1",
