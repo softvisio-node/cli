@@ -36,7 +36,7 @@
         "eslint-plugin-babel": ">=5.3.1",
         "eslint-plugin-vue": ">=6.2.2",
         "glob": ">=7.1.6",
-        "jimp": ">=0.14.0",
+        "jimp": ">=0.15.0",
         "minimatch": ">=3.0.4",
         "prettier": ">=1.19.1",
         "prettier-plugin-packagejson": ">=2.2.5",
