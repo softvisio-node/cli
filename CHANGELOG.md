@@ -1,3 +1,11 @@
+## 0.30.0 (2020-08-07)
+
+-   deps updated
+-   pre-commit lint renamed files
+-   .eslintrc.yaml removed
+-   eslint don't ignore dotfiles
+-   migrated to eslint 7
+
 ## 0.29.4 (2020-08-03)
 
 -   update package-lock.json version on release
