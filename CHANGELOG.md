@@ -1,3 +1,7 @@
+## 0.31.1 (2020-08-18)
+
+-   ls --dirty true by default
+
 ## 0.31.0 (2020-08-18)
 
 -   ls --dirty option added
