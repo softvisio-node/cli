@@ -1,3 +1,8 @@
+## 0.31.0 (2020-08-18)
+
+-   ls --dirty option added
+-   deps updated
+
 ## 0.30.0 (2020-08-07)
 
 -   deps updated
