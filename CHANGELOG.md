@@ -1,3 +1,10 @@
+## 0.32.0 (2020-08-31)
+
+-   deps updated
+-   push branch and tags in single operation on release
+-   check for detached head on release
+-   help updated
+
 ## 0.31.1 (2020-08-18)
 
 -   ls --dirty true by default
