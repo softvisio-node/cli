@@ -29,7 +29,7 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.60.0",
+        "@softvisio/core": ">=0.63.4",
         "@softvisio/eslint-plugin": ">=0.15.6",
         "babel-eslint": ">=10.1.0",
         "eslint": ">=7.7.0",
@@ -41,7 +41,7 @@
         "prettier": ">=2.1.1",
         "prettier-plugin-packagejson": ">=2.2.5",
         "prettier-plugin-sh": ">=0.6.0",
-        "table": ">=5.4.6",
+        "table": ">=6.0.1",
         "terser": ">=5.2.1"
     },
     "lint": [
