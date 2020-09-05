@@ -29,10 +29,10 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.63.4",
+        "@softvisio/core": ">=0.66.0",
         "@softvisio/eslint-plugin": ">=0.15.6",
         "babel-eslint": ">=10.1.0",
-        "eslint": ">=7.7.0",
+        "eslint": ">=7.8.1",
         "eslint-plugin-babel": ">=5.3.1",
         "eslint-plugin-vue": ">=6.2.2",
         "glob": ">=7.1.6",
@@ -41,8 +41,8 @@
         "prettier": ">=2.1.1",
         "prettier-plugin-packagejson": ">=2.2.5",
         "prettier-plugin-sh": ">=0.6.0",
-        "table": ">=6.0.1",
-        "terser": ">=5.2.1"
+        "table": ">=6.0.3",
+        "terser": ">=5.3.0"
     },
     "lint": [
         "*.*",
