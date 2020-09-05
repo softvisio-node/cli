@@ -1,3 +1,7 @@
+## 0.32.2 (2020-09-05)
+
+-   wiki check upstream before run command
+
 ## 0.32.1 (2020-09-05)
 
 -   deps updated
