@@ -1,3 +1,10 @@
+## 0.33.0 (2020-09-29)
+
+-   deps updated
+-   html compressor added
+-   css compressor added
+-   docker mirrors
+
 ## 0.32.2 (2020-09-05)
 
 -   wiki check upstream before run command
