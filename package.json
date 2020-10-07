@@ -29,14 +29,14 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.72.0",
+        "@softvisio/core": ">=0.73.1",
         "@softvisio/eslint-plugin": ">=0.15.6",
         "babel-eslint": ">=10.1.0",
         "cssnano": ">=4.1.10",
         "cssnano-preset-advanced": ">=4.0.7",
         "eslint": ">=7.10.0",
         "eslint-plugin-babel": ">=5.3.1",
-        "eslint-plugin-vue": ">=7.0.0",
+        "eslint-plugin-vue": ">=7.0.1",
         "glob": ">=7.1.6",
         "html-minifier": ">=4.0.0",
         "jimp": ">=0.16.1",
