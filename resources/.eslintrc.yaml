@@ -1,4 +1,4 @@
 root: true
 
 extends:
-  - "plugin:@softvisio/recommended"
+  - 'plugin:@softvisio/recommended'
