@@ -29,7 +29,7 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.76.0",
+        "@softvisio/core": ">=0.78.0",
         "@softvisio/eslint-plugin": ">=0.15.7",
         "babel-eslint": ">=10.1.0",
         "cssnano": ">=4.1.10",

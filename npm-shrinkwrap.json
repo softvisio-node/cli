@@ -496,11 +496,11 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.76.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.76.0.tgz",
-            "integrity": "sha512-+tGB4hF6Aal2chOwYGjYUbueOiEPx3I1ok8zGsxtDqpwGVISsQ8gCxjiJjxVoAxWKdAAQeFqg57jofIf6ugAsg==",
+            "version": "0.78.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.78.0.tgz",
+            "integrity": "sha512-mPHalRUow4/hh6nI0os3KFPBuny+sX08IU7aGEoEC9c7uHFdZyaO8zrIsPmLzEICPE9pcqcQsbYjYS+YuWGlEQ==",
             "requires": {
-                "ajv": ">=6.12.5",
+                "ajv": ">=6.12.6",
                 "ansi-colors": ">=4.1.1",
                 "base-x": ">=3.0.8",
                 "bufferutil": ">=4.0.1",
@@ -508,7 +508,7 @@
                 "eventemitter3": ">=4.0.7",
                 "fast-xml-parser": ">=3.17.4",
                 "glob": ">=7.1.6",
-                "hash-wasm": ">=4.2.2",
+                "hash-wasm": ">=4.3.0",
                 "js-yaml": ">=3.14.0",
                 "lru-cache": ">=6.0.0",
                 "maxmind": ">=4.3.0",
@@ -557,9 +557,9 @@
                     "integrity": "sha512-TMeqbNl2fMW0nMjTEPOwe3J/PRFP4vqeoNuQMG0HlMrtm5QxKqdvAkZ1pRBQ/ulIyDD5Yq0nJ7YbdD8ey0TO3g=="
                 },
                 "ajv": {
-                    "version": "6.12.5",
-                    "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.12.5.tgz",
-                    "integrity": "sha512-lRF8RORchjpKG50/WFf8xmg7sgCLFiYNNnqdKflk63whMQcWR5ngGjiSXkL9bjxy6B2npOK2HSMN49jEBMSkag==",
+                    "version": "6.12.6",
+                    "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz",
+                    "integrity": "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==",
                     "requires": {
                         "fast-deep-equal": "^3.1.1",
                         "fast-json-stable-stringify": "^2.0.0",
@@ -852,9 +852,9 @@
                     "integrity": "sha1-tdRU3CGZriJWmfNGfloH87lVuv0="
                 },
                 "hash-wasm": {
-                    "version": "4.2.2",
-                    "resolved": "https://registry.npmjs.org/hash-wasm/-/hash-wasm-4.2.2.tgz",
-                    "integrity": "sha512-tjaL6opF18/bkrkDZyjxSatmggUa/LPZQO7LiDEInGgoheish/pZrqYSbHsgtKGVkVKqjEKxBerxvZsodlpD2Q=="
+                    "version": "4.3.0",
+                    "resolved": "https://registry.npmjs.org/hash-wasm/-/hash-wasm-4.3.0.tgz",
+                    "integrity": "sha512-ES87+2dGuuJ957QXWRHQefC7hBzvCay0Upng3j4nehIv0WVH33dHUf37nUQy5Ug+CxlGh6C7/YlNRAUYccvZJA=="
                 },
                 "https-proxy-agent": {
                     "version": "4.0.0",
