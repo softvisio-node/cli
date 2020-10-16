@@ -1,3 +1,13 @@
+## 0.34.0 (2020-10-16)
+
+-   deps updated
+-   linted
+-   yaml comments single quote
+-   yaml comments formatted
+-   yaml comments flow level removed
+-   git fix for empty repos
+-   docker build current branch by default
+
 ## 0.33.0 (2020-09-29)
 
 -   deps updated
