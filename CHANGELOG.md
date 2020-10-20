@@ -1,3 +1,7 @@
+## 0.35.0 (2020-10-20)
+
+-   ls - highlight detached head
+
 ## 0.34.2 (2020-10-20)
 
 -   reverted to babel-eslint
