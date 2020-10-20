@@ -1,3 +1,7 @@
+## 0.34.2 (2020-10-20)
+
+-   reverted to babel-eslint
+
 ## 0.34.1 (2020-10-19)
 
 -   deps updated
