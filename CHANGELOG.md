@@ -1,3 +1,8 @@
+## 0.35.1 (2020-10-22)
+
+-   npm 7 reverted to 6
+-   deps updated
+
 ## 0.35.0 (2020-10-20)
 
 -   ls - highlight detached head
