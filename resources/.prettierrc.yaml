@@ -2,7 +2,7 @@
 # tabWidth: 4 # inherited from .editorconfig "indent_size"
 # useTabs: false # inherited from .editorconfig "indent_style"
 semi: true
-singleQuote: true
+singleQuote: false
 quoteProps: as-needed
 jsxSingleQuote: false
 trailingComma: es5
