@@ -23,7 +23,7 @@
         "./resources/": "./resources/"
     },
     "bin": {
-        "softvisio-cli": "./bin/softvisio-cli.js"
+        "softvisio-cli": "bin/softvisio-cli.js"
     },
     "scripts": {
         "lint": "softvisio-cli lint"
