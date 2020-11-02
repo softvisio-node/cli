@@ -498,14 +498,14 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.85.2",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.85.2.tgz",
-            "integrity": "sha512-0+ubXm7n/OGMYteVpykXQHmBvMc884pxiQYs8cJcyOrF3HZ8/xKrOzzYQM8dnMOpxXCBaNHCpOW+KYQHM9+5tA==",
+            "version": "0.86.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.86.0.tgz",
+            "integrity": "sha512-buTs5sA1RVGtrDDlrCLJf151xQxVBL0DCDmb5aquteQmyYy8/03ctzXAKnnWc8E+zlJxkjiAVjPBz3zZJIeBAg==",
             "requires": {
                 "ajv": ">=6.12.6",
                 "ansi-colors": ">=4.1.1",
                 "base-x": ">=3.0.8",
-                "bufferutil": ">=4.0.1",
+                "bufferutil": ">=4.0.2",
                 "ejs": ">=3.1.5",
                 "eventemitter3": ">=4.0.7",
                 "fast-xml-parser": ">=3.17.4",
@@ -521,8 +521,8 @@
                 "puppeteer-core": ">=5.4.1",
                 "puppeteer-extra": ">=3.1.15",
                 "puppeteer-extra-plugin": ">=3.1.7",
-                "puppeteer-extra-plugin-stealth": ">=2.6.2",
-                "utf-8-validate": ">=5.0.2",
+                "puppeteer-extra-plugin-stealth": ">=2.6.3",
+                "utf-8-validate": ">=5.0.3",
                 "uuid": ">=8.3.1",
                 "ws": ">=7.3.1"
             },
@@ -653,11 +653,11 @@
                     "integrity": "sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI="
                 },
                 "bufferutil": {
-                    "version": "4.0.1",
-                    "resolved": "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.1.tgz",
-                    "integrity": "sha512-xowrxvpxojqkagPcWRQVXZl0YXhRhAtBEIq3VoER1NH5Mw1n1o0ojdspp+GS2J//2gCVyrzQDApQ4unGF+QOoA==",
+                    "version": "4.0.2",
+                    "resolved": "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.2.tgz",
+                    "integrity": "sha512-AtnG3W6M8B2n4xDQ5R+70EXvOpnXsFYg/AK2yTZd+HQ/oxAdz+GI+DvjmhBw3L0ole+LJ0ngqY4JMbDzkfNzhA==",
                     "requires": {
-                        "node-gyp-build": "~3.7.0"
+                        "node-gyp-build": "^4.2.0"
                     }
                 },
                 "chalk": {
@@ -1038,9 +1038,9 @@
                     "integrity": "sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw=="
                 },
                 "node-gyp-build": {
-                    "version": "3.7.0",
-                    "resolved": "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-3.7.0.tgz",
-                    "integrity": "sha512-L/Eg02Epx6Si2NXmedx+Okg+4UHqmaf3TNcxd50SF9NQGcJaON3AtU++kax69XV7YWz4tUspqZSAsVofhFKG2w=="
+                    "version": "4.2.3",
+                    "resolved": "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.2.3.tgz",
+                    "integrity": "sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg=="
                 },
                 "notepack.io": {
                     "version": "2.3.0",
@@ -1164,9 +1164,9 @@
                     }
                 },
                 "puppeteer-extra-plugin-stealth": {
-                    "version": "2.6.2",
-                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.2.tgz",
-                    "integrity": "sha512-kNmPjE/HV5VW/bEeUoUDpvJpBygrFJTKPAp6ENxYlMCwUbGyDVU/wCPOeyTtowJcTWpzvGYjOfkN9U2ft49ojA==",
+                    "version": "2.6.3",
+                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.3.tgz",
+                    "integrity": "sha512-gtXffFzV4lxYUyRzKYCvMlcLLZyjdviEsqwNonNAXfAb145CYBMQ0y03uEfjhWawt6tYjYlyZIZHAKKB/X/N6w==",
                     "requires": {
                         "debug": "^4.1.1",
                         "puppeteer-extra-plugin": "^3.1.7"
@@ -1293,11 +1293,11 @@
                     }
                 },
                 "utf-8-validate": {
-                    "version": "5.0.2",
-                    "resolved": "https://registry.npmjs.org/utf-8-validate/-/utf-8-validate-5.0.2.tgz",
-                    "integrity": "sha512-SwV++i2gTD5qh2XqaPzBnNX88N6HdyhQrNNRykvcS0QKvItV9u3vPEJr+X5Hhfb1JC0r0e1alL0iB09rY8+nmw==",
+                    "version": "5.0.3",
+                    "resolved": "https://registry.npmjs.org/utf-8-validate/-/utf-8-validate-5.0.3.tgz",
+                    "integrity": "sha512-jtJM6fpGv8C1SoH4PtG22pGto6x+Y8uPprW0tw3//gGFhDDTiuksgradgFN6yRayDP4SyZZa6ZMGHLIa17+M8A==",
                     "requires": {
-                        "node-gyp-build": "~3.7.0"
+                        "node-gyp-build": "^4.2.0"
                     }
                 },
                 "util-deprecate": {
