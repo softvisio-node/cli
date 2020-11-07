@@ -138,9 +138,9 @@
                     }
                 },
                 "import-fresh": {
-                    "version": "3.2.1",
-                    "resolved": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.2.1.tgz",
-                    "integrity": "sha512-6e1q1cnWP2RXD9/keSkxHScg508CdXqXWgWBaETNhyuBFz+kUZlKboh+ISK+bU++DmbHimVBrOz/zzPe0sZ3sQ==",
+                    "version": "3.2.2",
+                    "resolved": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.2.2.tgz",
+                    "integrity": "sha512-cTPNrlvJT6twpYy+YmKUKrTSjWFs3bjYjAhCwm+z4EOCubZxAuO+hHpRN64TqjEaYSHs7tJAE0w1CKMGmsG/lw==",
                     "requires": {
                         "parent-module": "^1.0.0",
                         "resolve-from": "^4.0.0"
@@ -498,9 +498,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.86.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.86.0.tgz",
-            "integrity": "sha512-buTs5sA1RVGtrDDlrCLJf151xQxVBL0DCDmb5aquteQmyYy8/03ctzXAKnnWc8E+zlJxkjiAVjPBz3zZJIeBAg==",
+            "version": "0.86.7",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.86.7.tgz",
+            "integrity": "sha512-PauQkw13kezge0HTe9f20mvV2NOCmcmV71loBVSl5p/ss2Yq+nojewdzwVsVXMzk31DAKS+hUKpagH9eM3Nx8A==",
             "requires": {
                 "ajv": ">=6.12.6",
                 "ansi-colors": ">=4.1.1",
@@ -521,9 +521,10 @@
                 "puppeteer-core": ">=5.4.1",
                 "puppeteer-extra": ">=3.1.15",
                 "puppeteer-extra-plugin": ">=3.1.7",
-                "puppeteer-extra-plugin-stealth": ">=2.6.3",
+                "puppeteer-extra-plugin-stealth": ">=2.6.5",
                 "utf-8-validate": ">=5.0.3",
                 "uuid": ">=8.3.1",
+                "which-country": ">=1.0.0",
                 "ws": ">=7.3.1"
             },
             "dependencies": {
@@ -1099,6 +1100,11 @@
                         "find-up": "^4.0.0"
                     }
                 },
+                "point-in-polygon": {
+                    "version": "0.0.0",
+                    "resolved": "https://registry.npmjs.org/point-in-polygon/-/point-in-polygon-0.0.0.tgz",
+                    "integrity": "sha1-CRMPxc3vIY3l+b3w5sSjsuG+rlE="
+                },
                 "progress": {
                     "version": "2.0.3",
                     "resolved": "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz",
@@ -1164,13 +1170,18 @@
                     }
                 },
                 "puppeteer-extra-plugin-stealth": {
-                    "version": "2.6.3",
-                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.3.tgz",
-                    "integrity": "sha512-gtXffFzV4lxYUyRzKYCvMlcLLZyjdviEsqwNonNAXfAb145CYBMQ0y03uEfjhWawt6tYjYlyZIZHAKKB/X/N6w==",
+                    "version": "2.6.5",
+                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.5.tgz",
+                    "integrity": "sha512-AMR5lflH51kZART1hSuag/pFCgSoy8U/t23rH6deXN6CirS6S4HzVF72KltGxYnlH9oHRo7ZzoG/aRTsUN8H8A==",
                     "requires": {
                         "debug": "^4.1.1",
                         "puppeteer-extra-plugin": "^3.1.7"
                     }
+                },
+                "rbush": {
+                    "version": "1.4.3",
+                    "resolved": "https://registry.npmjs.org/rbush/-/rbush-1.4.3.tgz",
+                    "integrity": "sha1-eHTi04kR0nGeoncx0yRF2l7EOUw="
                 },
                 "readable-stream": {
                     "version": "3.6.0",
@@ -1309,6 +1320,15 @@
                     "version": "8.3.1",
                     "resolved": "https://registry.npmjs.org/uuid/-/uuid-8.3.1.tgz",
                     "integrity": "sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg=="
+                },
+                "which-country": {
+                    "version": "1.0.0",
+                    "resolved": "https://registry.npmjs.org/which-country/-/which-country-1.0.0.tgz",
+                    "integrity": "sha1-Is1LATKjmfabiHkdi0u+cvLyD0c=",
+                    "requires": {
+                        "point-in-polygon": "0.0.0",
+                        "rbush": "^1.3.2"
+                    }
                 },
                 "wrappy": {
                     "version": "1.0.2",
@@ -2276,9 +2296,9 @@
             "integrity": "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
         },
         "eslint": {
-            "version": "7.12.1",
-            "resolved": "https://registry.npmjs.org/eslint/-/eslint-7.12.1.tgz",
-            "integrity": "sha512-HlMTEdr/LicJfN08LB3nM1rRYliDXOmfoO4vj39xN6BLpFzF00hbwBoqHk8UcJ2M/3nlARZWy/mslvGEuZFvsg==",
+            "version": "7.13.0",
+            "resolved": "https://registry.npmjs.org/eslint/-/eslint-7.13.0.tgz",
+            "integrity": "sha512-uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==",
             "requires": {
                 "@babel/code-frame": "^7.0.0",
                 "@eslint/eslintrc": "^0.2.1",
@@ -2383,9 +2403,9 @@
                     "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ=="
                 },
                 "import-fresh": {
-                    "version": "3.2.1",
-                    "resolved": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.2.1.tgz",
-                    "integrity": "sha512-6e1q1cnWP2RXD9/keSkxHScg508CdXqXWgWBaETNhyuBFz+kUZlKboh+ISK+bU++DmbHimVBrOz/zzPe0sZ3sQ==",
+                    "version": "3.2.2",
+                    "resolved": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.2.2.tgz",
+                    "integrity": "sha512-cTPNrlvJT6twpYy+YmKUKrTSjWFs3bjYjAhCwm+z4EOCubZxAuO+hHpRN64TqjEaYSHs7tJAE0w1CKMGmsG/lw==",
                     "requires": {
                         "parent-module": "^1.0.0",
                         "resolve-from": "^4.0.0"
@@ -3148,9 +3168,9 @@
             "integrity": "sha512-UWbdl4LHd2fUnaEcOUFVWRdWGLkNoV12cKVIPiirYd8qM5VkCoCTXErlDubevrkEG7kGohvjRxAlTQmOqG80tw=="
         },
         "nanoid": {
-            "version": "3.1.15",
-            "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.1.15.tgz",
-            "integrity": "sha512-n8rXUZ8UU3lV6+43atPrSizqzh25n1/f00Wx1sCiE7R1sSHytZLTTiQl8DjC4IDLOnEZDlgJhy0yO4VsIpMxow=="
+            "version": "3.1.16",
+            "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.1.16.tgz",
+            "integrity": "sha512-+AK8MN0WHji40lj8AEuwLOvLSbWYApQpre/aFJZD71r43wVRLrOYS4FmJOPQYon1TqB462RzrrxlfA74XRES8w=="
         },
         "natural-compare": {
             "version": "1.4.0",
@@ -3386,13 +3406,13 @@
             "integrity": "sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w=="
         },
         "postcss": {
-            "version": "8.1.4",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.1.4.tgz",
-            "integrity": "sha512-LfqcwgMq9LOd8pX7K2+r2HPitlIGC5p6PoZhVELlqhh2YGDVcXKpkCseqan73Hrdik6nBd2OvoDPUaP/oMj9hQ==",
+            "version": "8.1.6",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.1.6.tgz",
+            "integrity": "sha512-JuifSl4h8dJ70SiMXKjzCxhalE6p2TnMHuq9G8ftyXj2jg6SXzqCsEuxMj9RkmJoO5D+Z9YrWunNkxqpRT02qg==",
             "requires": {
                 "colorette": "^1.2.1",
                 "line-column": "^1.0.2",
-                "nanoid": "^3.1.15",
+                "nanoid": "^3.1.16",
                 "source-map": "^0.6.1"
             },
             "dependencies": {
@@ -5149,9 +5169,9 @@
             }
         },
         "v8-compile-cache": {
-            "version": "2.1.1",
-            "resolved": "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.1.1.tgz",
-            "integrity": "sha512-8OQ9CL+VWyt3JStj7HX7/ciTL2V3Rl1Wf5OL+SNTm0yK1KvtReVulksyeRnCANHHuUxHlQig+JJDlUhBt1NQDQ=="
+            "version": "2.2.0",
+            "resolved": "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.2.0.tgz",
+            "integrity": "sha512-gTpR5XQNKFwOd4clxfnhaqvfqMpqEwr4tOtCyz4MtYZX2JYhfr1JvBFKdS+7K/9rfpZR3VLX+YWBbKoxCgS43Q=="
         },
         "vendors": {
             "version": "1.0.4",
