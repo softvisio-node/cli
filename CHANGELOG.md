@@ -1,3 +1,10 @@
+## 0.37.0 (2020-11-15)
+
+-   workspaces
+-   deps updated
+-   docker config mirrors combined with registry
+-   mime updated
+
 ## 0.36.0 (2020-10-22)
 
 -   use single quotes only for yaml
