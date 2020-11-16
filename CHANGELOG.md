@@ -1,3 +1,12 @@
+## 0.37.1 (2020-11-16)
+
+-   rpc path type fixed
+-   typo
+-   deps updated
+-   detect type by shebang refactored
+-   lint trim lines
+-   lint ext options removed
+
 ## 0.37.0 (2020-11-15)
 
 -   workspaces
