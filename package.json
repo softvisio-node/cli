@@ -29,24 +29,24 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.88.0",
-        "@softvisio/eslint-plugin": ">=0.16.3",
+        "@softvisio/core": ">=0.91.0",
+        "@softvisio/eslint-plugin": ">=0.17.0",
         "babel-eslint": ">=10.1.0",
         "cssnano": ">=4.1.10",
         "cssnano-preset-advanced": ">=4.0.7",
-        "eslint": ">=7.13.0",
+        "eslint": ">=7.14.0",
         "eslint-plugin-babel": ">=5.3.1",
         "eslint-plugin-vue": ">=7.0.1",
         "glob": ">=7.1.6",
         "html-minifier": ">=4.0.0",
         "jimp": ">=0.16.1",
         "minimatch": ">=3.0.4",
-        "postcss": ">=8.1.7",
-        "prettier": ">=2.1.2",
-        "prettier-plugin-packagejson": ">=2.2.7",
+        "postcss": ">=8.1.9",
+        "prettier": ">=2.2.0",
+        "prettier-plugin-packagejson": ">=2.2.8",
         "prettier-plugin-sh": ">=0.6.0",
-        "table": ">=6.0.3",
-        "terser": ">=5.3.8"
+        "table": ">=6.0.4",
+        "terser": ">=5.5.0"
     },
     "lint": [
         "*.*",
