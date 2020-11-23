@@ -1,3 +1,9 @@
+## 0.38.0 (2020-11-23)
+
+-   docker auto tags
+-   linted
+-   deps updated
+
 ## 0.37.1 (2020-11-16)
 
 -   rpc path type fixed
