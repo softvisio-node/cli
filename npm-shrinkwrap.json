@@ -498,9 +498,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.91.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.91.1.tgz",
-            "integrity": "sha512-PY4gOZGnj6KWwSpXGUnLh0GYwsZynWXevuV+yzaaJspFDb/7KnjIFzdDoWsfZQ1XuzWb4u3DNmhDsBzquTWggw==",
+            "version": "0.91.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.91.2.tgz",
+            "integrity": "sha512-kd0llKz7gHYttW5iec7ymacAABykXOzlybHWkDiy4j5E0QHvdWOg0jby2pJ48bWKLwf6ovKJa0jEGUX1ffyExQ==",
             "requires": {
                 "ajv": ">=6.12.6",
                 "ansi-colors": ">=4.1.1",
@@ -3311,9 +3311,9 @@
             "integrity": "sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w=="
         },
         "postcss": {
-            "version": "8.1.9",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.1.9.tgz",
-            "integrity": "sha512-oWuBpEl1meaMKkQXn0ic78TUrgsMvrAZLE/6ZY0H3LTteq2O3L8PGWwMbPLctpksTJIHjQeossMUMNQW7qRIHQ==",
+            "version": "8.1.10",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.1.10.tgz",
+            "integrity": "sha512-iBXEV5VTTYaRRdxiFYzTtuv2lGMQBExqkZKSzkJe+Fl6rvQrA/49UVGKqB+LG54hpW/TtDBMGds8j33GFNW7pg==",
             "requires": {
                 "colorette": "^1.2.1",
                 "nanoid": "^3.1.18",
