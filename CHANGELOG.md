@@ -1,3 +1,9 @@
+## 0.39.0 (2020-11-25)
+
+-   deps updated
+-   vue/html-quotes disabled
+-   eslint config updated
+
 ## 0.38.0 (2020-11-23)
 
 -   docker auto tags
