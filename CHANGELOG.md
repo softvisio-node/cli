@@ -1,3 +1,9 @@
+## 0.40.0 (2020-11-25)
+
+-   eslint moved back to vue2 rules set
+-   highlight lint warns in console log
+-   eslint log place errors first
+
 ## 0.39.0 (2020-11-25)
 
 -   deps updated
