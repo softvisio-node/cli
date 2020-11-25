@@ -50,7 +50,7 @@ const config = {
                 "selfClosingTag": "never", // set to "always" to make compatible with the prettier <br />
             },
         ],
-        "vue/html-quotes": "off", // used softvisio/html-quotes
+        "vue/html-quotes": "off", // replaced with the @softvisio/html-quotes
 
         // eslint:recommended
 
