@@ -2204,9 +2204,9 @@
             }
         },
         "@softvisio/eslint-plugin": {
-            "version": "0.17.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-0.17.0.tgz",
-            "integrity": "sha512-iAnSzMD35Exr8na1iqCQ2OMR4pVbEX2klFJ0IJVjYIuQ/cfOC3ZbHaRaEvLN2xfClF94c2fC8IDRPaxyjYGLsg==",
+            "version": "0.18.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-0.18.1.tgz",
+            "integrity": "sha512-Or7sUu06zY7VTaVRAnLs2rOWeOqAUMnoFZeAPbJvSJ7OMYwWwHhvhAXrI85CQvoz1slyPqV7i+4bP6c3LQTHSg==",
             "requires": {
                 "eslint-plugin-vue": ">=7.1.0",
                 "json5": ">=2.1.3"
@@ -2223,9 +2223,9 @@
                     "integrity": "sha512-K0Ptm/47OKfQRpNQ2J/oIN/3QYiK6FwW+eJbILhsdxh2WTLdl+30o8aGdTbm5JbffpFFAg/g+zi1E+jvJha5ng=="
                 },
                 "debug": {
-                    "version": "4.2.0",
-                    "resolved": "https://registry.npmjs.org/debug/-/debug-4.2.0.tgz",
-                    "integrity": "sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==",
+                    "version": "4.3.1",
+                    "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
+                    "integrity": "sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==",
                     "requires": {
                         "ms": "2.1.2"
                     }
