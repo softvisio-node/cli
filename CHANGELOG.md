@@ -1,3 +1,8 @@
+## 0.41.0 (2020-11-28)
+
+-   linted
+-   deps updated
+
 ## 0.40.0 (2020-11-25)
 
 -   eslint moved back to vue2 rules set
