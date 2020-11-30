@@ -1,3 +1,8 @@
+## 0.42.0 (2020-11-30)
+
+-   deps updated
+-   babel config updated to use decorators stage 2
+
 ## 0.41.0 (2020-11-28)
 
 -   linted
