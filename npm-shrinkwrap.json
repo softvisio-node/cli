@@ -1345,9 +1345,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.95.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.95.0.tgz",
-            "integrity": "sha512-BkyfS2gx8obDTTG2LqQC76CO7Gq1LKQQ9Th7HiExdw7sGYoveJ94R43LxTpgB9TuphK8iqHpscvQ1AigdZhFlQ==",
+            "version": "0.96.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.96.0.tgz",
+            "integrity": "sha512-p2cs0R+MkBxPjx5j5IznQN+YIjNyV9AAFW6PlASILWJX3kCUuhgURIkeRJZGV/+bJRx0AdH88K4tydj8hY7jQA==",
             "requires": {
                 "ajv": ">=6.12.6",
                 "ansi-colors": ">=4.1.1",
@@ -4159,9 +4159,9 @@
             "integrity": "sha512-UWbdl4LHd2fUnaEcOUFVWRdWGLkNoV12cKVIPiirYd8qM5VkCoCTXErlDubevrkEG7kGohvjRxAlTQmOqG80tw=="
         },
         "nanoid": {
-            "version": "3.1.18",
-            "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.1.18.tgz",
-            "integrity": "sha512-rndlDjbbHbcV3xi+R2fpJ+PbGMdfBxz5v1fATIQFq0DP64FsicQdwnKLy47K4kZHdRpmQXtz24eGsxQqamzYTA=="
+            "version": "3.1.20",
+            "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.1.20.tgz",
+            "integrity": "sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw=="
         },
         "natural-compare": {
             "version": "1.4.0",
@@ -4376,12 +4376,12 @@
             "integrity": "sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w=="
         },
         "postcss": {
-            "version": "8.1.10",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.1.10.tgz",
-            "integrity": "sha512-iBXEV5VTTYaRRdxiFYzTtuv2lGMQBExqkZKSzkJe+Fl6rvQrA/49UVGKqB+LG54hpW/TtDBMGds8j33GFNW7pg==",
+            "version": "8.1.13",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.1.13.tgz",
+            "integrity": "sha512-D++wck3XhQkICYfysZRx90JCDgaTTdq8YxLswB9cjBzfxwcVcQjn3LsjXon0PQ6TIOof2IGWLRHhSgXZuJct4w==",
             "requires": {
                 "colorette": "^1.2.1",
-                "nanoid": "^3.1.18",
+                "nanoid": "^3.1.20",
                 "source-map": "^0.6.1",
                 "vfile-location": "^3.2.0"
             },
