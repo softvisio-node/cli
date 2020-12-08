@@ -1,3 +1,8 @@
+## 0.44.0 (2020-12-08)
+
+-   multiline comments fixed
+-   deps updated
+
 ## 0.43.0 (2020-12-08)
 
 -   eslint indent updated
