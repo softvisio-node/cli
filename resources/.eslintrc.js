@@ -125,7 +125,7 @@ const config = {
         // "keyword-spacing": "error",
         // "linebreak-style": "error",
         // "lines-between-class-members": "error",
-        // "multiline-comment-style": "off", // Do not convert comments
+        // "multiline-comment-style": ["error", "starred-block"], // Do not convert comments
         // "new-parens": "error",
         // "newline-per-chained-call": "error",
         // "no-confusing-arrow": "error",
