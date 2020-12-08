@@ -66,7 +66,17 @@ const config = {
         "eqeqeq": ["error", "smart"],
         "function-paren-newline": ["error", "never"],
         "grouped-accessor-pairs": ["error", "getBeforeSet"],
-        "indent": "error",
+        "indent": [
+            "error",
+            4, // XXX need to take from .editorconfig
+            {
+                "VariableDeclarator": {
+                    "var": 1,
+                    "let": 1,
+                    "const": 1,
+                },
+            },
+        ],
         "lines-around-comment": [
             "error",
             {
@@ -110,7 +120,6 @@ const config = {
         // "func-call-spacing": "error",
         // "generator-star-spacing": "error",
         // "implicit-arrow-linebreak": "error",
-        // "indent": "error",
         // "jsx-quotes": "error",
         // "key-spacing": "error",
         // "keyword-spacing": "error",
