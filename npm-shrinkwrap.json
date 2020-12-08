@@ -1345,9 +1345,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.99.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.99.0.tgz",
-            "integrity": "sha512-RC/ZE9Eth6I0AQPZxSgDNT1lXxWZepiv0XPzkmbg5Sl6tpNCM9ATiyMl0xwLWbBapJ9+5IwNUtm2he3QFLeBxA==",
+            "version": "0.100.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.100.0.tgz",
+            "integrity": "sha512-AEhiT8zgeHXQUneXkXPDj6sDdbgswm1uw8Q+4klG0HcHAr8/A2WCW+ip4NkYO+lxQaTAnk40jyiqzjBlD0qQtw==",
             "requires": {
                 "ajv": ">=6.12.6",
                 "ansi-colors": ">=4.1.1",
@@ -1358,10 +1358,9 @@
                 "fast-xml-parser": ">=3.17.5",
                 "glob": ">=7.1.6",
                 "hash-wasm": ">=4.4.1",
-                "js-yaml": ">=3.14.0",
+                "js-yaml": ">=3.14.1",
                 "lru-cache": ">=6.0.0",
                 "luxon": ">=1.25.0",
-                "maxmind": ">=4.3.1",
                 "mime-db": ">=1.45.0",
                 "node-fetch": ">=2.6.1",
                 "notepack.io": ">=2.3.0",
@@ -1770,9 +1769,9 @@
                     }
                 },
                 "js-yaml": {
-                    "version": "3.14.0",
-                    "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.0.tgz",
-                    "integrity": "sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==",
+                    "version": "3.14.1",
+                    "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz",
+                    "integrity": "sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==",
                     "requires": {
                         "argparse": "^1.0.7",
                         "esprima": "^4.0.0"
@@ -1817,15 +1816,6 @@
                     "resolved": "https://registry.npmjs.org/luxon/-/luxon-1.25.0.tgz",
                     "integrity": "sha512-hEgLurSH8kQRjY6i4YLey+mcKVAWXbDNlZRmM6AgWDJ1cY3atl8Ztf5wEY7VBReFbmGnwQPz7KYJblL8B2k0jQ=="
                 },
-                "maxmind": {
-                    "version": "4.3.1",
-                    "resolved": "https://registry.npmjs.org/maxmind/-/maxmind-4.3.1.tgz",
-                    "integrity": "sha512-0CxAgwWIwQy4zF1/qCMOeUPleMTYgfnsuIsZ4Otzx6hzON4PCqivPiH6Kz7iWrC++KOGCbSB3nxkJMvDEdWt6g==",
-                    "requires": {
-                        "mmdb-lib": "1.2.0",
-                        "tiny-lru": "7.0.6"
-                    }
-                },
                 "merge-deep": {
                     "version": "3.0.2",
                     "resolved": "https://registry.npmjs.org/merge-deep/-/merge-deep-3.0.2.tgz",
@@ -1869,11 +1859,6 @@
                     "version": "0.5.3",
                     "resolved": "https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz",
                     "integrity": "sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A=="
-                },
-                "mmdb-lib": {
-                    "version": "1.2.0",
-                    "resolved": "https://registry.npmjs.org/mmdb-lib/-/mmdb-lib-1.2.0.tgz",
-                    "integrity": "sha512-3XYebkStxqCgWJjsmT9FCaE19Yi4Tvs2SBPKhUks3rJJh52oF1AKAd9kei+LTutud3a6RCZ0o2Um96Fn7o3zVA=="
                 },
                 "ms": {
                     "version": "2.1.2",
@@ -2127,11 +2112,6 @@
                     "version": "2.3.8",
                     "resolved": "https://registry.npmjs.org/through/-/through-2.3.8.tgz",
                     "integrity": "sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU="
-                },
-                "tiny-lru": {
-                    "version": "7.0.6",
-                    "resolved": "https://registry.npmjs.org/tiny-lru/-/tiny-lru-7.0.6.tgz",
-                    "integrity": "sha512-zNYO0Kvgn5rXzWpL0y3RS09sMK67eGaQj9805jlK9G6pSadfriTczzLHFXa/xcW4mIRfmlB9HyQ/+SgL0V1uow=="
                 },
                 "unbzip2-stream": {
                     "version": "1.4.3",
