@@ -1,3 +1,8 @@
+## 0.43.0 (2020-12-08)
+
+-   eslint indent updated
+-   deps updated
+
 ## 0.42.0 (2020-11-30)
 
 -   deps updated
