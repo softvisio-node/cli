@@ -1387,21 +1387,23 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.103.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.103.0.tgz",
-            "integrity": "sha512-8ZshNiC3YCZNSQzUu3sABYDWkt7iczKkveZIcrIg1bBdHEljAJmw6UF9Q0yBI73FbB1YFkXFwAF6rWTbJ8J5dA==",
+            "version": "0.104.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.104.0.tgz",
+            "integrity": "sha512-ulI21D9wH3NzvZuWc/rMHGun859SsyNRUIXrq1XOQ+IdIEG5ZOC8UupuALQPy6zZWvaeP/UGLHFPol1sXIh3Sw==",
             "requires": {
                 "@softvisio/argon2": "bitbucket:softvisio/softvisio-argon2#latest",
                 "@softvisio/uws": "bitbucket:softvisio/softvisio-uws#latest",
                 "ajv": ">=6.12.6",
                 "ansi-colors": ">=4.1.1",
                 "base-x": ">=3.0.8",
+                "big-integer": ">=1.6.48",
                 "bufferutil": ">=4.0.2",
                 "ejs": ">=3.1.5",
                 "eventemitter3": ">=4.0.7",
                 "fast-xml-parser": ">=3.17.5",
                 "glob": ">=7.1.6",
                 "hash-wasm": ">=4.4.1",
+                "ip-num": ">=1.2.3",
                 "js-yaml": ">=3.14.1",
                 "lru-cache": ">=6.0.0",
                 "luxon": ">=1.25.0",
@@ -1551,6 +1553,11 @@
                     "version": "1.5.1",
                     "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
                     "integrity": "sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA=="
+                },
+                "big-integer": {
+                    "version": "1.6.48",
+                    "resolved": "https://registry.npmjs.org/big-integer/-/big-integer-1.6.48.tgz",
+                    "integrity": "sha512-j51egjPa7/i+RdiRuJbPdJ2FIUYYPhvYLjzoYbcMMm62ooO6F94fETG4MTs46zPAF9Brs04OajboA/qTGuz78w=="
                 },
                 "bl": {
                     "version": "4.0.3",
@@ -1940,6 +1947,14 @@
                     "version": "1.3.5",
                     "resolved": "https://registry.npmjs.org/ini/-/ini-1.3.5.tgz",
                     "integrity": "sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw=="
+                },
+                "ip-num": {
+                    "version": "1.2.3",
+                    "resolved": "https://registry.npmjs.org/ip-num/-/ip-num-1.2.3.tgz",
+                    "integrity": "sha512-/CVbbPB+xS7tEwNCUJmibIZI8eFLcKwbmo71UvrvjvK6SOixmBT80F9hye4q9kjnCJvaSP+VY4kCFNiMgOGi7Q==",
+                    "requires": {
+                        "big-integer": "1.6.48"
+                    }
                 },
                 "is-buffer": {
                     "version": "1.1.6",
