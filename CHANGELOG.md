@@ -1,3 +1,7 @@
+## 0.44.1 (2020-12-19)
+
+-   deps updated
+
 ## 0.44.0 (2020-12-08)
 
 -   multiline comments fixed
