@@ -1,3 +1,7 @@
+## 0.44.2 (2020-12-19)
+
+-   makefile lint fixed
+
 ## 0.44.1 (2020-12-19)
 
 -   deps updated
