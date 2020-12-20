@@ -1387,13 +1387,13 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.108.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.108.0.tgz",
-            "integrity": "sha512-SLxHna9AmuflLkbxVFhaEkFsYoubSGt9n4cQF3BQwg2vmiBh+ipOaDaskJrdFC4EIYpeK6fzb92ZzaUBYPEOGQ==",
+            "version": "0.108.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.108.1.tgz",
+            "integrity": "sha512-9BOzV79HoQDfliVHQGDzW2tY4cxcNSNWsJlgGiePXOUMVdLCo3+uO5qUUPpGHaQgCvE610IuhppZq/7uqXxY4Q==",
             "requires": {
                 "@softvisio/argon2": ">=0.2.1",
-                "@softvisio/uws": ">=0.2.0",
-                "ajv": ">=7.0.1",
+                "@softvisio/uws": ">=0.3.0",
+                "ajv": ">=7.0.2",
                 "ajv-formats": ">=1.5.1",
                 "ajv-formats-draft2019": ">=1.4.3",
                 "ansi-colors": ">=4.1.1",
@@ -1933,9 +1933,9 @@
                     }
                 },
                 "@softvisio/uws": {
-                    "version": "0.2.0",
-                    "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.2.0.tgz",
-                    "integrity": "sha512-IC9QBbUCK1azu/emOyrMNbwyAyiSGUBby89dkGWEPvuiIBsGmdXQWgU1x+WhCEzOZyjX7ki8KxyUapNIiY7Ywg==",
+                    "version": "0.3.0",
+                    "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.3.0.tgz",
+                    "integrity": "sha512-ZcyGR8OdnWJSSEn3/+crThXPH6JUi1x76PrEqGW+R9F3MFuefpF2a34vP2Hl6aiTKf3+k9JFoni9aVmiGYxB4g==",
                     "dependencies": {
                         "uWebSockets.js": {
                             "version": "github:uNetworking/uWebSockets.js#bd720c90ff8b90f478d918c1cbe3f1dcbc3a765b",
@@ -1976,9 +1976,9 @@
                     "integrity": "sha512-TMeqbNl2fMW0nMjTEPOwe3J/PRFP4vqeoNuQMG0HlMrtm5QxKqdvAkZ1pRBQ/ulIyDD5Yq0nJ7YbdD8ey0TO3g=="
                 },
                 "ajv": {
-                    "version": "7.0.1",
-                    "resolved": "https://registry.npmjs.org/ajv/-/ajv-7.0.1.tgz",
-                    "integrity": "sha512-D2UYOXvDzGLVwld2/EyRu3xiJG885QUz2xS1phZzebYLPMPBFbPK4naXGDCtPltZoOG+I1+ZkNAJ65SJ3vqbsg==",
+                    "version": "7.0.2",
+                    "resolved": "https://registry.npmjs.org/ajv/-/ajv-7.0.2.tgz",
+                    "integrity": "sha512-qIaxO9RXjaXyO21tJr0EvwPcZa49m64GcXCU8ZrLjCAlFyMuOcPpI560So4A11M1WsKslJYIXn6jSyG5P0xIeg==",
                     "requires": {
                         "fast-deep-equal": "^3.1.1",
                         "json-schema-traverse": "^1.0.0",
