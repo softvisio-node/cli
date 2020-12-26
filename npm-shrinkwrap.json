@@ -1387,9 +1387,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.109.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.109.0.tgz",
-            "integrity": "sha512-DjijcmUBQDhg2UbsflVl3TDZ8McRJbQ1kcI6doEb85nTHsqX9cDGd5XG8yld6cDUtpIJcp8ZSjn4JtypHkKPsw==",
+            "version": "0.110.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.110.0.tgz",
+            "integrity": "sha512-aNpVpfQs4nuJbgUzo0HL5507bGxmzkEK34lhrWBYEm+HKkwZ1/yrzLQ6MVzuPkvQuSKW8DoQbdHHEfX9LLIzBA==",
             "requires": {
                 "@softvisio/argon2": ">=0.2.1",
                 "@softvisio/uws": ">=0.3.0",
