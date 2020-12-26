@@ -1,3 +1,8 @@
+## 0.45.0 (2020-12-26)
+
+-   docker default_tag
+-   deps updated
+
 ## 0.44.2 (2020-12-19)
 
 -   makefile lint fixed
