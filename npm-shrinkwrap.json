@@ -2942,11 +2942,11 @@
             }
         },
         "@softvisio/eslint-plugin": {
-            "version": "0.19.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-0.19.1.tgz",
-            "integrity": "sha512-QZGwfqvpRZ5XZiNLbTbggWGlKXw93LKh4zQHOCz6p4slotnPCpNwJpAVbs+MudSHLf72m2fD//cays+5EXuQ7A==",
+            "version": "0.19.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-0.19.2.tgz",
+            "integrity": "sha512-oLba8CLfbyP4qyjwU1psV8j2a0LqDWlic7k0kt1iNYPWk0yh7DCEuqPs9lfR1IRliS1HMDkrnAdwDtOOLw7aqw==",
             "requires": {
-                "eslint-plugin-vue": ">=7.3.0",
+                "eslint-plugin-vue": ">=7.4.0",
                 "json5": ">=2.1.3"
             },
             "dependencies": {
@@ -2969,9 +2969,9 @@
                     }
                 },
                 "eslint-plugin-vue": {
-                    "version": "7.3.0",
-                    "resolved": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-7.3.0.tgz",
-                    "integrity": "sha512-4rc9xrZgwT4aLz3XE6lrHu+FZtDLWennYvtzVvvS81kW9c65U4DUzQQWAFjDCgCFvN6HYWxi7ueEtxZVSB+f0g==",
+                    "version": "7.4.0",
+                    "resolved": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-7.4.0.tgz",
+                    "integrity": "sha512-bYJV3nHSGV5IL40Ti1231vlY8I2DzjDHYyDjRv9Z1koEI7qyV2RR3+uKMafHdOioXYH9W3e1+iwe4wy7FIBNCQ==",
                     "requires": {
                         "eslint-utils": "^2.1.0",
                         "natural-compare": "^1.4.0",
