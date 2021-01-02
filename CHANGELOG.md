@@ -1,3 +1,8 @@
+## 0.46.0 (2021-01-02)
+
+-   deps updated
+-   convert tabs to spaces in javascript string templates
+
 ## 0.45.0 (2020-12-26)
 
 -   docker default_tag
