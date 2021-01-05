@@ -1,3 +1,9 @@
+## 0.47.0 (2021-01-05)
+
+-   deps updated
+-   package.json linter
+-   migrate to js-yaml 4
+
 ## 0.46.0 (2021-01-02)
 
 -   deps updated
