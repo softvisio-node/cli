@@ -5166,9 +5166,9 @@
             "integrity": "sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w=="
         },
         "postcss": {
-            "version": "8.2.2",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.2.2.tgz",
-            "integrity": "sha512-HM1NDNWLgglJPQQMNwvLxgH2KcrKZklKLi/xXYIOaqQB57p/pDWEJNS83PVICYsn1Dg/9C26TiejNr422/ePaQ==",
+            "version": "8.2.3",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.2.3.tgz",
+            "integrity": "sha512-tdmNCCmxJEsLZNj810qlj8QbvnUNKFL9A5doV+uHrGGK/YNKWEslrytnHDWr9M/GgGjfUFwXCRbxd/b6IoRBXQ==",
             "requires": {
                 "colorette": "^1.2.1",
                 "nanoid": "^3.1.20",
