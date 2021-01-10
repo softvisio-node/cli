@@ -31,7 +31,7 @@
     "dependencies": {
         "@babel/core": ">=7.12.10",
         "@babel/eslint-parser": ">=7.12.1",
-        "@softvisio/core": ">=0.116.0",
+        "@softvisio/core": ">=0.116.1",
         "@softvisio/eslint-plugin": ">=0.20.0",
         "@vue/babel-preset-app": ">=4.5.10",
         "cssnano": ">=4.1.10",

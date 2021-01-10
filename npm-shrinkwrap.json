@@ -1420,9 +1420,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.116.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.116.0.tgz",
-            "integrity": "sha512-v5jt2E/TimdZa8M7i+sNrbT7dl8937LBpXulCmV9hCS78NnIolXjufgBw0+exi2UhBo8riCgvyRmumeiU6146Q==",
+            "version": "0.116.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.116.1.tgz",
+            "integrity": "sha512-zaq5IrUMNYqrAw1btjo4qm0V0GmDU5SULH1iBB15ymGJ0Pa4QPh7xJX++rUq0o52hLra2fR66/U1l3qSC985DA==",
             "requires": {
                 "@softvisio/argon2": ">=0.2.2",
                 "@softvisio/uws": ">=0.4.0",
