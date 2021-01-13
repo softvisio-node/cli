@@ -1420,12 +1420,12 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.116.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.116.1.tgz",
-            "integrity": "sha512-zaq5IrUMNYqrAw1btjo4qm0V0GmDU5SULH1iBB15ymGJ0Pa4QPh7xJX++rUq0o52hLra2fR66/U1l3qSC985DA==",
+            "version": "0.116.3",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.116.3.tgz",
+            "integrity": "sha512-1uHKPUK11s4ifH/ZrCj/DBh87vrc/NEEMStYIUk0nOWJmyQMJyQWhmTmhcYRDQ3E8E8B8rxtQk2J60BWfUsqRg==",
             "requires": {
                 "@softvisio/argon2": ">=0.2.2",
-                "@softvisio/uws": ">=0.4.0",
+                "@softvisio/uws": ">=0.5.0",
                 "ajv": ">=7.0.3",
                 "ajv-formats": ">=1.5.1",
                 "ajv-formats-draft2019": ">=1.4.3",
@@ -1966,9 +1966,9 @@
                     }
                 },
                 "@softvisio/uws": {
-                    "version": "0.4.0",
-                    "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.4.0.tgz",
-                    "integrity": "sha512-qrKwaGpi9IHs9g0qbfx1x2xLGmMmBRkaVgODrbje/eNwrZScUYLvbpjL2amg9JyY9LnBjcmyVdn5Bgw4pnoM9g==",
+                    "version": "0.5.0",
+                    "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.5.0.tgz",
+                    "integrity": "sha512-5pKXrGwWSl787/Iq0RRXILGs4r6wVjYWqn6WA8DwYD5c6gIw+qFM9D4CSU38TkxZjz2mfUjO/1ei6JNRp5hnOw==",
                     "dependencies": {
                         "uWebSockets.js": {
                             "version": "github:uNetworking/uWebSockets.js#de4a275e5d2ca352367114b905b4cbddc4a272a9",
