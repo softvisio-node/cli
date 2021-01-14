@@ -1420,9 +1420,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.116.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.116.3.tgz",
-            "integrity": "sha512-1uHKPUK11s4ifH/ZrCj/DBh87vrc/NEEMStYIUk0nOWJmyQMJyQWhmTmhcYRDQ3E8E8B8rxtQk2J60BWfUsqRg==",
+            "version": "0.117.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.117.1.tgz",
+            "integrity": "sha512-pg2imEWiqNrDa6NIzCHXam/F1Whg47CuECWBSQsAqNfaNkdd4JQG4Y6HvfNBLG4b4Q89nId+6Hsu0hbzAqIyfw==",
             "requires": {
                 "@softvisio/argon2": ">=0.2.2",
                 "@softvisio/uws": ">=0.5.0",
@@ -1430,7 +1430,6 @@
                 "ajv-formats": ">=1.5.1",
                 "ajv-formats-draft2019": ">=1.4.3",
                 "ansi-colors": ">=4.1.1",
-                "base-x": ">=3.0.8",
                 "big-integer": ">=1.6.48",
                 "bufferutil": ">=4.0.3",
                 "ejs": ">=3.1.5",
@@ -1447,9 +1446,9 @@
                 "node-fetch": ">=2.6.1",
                 "notepack.io": ">=2.3.0",
                 "puppeteer-core": ">=5.5.0",
-                "puppeteer-extra": ">=3.1.15",
-                "puppeteer-extra-plugin": ">=3.1.7",
-                "puppeteer-extra-plugin-stealth": ">=2.6.5",
+                "puppeteer-extra": ">=3.1.16",
+                "puppeteer-extra-plugin": ">=3.1.8",
+                "puppeteer-extra-plugin-stealth": ">=2.6.6",
                 "utf-8-validate": ">=5.0.4",
                 "uuid": ">=8.3.2",
                 "which-country": ">=1.0.0",
@@ -2076,14 +2075,6 @@
                     "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz",
                     "integrity": "sha1-ibTRmasr7kneFk6gK4nORi1xt2c="
                 },
-                "base-x": {
-                    "version": "3.0.8",
-                    "resolved": "https://registry.npmjs.org/base-x/-/base-x-3.0.8.tgz",
-                    "integrity": "sha512-Rl/1AWP4J/zRrk54hhlxH4drNxPJXYUaKffODVI53/dAsV4t9fBxyxYKAVPU1XBHxYwOWP9h9H0hM2MVw4YfJA==",
-                    "requires": {
-                        "safe-buffer": "^5.0.1"
-                    }
-                },
                 "base64-js": {
                     "version": "1.5.1",
                     "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
@@ -2199,6 +2190,14 @@
                     "version": "0.0.1",
                     "resolved": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz",
                     "integrity": "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
+                },
+                "debug": {
+                    "version": "4.3.1",
+                    "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
+                    "integrity": "sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==",
+                    "requires": {
+                        "ms": "2.1.2"
+                    }
                 },
                 "deepmerge": {
                     "version": "4.2.2",
@@ -2519,9 +2518,9 @@
                     "integrity": "sha512-hEgLurSH8kQRjY6i4YLey+mcKVAWXbDNlZRmM6AgWDJ1cY3atl8Ztf5wEY7VBReFbmGnwQPz7KYJblL8B2k0jQ=="
                 },
                 "merge-deep": {
-                    "version": "3.0.2",
-                    "resolved": "https://registry.npmjs.org/merge-deep/-/merge-deep-3.0.2.tgz",
-                    "integrity": "sha512-T7qC8kg4Zoti1cFd8Cr0M+qaZfOwjlPDEdZIIPPB2JZctjaPM4fX+i7HOId69tAti2fvO6X5ldfYUONDODsrkA==",
+                    "version": "3.0.3",
+                    "resolved": "https://registry.npmjs.org/merge-deep/-/merge-deep-3.0.3.tgz",
+                    "integrity": "sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==",
                     "requires": {
                         "arr-union": "^3.1.0",
                         "clone-deep": "^0.2.4",
@@ -2576,6 +2575,11 @@
                     "version": "0.5.3",
                     "resolved": "https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz",
                     "integrity": "sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A=="
+                },
+                "ms": {
+                    "version": "2.1.2",
+                    "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz",
+                    "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
                 },
                 "node-fetch": {
                     "version": "2.6.1",
@@ -2716,78 +2720,33 @@
                     }
                 },
                 "puppeteer-extra": {
-                    "version": "3.1.15",
-                    "resolved": "https://registry.npmjs.org/puppeteer-extra/-/puppeteer-extra-3.1.15.tgz",
-                    "integrity": "sha512-TFKcluoNSYCT3xmZjDcqOkBuxZePbwvaL5mrW5Gvp5c9QsJEei5TYixoenMQaB3QZuRW0Aura4yyjVrJDNlWFA==",
+                    "version": "3.1.16",
+                    "resolved": "https://registry.npmjs.org/puppeteer-extra/-/puppeteer-extra-3.1.16.tgz",
+                    "integrity": "sha512-7XpScQH1n2Qx5CBZFizAi3HsKoRY8kgVntVg7P/QNiOVvLwcXTi5r3j8Dg25xj2Ga6p7PdWzqY21c4v4C42+Yg==",
                     "requires": {
                         "@types/debug": "^4.1.0",
                         "@types/puppeteer": "*",
                         "debug": "^4.1.1",
                         "deepmerge": "^4.2.2"
-                    },
-                    "dependencies": {
-                        "debug": {
-                            "version": "4.3.1",
-                            "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
-                            "integrity": "sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==",
-                            "requires": {
-                                "ms": "2.1.2"
-                            }
-                        },
-                        "ms": {
-                            "version": "2.1.2",
-                            "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz",
-                            "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
-                        }
                     }
                 },
                 "puppeteer-extra-plugin": {
-                    "version": "3.1.7",
-                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin/-/puppeteer-extra-plugin-3.1.7.tgz",
-                    "integrity": "sha512-In3o89X06Q4w1wt0RsAvvdRIp7BzWttVHh24srzlfcBvsGq+zCqhPuwbOYbxnwemtNLaiD/hcYGLvNMEqeUo/Q==",
+                    "version": "3.1.8",
+                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin/-/puppeteer-extra-plugin-3.1.8.tgz",
+                    "integrity": "sha512-bTKhY0q+T3qM59fcdKnxwlT+KA1XpKKb8vUxFtd7PH/TGA04AOO+WQJx9npU1nA4NXZKU2xs2KZNn/A+1Cachw==",
                     "requires": {
                         "@types/debug": "^4.1.0",
                         "debug": "^4.1.1",
                         "merge-deep": "^3.0.1"
-                    },
-                    "dependencies": {
-                        "debug": {
-                            "version": "4.3.1",
-                            "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
-                            "integrity": "sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==",
-                            "requires": {
-                                "ms": "2.1.2"
-                            }
-                        },
-                        "ms": {
-                            "version": "2.1.2",
-                            "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz",
-                            "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
-                        }
                     }
                 },
                 "puppeteer-extra-plugin-stealth": {
-                    "version": "2.6.5",
-                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.5.tgz",
-                    "integrity": "sha512-AMR5lflH51kZART1hSuag/pFCgSoy8U/t23rH6deXN6CirS6S4HzVF72KltGxYnlH9oHRo7ZzoG/aRTsUN8H8A==",
+                    "version": "2.6.6",
+                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.6.tgz",
+                    "integrity": "sha512-v/vVRWlfOSPmi3sNGO0FJ9Qv0VAVNle+ZUMNimMvVIRjY+Wd8TpO3M7ZTRCEAvdFCE4nNGshyuas4UZryN5n9g==",
                     "requires": {
                         "debug": "^4.1.1",
-                        "puppeteer-extra-plugin": "^3.1.7"
-                    },
-                    "dependencies": {
-                        "debug": {
-                            "version": "4.3.1",
-                            "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
-                            "integrity": "sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==",
-                            "requires": {
-                                "ms": "2.1.2"
-                            }
-                        },
-                        "ms": {
-                            "version": "2.1.2",
-                            "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz",
-                            "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
-                        }
+                        "puppeteer-extra-plugin": "^3.1.8"
                     }
                 },
                 "rbush": {
