@@ -1420,12 +1420,12 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.118.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.118.1.tgz",
-            "integrity": "sha512-PyYugLU2+F1yGpOWRRWPZLX27fpQXRP9ujK4S4ZrtkPsFMwPjqW3wmJQObdSSLHBVJAXxFzLDlK8CoYMGw69kw==",
+            "version": "0.118.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.118.2.tgz",
+            "integrity": "sha512-W80HC1iV75SuVuzTrcZpf1i5XbOmMnbECH4STLC/JV28Wa5pC7bFXu27/5urHFX41cJHpBJq7T9MpgU36qGY0A==",
             "requires": {
                 "@softvisio/argon2": ">=0.2.2",
-                "@softvisio/msgpack": ">=0.3.2",
+                "@softvisio/msgpack": ">=0.3.3",
                 "@softvisio/uws": ">=0.5.0",
                 "ajv": ">=7.0.3",
                 "ajv-formats": ">=1.5.1",
@@ -1966,9 +1966,9 @@
                     }
                 },
                 "@softvisio/msgpack": {
-                    "version": "0.3.2",
-                    "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-0.3.2.tgz",
-                    "integrity": "sha512-YMuPv8AH7kcd693hBJ53Ka5tpao1upR2CiaxbpUXHxt9710QU6gTq9+LFp+RIP04ANZ5UllCY4zrym/L/zrwpQ==",
+                    "version": "0.3.3",
+                    "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-0.3.3.tgz",
+                    "integrity": "sha512-MWL9nduD6EgdX6oLOLs/VMS2llagwTtz6sUUWYVw2pYF2RCKNCXmj3c5eZw/AICtLA8hHsYIeTzuLw5k5fBY1w==",
                     "dependencies": {
                         "notepack.io": {
                             "version": "2.3.0",
