@@ -1,3 +1,8 @@
+## 0.48.0 (2021-01-22)
+
+-   deps updated
+-   vue sfc block indent removed
+
 ## 0.47.1 (2021-01-16)
 
 -   deps updated
