@@ -34,7 +34,8 @@ const config = {
     "rules": {
         // eslint-plugin-vue, https://vuejs.github.io/eslint-plugin-vue/rules
         "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
-        "vue/html-indent": ["warn", 4],
+        "vue/html-indent": "off", // ["warn", 4],
+        "vue/script-indent": "off",
         "vue/attribute-hyphenation": ["warn", "never"], // for ExtJS webcomponents
         "vue/html-self-closing": [
             "warn",
@@ -66,17 +67,18 @@ const config = {
         "eqeqeq": ["error", "smart"],
         "function-paren-newline": ["error", "never"],
         "grouped-accessor-pairs": ["error", "getBeforeSet"],
-        "indent": [
-            "error",
-            4, // XXX need to take from .editorconfig
-            {
-                "VariableDeclarator": {
-                    "var": 1,
-                    "let": 1,
-                    "const": 1,
-                },
-            },
-        ],
+
+        // "indent": [
+        //     "error",
+        //     4, // XXX need to take from .editorconfig
+        //     {
+        //         "VariableDeclarator": {
+        //             "var": 1,
+        //             "let": 1,
+        //             "const": 1,
+        //         },
+        //     },
+        // ],
         "lines-around-comment": [
             "error",
             {

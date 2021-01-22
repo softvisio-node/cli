@@ -11,5 +11,5 @@ jsxBracketSameLine: false
 arrowParens: avoid
 proseWrap: preserve # TODO test
 htmlWhitespaceSensitivity: css
-vueIndentScriptAndStyle: true
+vueIndentScriptAndStyle: false
 # endOfLine: lf # inherited from .editorconfig "end_of_line"
