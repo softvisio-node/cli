@@ -2933,11 +2933,11 @@
             }
         },
         "@softvisio/eslint-plugin": {
-            "version": "0.20.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-0.20.0.tgz",
-            "integrity": "sha512-3AJJXlFqoiGcn3kzSbf7EcE2e4QsV4yyX4F4Lr3x//bofz63w2tugpWzTVelt34X1ZTnOhvL0KpNglYsogyUfw==",
+            "version": "0.21.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-0.21.0.tgz",
+            "integrity": "sha512-GBw5v55JxuYz7HoG2bJKahyDgnuOpMVIwOrOTrI4eJb5wvJ1ML8raAjpdGFjU38kPyopRTcrrmHaJC40ujG17Q==",
             "requires": {
-                "eslint-plugin-vue": ">=7.4.1",
+                "eslint-plugin-vue": ">=7.5.0",
                 "json5": ">=2.1.3"
             },
             "dependencies": {
@@ -2960,14 +2960,14 @@
                     }
                 },
                 "eslint-plugin-vue": {
-                    "version": "7.4.1",
-                    "resolved": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-7.4.1.tgz",
-                    "integrity": "sha512-W/xPNHYIkGJphLUM2UIYYGKbRw3BcDoMIPY9lu1TTa2YLiZoxurddfnmOP+UOVywxb5vi438ejzwvKdZqydtIw==",
+                    "version": "7.5.0",
+                    "resolved": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-7.5.0.tgz",
+                    "integrity": "sha512-QnMMTcyV8PLxBz7QQNAwISSEs6LYk2LJvGlxalXvpCtfKnqo7qcY0aZTIxPe8QOnHd7WCwiMZLOJzg6A03T0Gw==",
                     "requires": {
                         "eslint-utils": "^2.1.0",
                         "natural-compare": "^1.4.0",
                         "semver": "^7.3.2",
-                        "vue-eslint-parser": "^7.3.0"
+                        "vue-eslint-parser": "^7.4.1"
                     }
                 },
                 "eslint-scope": {
@@ -3082,9 +3082,9 @@
                     }
                 },
                 "vue-eslint-parser": {
-                    "version": "7.3.0",
-                    "resolved": "https://registry.npmjs.org/vue-eslint-parser/-/vue-eslint-parser-7.3.0.tgz",
-                    "integrity": "sha512-n5PJKZbyspD0+8LnaZgpEvNCrjQx1DyDHw8JdWwoxhhC+yRip4TAvSDpXGf9SWX6b0umeB5aR61gwUo6NVvFxw==",
+                    "version": "7.4.1",
+                    "resolved": "https://registry.npmjs.org/vue-eslint-parser/-/vue-eslint-parser-7.4.1.tgz",
+                    "integrity": "sha512-AFvhdxpFvliYq1xt/biNBslTHE/zbEvSnr1qfHA/KxRIpErmEDrQZlQnvEexednRHmLfDNOMuDYwZL5xkLzIXQ==",
                     "requires": {
                         "debug": "^4.1.1",
                         "eslint-scope": "^5.0.0",
