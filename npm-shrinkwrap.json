@@ -1420,14 +1420,15 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.120.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.120.0.tgz",
-            "integrity": "sha512-EQI25Jmarclwk0Bjj4cX9s0rolKqVwuvdigEzOg6oN895QQrcE4EfahdOLZYDynUv7v6C0HldGQYO+tEk0bXZQ==",
+            "version": "0.121.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.121.1.tgz",
+            "integrity": "sha512-p0Bx1Y7i+P299eDSsSJ4MfONcuhjz3pCghGxlNZ5ZZXXthwx1bJwroCT1e1+j28FMhWMCmkiN8toD2QC8ssb/g==",
             "requires": {
                 "@softvisio/argon2": ">=0.2.2",
                 "@softvisio/msgpack": ">=0.3.3",
                 "@softvisio/uws": ">=0.5.0",
                 "ajv": ">=7.0.3",
+                "ajv-errors": ">=2.0.0",
                 "ajv-formats": ">=1.5.1",
                 "ajv-formats-draft2019": ">=1.4.3",
                 "ajv-keywords": ">=4.0.0",
@@ -2030,6 +2031,11 @@
                         "require-from-string": "^2.0.2",
                         "uri-js": "^4.2.2"
                     }
+                },
+                "ajv-errors": {
+                    "version": "2.0.0",
+                    "resolved": "https://registry.npmjs.org/ajv-errors/-/ajv-errors-2.0.0.tgz",
+                    "integrity": "sha512-Qi+I07e2Kc7Tgza7cZMvROyWuWmandN0BLbAiQUGLAMN/IfwIyg5kjg1qz/+q7p+uJ/x3THplnuGmihg/+WnXg=="
                 },
                 "ajv-formats": {
                     "version": "1.5.1",
