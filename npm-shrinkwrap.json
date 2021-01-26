@@ -1420,9 +1420,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.121.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.121.1.tgz",
-            "integrity": "sha512-p0Bx1Y7i+P299eDSsSJ4MfONcuhjz3pCghGxlNZ5ZZXXthwx1bJwroCT1e1+j28FMhWMCmkiN8toD2QC8ssb/g==",
+            "version": "0.122.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.122.0.tgz",
+            "integrity": "sha512-f2sGz1IebrTCKzybLC5vdVobTQD5qms5x6SGn99FFqG69w6AZA9GuPHihKcQFikW9+lEu64yVHFXcyI2p+wQSQ==",
             "requires": {
                 "@softvisio/argon2": ">=0.2.2",
                 "@softvisio/msgpack": ">=0.3.3",
@@ -1450,7 +1450,7 @@
                 "puppeteer-core": ">=5.5.0",
                 "puppeteer-extra": ">=3.1.16",
                 "puppeteer-extra-plugin": ">=3.1.8",
-                "puppeteer-extra-plugin-stealth": ">=2.6.6",
+                "puppeteer-extra-plugin-stealth": ">=2.6.7",
                 "utf-8-validate": ">=5.0.4",
                 "uuid": ">=8.3.2",
                 "which-country": ">=1.0.0",
@@ -2760,9 +2760,9 @@
                     }
                 },
                 "puppeteer-extra-plugin-stealth": {
-                    "version": "2.6.6",
-                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.6.tgz",
-                    "integrity": "sha512-v/vVRWlfOSPmi3sNGO0FJ9Qv0VAVNle+ZUMNimMvVIRjY+Wd8TpO3M7ZTRCEAvdFCE4nNGshyuas4UZryN5n9g==",
+                    "version": "2.6.7",
+                    "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.7.tgz",
+                    "integrity": "sha512-mKHcCDXVzigiYY2qk3j2J5BTzjl+nNnVxRc/30OMdEYrF5Wfz0xrPKv5VR+xM7E0gb4vL/tanHl0bCrEjSDlWg==",
                     "requires": {
                         "debug": "^4.1.1",
                         "puppeteer-extra-plugin": "^3.1.8"
