@@ -19,8 +19,8 @@
     "author": "zdm <zdm@softvisio.net>",
     "exports": {
         ".": "./lib/index.js",
-        "./": "./lib/",
-        "./resources/": "./resources/"
+        "./*": "./lib/*.js",
+        "./resources/*": "./resources/*"
     },
     "bin": {
         "softvisio-cli": "bin/softvisio-cli.js"
