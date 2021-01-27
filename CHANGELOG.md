@@ -1,3 +1,8 @@
+## 0.49.1 (2021-01-27)
+
+-   deps updated
+-   correctly update package lock on release
+
 ## 0.49.0 (2021-01-26)
 
 -   deps updated
