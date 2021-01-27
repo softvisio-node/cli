@@ -1720,14 +1720,14 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "0.123.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.123.4.tgz",
-            "integrity": "sha512-Yt1qT0xY1zgwragnazbbdZwBLNYkvppYcQ7eSqp8sCWx8ZAZfD5z3zW854EkS5d7eTmaKtdMKQopMW2sd1Vd5A==",
+            "version": "0.123.10",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.123.10.tgz",
+            "integrity": "sha512-KAfH1bqd4GRC06NHJ9pkklT/HRl1ew9F93mW6dAA0KYX0VzqPLYIHp/OP7NHryYDNi1OC8QPeMRuOvRbeeGDEQ==",
             "hasShrinkwrap": true,
             "dependencies": {
-                "@softvisio/argon2": ">=0.2.2",
-                "@softvisio/msgpack": ">=0.3.3",
-                "@softvisio/uws": ">=0.5.0",
+                "@softvisio/argon2": ">=0.3.5",
+                "@softvisio/msgpack": ">=0.4.1",
+                "@softvisio/uws": ">=0.6.3",
                 "ajv": ">=7.0.3",
                 "ajv-errors": ">=2.0.0",
                 "ajv-formats": ">=1.5.1",
@@ -1758,8 +1758,8 @@
                 "ws": ">=7.4.2"
             },
             "engines": {
-                "node": ">=14.7.0",
-                "npm": ">=6.14.7"
+                "node": ">=15.7.0",
+                "npm": ">=7"
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
@@ -2351,9 +2351,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001179",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz",
-            "integrity": "sha512-blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA=="
+            "version": "1.0.30001180",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001180.tgz",
+            "integrity": "sha512-n8JVqXuZMVSPKiPiypjFtDTXc4jWIdjxull0f92WLo7e1MSi3uJ3NvveakSh/aCl1QKFAvIz3vIj0v+0K+FrXw=="
         },
         "node_modules/chalk": {
             "version": "2.4.2",
@@ -8432,13 +8432,13 @@
             }
         },
         "@softvisio/core": {
-            "version": "0.123.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.123.4.tgz",
-            "integrity": "sha512-Yt1qT0xY1zgwragnazbbdZwBLNYkvppYcQ7eSqp8sCWx8ZAZfD5z3zW854EkS5d7eTmaKtdMKQopMW2sd1Vd5A==",
+            "version": "0.123.10",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-0.123.10.tgz",
+            "integrity": "sha512-KAfH1bqd4GRC06NHJ9pkklT/HRl1ew9F93mW6dAA0KYX0VzqPLYIHp/OP7NHryYDNi1OC8QPeMRuOvRbeeGDEQ==",
             "requires": {
-                "@softvisio/argon2": ">=0.2.2",
-                "@softvisio/msgpack": ">=0.3.3",
-                "@softvisio/uws": ">=0.5.0",
+                "@softvisio/argon2": ">=0.3.5",
+                "@softvisio/msgpack": ">=0.4.1",
+                "@softvisio/uws": ">=0.6.3",
                 "ajv": ">=7.0.3",
                 "ajv-errors": ">=2.0.0",
                 "ajv-formats": ">=1.5.1",
@@ -8906,9 +8906,9 @@
             }
         },
         "caniuse-lite": {
-            "version": "1.0.30001179",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz",
-            "integrity": "sha512-blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA=="
+            "version": "1.0.30001180",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001180.tgz",
+            "integrity": "sha512-n8JVqXuZMVSPKiPiypjFtDTXc4jWIdjxull0f92WLo7e1MSi3uJ3NvveakSh/aCl1QKFAvIz3vIj0v+0K+FrXw=="
         },
         "chalk": {
             "version": "2.4.2",
