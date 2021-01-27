@@ -18,7 +18,6 @@
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
     "exports": {
-        ".": "./lib/index.js",
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*"
     },
