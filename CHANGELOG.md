@@ -1,3 +1,8 @@
+## 0.50.0 (2021-01-29)
+
+-   publish linked workspaces
+-   linked workspaces
+
 ## 0.49.2 (2021-01-27)
 
 -   deps updated
