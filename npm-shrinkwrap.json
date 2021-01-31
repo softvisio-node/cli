@@ -1768,9 +1768,9 @@
             }
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.0.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.0.0.tgz",
-            "integrity": "sha512-AzrVP9++kH3864SqtVv2keGMAV57HdhZ0T4uSk/H0b/k1cGi6UBsSM3fGyt/iva9F2LgTpgMIw8tgVaah632zQ==",
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.0.1.tgz",
+            "integrity": "sha512-rIqpo+i/pq1frtyrGsKPTJculVUSL5WbTF8Tz1F4wh0c6RjSiuQw+Z5NrIm0iiNKJKtelO4LYDxga33w3HZGAw==",
             "dependencies": {
                 "@phc/format": "^1.0.0",
                 "node-addon-api": "^3.1.0",
@@ -1782,9 +1782,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "1.0.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-1.0.0.tgz",
-            "integrity": "sha512-npjkkQ78xXPkbnG800LkG2x6GPPVmBGCLwgNQ9bmYUGzIokeO6O5eFJ71cAFCIzC9WgpD7p8kJhxPMG3tBmGCg==",
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-1.0.1.tgz",
+            "integrity": "sha512-/P6FMMVP/oTZp2pUhAFDfksCJpbWgwPc+OPQCCBYD7aXzfHHAm0w60Jj9zKOCXshq5yXAUGsV+XgWaKyY8gtQg==",
             "dependencies": {
                 "@softvisio/argon2": "^1.0.0",
                 "@softvisio/msgpack": "^1.0.0",
@@ -1820,23 +1820,23 @@
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.0.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.0.1.tgz",
-            "integrity": "sha512-AFOL7VxMLoncJl09tpbpmeSTGYWAhVRStaWa/pWmhz5Znd1mRmG2nqgYxh5gYOlb8g42j5z8RHvJ2VSvCu6zJw==",
+            "version": "1.0.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.0.2.tgz",
+            "integrity": "sha512-JbOL0d6ABT95XmrwhVBa9xrQ4oy2qQqKnY9xji+NpJVpVHpTIzDBrwKsru2jdVNzuz7xYBKzlewzy12kNogrwg==",
             "dependencies": {
                 "eslint-plugin-vue": "^7.5.0",
                 "json5": "^2.1.3"
             }
         },
         "node_modules/@softvisio/msgpack": {
-            "version": "1.0.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-1.0.0.tgz",
-            "integrity": "sha512-aCwio2ojnPrC+EcAsxyNXjHKdHVI0eirdiwZyEwFFipkwqUhBO2RU1iL2Cg1Q3DcJcfAVvTKr6u04Ay3+I3MeQ=="
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-1.0.1.tgz",
+            "integrity": "sha512-CJFoDFX7jzH396GXbIWcP3QqS6ua/O3aON3yldFMe99ZRFphonTGDJSGKdihWWIZ2jyEZ9y4R2pDskBqdw0VbA=="
         },
         "node_modules/@softvisio/uws": {
-            "version": "1.0.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-1.0.0.tgz",
-            "integrity": "sha512-7/3+AuAaGufMXmNWCFdQ6IkVfzgJwj60VDtRxYGXpM39H8i/wbvCV0n8ZXgVWQ0vrbOezpJLJegUfSdKspvBpA==",
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-1.0.1.tgz",
+            "integrity": "sha512-AXM+bHbec5NEgyvYWobAat/p7Yy4h3m67pCGm+tugox/bZ1W+UXKj0rXVOX4J+pswYfsj+ryY1TI8h2PR4+jew==",
             "engines": {
                 "node": ">=15.7.0",
                 "npm": ">=7.4.3"
@@ -2362,15 +2362,15 @@
             }
         },
         "node_modules/browserslist": {
-            "version": "4.16.1",
-            "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.16.1.tgz",
-            "integrity": "sha512-UXhDrwqsNcpTYJBTZsbGATDxZbiVDsx6UjpmRUmtnP10pr8wAYr5LgFoEFw9ixriQH2mv/NX2SfGzE/o8GndLA==",
+            "version": "4.16.3",
+            "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.16.3.tgz",
+            "integrity": "sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw==",
             "dependencies": {
-                "caniuse-lite": "^1.0.30001173",
+                "caniuse-lite": "^1.0.30001181",
                 "colorette": "^1.2.1",
-                "electron-to-chromium": "^1.3.634",
+                "electron-to-chromium": "^1.3.649",
                 "escalade": "^3.1.1",
-                "node-releases": "^1.1.69"
+                "node-releases": "^1.1.70"
             },
             "bin": {
                 "browserslist": "cli.js"
@@ -9346,9 +9346,9 @@
             "integrity": "sha512-m7X9U6BG2+J+R1lSOdCiITLLrxm+cWlNI3HUFA92oLO77ObGNzaKdh8pMLqdZcshtkKuV84olNNXDfMc4FezBQ=="
         },
         "@softvisio/argon2": {
-            "version": "1.0.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.0.0.tgz",
-            "integrity": "sha512-AzrVP9++kH3864SqtVv2keGMAV57HdhZ0T4uSk/H0b/k1cGi6UBsSM3fGyt/iva9F2LgTpgMIw8tgVaah632zQ==",
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.0.1.tgz",
+            "integrity": "sha512-rIqpo+i/pq1frtyrGsKPTJculVUSL5WbTF8Tz1F4wh0c6RjSiuQw+Z5NrIm0iiNKJKtelO4LYDxga33w3HZGAw==",
             "requires": {
                 "@phc/format": "^1.0.0",
                 "node-addon-api": "^3.1.0",
@@ -9356,9 +9356,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "1.0.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-1.0.0.tgz",
-            "integrity": "sha512-npjkkQ78xXPkbnG800LkG2x6GPPVmBGCLwgNQ9bmYUGzIokeO6O5eFJ71cAFCIzC9WgpD7p8kJhxPMG3tBmGCg==",
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-1.0.1.tgz",
+            "integrity": "sha512-/P6FMMVP/oTZp2pUhAFDfksCJpbWgwPc+OPQCCBYD7aXzfHHAm0w60Jj9zKOCXshq5yXAUGsV+XgWaKyY8gtQg==",
             "requires": {
                 "@softvisio/argon2": "^1.0.0",
                 "@softvisio/msgpack": "^1.0.0",
@@ -9390,23 +9390,23 @@
             }
         },
         "@softvisio/eslint-plugin": {
-            "version": "1.0.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.0.1.tgz",
-            "integrity": "sha512-AFOL7VxMLoncJl09tpbpmeSTGYWAhVRStaWa/pWmhz5Znd1mRmG2nqgYxh5gYOlb8g42j5z8RHvJ2VSvCu6zJw==",
+            "version": "1.0.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.0.2.tgz",
+            "integrity": "sha512-JbOL0d6ABT95XmrwhVBa9xrQ4oy2qQqKnY9xji+NpJVpVHpTIzDBrwKsru2jdVNzuz7xYBKzlewzy12kNogrwg==",
             "requires": {
                 "eslint-plugin-vue": "^7.5.0",
                 "json5": "^2.1.3"
             }
         },
         "@softvisio/msgpack": {
-            "version": "1.0.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-1.0.0.tgz",
-            "integrity": "sha512-aCwio2ojnPrC+EcAsxyNXjHKdHVI0eirdiwZyEwFFipkwqUhBO2RU1iL2Cg1Q3DcJcfAVvTKr6u04Ay3+I3MeQ=="
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-1.0.1.tgz",
+            "integrity": "sha512-CJFoDFX7jzH396GXbIWcP3QqS6ua/O3aON3yldFMe99ZRFphonTGDJSGKdihWWIZ2jyEZ9y4R2pDskBqdw0VbA=="
         },
         "@softvisio/uws": {
-            "version": "1.0.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-1.0.0.tgz",
-            "integrity": "sha512-7/3+AuAaGufMXmNWCFdQ6IkVfzgJwj60VDtRxYGXpM39H8i/wbvCV0n8ZXgVWQ0vrbOezpJLJegUfSdKspvBpA=="
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-1.0.1.tgz",
+            "integrity": "sha512-AXM+bHbec5NEgyvYWobAat/p7Yy4h3m67pCGm+tugox/bZ1W+UXKj0rXVOX4J+pswYfsj+ryY1TI8h2PR4+jew=="
         },
         "@types/glob": {
             "version": "7.1.3",
@@ -9812,15 +9812,15 @@
             }
         },
         "browserslist": {
-            "version": "4.16.1",
-            "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.16.1.tgz",
-            "integrity": "sha512-UXhDrwqsNcpTYJBTZsbGATDxZbiVDsx6UjpmRUmtnP10pr8wAYr5LgFoEFw9ixriQH2mv/NX2SfGzE/o8GndLA==",
+            "version": "4.16.3",
+            "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.16.3.tgz",
+            "integrity": "sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw==",
             "requires": {
-                "caniuse-lite": "^1.0.30001173",
+                "caniuse-lite": "^1.0.30001181",
                 "colorette": "^1.2.1",
-                "electron-to-chromium": "^1.3.634",
+                "electron-to-chromium": "^1.3.649",
                 "escalade": "^3.1.1",
-                "node-releases": "^1.1.69"
+                "node-releases": "^1.1.70"
             }
         },
         "buffer": {
