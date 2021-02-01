@@ -1782,9 +1782,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "1.0.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-1.0.1.tgz",
-            "integrity": "sha512-/P6FMMVP/oTZp2pUhAFDfksCJpbWgwPc+OPQCCBYD7aXzfHHAm0w60Jj9zKOCXshq5yXAUGsV+XgWaKyY8gtQg==",
+            "version": "1.1.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-1.1.0.tgz",
+            "integrity": "sha512-KAi9lTGhPubfvhScLwOMlTGOWWky2DYQLgeu+Du++ww0RVYYRMyAQhnWWoOZbhHI2cQFvmIufhXjwFrpMwX1xw==",
             "dependencies": {
                 "@softvisio/argon2": "^1.0.0",
                 "@softvisio/msgpack": "^1.0.0",
@@ -9355,9 +9355,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "1.0.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-1.0.1.tgz",
-            "integrity": "sha512-/P6FMMVP/oTZp2pUhAFDfksCJpbWgwPc+OPQCCBYD7aXzfHHAm0w60Jj9zKOCXshq5yXAUGsV+XgWaKyY8gtQg==",
+            "version": "1.1.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-1.1.0.tgz",
+            "integrity": "sha512-KAi9lTGhPubfvhScLwOMlTGOWWky2DYQLgeu+Du++ww0RVYYRMyAQhnWWoOZbhHI2cQFvmIufhXjwFrpMwX1xw==",
             "requires": {
                 "@softvisio/argon2": "^1.0.0",
                 "@softvisio/msgpack": "^1.0.0",
