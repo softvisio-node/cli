@@ -27,7 +27,7 @@
                 "prettier": "^2.2.1",
                 "prettier-plugin-packagejson": "^2.2.9",
                 "prettier-plugin-sh": "^0.6.0",
-                "semver": "^5.7.1",
+                "semver": "^7.3.4",
                 "table": "^6.0.7",
                 "terser": "^5.5.1"
             },
@@ -75,6 +75,14 @@
             "funding": {
                 "type": "opencollective",
                 "url": "https://opencollective.com/babel"
+            }
+        },
+        "node_modules/@babel/core/node_modules/semver": {
+            "version": "5.7.1",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+            "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==",
+            "bin": {
+                "semver": "bin/semver"
             }
         },
         "node_modules/@babel/eslint-parser": {
@@ -141,6 +149,14 @@
             },
             "peerDependencies": {
                 "@babel/core": "^7.0.0"
+            }
+        },
+        "node_modules/@babel/helper-compilation-targets/node_modules/semver": {
+            "version": "5.7.1",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+            "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==",
+            "bin": {
+                "semver": "bin/semver"
             }
         },
         "node_modules/@babel/helper-create-class-features-plugin": {
@@ -996,6 +1012,14 @@
                 "@babel/core": "^7.0.0-0"
             }
         },
+        "node_modules/@babel/plugin-transform-runtime/node_modules/semver": {
+            "version": "5.7.1",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+            "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==",
+            "bin": {
+                "semver": "bin/semver"
+            }
+        },
         "node_modules/@babel/plugin-transform-shorthand-properties": {
             "version": "7.12.1",
             "resolved": "https://registry.npmjs.org/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.12.1.tgz",
@@ -1149,6 +1173,14 @@
             },
             "peerDependencies": {
                 "@babel/core": "^7.0.0-0"
+            }
+        },
+        "node_modules/@babel/preset-env/node_modules/semver": {
+            "version": "5.7.1",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+            "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==",
+            "bin": {
+                "semver": "bin/semver"
             }
         },
         "node_modules/@babel/preset-modules": {
@@ -2502,9 +2534,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001181",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001181.tgz",
-            "integrity": "sha512-m5ul/ARCX50JB8BSNM+oiPmQrR5UmngaQ3QThTTp5HcIIQGP/nPBs82BYLE+tigzm3VW+F4BJIhUyaVtEweelQ=="
+            "version": "1.0.30001183",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001183.tgz",
+            "integrity": "sha512-7JkwTEE1hlRKETbCFd8HDZeLiQIUcl8rC6JgNjvHCNaxOeNmQ9V4LvQXRUsKIV2CC73qKxljwVhToaA3kLRqTw=="
         },
         "node_modules/chalk": {
             "version": "2.4.2",
@@ -3412,20 +3444,6 @@
                 "eslint": "^6.2.0 || ^7.0.0"
             }
         },
-        "node_modules/eslint-plugin-vue/node_modules/semver": {
-            "version": "7.3.4",
-            "resolved": "https://registry.npmjs.org/semver/-/semver-7.3.4.tgz",
-            "integrity": "sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==",
-            "dependencies": {
-                "lru-cache": "^6.0.0"
-            },
-            "bin": {
-                "semver": "bin/semver.js"
-            },
-            "engines": {
-                "node": ">=10"
-            }
-        },
         "node_modules/eslint-scope": {
             "version": "5.1.0",
             "resolved": "https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.0.tgz",
@@ -3608,20 +3626,6 @@
             "integrity": "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==",
             "engines": {
                 "node": ">=4"
-            }
-        },
-        "node_modules/eslint/node_modules/semver": {
-            "version": "7.3.4",
-            "resolved": "https://registry.npmjs.org/semver/-/semver-7.3.4.tgz",
-            "integrity": "sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==",
-            "dependencies": {
-                "lru-cache": "^6.0.0"
-            },
-            "bin": {
-                "semver": "bin/semver.js"
-            },
-            "engines": {
-                "node": ">=10"
             }
         },
         "node_modules/eslint/node_modules/supports-color": {
@@ -4793,6 +4797,14 @@
             },
             "bin": {
                 "rimraf": "bin.js"
+            }
+        },
+        "node_modules/node-pre-gyp/node_modules/semver": {
+            "version": "5.7.1",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+            "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==",
+            "bin": {
+                "semver": "bin/semver"
             }
         },
         "node_modules/node-releases": {
@@ -7144,11 +7156,17 @@
             }
         },
         "node_modules/semver": {
-            "version": "5.7.1",
-            "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
-            "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==",
+            "version": "7.3.4",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-7.3.4.tgz",
+            "integrity": "sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==",
+            "dependencies": {
+                "lru-cache": "^6.0.0"
+            },
             "bin": {
-                "semver": "bin/semver"
+                "semver": "bin/semver.js"
+            },
+            "engines": {
+                "node": ">=10"
             }
         },
         "node_modules/set-blocking": {
@@ -7900,9 +7918,9 @@
             "integrity": "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
         },
         "node_modules/ws": {
-            "version": "7.4.2",
-            "resolved": "https://registry.npmjs.org/ws/-/ws-7.4.2.tgz",
-            "integrity": "sha512-T4tewALS3+qsrpGI/8dqNMLIVdq/g/85U98HPMa6F0m6xTbvhXU6RCQLqPH3+SlomNV/LdY6RXEbBpMH6EOJnA==",
+            "version": "7.4.3",
+            "resolved": "https://registry.npmjs.org/ws/-/ws-7.4.3.tgz",
+            "integrity": "sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==",
             "engines": {
                 "node": ">=8.3.0"
             },
@@ -8003,6 +8021,13 @@
                 "lodash": "^4.17.19",
                 "semver": "^5.4.1",
                 "source-map": "^0.5.0"
+            },
+            "dependencies": {
+                "semver": {
+                    "version": "5.7.1",
+                    "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+                    "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
+                }
             }
         },
         "@babel/eslint-parser": {
@@ -8058,6 +8083,13 @@
                 "@babel/helper-validator-option": "^7.12.1",
                 "browserslist": "^4.14.5",
                 "semver": "^5.5.0"
+            },
+            "dependencies": {
+                "semver": {
+                    "version": "5.7.1",
+                    "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+                    "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
+                }
             }
         },
         "@babel/helper-create-class-features-plugin": {
@@ -8734,6 +8766,13 @@
                 "@babel/helper-module-imports": "^7.12.5",
                 "@babel/helper-plugin-utils": "^7.10.4",
                 "semver": "^5.5.1"
+            },
+            "dependencies": {
+                "semver": {
+                    "version": "5.7.1",
+                    "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+                    "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
+                }
             }
         },
         "@babel/plugin-transform-shorthand-properties": {
@@ -8865,6 +8904,13 @@
                 "@babel/types": "^7.12.11",
                 "core-js-compat": "^3.8.0",
                 "semver": "^5.5.0"
+            },
+            "dependencies": {
+                "semver": {
+                    "version": "5.7.1",
+                    "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+                    "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
+                }
             }
         },
         "@babel/preset-modules": {
@@ -9906,9 +9952,9 @@
             }
         },
         "caniuse-lite": {
-            "version": "1.0.30001181",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001181.tgz",
-            "integrity": "sha512-m5ul/ARCX50JB8BSNM+oiPmQrR5UmngaQ3QThTTp5HcIIQGP/nPBs82BYLE+tigzm3VW+F4BJIhUyaVtEweelQ=="
+            "version": "1.0.30001183",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001183.tgz",
+            "integrity": "sha512-7JkwTEE1hlRKETbCFd8HDZeLiQIUcl8rC6JgNjvHCNaxOeNmQ9V4LvQXRUsKIV2CC73qKxljwVhToaA3kLRqTw=="
         },
         "chalk": {
             "version": "2.4.2",
@@ -10695,14 +10741,6 @@
                     "resolved": "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz",
                     "integrity": "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g=="
                 },
-                "semver": {
-                    "version": "7.3.4",
-                    "resolved": "https://registry.npmjs.org/semver/-/semver-7.3.4.tgz",
-                    "integrity": "sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==",
-                    "requires": {
-                        "lru-cache": "^6.0.0"
-                    }
-                },
                 "supports-color": {
                     "version": "7.2.0",
                     "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
@@ -10722,16 +10760,6 @@
                 "natural-compare": "^1.4.0",
                 "semver": "^7.3.2",
                 "vue-eslint-parser": "^7.4.1"
-            },
-            "dependencies": {
-                "semver": {
-                    "version": "7.3.4",
-                    "resolved": "https://registry.npmjs.org/semver/-/semver-7.3.4.tgz",
-                    "integrity": "sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==",
-                    "requires": {
-                        "lru-cache": "^6.0.0"
-                    }
-                }
             }
         },
         "eslint-scope": {
@@ -11648,6 +11676,11 @@
                     "requires": {
                         "glob": "^7.1.3"
                     }
+                },
+                "semver": {
+                    "version": "5.7.1",
+                    "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
+                    "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
                 }
             }
         },
@@ -13389,9 +13422,12 @@
             }
         },
         "semver": {
-            "version": "5.7.1",
-            "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz",
-            "integrity": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
+            "version": "7.3.4",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-7.3.4.tgz",
+            "integrity": "sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==",
+            "requires": {
+                "lru-cache": "^6.0.0"
+            }
         },
         "set-blocking": {
             "version": "2.0.0",
@@ -13981,9 +14017,9 @@
             "integrity": "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
         },
         "ws": {
-            "version": "7.4.2",
-            "resolved": "https://registry.npmjs.org/ws/-/ws-7.4.2.tgz",
-            "integrity": "sha512-T4tewALS3+qsrpGI/8dqNMLIVdq/g/85U98HPMa6F0m6xTbvhXU6RCQLqPH3+SlomNV/LdY6RXEbBpMH6EOJnA==",
+            "version": "7.4.3",
+            "resolved": "https://registry.npmjs.org/ws/-/ws-7.4.3.tgz",
+            "integrity": "sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==",
             "requires": {}
         },
         "xhr": {
