@@ -27,6 +27,7 @@
                 "prettier": "^2.2.1",
                 "prettier-plugin-packagejson": "^2.2.9",
                 "prettier-plugin-sh": "^0.6.0",
+                "semver": "^5.7.1",
                 "table": "^6.0.7",
                 "terser": "^5.5.1"
             },
@@ -4344,10 +4345,11 @@
             }
         },
         "node_modules/is-regex": {
-            "version": "1.1.1",
-            "resolved": "https://registry.npmjs.org/is-regex/-/is-regex-1.1.1.tgz",
-            "integrity": "sha512-1+QkEcxiLlB7VEyFtyBg94e08OAsvq7FUBgApTq/w2ymCLyKJgDPsybBENVtA7XCQEgEXxKPonG+mvYRxh/LIg==",
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/is-regex/-/is-regex-1.1.2.tgz",
+            "integrity": "sha512-axvdhb5pdhEVThqJzYXwMlVuZwC+FF2DpcOhTS+y/8jVq4trxyPgfcwIxIKiyeuLlSQYKkmUaPQJ8ZE4yNKXDg==",
             "dependencies": {
+                "call-bind": "^1.0.2",
                 "has-symbols": "^1.0.1"
             },
             "engines": {
@@ -11291,10 +11293,11 @@
             "integrity": "sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA=="
         },
         "is-regex": {
-            "version": "1.1.1",
-            "resolved": "https://registry.npmjs.org/is-regex/-/is-regex-1.1.1.tgz",
-            "integrity": "sha512-1+QkEcxiLlB7VEyFtyBg94e08OAsvq7FUBgApTq/w2ymCLyKJgDPsybBENVtA7XCQEgEXxKPonG+mvYRxh/LIg==",
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/is-regex/-/is-regex-1.1.2.tgz",
+            "integrity": "sha512-axvdhb5pdhEVThqJzYXwMlVuZwC+FF2DpcOhTS+y/8jVq4trxyPgfcwIxIKiyeuLlSQYKkmUaPQJ8ZE4yNKXDg==",
             "requires": {
+                "call-bind": "^1.0.2",
                 "has-symbols": "^1.0.1"
             }
         },
