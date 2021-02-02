@@ -1,3 +1,10 @@
+## 1.1.0 (2021-02-02)
+
+### Raw commits log
+
+-   changelog refactored;
+-   release command refactored;
+
 ## 1.0.3 (2021-02-01)
 
 -   deps updated
