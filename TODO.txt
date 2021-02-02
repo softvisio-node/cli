@@ -1,0 +1,5 @@
+-               ---------v1.3.0---------------
+------------ v1.2.0                        merge
+-               ---------v2.0.0-rc.1-----v2.0.0-rc.2---...
+
+If we releasing v2.0.0 from v1.2.0 - need to check, that v2.0.0-pre versions aren't released on other branches.
