@@ -1,3 +1,10 @@
+## 1.2.0 (2021-02-03)
+
+### Raw commits log
+
+-   deps updated;
+-   release --force option removed;
+
 ## 1.1.0 (2021-02-02)
 
 ### Raw commits log
