@@ -1,3 +1,14 @@
+## 1.3.0-rc.0 (2021-02-09)
+
+### Raw commits log
+
+-   deps updated;
+-   colorize output;
+-   check for pre-release dependencies on release;
+-   ls table version width extended to fit pre-release version;
+-   softvisio/core update to v2;
+-   load core index;
+
 ## 1.2.0 (2021-02-03)
 
 ### Raw commits log
