@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-// require( "@softvisio/core" );
-
+require( "@softvisio/core" );
 const cli = require( "@softvisio/core/cli" );
 
 const Rpc = require( "@softvisio/cli/commands/rpc" );
