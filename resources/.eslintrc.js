@@ -6,9 +6,10 @@ const config = {
     },
 
     "extends": [
-        "eslint:recommended",
 
-        // XXX enable "plugin:vue/vue3-recommended",
+        //
+        "eslint:recommended",
+        "plugin:vue/vue3-recommended",
         "plugin:vue/recommended",
         "plugin:@softvisio/recommended",
     ],
