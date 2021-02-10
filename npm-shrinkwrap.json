@@ -3268,9 +3268,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.3.660",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.660.tgz",
-            "integrity": "sha512-UOSKNfUBY8FDOSo4mfaUsN3KftlNLcYOg9v5apqLvNcWj+Ogy/i9SEDMZpfSVOeDkOcpu9iusucX6jxTWzqGLA=="
+            "version": "1.3.661",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.661.tgz",
+            "integrity": "sha512-INNzKoL9ceOpPCpF5J+Fp9AOHY1RegwKViohAyTzV3XbkuRUx04r4v8edsDbevsog8UuL0GvD/Qerr2HwVTlSA=="
         },
         "node_modules/emoji-regex": {
             "version": "8.0.0",
@@ -6925,6 +6925,25 @@
                 "teleport": ">=0.2.0"
             }
         },
+        "node_modules/queue-microtask": {
+            "version": "1.2.2",
+            "resolved": "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.2.tgz",
+            "integrity": "sha512-dB15eXv3p2jDlbOiNLyMabYg1/sXvppd8DP2J3EOCQ0AkuSXCW2tP7mnVouVLJKgUMY6yP0kcQDVpLCN13h4Xg==",
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/feross"
+                },
+                {
+                    "type": "patreon",
+                    "url": "https://www.patreon.com/feross"
+                },
+                {
+                    "type": "consulting",
+                    "url": "https://feross.org/support"
+                }
+            ]
+        },
         "node_modules/rbush": {
             "version": "1.4.3",
             "resolved": "https://registry.npmjs.org/rbush/-/rbush-1.4.3.tgz",
@@ -7104,9 +7123,9 @@
             }
         },
         "node_modules/run-parallel": {
-            "version": "1.1.10",
-            "resolved": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.1.10.tgz",
-            "integrity": "sha512-zb/1OuZ6flOlH6tQyMPUrE3x3Ulxjlo9WIVXR4yVYi4H9UXQaeIsPbLn2R3O3vQCnDKkAl2qHiuocKKX4Tz/Sw==",
+            "version": "1.2.0",
+            "resolved": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz",
+            "integrity": "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==",
             "funding": [
                 {
                     "type": "github",
@@ -7120,7 +7139,10 @@
                     "type": "consulting",
                     "url": "https://feross.org/support"
                 }
-            ]
+            ],
+            "dependencies": {
+                "queue-microtask": "^1.2.2"
+            }
         },
         "node_modules/safe-buffer": {
             "version": "5.1.2",
@@ -10501,9 +10523,9 @@
             }
         },
         "electron-to-chromium": {
-            "version": "1.3.660",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.660.tgz",
-            "integrity": "sha512-UOSKNfUBY8FDOSo4mfaUsN3KftlNLcYOg9v5apqLvNcWj+Ogy/i9SEDMZpfSVOeDkOcpu9iusucX6jxTWzqGLA=="
+            "version": "1.3.661",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.661.tgz",
+            "integrity": "sha512-INNzKoL9ceOpPCpF5J+Fp9AOHY1RegwKViohAyTzV3XbkuRUx04r4v8edsDbevsog8UuL0GvD/Qerr2HwVTlSA=="
         },
         "emoji-regex": {
             "version": "8.0.0",
@@ -13233,6 +13255,11 @@
             "resolved": "https://registry.npmjs.org/q/-/q-1.5.1.tgz",
             "integrity": "sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc="
         },
+        "queue-microtask": {
+            "version": "1.2.2",
+            "resolved": "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.2.tgz",
+            "integrity": "sha512-dB15eXv3p2jDlbOiNLyMabYg1/sXvppd8DP2J3EOCQ0AkuSXCW2tP7mnVouVLJKgUMY6yP0kcQDVpLCN13h4Xg=="
+        },
         "rbush": {
             "version": "1.4.3",
             "resolved": "https://registry.npmjs.org/rbush/-/rbush-1.4.3.tgz",
@@ -13373,9 +13400,12 @@
             }
         },
         "run-parallel": {
-            "version": "1.1.10",
-            "resolved": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.1.10.tgz",
-            "integrity": "sha512-zb/1OuZ6flOlH6tQyMPUrE3x3Ulxjlo9WIVXR4yVYi4H9UXQaeIsPbLn2R3O3vQCnDKkAl2qHiuocKKX4Tz/Sw=="
+            "version": "1.2.0",
+            "resolved": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz",
+            "integrity": "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==",
+            "requires": {
+                "queue-microtask": "^1.2.2"
+            }
         },
         "safe-buffer": {
             "version": "5.1.2",
