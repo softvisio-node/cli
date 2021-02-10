@@ -1,3 +1,12 @@
+## 1.3.0-rc.1 (2021-02-10)
+
+### Raw commits log
+
+-   check next version on release fixed;
+-   deps updated;
+-   eslint vue v3 rules enabled;
+-   debug log removed;
+
 ## 1.3.0-rc.0 (2021-02-09)
 
 ### Raw commits log
