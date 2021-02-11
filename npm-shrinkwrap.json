@@ -2121,9 +2121,9 @@
             }
         },
         "node_modules/ajv": {
-            "version": "7.0.4",
-            "resolved": "https://registry.npmjs.org/ajv/-/ajv-7.0.4.tgz",
-            "integrity": "sha512-xzzzaqgEQfmuhbhAoqjJ8T/1okb6gAzXn/eQRNpAN1AEUoHJTNF9xCDRTtf/s3SKldtZfa+RJeTs+BQq+eZ/sw==",
+            "version": "7.1.0",
+            "resolved": "https://registry.npmjs.org/ajv/-/ajv-7.1.0.tgz",
+            "integrity": "sha512-svS9uILze/cXbH0z2myCK2Brqprx/+JJYK5pHicT/GQiBfzzhUVAIT6MwqJg8y4xV/zoGsUeuPuwtoiKSGE15g==",
             "dependencies": {
                 "fast-deep-equal": "^3.1.1",
                 "json-schema-traverse": "^1.0.0",
@@ -3268,9 +3268,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.3.661",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.661.tgz",
-            "integrity": "sha512-INNzKoL9ceOpPCpF5J+Fp9AOHY1RegwKViohAyTzV3XbkuRUx04r4v8edsDbevsog8UuL0GvD/Qerr2HwVTlSA=="
+            "version": "1.3.662",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.662.tgz",
+            "integrity": "sha512-IGBXmTGwdVGUVTnZ8ISEvkhDfhhD+CDFndG4//BhvDcEtPYiVrzoB+rzT/Y12OQCf5bvRCrVmrUbGrS9P7a6FQ=="
         },
         "node_modules/emoji-regex": {
             "version": "8.0.0",
@@ -5149,9 +5149,9 @@
             }
         },
         "node_modules/postcss": {
-            "version": "8.2.5",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.2.5.tgz",
-            "integrity": "sha512-wMcb7BpDcm3gxQOQx46NDNT36Kk0Ao6PJLLI2ed5vehbbbxCEuslSQzbQ2sfSKy+gkYxhWcGWSeaK+gwm4KIZg==",
+            "version": "8.2.6",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.2.6.tgz",
+            "integrity": "sha512-xpB8qYxgPuly166AGlpRjUdEYtmOWx2iCwGmrv4vqZL9YPVviDVPZPRXxnXr6xPZOdxQ9lp3ZBFCRgWJ7LE3Sg==",
             "dependencies": {
                 "colorette": "^1.2.1",
                 "nanoid": "^3.1.20",
@@ -9661,9 +9661,9 @@
             "requires": {}
         },
         "ajv": {
-            "version": "7.0.4",
-            "resolved": "https://registry.npmjs.org/ajv/-/ajv-7.0.4.tgz",
-            "integrity": "sha512-xzzzaqgEQfmuhbhAoqjJ8T/1okb6gAzXn/eQRNpAN1AEUoHJTNF9xCDRTtf/s3SKldtZfa+RJeTs+BQq+eZ/sw==",
+            "version": "7.1.0",
+            "resolved": "https://registry.npmjs.org/ajv/-/ajv-7.1.0.tgz",
+            "integrity": "sha512-svS9uILze/cXbH0z2myCK2Brqprx/+JJYK5pHicT/GQiBfzzhUVAIT6MwqJg8y4xV/zoGsUeuPuwtoiKSGE15g==",
             "requires": {
                 "fast-deep-equal": "^3.1.1",
                 "json-schema-traverse": "^1.0.0",
@@ -10523,9 +10523,9 @@
             }
         },
         "electron-to-chromium": {
-            "version": "1.3.661",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.661.tgz",
-            "integrity": "sha512-INNzKoL9ceOpPCpF5J+Fp9AOHY1RegwKViohAyTzV3XbkuRUx04r4v8edsDbevsog8UuL0GvD/Qerr2HwVTlSA=="
+            "version": "1.3.662",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.662.tgz",
+            "integrity": "sha512-IGBXmTGwdVGUVTnZ8ISEvkhDfhhD+CDFndG4//BhvDcEtPYiVrzoB+rzT/Y12OQCf5bvRCrVmrUbGrS9P7a6FQ=="
         },
         "emoji-regex": {
             "version": "8.0.0",
@@ -11958,9 +11958,9 @@
             "integrity": "sha1-CRMPxc3vIY3l+b3w5sSjsuG+rlE="
         },
         "postcss": {
-            "version": "8.2.5",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.2.5.tgz",
-            "integrity": "sha512-wMcb7BpDcm3gxQOQx46NDNT36Kk0Ao6PJLLI2ed5vehbbbxCEuslSQzbQ2sfSKy+gkYxhWcGWSeaK+gwm4KIZg==",
+            "version": "8.2.6",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.2.6.tgz",
+            "integrity": "sha512-xpB8qYxgPuly166AGlpRjUdEYtmOWx2iCwGmrv4vqZL9YPVviDVPZPRXxnXr6xPZOdxQ9lp3ZBFCRgWJ7LE3Sg==",
             "requires": {
                 "colorette": "^1.2.1",
                 "nanoid": "^3.1.20",
