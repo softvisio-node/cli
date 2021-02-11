@@ -1,3 +1,11 @@
+## 1.3.0-rc.2 (2021-02-11)
+
+### Raw commits log
+
+-   output colors updated;
+-   package version parser fixed;
+-   deps updated;
+
 ## 1.3.0-rc.1 (2021-02-10)
 
 ### Raw commits log
