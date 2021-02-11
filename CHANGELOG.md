@@ -1,3 +1,10 @@
+## 1.3.0-rc.3 (2021-02-11)
+
+### Raw commits log
+
+-   release command renamed to publish;
+-   linked-workspaces renamed to packages;
+
 ## 1.3.0-rc.2 (2021-02-11)
 
 ### Raw commits log
