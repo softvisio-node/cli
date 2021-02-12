@@ -1834,9 +1834,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "2.0.0-beta.8",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-2.0.0-beta.8.tgz",
-            "integrity": "sha512-5MUwLvI6ccn8Mpw/fUpIPw+TiKVgo/U4UgBTNWA8heSRqhiiQlNXYWKe6lJSBNCYU0LYhlK2cBQSWp+esD13Dg==",
+            "version": "2.0.0-beta.9",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-2.0.0-beta.9.tgz",
+            "integrity": "sha512-cAdCTfKcPf2Pe5FRzKKs4hhg/g18kmIaPIAp8NcTEKtNL+Y93qc/5BAfjWSS48x4v8P2CJ8vOyfJJqmPkHP2Sg==",
             "dependencies": {
                 "@softvisio/argon2": "^1.0.0",
                 "@softvisio/msgpack": "^1.0.0",
@@ -9335,9 +9335,9 @@
             }
         },
         "@softvisio/core": {
-            "version": "2.0.0-beta.8",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-2.0.0-beta.8.tgz",
-            "integrity": "sha512-5MUwLvI6ccn8Mpw/fUpIPw+TiKVgo/U4UgBTNWA8heSRqhiiQlNXYWKe6lJSBNCYU0LYhlK2cBQSWp+esD13Dg==",
+            "version": "2.0.0-beta.9",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-2.0.0-beta.9.tgz",
+            "integrity": "sha512-cAdCTfKcPf2Pe5FRzKKs4hhg/g18kmIaPIAp8NcTEKtNL+Y93qc/5BAfjWSS48x4v8P2CJ8vOyfJJqmPkHP2Sg==",
             "requires": {
                 "@softvisio/argon2": "^1.0.0",
                 "@softvisio/msgpack": "^1.0.0",
