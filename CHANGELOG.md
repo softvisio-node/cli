@@ -1,3 +1,9 @@
+## 1.3.0-rc.4 (2021-02-12)
+
+### Raw commits log
+
+-   util renamed to utils;
+
 ## 1.3.0-rc.3 (2021-02-11)
 
 ### Raw commits log
