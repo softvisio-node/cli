@@ -1,3 +1,10 @@
+## 1.3.0-rc.6 (2021-02-13)
+
+### Raw commits log
+
+-   deps updated;
+-   publish next command added;
+
 ## 1.3.0-rc.5 (2021-02-12)
 
 ### Raw commits log
