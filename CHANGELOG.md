@@ -1,3 +1,10 @@
+## 1.3.0-rc.7 (2021-02-17)
+
+### Raw commits log
+
+-   package-lock removed;
+-   deps updated;
+
 ## 1.3.0-rc.6 (2021-02-13)
 
 ### Raw commits log
