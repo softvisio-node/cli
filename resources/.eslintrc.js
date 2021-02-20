@@ -9,6 +9,7 @@ const config = {
 
         //
         "eslint:recommended",
+        "plugin:eslint-comments/recommended",
         "plugin:vue/vue3-recommended",
         "plugin:vue/recommended",
         "plugin:@softvisio/recommended",
@@ -33,6 +34,10 @@ const config = {
     },
 
     "rules": {
+        // eslint comments
+        "eslint-comments/no-unlimited-disable": "warn",
+        "eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }],
+
         // eslint-plugin-vue, https://vuejs.github.io/eslint-plugin-vue/rules
         "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
         "vue/html-indent": "off", // ["warn", 4],
