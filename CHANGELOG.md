@@ -1,3 +1,9 @@
+## 1.3.0-rc.9 (2021-02-24)
+
+### Raw commits log
+
+-   missing core-js dependency added;
+
 ## 1.3.0-rc.8 (2021-02-20)
 
 ### Raw commits log
