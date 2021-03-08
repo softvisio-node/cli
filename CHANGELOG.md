@@ -1,3 +1,9 @@
+## 1.4.0 (2021-03-08)
+
+### Raw commits log
+
+-   docker build moved to compose file;
+
 ## 1.3.0 (2021-03-03)
 
 ### Raw commits log
