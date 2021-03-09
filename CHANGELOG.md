@@ -1,3 +1,9 @@
+## 1.4.1 (2021-03-09)
+
+### Raw commits log
+
+-   tmp files unlinkSync() replaced with remove();
+
 ## 1.4.0 (2021-03-08)
 
 ### Raw commits log
