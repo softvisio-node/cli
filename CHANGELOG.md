@@ -1,3 +1,9 @@
+## 1.5.0 (2021-03-12)
+
+### Raw commits log
+
+-   typescript support added;
+
 ## 1.4.2 (2021-03-10)
 
 ### Raw commits log
