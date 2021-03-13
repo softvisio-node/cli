@@ -1,3 +1,9 @@
+## 1.6.0 (2021-03-13)
+
+### Raw commits log
+
+-   eslint do not ignore node_modules;
+
 ## 1.5.0 (2021-03-12)
 
 ### Raw commits log
