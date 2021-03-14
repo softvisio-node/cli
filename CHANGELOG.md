@@ -1,3 +1,9 @@
+## 1.6.1 (2021-03-14)
+
+### Raw commits log
+
+-   first release version check removed;
+
 ## 1.6.0 (2021-03-13)
 
 ### Raw commits log
