@@ -1,3 +1,9 @@
+## 1.7.0 (2021-03-15)
+
+### Raw commits log
+
+-   docker build updated;
+
 ## 1.6.1 (2021-03-14)
 
 ### Raw commits log
