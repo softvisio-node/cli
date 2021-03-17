@@ -1,3 +1,9 @@
+## 1.7.1 (2021-03-17)
+
+### Raw commits log
+
+-   terser async fix;
+
 ## 1.7.0 (2021-03-15)
 
 ### Raw commits log
