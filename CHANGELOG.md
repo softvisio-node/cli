@@ -1,3 +1,10 @@
+## 1.7.2 (2021-03-23)
+
+### Raw commits log
+
+-   line ending convert;
+-   string padEnd();
+
 ## 1.7.1 (2021-03-17)
 
 ### Raw commits log
