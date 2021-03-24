@@ -1,3 +1,9 @@
+## 1.8.0 (2021-03-24)
+
+### Raw commits log
+
+-   lint log using table;
+
 ## 1.7.3 (2021-03-24)
 
 ### Raw commits log
