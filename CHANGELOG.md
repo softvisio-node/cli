@@ -1,3 +1,9 @@
+## 1.7.3 (2021-03-24)
+
+### Raw commits log
+
+-   text table refactored;
+
 ## 1.7.2 (2021-03-23)
 
 ### Raw commits log
