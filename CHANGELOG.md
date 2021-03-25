@@ -1,3 +1,9 @@
+## 1.8.2 (2021-03-25)
+
+### Raw commits log
+
+-   table options updated;
+
 ## 1.8.1 (2021-03-25)
 
 ### Raw commits log
