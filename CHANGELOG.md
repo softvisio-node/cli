@@ -1,3 +1,9 @@
+## 1.8.1 (2021-03-25)
+
+### Raw commits log
+
+-   eslint rules updated;
+
 ## 1.8.0 (2021-03-24)
 
 ### Raw commits log
