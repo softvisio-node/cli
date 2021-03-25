@@ -35,7 +35,7 @@ const config = {
 
     "rules": {
         // eslint comments
-        "eslint-comments/no-unlimited-disable": "warn",
+        "eslint-comments/no-unused-disable": "error",
         "eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }],
 
         // eslint-plugin-vue, https://vuejs.github.io/eslint-plugin-vue/rules
