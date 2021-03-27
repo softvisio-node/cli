@@ -1,3 +1,10 @@
+## 1.8.3 (2021-03-27)
+
+### Raw commits log
+
+-   cli help updated;
+-   typo;
+
 ## 1.8.2 (2021-03-25)
 
 ### Raw commits log
