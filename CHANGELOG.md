@@ -1,3 +1,10 @@
+## 1.9.0 (2021-03-27)
+
+### Raw commits log
+
+-   pre-commit hook report;
+-   lint verbose option;
+
 ## 1.8.3 (2021-03-27)
 
 ### Raw commits log
