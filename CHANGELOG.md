@@ -1,3 +1,9 @@
+## 1.9.1 (2021-03-27)
+
+### Raw commits log
+
+-   pre-commit report fix;
+
 ## 1.9.0 (2021-03-27)
 
 ### Raw commits log
