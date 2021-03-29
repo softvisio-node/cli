@@ -1,3 +1,9 @@
+## 1.9.2 (2021-03-29)
+
+### Raw commits log
+
+-   lint report updated;
+
 ## 1.9.1 (2021-03-27)
 
 ### Raw commits log
