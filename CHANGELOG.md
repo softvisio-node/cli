@@ -1,3 +1,9 @@
+## 1.9.4 (2021-03-30)
+
+### Raw commits log
+
+-   ls report updated;
+
 ## 1.9.3 (2021-03-29)
 
 ### Raw commits log
