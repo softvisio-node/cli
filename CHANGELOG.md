@@ -1,3 +1,9 @@
+## 1.10.0 (2021-04-01)
+
+### Raw commits log
+
+-   json pre-parser added;
+
 ## 1.9.5 (2021-03-30)
 
 ### Raw commits log
