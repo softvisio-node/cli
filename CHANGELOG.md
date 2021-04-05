@@ -1,3 +1,9 @@
+## 1.11.0 (2021-04-05)
+
+### Raw commits log
+
+-   ls options updated;
+
 ## 1.10.0 (2021-04-01)
 
 ### Raw commits log
