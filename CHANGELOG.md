@@ -1,3 +1,11 @@
+## 1.12.0 (2021-04-11)
+
+### Raw commits log
+
+-   msgpack stream decoder;
+-   cssnano v5;
+-   rpc msgpack mode;
+
 ## 1.11.1 (2021-04-05)
 
 ### Raw commits log
