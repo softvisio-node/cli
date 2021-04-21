@@ -1,3 +1,11 @@
+## 1.13.0 (2021-04-21)
+
+### Raw commits log
+
+-   imports #resources;
+-   deps updated;
+-   babel top-level await support added;
+
 ## 1.12.0 (2021-04-11)
 
 ### Raw commits log
