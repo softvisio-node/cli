@@ -4,7 +4,7 @@ import "@softvisio/core";
 
 import cli from "@softvisio/core/cli";
 
-import Rpc from "#lib/commands/rpc.cjs";
+import Rpc from "#lib/commands/rpc.js";
 import Wiki from "#lib/commands/wiki.js";
 import Icons from "#lib/commands/icons.js";
 import Lint from "#lib/commands/lint.js";
