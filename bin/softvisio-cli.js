@@ -10,7 +10,7 @@ import Icons from "#lib/commands/icons.js";
 import Lint from "#lib/commands/lint.js";
 import Publish from "#lib/commands/publish.cjs";
 import Ls from "#lib/commands/ls.cjs";
-import Log from "#lib/commands/log.cjs";
+import Log from "#lib/commands/log.js";
 import Docker from "#lib/commands/docker.js";
 import Git from "#lib/commands/git.js";
 import Status from "#lib/commands/status.js";
