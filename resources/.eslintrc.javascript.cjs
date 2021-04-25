@@ -29,7 +29,7 @@ const config = {
         },
         "requireConfigFile": false,
         "babelOptions": {
-            "configFile": __dirname + "/babel.config.js",
+            "configFile": __dirname + "/babel.config.cjs",
         },
     },
 
