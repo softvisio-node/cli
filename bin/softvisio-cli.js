@@ -8,7 +8,7 @@ import Rpc from "#lib/commands/rpc.js";
 import Wiki from "#lib/commands/wiki.js";
 import Icons from "#lib/commands/icons.js";
 import Lint from "#lib/commands/lint.js";
-import Publish from "#lib/commands/publish.cjs";
+import Publish from "#lib/commands/publish.js";
 import Ls from "#lib/commands/ls.js";
 import Log from "#lib/commands/log.js";
 import Docker from "#lib/commands/docker.js";
