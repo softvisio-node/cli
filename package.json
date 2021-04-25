@@ -19,7 +19,7 @@
     "author": "zdm <zdm@softvisio.net>",
     "type": "module",
     "imports": {
-        "#lib/*": "./lib/*",
+        "#lib/*": "./lib/*.js",
         "#resources/*": "./resources/*"
     },
     "exports": {

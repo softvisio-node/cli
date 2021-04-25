@@ -4,16 +4,16 @@ import "@softvisio/core";
 
 import cli from "@softvisio/core/cli";
 
-import Rpc from "#lib/commands/rpc.js";
-import Wiki from "#lib/commands/wiki.js";
-import Icons from "#lib/commands/icons.js";
-import Lint from "#lib/commands/lint.js";
-import Publish from "#lib/commands/publish.js";
-import Ls from "#lib/commands/ls.js";
-import Log from "#lib/commands/log.js";
-import Docker from "#lib/commands/docker.js";
-import Git from "#lib/commands/git.js";
-import Status from "#lib/commands/status.js";
+import Rpc from "#lib/commands/rpc";
+import Wiki from "#lib/commands/wiki";
+import Icons from "#lib/commands/icons";
+import Lint from "#lib/commands/lint";
+import Publish from "#lib/commands/publish";
+import Ls from "#lib/commands/ls";
+import Log from "#lib/commands/log";
+import Docker from "#lib/commands/docker";
+import Git from "#lib/commands/git";
+import Status from "#lib/commands/status";
 
 class App {
     static cli () {
