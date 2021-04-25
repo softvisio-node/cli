@@ -6,7 +6,7 @@ import cli from "@softvisio/core/cli";
 
 import Rpc from "#lib/commands/rpc.cjs";
 import Wiki from "#lib/commands/wiki.cjs";
-import Icons from "#lib/commands/icons.cjs";
+import Icons from "#lib/commands/icons.js";
 import Lint from "#lib/commands/lint.js";
 import Publish from "#lib/commands/publish.cjs";
 import Ls from "#lib/commands/ls.cjs";
