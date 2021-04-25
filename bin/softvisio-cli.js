@@ -13,7 +13,7 @@ import Ls from "#lib/commands/ls.cjs";
 import Log from "#lib/commands/log.cjs";
 import Docker from "#lib/commands/docker.cjs";
 import Git from "#lib/commands/git.js";
-import Status from "#lib/commands/status.cjs";
+import Status from "#lib/commands/status.js";
 
 class App {
     static cli () {
