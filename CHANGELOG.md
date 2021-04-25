@@ -1,3 +1,10 @@
+## 2.0.0 (2021-04-25)
+
+### Raw commits log
+
+-   ported to esm;
+-   read / write json using fs;
+
 ## 1.13.0 (2021-04-21)
 
 ### Raw commits log
