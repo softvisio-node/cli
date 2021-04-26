@@ -1,3 +1,10 @@
+## 2.0.1 (2021-04-26)
+
+### Raw commits log
+
+-   css lint fixed;
+-   lint actions added;
+
 ## 2.0.0 (2021-04-25)
 
 ### Raw commits log
