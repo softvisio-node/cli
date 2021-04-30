@@ -1,3 +1,10 @@
+## 2.1.0 (2021-04-30)
+
+### Raw commits log
+
+-   semver module added;
+-   ls beta version mark added;
+
 ## 2.0.2 (2021-04-26)
 
 ### Raw commits log
