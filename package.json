@@ -35,7 +35,7 @@
     "dependencies": {
         "@babel/core": "^7.12.10",
         "@babel/eslint-parser": "^7.12.1",
-        "@softvisio/core": "^2.0.0",
+        "@softvisio/core": "^3.0.0-alpha.3",
         "@softvisio/eslint-plugin": "^1.0.1",
         "@typescript-eslint/eslint-plugin": "^4.17.0",
         "@typescript-eslint/parser": "^4.17.0",
