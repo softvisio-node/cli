@@ -1,3 +1,13 @@
+## 2.2.0 (2021-05-02)
+
+### Raw commits log
+
+-   pre-release deps check fixed;
+-   deps updated;
+-   require removed;
+-   FileTree usage fixed;
+-   semver gte fixed;
+
 ## 2.1.0 (2021-04-30)
 
 ### Raw commits log
