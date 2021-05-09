@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import "@softvisio/core";
+import "#core";
 
-import cli from "@softvisio/core/cli";
+import cli from "#core/cli";
 
 import Rpc from "#lib/commands/rpc";
 import Wiki from "#lib/commands/wiki";
