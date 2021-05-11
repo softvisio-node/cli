@@ -1,3 +1,10 @@
+## 2.2.1 (2021-05-11)
+
+### Raw commits log
+
+-   use core getUserConfig;
+-   imports updated;
+
 ## 2.2.0 (2021-05-02)
 
 ### Raw commits log
