@@ -1,3 +1,13 @@
+## 2.2.2 (2021-05-13)
+
+### Raw commits log
+
+-   filetree options updated;
+-   imports added;
+-   utls/env moved to env;
+-   file tree use file object;
+-   minor code improvements;
+
 ## 2.2.1 (2021-05-11)
 
 ### Raw commits log
