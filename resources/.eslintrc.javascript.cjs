@@ -12,6 +12,7 @@ const config = {
         "plugin:eslint-comments/recommended",
         "plugin:vue/vue3-recommended",
         "plugin:vue/recommended",
+        "plugin:jest/recommended",
         "plugin:@softvisio/recommended",
     ],
 
