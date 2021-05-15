@@ -1,3 +1,10 @@
+## 2.3.0 (2021-05-15)
+
+### Raw commits log
+
+-   jest integrated;
+-   eslint jest support added;
+
 ## 2.2.2 (2021-05-13)
 
 ### Raw commits log
