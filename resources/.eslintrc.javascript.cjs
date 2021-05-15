@@ -34,6 +34,12 @@ const config = {
         },
     },
 
+    "settings": {
+        "jest": {
+            "version": require( "../node_modules/jest/package.json" ).version.split( "." )[0],
+        },
+    },
+
     "rules": {
         // eslint comments
         "eslint-comments/no-unused-disable": "error",
