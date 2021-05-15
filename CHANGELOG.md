@@ -1,3 +1,9 @@
+## 2.3.3 (2021-05-15)
+
+### Raw commits log
+
+-   test more cli options added;
+
 ## 2.3.2 (2021-05-15)
 
 ### Raw commits log
