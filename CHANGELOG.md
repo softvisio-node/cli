@@ -1,3 +1,10 @@
+## 2.3.4 (2021-05-15)
+
+### Raw commits log
+
+-   eslint config for jest added;
+-   detect jest version;
+
 ## 2.3.3 (2021-05-15)
 
 ### Raw commits log
