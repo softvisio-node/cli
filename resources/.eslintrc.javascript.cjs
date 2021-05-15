@@ -12,7 +12,6 @@ const config = {
         "plugin:eslint-comments/recommended",
         "plugin:vue/vue3-recommended",
         "plugin:vue/recommended",
-        "plugin:jest/recommended",
         "plugin:@softvisio/recommended",
     ],
 
@@ -31,12 +30,6 @@ const config = {
         "requireConfigFile": false,
         "babelOptions": {
             "configFile": __dirname + "/babel.config.cjs",
-        },
-    },
-
-    "settings": {
-        "jest": {
-            "version": require( "../node_modules/jest/package.json" ).version.split( "." )[0],
         },
     },
 
