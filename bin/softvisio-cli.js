@@ -14,6 +14,7 @@ import Log from "#lib/commands/log";
 import Docker from "#lib/commands/docker";
 import Git from "#lib/commands/git";
 import Status from "#lib/commands/status";
+import Test from "#lib/commands/test";
 
 class App {
     static cli () {
@@ -30,6 +31,7 @@ class App {
                 "docker": Docker,
                 "git": Git,
                 "status": Status,
+                "test": Test,
             },
         };
     }
