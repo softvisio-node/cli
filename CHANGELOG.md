@@ -1,3 +1,9 @@
+## 2.3.1 (2021-05-15)
+
+### Raw commits log
+
+-   jest integrated;
+
 ## 2.3.0 (2021-05-15)
 
 ### Raw commits log
