@@ -2,7 +2,7 @@
 
 import "#core";
 
-import cli from "#core/cli";
+import CLI from "#core/cli";
 
 import Rpc from "#lib/commands/rpc";
 import Wiki from "#lib/commands/wiki";
@@ -37,4 +37,4 @@ class App {
     }
 }
 
-cli( App );
+CLI.parse( App );
