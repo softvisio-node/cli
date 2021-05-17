@@ -1,3 +1,11 @@
+## 2.3.5 (2021-05-17)
+
+### Raw commits log
+
+-   tests on publish disabled;
+-   cli refactored;
+-   test raw jest argv added;
+
 ## 2.3.4 (2021-05-15)
 
 ### Raw commits log
