@@ -31,9 +31,6 @@
     "bin": {
         "softvisio-cli": "bin/softvisio-cli.js"
     },
-    "scripts": {
-        "lint": "softvisio-cli lint"
-    },
     "dependencies": {
         "@babel/core": "^7.12.10",
         "@babel/eslint-parser": "^7.12.1",
