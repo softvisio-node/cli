@@ -1,3 +1,11 @@
+## 2.3.6 (2021-05-19)
+
+### Raw commits log
+
+-   mime moved to /;
+-   lint script removed;
+-   ansi import updated;
+
 ## 2.3.5 (2021-05-17)
 
 ### Raw commits log
