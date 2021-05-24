@@ -1,3 +1,9 @@
+## 2.3.8 (2021-05-24)
+
+### Raw commits log
+
+-   tests ignore /bench/ pattern added;
+
 ## 2.3.7 (2021-05-24)
 
 ### Raw commits log
