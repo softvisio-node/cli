@@ -1,3 +1,9 @@
+## 2.3.7 (2021-05-24)
+
+### Raw commits log
+
+-   yaml comments parser fixed for single-line comment;
+
 ## 2.3.6 (2021-05-19)
 
 ### Raw commits log
