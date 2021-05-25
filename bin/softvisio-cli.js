@@ -15,6 +15,7 @@ import Docker from "#lib/commands/docker";
 import Git from "#lib/commands/git";
 import Status from "#lib/commands/status";
 import Test from "#lib/commands/test";
+import Jest from "#lib/commands/jest";
 
 class App {
     static cli () {
@@ -32,6 +33,7 @@ class App {
                 "git": Git,
                 "status": Status,
                 "test": Test,
+                "jest": Jest,
             },
         };
     }
