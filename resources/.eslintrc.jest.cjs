@@ -9,7 +9,7 @@ config.globals.bench = "readonly";
 
 config.settings ||= {};
 config.settings.jest = {
-    "version": require( "../node_modules/jest/package.json" ).version.split( "." )[0],
+    "version": 27, // require( "../node_modules/jest/package.json" ).version.split( "." )[0],
 };
 
 module.exports = config;
