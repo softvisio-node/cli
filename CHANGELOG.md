@@ -1,3 +1,10 @@
+## 2.5.0 (2021-05-29)
+
+### Raw commits log
+
+-   test refactored;
+-   test run and plan splitted to own commands;
+
 ## 2.4.0 (2021-05-28)
 
 ### Raw commits log
