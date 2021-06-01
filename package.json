@@ -58,11 +58,5 @@
         "semver": "^7.3.4",
         "terser": "^5.5.1",
         "typescript": "^4.2.3"
-    },
-    "lint": [
-        "*.*",
-        "bin/**",
-        "lib/**",
-        "resources/**"
-    ]
+    }
 }
