@@ -4,9 +4,9 @@ import "#core";
 
 import CLI from "#core/cli";
 
-import Rpc from "#lib/commands/rpc";
+import RPC from "#lib/commands/rpc";
 import Wiki from "#lib/commands/wiki";
-import Documentation from "#lib/commands/documentation";
+import Docs from "#lib/commands/docs";
 import Icons from "#lib/commands/icons";
 import Lint from "#lib/commands/lint";
 import Publish from "#lib/commands/publish";
@@ -22,9 +22,9 @@ class App {
         return {
             "summary": "Softvisio build tool.",
             "commands": {
-                "rpc": Rpc,
+                "rpc": RPC,
                 "wiki": Wiki,
-                "documentation": Documentation,
+                "docs": Docs,
                 "icons": Icons,
                 "lint": Lint,
                 "publish": Publish,
