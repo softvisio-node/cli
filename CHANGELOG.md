@@ -1,3 +1,14 @@
+## 2.6.0 (2021-06-01)
+
+### Raw commits log
+
+-   docs added;
+-   softvisio config integrated;
+-   lint config removed;
+-   yaml comments removed;
+-   force ansi on git pre-commit report;
+-   fs.rmdir -> fs.rm;
+
 ## 2.5.0 (2021-05-29)
 
 ### Raw commits log
