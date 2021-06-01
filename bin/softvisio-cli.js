@@ -6,6 +6,7 @@ import CLI from "#core/cli";
 
 import Rpc from "#lib/commands/rpc";
 import Wiki from "#lib/commands/wiki";
+import Documentation from "#lib/commands/documentation";
 import Icons from "#lib/commands/icons";
 import Lint from "#lib/commands/lint";
 import Publish from "#lib/commands/publish";
@@ -23,6 +24,7 @@ class App {
             "commands": {
                 "rpc": Rpc,
                 "wiki": Wiki,
+                "documentation": Documentation,
                 "icons": Icons,
                 "lint": Lint,
                 "publish": Publish,
