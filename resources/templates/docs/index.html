@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Core</title>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <link rel="icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@softvisio/core/docs/assets/theme/theme.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
+
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <a href="#changelog">CHANGELOG</a>
+            •
+            <a href="https://github.com/softvisio/core/discussions"><i class="far fa-comments"></i></a>
+            •
+            <a href="https://github.com/softvisio/core/issues"><i class="fas fa-bug"></i></a>
+            •
+            <a href="https://www.npmjs.com/package/@softvisio/core"><i class="fab fa-npm"></i></a>
+            •
+            <a href="https://github.com/softvisio/core"><i class="fab fa-github"></i></a>
+            •
+            <a href="javascript:" data-link-theme><i class="fas fa-adjust"></i> THEME</a>
+        </nav>
+        <div id="app"></div>
+        <script>
+            const repo = "softvisio/core";
+
+            window.$docsify = {
+                name: "core",
+                repo: "https://github.com/" + repo,
+                loadSidebar: true,
+                // logo: "assets/logo.png height='80px'",
+                auto2top: true,
+                relativePath: true,
+                maxLevel: 3,
+                externalLinkTarget: "_self",
+                subMaxLevel: 3,
+                alias: {
+                    ".*?/changelog": `//raw.githubusercontent.com/${repo}/main/CHANGELOG.md`,
+                },
+                search: {
+                    depth: 3,
+                },
+                tabs: {},
+            };
+        </script>
+        <script src="//cdn.jsdelivr.net/npm/@softvisio/core/docs/assets/theme/theme.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify"></script>
+        <script src="//cdn.jsdelivr.net/npm/prismjs"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify-tabs"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+    </body>
+</html>
