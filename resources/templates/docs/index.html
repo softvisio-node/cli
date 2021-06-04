@@ -10,27 +10,20 @@
         <link rel="icon" href="assets/favicon.ico" />
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@softvisio/cli/docs/assets/theme/theme.css" />
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
-
-        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
     </head>
     <body>
         <nav>
-            <a href="#changelog">CHANGELOG</a>
-            •
-            <a href="https://github.com/softvisio/core/discussions"><i class="far fa-comments"></i></a>
-            •
-            <a href="https://github.com/softvisio/core/issues"><i class="fas fa-bug"></i></a>
-            •
-            <a href="https://www.npmjs.com/package/@softvisio/core"><i class="fab fa-npm"></i></a>
-            •
-            <a href="https://github.com/softvisio/core"><i class="fab fa-github"></i></a>
-            •
+            <% for ( const link of links ) { -%>
+            <a href="<%- link.href %>"><%- link.iconCls ? `<i class="${link.iconCls}"></i>` : "" %><%- link.title ? ` ${link.title}` : "" %></a>
+            <% } -%> •
             <a href="javascript:" data-link-theme><i class="fas fa-adjust"></i> THEME</a>
         </nav>
         <div id="app"></div>
+
         <script>
             window.$docsify = <%- JSON.stringify( docsify ) %>;
         </script>
+
         <script src="//cdn.jsdelivr.net/npm/@softvisio/cli/docs/assets/theme/theme.js"></script>
         <script src="//cdn.jsdelivr.net/npm/docsify"></script>
         <script src="//cdn.jsdelivr.net/npm/prismjs"></script>
