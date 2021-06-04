@@ -1,3 +1,3 @@
-**Please, see full project documentation here:** [<%- docsLink %>](<%- docsLink %>)
+**Please, see full project documentation here:** [<%- siteURL %>](<%- siteURL %>)
 
-<%- README -%>
+<%- readmeContent -%>
