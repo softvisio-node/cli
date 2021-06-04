@@ -7,17 +7,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-        <link rel="icon" href="assets/favicon.ico" />
+        <% if ( favicon ) { -%>
+        <link rel="icon" href="<%- favicon %>" />
+        <% } -%>
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@softvisio/cli/docs/assets/theme/theme.css" />
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
     </head>
     <body>
-        <nav>
-            <% for ( const link of links ) { -%>
-            <a href="<%- link.href %>"><%- link.iconCls ? `<i class="${link.iconCls}"></i>` : "" %><%- link.title ? ` ${link.title}` : "" %></a>
-            <% } -%> •
-            <a href="javascript:" data-link-theme><i class="fas fa-adjust"></i> THEME</a>
-        </nav>
+        <nav><% for ( const link of links ) { -%> • <%- link %> <% } -%></nav>
         <div id="app"></div>
 
         <script>
