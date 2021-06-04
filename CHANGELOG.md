@@ -1,3 +1,18 @@
+## 2.7.0 (2021-06-04)
+
+**Raw commits log**
+
+-   docs generator updated;
+-   docs updated;
+-   changelog updated;
+-   docs config;
+-   moved to github;
+-   lintConfig removed;
+-   lintignore support added;
+-   code improvements;
+-   packages parser fixed;
+-   softvisio config merged with the package.json;
+
 ## 2.6.0 (2021-06-01)
 
 **Raw commits log**
