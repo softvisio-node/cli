@@ -22,11 +22,11 @@
         "#core": "@softvisio/core",
         "#core/*": "@softvisio/core/*",
         "#lib/*": "./lib/*.js",
-        "#assets/*": "./assets/*"
+        "#resources/*": "./resources/*"
     },
     "exports": {
         "./*": "./lib/*.js",
-        "./assets/*": "./assets/*"
+        "./resources/*": "./resources/*"
     },
     "bin": {
         "softvisio-cli": "bin/softvisio-cli.js"
