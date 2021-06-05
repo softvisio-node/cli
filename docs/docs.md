@@ -31,11 +31,11 @@ You need to use aliases.
 
 ```yaml
 aliases:
-    ".*?/external-file-alias": "https://external/file.md"
+    "/external-file-alias": "https://external/file.md"
 ```
 
 `_sidebar.md`
 
 ```
-[External file](#external-file-alias)
+[External file](/external-file-alias)
 ```

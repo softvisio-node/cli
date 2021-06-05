@@ -3,4 +3,4 @@
 
 **Links**
 
--   [CHANGE LOG](changelog)
+-   [CHANGE LOG](/changelog)
