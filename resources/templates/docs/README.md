@@ -1,5 +1,7 @@
-> :information_source: Please, see the full project documentation here: [**<%- siteURL %>**](<%- siteURL %>).
+## Overview
 
-> :warning: Do not edit. This file is generated automatocally by `@softvisio/cli`.
+## Install
 
-<%- readmeContent -%>
+```
+npm i <%- npmName %>
+```
