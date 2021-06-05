@@ -1,6 +1,5 @@
-**Please, see full project documentation here:**
-[<%- siteURL %>](<%- siteURL %>)
+> :information_source: Please, see the full project documentation here: [**<%- siteURL %>**](<%- siteURL %>).
 
-!> **Do not edit. This file is generated automatocally by `@softvisio/cli`.**
+> :no_entry: Do not edit. This file is generated automatocally by `@softvisio/cli`.
 
 <%- readmeContent -%>
