@@ -1,0 +1,15 @@
+# printWidth: 99999999 # inherited from .editorconfig "max_line_length"
+# tabWidth: 4 # inherited from .editorconfig "indent_size"
+# useTabs: false # inherited from .editorconfig "indent_style"
+semi: true
+singleQuote: false
+quoteProps: as-needed
+jsxSingleQuote: false
+trailingComma: es5
+bracketSpacing: true
+jsxBracketSameLine: false
+arrowParens: avoid
+proseWrap: preserve # TODO test
+htmlWhitespaceSensitivity: css
+vueIndentScriptAndStyle: false
+# endOfLine: lf # inherited from .editorconfig "end_of_line"
