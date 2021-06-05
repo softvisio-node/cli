@@ -1,3 +1,14 @@
+## 2.8.0 (2021-06-05)
+
+**Raw commits log**
+
+-   docs generator updated;
+-   git upstream code improvements;
+-   docs updated;
+-   docks init command added;
+-   homepage updated;
+-   result try/catch/parse methods renamed;
+
 ## 2.7.0 (2021-06-04)
 
 **Raw commits log**
