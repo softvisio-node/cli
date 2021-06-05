@@ -6,7 +6,7 @@
         "softvisio",
         "cli"
     ],
-    "homepage": "https://github.com/softvisio/cli",
+    "homepage": "https://softvisio.github.io/cli/",
     "bugs": {
         "url": "https://github.com/softvisio/cli/issues",
         "email": "zdm@softvisio.net"
