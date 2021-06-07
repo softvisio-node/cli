@@ -2,12 +2,12 @@ nav a {
     color: var(--link-color);
 }
 
-#goToTop {
+#gotoTop {
     position: fixed;
     bottom: 100px;
     right: 10px;
 }
 
-#goToTop a {
+#gotoTop a {
     color: var(--link-color);
 }

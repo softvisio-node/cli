@@ -32,12 +32,12 @@ class Theme {
 
         this.#setTheme( theme );
 
-        // set goToTop click handler
-        document.querySelectorAll( `a[href="#goToTop"]` ).forEach( el => ( el.onclick = this.#goToTop.bind( this ) ) );
+        // set gotoTop click handler
+        document.querySelectorAll( `a[href="#gotoTop"]` ).forEach( el => ( el.onclick = this.#gotoTop.bind( this ) ) );
     }
 
     // private
-    #goToTop ( e ) {
+    #gotoTop ( e ) {
         window.scroll( {
             "top": 0,
             "left": 0,
