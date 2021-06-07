@@ -1,6 +1,6 @@
 -   [Getting started](/)
 -   [Docs](docs.md)
 
-**Links**
+**LINKS**
 
--   [CHANGE LOG](/changelog)
+-   [Change log](/changelog)
