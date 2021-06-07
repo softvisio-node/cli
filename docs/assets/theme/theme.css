@@ -6,8 +6,8 @@ nav a {
     position: fixed;
     bottom: 100px;
     right: 10px;
-}
 
-#goToTop a {
-    color: var(--link-color);
+    a {
+        color: var(--link-color);
+    }
 }
