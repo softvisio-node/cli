@@ -28,12 +28,25 @@ class Theme {
         document.head.appendChild( this.#link );
 
         // add click listener
-        document.addEventListener( "click", this.#onClick.bind( this ) );
+        document.querySelectorAll( `a[href="#toggleTheme"]` ).forEach( el => ( el.onclick = this.#toggleTheme.bind( this ) ) );
 
         this.#setTheme( theme );
+
+        // set goToTop click handler
+        document.querySelectorAll( `a[href="#goToTop"]` ).forEach( el => ( el.onclick = this.#goToTop.bind( this ) ) );
     }
 
     // private
+    #goToTop ( e ) {
+        window.scroll( {
+            "top": 0,
+            "left": 0,
+            "behavior": "smooth",
+        } );
+
+        return false;
+    }
+
     #setTheme ( theme ) {
         this.#currentTheme = theme;
 
@@ -42,14 +55,10 @@ class Theme {
         localStorage.setItem( STORAGE_KEY, theme );
     }
 
-    #toggleTheme () {
+    #toggleTheme ( e ) {
         this.#setTheme( this.#currentTheme === "light" ? "dark" : "light" );
-    }
 
-    #onClick ( e ) {
-        if ( !e.target.hasAttribute( "data-link-theme" ) ) return;
-
-        this.#toggleTheme();
+        return false;
     }
 }
 

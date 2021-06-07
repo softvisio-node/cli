@@ -1,3 +1,13 @@
 nav a {
     color: var(--link-color);
 }
+
+#top {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+}
+
+#top a {
+    color: var(--link-color);
+}
