@@ -1,5 +1,5 @@
 -   [Getting started](/)
 
-**Links**
+**LINKS**
 
--   [CHANGE LOG](/changelog)
+-   [Change log](/changelog)
