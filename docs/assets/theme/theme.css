@@ -1,3 +1,7 @@
+:root {
+    --base-line-height: normal;
+}
+
 nav a {
     color: var(--link-color);
 }
@@ -10,4 +14,12 @@ nav a {
 
 #gotoTop a {
     color: var(--link-color);
+}
+
+toc .header {
+    font-weight: bold;
+}
+
+toc .link {
+    text-decoration: none;
 }

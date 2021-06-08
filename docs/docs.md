@@ -1,10 +1,14 @@
+<toc/></toc>
+
 # Options
 
-## name
+## Config
+
+### name
 
 Project name. Default value is `name` field value from the `package.json`.
 
-## siteURL
+### siteURL
 
 Documentation site URL. Default value is your repository upstream pages url.
 
@@ -12,7 +16,7 @@ Documentation site URL. Default value is your repository upstream pages url.
 
 Generate root `README.md`.
 
-## changelog
+### changelog
 
 Enable changelog integration. Possible values:
 
@@ -27,14 +31,14 @@ If changelog is enabled you can use `#changelog` link to display changelog.
 
 You need to use aliases.
 
-`.config.yaml`
+`.config.yaml`:
 
 ```yaml
 aliases:
     "/external-file-alias": "https://external/file.md"
 ```
 
-`_sidebar.md`
+`_sidebar.md`:
 
 ```
 [External file](/external-file-alias)
