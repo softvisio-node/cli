@@ -1,7 +1,7 @@
 const STORAGE_KEY = "theme";
 const THEMES = new Set( ["light", "dark"] );
 const DEFAULT_THEME = "light";
-const TOC_SELECTOR = ".markdown-section h1, h2, h3, h4, h5, h6";
+const TOC_SELECTOR = ".markdown-section h1, h2, h3, h4";
 
 class Theme {
     #currentTheme;
@@ -77,23 +77,29 @@ class Theme {
         header.textContent = "Table of Contents";
         tocEl.appendChild( header );
 
-        const lists = [tocEl];
-        let minLevel = 0,
-            currentLevel = 0;
+        const levels = {},
+            lists = [tocEl];
+
+        let currentLevel = 0;
 
         // find minimal heading level
         for ( const heading of headings ) {
             const tag = heading.tagName,
                 level = +tag.substr( 1 );
 
-            if ( !minLevel ) minLevel = level;
-            else if ( level < minLevel ) minLevel = level;
+            levels[level] = level;
+        }
+
+        const sortedLevels = Object.keys( levels ).sort();
+
+        for ( let n = 0; n < sortedLevels.length; n++ ) {
+            levels[sortedLevels[n]] = n + 1;
         }
 
         // create toc
         for ( const heading of headings ) {
             const tag = heading.tagName,
-                level = +tag.substr( 1 ) + 1 - minLevel;
+                level = levels[tag.substr( 1 )];
 
             let list;
 
