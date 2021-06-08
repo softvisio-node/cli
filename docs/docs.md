@@ -12,7 +12,7 @@ Project name. Default value is `name` field value from the `package.json`.
 
 Documentation site URL. Default value is your repository upstream pages url.
 
-## generateReadme
+### generateReadme
 
 Generate root `README.md`.
 
@@ -25,9 +25,9 @@ Enable changelog integration. Possible values:
 
 If changelog is enabled you can use `#changelog` link to display changelog.
 
-# FAQ
+## FAQ
 
-## How to add a link to the external file to the sidebar
+### How to add a link to the external file to the sidebar
 
 You need to use aliases.
 
