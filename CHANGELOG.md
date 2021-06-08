@@ -1,6 +1,8 @@
+# Change log
+
 ### 2.8.0 (2021-06-05)
 
-**Raw commits log**
+Changed:
 
 -   docs generator updated;
 -   git upstream code improvements;
@@ -11,7 +13,7 @@
 
 ### 2.7.0 (2021-06-04)
 
-**Raw commits log**
+Changed:
 
 -   docs generator updated;
 -   docs updated;
@@ -26,7 +28,7 @@
 
 ### 2.6.0 (2021-06-01)
 
-**Raw commits log**
+Changed:
 
 -   docs added;
 -   softvisio config integrated;
@@ -37,32 +39,32 @@
 
 ### 2.5.0 (2021-05-29)
 
-**Raw commits log**
+Changed:
 
 -   test refactored;
 -   test run and plan splitted to own commands;
 
 ### 2.4.0 (2021-05-28)
 
-**Raw commits log**
+Changed:
 
 -   test refactored;
 
 ### 2.3.8 (2021-05-24)
 
-**Raw commits log**
+Changed:
 
 -   tests ignore /bench/ pattern added;
 
 ### 2.3.7 (2021-05-24)
 
-**Raw commits log**
+Changed:
 
 -   yaml comments parser fixed for single-line comment;
 
 ### 2.3.6 (2021-05-19)
 
-**Raw commits log**
+Changed:
 
 -   mime moved to /;
 -   lint script removed;
@@ -70,7 +72,7 @@
 
 ### 2.3.5 (2021-05-17)
 
-**Raw commits log**
+Changed:
 
 -   tests on publish disabled;
 -   cli refactored;
@@ -78,39 +80,39 @@
 
 ### 2.3.4 (2021-05-15)
 
-**Raw commits log**
+Changed:
 
 -   eslint config for jest added;
 -   detect jest version;
 
 ### 2.3.3 (2021-05-15)
 
-**Raw commits log**
+Changed:
 
 -   test more cli options added;
 
 ### 2.3.2 (2021-05-15)
 
-**Raw commits log**
+Changed:
 
 -   test more cli options added;
 
 ### 2.3.1 (2021-05-15)
 
-**Raw commits log**
+Changed:
 
 -   jest integrated;
 
 ### 2.3.0 (2021-05-15)
 
-**Raw commits log**
+Changed:
 
 -   jest integrated;
 -   eslint jest support added;
 
 ### 2.2.2 (2021-05-13)
 
-**Raw commits log**
+Changed:
 
 -   filetree options updated;
 -   imports added;
@@ -120,14 +122,14 @@
 
 ### 2.2.1 (2021-05-11)
 
-**Raw commits log**
+Changed:
 
 -   use core getUserConfig;
 -   imports updated;
 
 ### 2.2.0 (2021-05-02)
 
-**Raw commits log**
+Changed:
 
 -   pre-release deps check fixed;
 -   deps updated;
@@ -137,34 +139,34 @@
 
 ### 2.1.0 (2021-04-30)
 
-**Raw commits log**
+Changed:
 
 -   semver module added;
 -   ls beta version mark added;
 
 ### 2.0.2 (2021-04-26)
 
-**Raw commits log**
+Changed:
 
 -   msgpack exports renamed;
 
 ### 2.0.1 (2021-04-26)
 
-**Raw commits log**
+Changed:
 
 -   css lint fixed;
 -   lint actions added;
 
 ### 2.0.0 (2021-04-25)
 
-**Raw commits log**
+Changed:
 
 -   ported to esm;
 -   read / write json using fs;
 
 ### 1.13.0 (2021-04-21)
 
-**Raw commits log**
+Changed:
 
 -   imports #resources;
 -   deps updated;
@@ -172,7 +174,7 @@
 
 ### 1.12.0 (2021-04-11)
 
-**Raw commits log**
+Changed:
 
 -   msgpack stream decoder;
 -   cssnano v5;
@@ -180,199 +182,199 @@
 
 ### 1.11.1 (2021-04-05)
 
-**Raw commits log**
+Changed:
 
 -   ls options fixed;
 
 ### 1.11.0 (2021-04-05)
 
-**Raw commits log**
+Changed:
 
 -   ls options updated;
 
 ### 1.10.0 (2021-04-01)
 
-**Raw commits log**
+Changed:
 
 -   json pre-parser added;
 
 ### 1.9.5 (2021-03-30)
 
-**Raw commits log**
+Changed:
 
 -   ls report fixed;
 
 ### 1.9.4 (2021-03-30)
 
-**Raw commits log**
+Changed:
 
 -   ls report updated;
 
 ### 1.9.3 (2021-03-29)
 
-**Raw commits log**
+Changed:
 
 -   ls report updated;
 
 ### 1.9.2 (2021-03-29)
 
-**Raw commits log**
+Changed:
 
 -   lint report updated;
 
 ### 1.9.1 (2021-03-27)
 
-**Raw commits log**
+Changed:
 
 -   pre-commit report fix;
 
 ### 1.9.0 (2021-03-27)
 
-**Raw commits log**
+Changed:
 
 -   pre-commit hook report;
 -   lint verbose option;
 
 ### 1.8.3 (2021-03-27)
 
-**Raw commits log**
+Changed:
 
 -   cli help updated;
 -   typo;
 
 ### 1.8.2 (2021-03-25)
 
-**Raw commits log**
+Changed:
 
 -   table options updated;
 
 ### 1.8.1 (2021-03-25)
 
-**Raw commits log**
+Changed:
 
 -   eslint rules updated;
 
 ### 1.8.0 (2021-03-24)
 
-**Raw commits log**
+Changed:
 
 -   lint log using table;
 
 ### 1.7.3 (2021-03-24)
 
-**Raw commits log**
+Changed:
 
 -   text table refactored;
 
 ### 1.7.2 (2021-03-23)
 
-**Raw commits log**
+Changed:
 
 -   line ending convert;
 -   string padEnd();
 
 ### 1.7.1 (2021-03-17)
 
-**Raw commits log**
+Changed:
 
 -   terser async fix;
 
 ### 1.7.0 (2021-03-15)
 
-**Raw commits log**
+Changed:
 
 -   docker build updated;
 
 ### 1.6.1 (2021-03-14)
 
-**Raw commits log**
+Changed:
 
 -   first release version check removed;
 
 ### 1.6.0 (2021-03-13)
 
-**Raw commits log**
+Changed:
 
 -   eslint do not ignore node_modules;
 
 ### 1.5.0 (2021-03-12)
 
-**Raw commits log**
+Changed:
 
 -   typescript support added;
 
 ### 1.4.2 (2021-03-10)
 
-**Raw commits log**
+Changed:
 
 -   docker-compose.yaml renamed to docker-stack.yaml;
 
 ### 1.4.1 (2021-03-09)
 
-**Raw commits log**
+Changed:
 
 -   tmp files unlinkSync() replaced with remove();
 
 ### 1.4.0 (2021-03-08)
 
-**Raw commits log**
+Changed:
 
 -   docker build moved to compose file;
 
 ### 1.3.0 (2021-03-03)
 
-**Raw commits log**
+Changed:
 
 -   deps updated;
 
 ### 1.3.0-rc.9 (2021-02-24)
 
-**Raw commits log**
+Changed:
 
 -   missing core-js dependency added;
 
 ### 1.3.0-rc.8 (2021-02-20)
 
-**Raw commits log**
+Changed:
 
 -   eslint comments rules added;
 
 ### 1.3.0-rc.7 (2021-02-17)
 
-**Raw commits log**
+Changed:
 
 -   package-lock removed;
 -   deps updated;
 
 ### 1.3.0-rc.6 (2021-02-13)
 
-**Raw commits log**
+Changed:
 
 -   deps updated;
 -   publish next command added;
 
 ### 1.3.0-rc.5 (2021-02-12)
 
-**Raw commits log**
+Changed:
 
 -   deps updated;
 
 ### 1.3.0-rc.4 (2021-02-12)
 
-**Raw commits log**
+Changed:
 
 -   util renamed to utils;
 
 ### 1.3.0-rc.3 (2021-02-11)
 
-**Raw commits log**
+Changed:
 
 -   release command renamed to publish;
 -   linked-workspaces renamed to packages;
 
 ### 1.3.0-rc.2 (2021-02-11)
 
-**Raw commits log**
+Changed:
 
 -   output colors updated;
 -   package version parser fixed;
@@ -380,7 +382,7 @@
 
 ### 1.3.0-rc.1 (2021-02-10)
 
-**Raw commits log**
+Changed:
 
 -   check next version on release fixed;
 -   deps updated;
@@ -389,7 +391,7 @@
 
 ### 1.3.0-rc.0 (2021-02-09)
 
-**Raw commits log**
+Changed:
 
 -   deps updated;
 -   colorize output;
@@ -400,14 +402,14 @@
 
 ### 1.2.0 (2021-02-03)
 
-**Raw commits log**
+Changed:
 
 -   deps updated;
 -   release --force option removed;
 
 ### 1.1.0 (2021-02-02)
 
-**Raw commits log**
+Changed:
 
 -   changelog refactored;
 -   release command refactored;
