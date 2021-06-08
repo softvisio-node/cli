@@ -1,5 +1,3 @@
-<toc></toc>
-
 # Overview
 
 ## Install

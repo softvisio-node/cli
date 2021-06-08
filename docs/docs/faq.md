@@ -1,5 +1,3 @@
-<toc/></toc>
-
 # FAQ
 
 ### How to add a link to the external file to the sidebar

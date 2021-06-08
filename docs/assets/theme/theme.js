@@ -1,7 +1,7 @@
 const STORAGE_KEY = "theme";
 const THEMES = new Set( ["light", "dark"] );
 const DEFAULT_THEME = "light";
-const TOC_SELECTOR = ".markdown-section h1, h2, h3";
+const TOC_SELECTOR = ".markdown-section h1, h2, h3, h4, h5, h6";
 
 class Theme {
     #currentTheme;
@@ -56,75 +56,77 @@ class Theme {
     }
 
     #docsifyHook ( hook, vm ) {
-        hook.doneEach( () => {
-            const tocEl = document.querySelector( "toc" );
+        hook.doneEach( this.#generateTOC.bind( this ) );
+    }
 
-            // no toc div found
-            if ( !tocEl ) return;
+    #generateTOC () {
+        const headings = document.querySelectorAll( TOC_SELECTOR );
 
-            const header = document.createElement( "div" );
-            header.classList.add( "header" );
-            header.textContent = "Table of Contents";
-            tocEl.appendChild( header );
+        // no headings found
+        if ( !headings.length ) return;
 
-            const headings = document.querySelectorAll( TOC_SELECTOR );
+        const tocEl = document.createElement( "toc" );
 
-            // no headings found
-            if ( !headings.length ) return;
+        const header = document.createElement( "div" );
+        header.classList.add( "header" );
+        header.textContent = "Table of Contents";
+        tocEl.appendChild( header );
 
-            const lists = [tocEl];
-            let minLevel = 0,
-                currentLevel = 0;
+        const lists = [tocEl];
+        let minLevel = 0,
+            currentLevel = 0;
 
-            // find minimal heading level
-            for ( const heading of headings ) {
-                const tag = heading.tagName,
-                    level = +tag.substr( 1 );
+        // find minimal heading level
+        for ( const heading of headings ) {
+            const tag = heading.tagName,
+                level = +tag.substr( 1 );
 
-                if ( !minLevel ) minLevel = level;
-                else if ( level < minLevel ) minLevel = level;
-            }
+            if ( !minLevel ) minLevel = level;
+            else if ( level < minLevel ) minLevel = level;
+        }
 
-            // create toc
-            for ( const heading of headings ) {
-                const tag = heading.tagName,
-                    level = +tag.substr( 1 ) + 1 - minLevel;
+        // create toc
+        for ( const heading of headings ) {
+            const tag = heading.tagName,
+                level = +tag.substr( 1 ) + 1 - minLevel;
 
-                let list;
+            let list;
 
-                if ( level !== currentLevel ) {
-                    if ( level > currentLevel ) {
-                        for ( let n = 0; n < level - currentLevel; n++ ) {
-                            list = document.createElement( "ul" );
+            if ( level !== currentLevel ) {
+                if ( level > currentLevel ) {
+                    for ( let n = 0; n < level - currentLevel; n++ ) {
+                        list = document.createElement( "ul" );
 
-                            lists[lists.length - 1].appendChild( list );
+                        lists[lists.length - 1].appendChild( list );
 
-                            lists.push( list );
-                        }
+                        lists.push( list );
                     }
-                    else {
-                        for ( let n = 0; n < currentLevel - level; n++ ) {
-                            lists.pop();
-                        }
+                }
+                else {
+                    for ( let n = 0; n < currentLevel - level; n++ ) {
+                        lists.pop();
                     }
-
-                    currentLevel = level;
                 }
 
-                list = lists[lists.length - 1];
-
-                const link = heading.querySelector( "a" ),
-                    li = document.createElement( "li" ),
-                    a = document.createElement( "a" );
-
-                a.setAttribute( "href", link.getAttribute( "href" ) );
-                a.textContent = link.textContent;
-                a.classList.add( "link" );
-
-                li.appendChild( a );
-                list.appendChild( li );
+                currentLevel = level;
             }
-        } );
+
+            list = lists[lists.length - 1];
+
+            const link = heading.querySelector( "a" ),
+                li = document.createElement( "li" ),
+                a = document.createElement( "a" );
+
+            a.setAttribute( "href", link.getAttribute( "href" ) );
+            a.textContent = link.textContent;
+            a.classList.add( "link" );
+
+            li.appendChild( a );
+            list.appendChild( li );
+        }
+
+        const article = document.querySelector( "article.markdown-section" );
+        article.insertBefore( tocEl, article.firstChild );
     }
 }
 

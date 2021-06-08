@@ -1,5 +1,3 @@
-<toc></toc>
-
 ### 2.8.0 (2021-06-05)
 
 **Raw commits log**
