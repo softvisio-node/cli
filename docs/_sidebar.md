@@ -1,5 +1,8 @@
--   [Getting started](/)
--   [Docs](docs.md)
+-   [CLI](/)
+
+-   Docs
+    -   [Docs](/docs.md)
+    -   [FAQ](/docs/faq.md)
 
 **LINKS**
 

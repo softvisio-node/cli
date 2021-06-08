@@ -2,6 +2,8 @@
 
 > :warning: Do not edit. This file is generated automatocally by `@softvisio/cli`.
 
+<toc></toc>
+
 # Overview
 
 ## Install
