@@ -25,6 +25,11 @@ class Theme {
 
     // private
     #gotoTop ( e ) {
+        const oldURL = window.location.href,
+            newURL = oldURL.replace( /\?.*/, "" );
+
+        if ( oldURL !== newURL ) history.pushState( {}, null, newURL );
+
         window.scroll( {
             "top": 0,
             "left": 0,
