@@ -20,7 +20,7 @@ import Test from "#lib/commands/test";
 class App {
     static cli () {
         return {
-            "summary": "Softvisio build tool.",
+            "title": "Softvisio build tool",
             "commands": {
                 "rpc": RPC,
                 "wiki": Wiki,
