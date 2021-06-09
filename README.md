@@ -2,10 +2,12 @@
 
 > :warning: Do not edit. This file is generated automatocally by `@softvisio/cli`.
 
-# Overview
+# Introduction
 
 ## Install
 
-```
+```shell
 npm i -g @softvisio/cli
 ```
+
+## Usage

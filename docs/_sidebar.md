@@ -1,4 +1,4 @@
--   [CLI](/)
+-   [Introduction](/)
 
 -   Docs
     -   [Docs](/docs.md)
