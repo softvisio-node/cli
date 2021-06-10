@@ -132,7 +132,7 @@ Documentation site URL. Default value is your repository upstream pages url.
 -   type: `Integer`
 -   default: 2
 
-Maximmum headings level to display in sidebar. Refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=submaxlevel) for more details.
+Maximum headings level to display in the sidebar. Refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=submaxlevel) for more details.
 
 ## FAQ
 
