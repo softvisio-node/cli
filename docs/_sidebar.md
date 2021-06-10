@@ -1,8 +1,5 @@
 -   [Introduction](/)
-
--   Docs
-    -   [Docs](/docs.md)
-    -   [FAQ](/docs/faq.md)
+-   [Docs](/docs.md)
 
 **LINKS**
 

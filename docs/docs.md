@@ -1,27 +1,138 @@
-# Options
+# Docs
 
-## Config
+Project documentation site generator.
 
-### name
+## Config `.config.xml`
 
-Project name. Default value is `name` field value from the `package.json`.
+Config should be location in `/docs/.config.xml`.
 
-### siteURL
+### aliases
 
-Documentation site URL. Default value is your repository upstream pages url.
+-   type: `Object`
+-   default: `null`
 
-### generateReadme
+Set of routes aliases in `alias`: `url` form. `alias` can be string or regular expression. For more detaild pls refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=alias).
 
-Generate root `README.md`.
+Example:
+
+```yaml
+aliases:
+    info: http://example.com/info.md
+```
+
+Use alias from markdown:
+
+```markdown
+[link text](/alias)
+```
+
+Use alias from html:
+
+```html
+<a href="#alias">link text</a>
+```
+
+### api
+
+-   type: `Array`
+-   default: `null`
+
+Array of API schemas location (relative to the project root directory). Documentation for enumerated schemas will be generated during docs build process.
+
+Example:
+
+```yaml
+api: [lib/api]
+```
 
 ### changelog
+
+-   type: `Boolean`|`String`
+-   default: `true`
 
 Enable changelog integration. Possible values:
 
 -   `true` - use `CHANGELOG.md` in `main` branch;
 -   `string` - changelog URL, relative URL resovled using your repo user content URL as base;
 
-If changelog is enabled you can use `#changelog` link to display changelog.
+If changelog is enabled `/changelog` alias created automatically.
+
+### favicon
+
+-   type: `String`
+-   default: `null`
+
+Set site favicon url. If not set but `logo` option is defined - your logo will be used as favicon.
+
+### generateReadme
+
+-   type: `Boolean`
+-   default: `true`
+
+Generate root `README.md` from docs `README.md`.
+
+### location
+
+-   type: `String`
+-   default: `docs`
+
+Documentation location path (relative to the project root directory).
+
+### logo
+
+-   type: `Boolean`, `String`, `Object`
+-   default: `false`
+
+Set site logo. Possible values:
+
+-   `false` - Logo is not used.
+-   `true` - Logo URL `assets/logo.png`, height `50px`.
+-   `String` - Logo URL. Height will be set to `50px`.
+-   `Object` - Logo configuration object:
+    -   `href` - Logo URL.
+    -   `width` - Logo width. Default: `null`.
+    -   `height` - Logo height. Default: `50px`.
+
+### name
+
+-   type: `String`
+-   default: `name` field from the project `package.json`
+
+Project name. Default value is `name` field value from the `package.json`.
+
+### prism
+
+-   type: `Array`
+-   default: ["javascript", "css", "html", "json", "json5", "yaml", "bash", "markdown"]
+
+List of [`prism.js`](https://prismjs.com) highlight confgirurations that will be attached to your documentation site.
+
+### rpc
+
+-   type: `Array`
+-   default: `null`
+
+Array of RPC schemas location (relative to the project root directory). Documentation for enumerated schemas will be generated during docs build process.
+
+Example:
+
+```yaml
+rpc: [lib/rpc]
+```
+
+### siteURL
+
+-   type: `String`
+-   default: your `git` upstream hosting pages url (if available)
+
+Documentation site URL. Default value is your repository upstream pages url.
+
+### subMaxLevel
+
+-   type: `Integer`
+-   default: 2
+
+Maximmum headings level to display in sidebar. Refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=submaxlevel) for more details.
 
 ## FAQ
 
