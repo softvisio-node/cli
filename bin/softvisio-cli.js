@@ -22,18 +22,18 @@ class App {
         return {
             "title": "Softvisio build tool",
             "commands": {
-                "rpc": RPC,
-                "wiki": Wiki,
-                "docs": Docs,
+                "docker": ["D", Docker],
+                "docs": ["d", Docs],
+                "git": Git,
                 "icons": Icons,
                 "lint": Lint,
-                "publish": Publish,
-                "ls": Ls,
                 "log": Log,
-                "docker": Docker,
-                "git": Git,
+                "ls": Ls,
+                "publish": Publish,
+                "rpc": RPC,
                 "status": Status,
                 "test": Test,
+                "wiki": Wiki,
             },
         };
     }
