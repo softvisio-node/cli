@@ -142,6 +142,6 @@ aliases:
 
 `_sidebar.md`:
 
-```md
+```markdown
 [External file](/external-file-alias)
 ```
