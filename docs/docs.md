@@ -100,13 +100,6 @@ Set site logo. Possible values:
 
 Project name. Default value is `name` field value from the `package.json`.
 
-### prism
-
--   type: `Array`
--   default: ["javascript", "css", "html", "json", "json5", "yaml", "bash", "markdown"]
-
-List of [`prism.js`](https://prismjs.com) highlight confgirurations that will be attached to your documentation site.
-
 ### rpc
 
 -   type: `Array`
@@ -149,6 +142,6 @@ aliases:
 
 `_sidebar.md`:
 
-```
+```md
 [External file](/external-file-alias)
 ```
