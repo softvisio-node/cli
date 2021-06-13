@@ -1,15 +1,14 @@
 const STORAGE_KEY = "theme";
 const THEMES = new Set( ["light", "dark"] );
-const DEFAULT_THEME = "light";
 const TOC_SELECTOR = ".markdown-section h1, h2, h3, h4";
 
 class Theme {
     #currentTheme;
 
     constructor () {
-        var theme = localStorage.getItem( STORAGE_KEY ) || DEFAULT_THEME;
+        var theme = localStorage.getItem( STORAGE_KEY );
 
-        if ( !THEMES.has( theme ) ) theme = DEFAULT_THEME;
+        if ( !theme || !THEMES.has( theme ) ) theme = window.matchMedia && window.matchMedia( "(prefers-color-scheme: dark)" ).matches ? "dark" : "light";
 
         // set toggleTheme click handler
         document.querySelectorAll( `a[href="#toggleTheme"]` ).forEach( el => ( el.onclick = this.#toggleTheme.bind( this ) ) );
@@ -21,6 +20,11 @@ class Theme {
 
         window.$docsify.plugins ||= [];
         window.$docsify.plugins.push( this.#docsifyHook.bind( this ) );
+
+        // listen for system dark mode change
+        window.matchMedia( "(prefers-color-scheme: dark)" ).addEventListener( "change", e => {
+            this.#setTheme( e.matches ? "dark" : "light" );
+        } );
     }
 
     // private
