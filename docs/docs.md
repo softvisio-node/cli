@@ -71,13 +71,6 @@ Set site favicon url. If not set but `logo` option is defined - your logo will b
 
 Generate root `README.md` from docs `README.md`.
 
-### location
-
--   type: `String`
--   default: `docs`
-
-Documentation location path (relative to the project root directory).
-
 ### logo
 
 -   type: `Boolean`, `String`, `Object`
