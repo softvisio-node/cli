@@ -23,3 +23,8 @@ toc .header {
 toc .link {
     text-decoration: none;
 }
+
+.sidebar-nav li p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
