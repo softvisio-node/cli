@@ -1,5 +1,24 @@
 # Changelog
 
+### 3.0.0-alpha.0 (2021-06-14)
+
+Changed:
+
+-   @softvisio/core v4;
+-   lint report updated;
+-   changelog generator updated;
+
+Added:
+
+-   docs command added;
+-   cli short commands names added;
+-   git static Upstream property added;
+
+Fixed:
+
+-   git pre-commit fix for lfs;
+-   code refactored
+
 ### 2.8.0 (2021-06-05)
 
 Changed:
