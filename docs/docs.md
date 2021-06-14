@@ -2,9 +2,9 @@
 
 Project documentation site generator.
 
-## Config `.config.xml`
+## Config `.docs.config.yaml`
 
-Config should be location in `/docs/.config.xml`.
+Config should be located in `/.docs.config.yaml` or `/docs/.docs.config.yaml`. Documentation generated relative to the config location.
 
 ### aliases
 
