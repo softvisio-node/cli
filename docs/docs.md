@@ -4,11 +4,11 @@ Project documentation site generator.
 
 ## Config `.docs.config.yaml`
 
-Config should be located in `/.docs.config.yaml` or `/docs/.docs.config.yaml`. Documentation generated relative to the config location.
+Config should be located in `/.docs.config.yaml` or `/docs/.docs.config.yaml`. Documentation will be generated relative to the config location.
 
 ### aliases
 
--   type: `Object`
+-   type: <Object\>
 -   default: `null`
 
 Set of routes aliases in `alias`: `url` form. `alias` can be string or regular expression. For more detaild pls refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=alias).
@@ -34,7 +34,7 @@ Use alias from html:
 
 ### api
 
--   type: `Array`
+-   type: <string[]\>
 -   default: `null`
 
 Array of API schemas location (relative to the project root directory). Documentation for enumerated schemas will be generated during docs build process.
@@ -47,55 +47,56 @@ api: [lib/api]
 
 ### changelog
 
--   type: `Boolean`|`String`
+-   type: <boolean\> | <string\>
 -   default: `true`
 
 Enable changelog integration. Possible values:
 
--   `true` - use `CHANGELOG.md` in `main` branch;
--   `string` - changelog URL, relative URL resovled using your repo user content URL as base;
+-   `false`: Disable changelog.
+-   `true`: Use `CHANGELOG.md` in `main` branch.
+-   `<string>`: Changelog URL, relative URL resovled using your repo user content URL as base.
 
 If changelog is enabled `/changelog` alias created automatically.
 
 ### favicon
 
--   type: `String`
+-   type: <string\>
 -   default: `null`
 
 Set site favicon url. If not set but `logo` option is defined - your logo will be used as favicon.
 
 ### generateReadme
 
--   type: `Boolean`
+-   type: <boolean\>
 -   default: `true`
 
 Generate root `README.md` from docs `README.md`.
 
 ### logo
 
--   type: `Boolean`, `String`, `Object`
+-   type: <boolean\> | <string\> | <Object\>
 -   default: `false`
 
 Set site logo. Possible values:
 
--   `false` - Logo is not used.
--   `true` - Logo URL `assets/logo.png`, height `50px`.
--   `String` - Logo URL. Height will be set to `50px`.
--   `Object` - Logo configuration object:
-    -   `href` - Logo URL.
-    -   `width` - Logo width. Default: `null`.
-    -   `height` - Logo height. Default: `50px`.
+-   `false`: Logo is not used.
+-   `true`: Logo URL `assets/logo.png`, height `50px`.
+-   <string\>: Logo URL. Height will be set to `50px`.
+-   <Object\>: Logo configuration object:
+    -   `href` <string\> Logo URL.
+    -   `width?` <intege\> Logo width. **Default**: `null`.
+    -   `height?` <integer\> Logo height. **Default**: `50px`.
 
 ### name
 
--   type: `String`
+-   type: <string\>
 -   default: `name` field from the project `package.json`
 
 Project name. Default value is `name` field value from the `package.json`.
 
 ### rpc
 
--   type: `Array`
+-   type: <string[]\>
 -   default: `null`
 
 Array of RPC schemas location (relative to the project root directory). Documentation for enumerated schemas will be generated during docs build process.
@@ -108,14 +109,14 @@ rpc: [lib/rpc]
 
 ### siteURL
 
--   type: `String`
+-   type: <string\>
 -   default: your `git` upstream hosting pages url (if available)
 
 Documentation site URL. Default value is your repository upstream pages url.
 
 ### subMaxLevel
 
--   type: `Integer`
+-   type: <integer\>
 -   default: 2
 
 Maximum headings level to display in the sidebar. Refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=submaxlevel) for more details.
