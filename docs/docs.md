@@ -2,6 +2,56 @@
 
 Project documentation site generator.
 
+## Guidelines
+
+### Data types
+
+Data types
+
+-   Data type definition should be placed in angle brackets. Example: <string\>.
+-   Primitive data type should be in the lowercase. Example: <boolean\>. List of primitive types:
+    -   <any\> any data type;
+    -   <string\>;
+    -   <number\>;
+    -   <integer\>;
+    -   <boolen\>;
+    -   <null\>;
+    -   <symbol\>;
+    -   <bigint\>;
+-   Object data types and classes names should start with the capital letter. List of the embedded object data types:
+    -   <Object\>;
+    -   <Array\>;
+    -   <Function\>;
+    -   <Promise\>;
+
+Parameters definition examples:
+
+```markdown
+-   `name` <string\> Mandatory parameter with the default value. **Default**: `null`.
+-   `name?` <Object\> Non mandatory parameter.
+-   `name` <string[]\> Typed array of strings.
+-   `name` <Array\> Array of any types.
+-   `name` <any[]\> Array of any types.
+-   `name` <Promise\> | <boolean\> Parameter with the several allowed types.
+-   `...args` <any\> Rest of the arguments.
+```
+
+For more examples refer to the [nodejs documentation](https://nodejs.org/api/).
+
+-   If parameter is optional parameter name should be ended with the `"?"` character. Example: `name?`.
+
+Method definition example:
+
+```markdown
+method( options, ...args )
+
+-   `options` <Object\> Options:
+    -   `name1?` <string\> Optional parameter.
+    -   `name2` <boolean\> Boolean parameter with the default value. **Default**: `true`.
+-   `...args` <any\> Any number of the arguments of the any type.
+-   Returns: <Promise\>
+```
+
 ## Config `.docs.config.yaml`
 
 Config should be located in `/.docs.config.yaml` or `/docs/.docs.config.yaml`. Documentation will be generated relative to the config location.
