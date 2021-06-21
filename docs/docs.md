@@ -54,7 +54,7 @@ Enable changelog integration. Possible values:
 
 -   `false`: Disable changelog.
 -   `true`: Use `CHANGELOG.md` in `main` branch.
--   `<string>`: Changelog URL, relative URL resovled using your repo user content URL as base.
+-   <string\>: Changelog URL, relative URL resovled using your repo user content URL as base.
 
 If changelog is enabled `/changelog` alias created automatically.
 
