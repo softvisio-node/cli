@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.0.0-beta.0 (2021-06-22)
+
+Fixed:
+
+-   docs sidebar compact fix;
+-   cli help updated;
+-   git max buffer size increased to 10M;
+-   typo fixed;
+
 ### 3.0.0-alpha.0 (2021-06-14)
 
 Changed:
