@@ -30,7 +30,7 @@ Project documentation site generator.
 
 #### **Example**
 
--   `name` <string\> Mandatory parameter with the default value. **Default**: `null`.
+-   `name` <string\> Mandatory parameter with the default value. **Default:** `null`.
 -   `name?` <Object\> Non mandatory parameter.
 -   `name` <string[]\> Typed array of strings.
 -   `name` <Array\> Array of any types.
@@ -41,7 +41,7 @@ Project documentation site generator.
 #### **Source**
 
 ```markdown
--   `name` <string\> Mandatory parameter with the default value. **Default**: `null`.
+-   `name` <string\> Mandatory parameter with the default value. **Default:** `null`.
 -   `name?` <Object\> Non mandatory parameter.
 -   `name` <string[]\> Typed array of strings.
 -   `name` <Array\> Array of any types.
@@ -66,7 +66,7 @@ method( options, ...args )
 
 -   `options` <Object\> Options:
     -   `name1?` <string\> Optional parameter.
-    -   `name2` <boolean\> Boolean parameter with the default value. **Default**: `true`.
+    -   `name2` <boolean\> Boolean parameter with the default value. **Default:** `true`.
 -   `...args` <any\> Any number of the arguments of the any type.
 -   Returns: <Promise\>
 
@@ -77,7 +77,7 @@ method( options, ...args )
 
 -   `options` <Object\> Options:
     -   `name1?` <string\> Optional parameter.
-    -   `name2` <boolean\> Boolean parameter with the default value. **Default**: `true`.
+    -   `name2` <boolean\> Boolean parameter with the default value. **Default:** `true`.
 -   `...args` <any\> Any number of the arguments of the any type.
 -   Returns: <Promise\>
 ```
@@ -166,8 +166,8 @@ Set site logo. Possible values:
 -   <string\>: Logo URL. Height will be set to `50px`.
 -   <Object\>: Logo configuration object:
     -   `href` <string\> Logo URL.
-    -   `width?` <intege\> Logo width. **Default**: `null`.
-    -   `height?` <integer\> Logo height. **Default**: `50px`.
+    -   `width?` <intege\> Logo width. **Default:** `null`.
+    -   `height?` <integer\> Logo height. **Default:** `50px`.
 
 ### name
 
