@@ -4,39 +4,64 @@ import "#core";
 
 import CLI from "#core/cli";
 
-import RPC from "#lib/commands/rpc";
-import Wiki from "#lib/commands/wiki";
-import Docs from "#lib/commands/docs";
-import Icons from "#lib/commands/icons";
-import Lint from "#lib/commands/lint";
-import Publish from "#lib/commands/publish";
-import Ls from "#lib/commands/ls";
-import Log from "#lib/commands/log";
-import Docker from "#lib/commands/docker";
-import Git from "#lib/commands/git";
-import Status from "#lib/commands/status";
-import Test from "#lib/commands/test";
-
 class App {
     static cli () {
         return {
             "title": "Softvisio build tool",
             "commands": {
-                "docker": ["D", Docker],
-                "docs": ["d", Docs],
-                "git": Git,
-                "icons": Icons,
-                "lint": Lint,
-                "log": Log,
-                "ls": Ls,
-                "publish": Publish,
-                "rpc": RPC,
-                "status": Status,
-                "test": Test,
-                "wiki": Wiki,
+                "docker": {
+                    "short": "D",
+                    "title": "docker tools",
+                    "module": () => new URL( "../lib/commands/docker.js", import.meta.url ),
+                },
+                "docs": {
+                    "short": "d",
+                    "title": "documentation tools",
+                    "module": () => new URL( "../lib/commands/docs.js", import.meta.url ),
+                },
+                "git": {
+                    "title": "git tools",
+                    "module": () => new URL( "../lib/commands/git.js", import.meta.url ),
+                },
+                "icons": {
+                    "title": "generate icons for cordova project",
+                    "module": () => new URL( "../lib/commands/icons.js", import.meta.url ),
+                },
+                "lint": {
+                    "title": "lint sources",
+                    "module": () => new URL( "../lib/commands/lint.js", import.meta.url ),
+                },
+                "log": {
+                    "title": "get changelog for unreleased changes",
+                    "module": () => new URL( "../lib/commands/log.js", import.meta.url ),
+                },
+                "ls": {
+                    "title": "list projects in workspace",
+                    "module": () => new URL( "../lib/commands/ls.js", import.meta.url ),
+                },
+                "publish": {
+                    "title": "release and publish the project",
+                    "module": () => new URL( "../lib/commands/publish.js", import.meta.url ),
+                },
+                "rpc": {
+                    "title": "run RPC service",
+                    "module": () => new URL( "../lib/commands/rpc.js", import.meta.url ),
+                },
+                "status": {
+                    "title": "prints project status",
+                    "module": () => new URL( "../lib/commands/status.js", import.meta.url ),
+                },
+                "test": {
+                    "title": "test suite",
+                    "module": () => new URL( "../lib/commands/test.js", import.meta.url ),
+                },
+                "wiki": {
+                    "title": "wiki tools",
+                    "module": () => new URL( "../lib/commands/wiki.js", import.meta.url ),
+                },
             },
         };
     }
 }
 
-CLI.parse( App );
+await CLI.parse( App );
