@@ -6,6 +6,6 @@
 -   [API v1](/api-v1.md)
 -   [RPC v1](/rpc-v1.md)
 
-**LINKS**
+**Links**
 
 -   [Changelog](/changelog)

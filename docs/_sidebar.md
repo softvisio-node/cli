@@ -1,6 +1,6 @@
 -   [Introduction](/)
 -   [Docs](/docs.md)
 
-**LINKS**
+**Links**
 
 -   [Changelog](/changelog)
