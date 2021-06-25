@@ -153,7 +153,7 @@ class Theme {
 
         content = content.replaceAll( /\\?<(\w+)(\[\])?\\?>/g, ( match, type, array ) => {
             if ( types[type] ) {
-                return `[<${type}${array ?? ""}\\>](${types[type]})`;
+                return `<[${type}${array ?? ""}](${types[type]})\\>`;
             }
             else {
                 return match;
