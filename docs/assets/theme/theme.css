@@ -22,6 +22,16 @@ toc .header {
 
 toc .link {
     text-decoration: none;
+    color: var(--link-color) !important;
+}
+
+article a.data-type-tag {
+    text-decoration: none !important;
+    color: var(--code-theme-tag) !important;
+}
+
+article a.data-type-tag:hover {
+    text-decoration: underline !important;
 }
 
 .sidebar-nav li p {

@@ -68,15 +68,15 @@ class Theme {
         hook.beforeEach( this.#linkifyTypes.bind( this ) );
 
         hook.doneEach( this.#generateTOC.bind( this ) );
+        hook.doneEach( this.#styleTypes.bind( this ) );
     }
 
+    // XXX skip pre
     #linkifyTypes ( content ) {
         const types = window.$docsify.types;
 
-        if ( !types ) return content;
-
         content = content.replaceAll( /\\?<([\w.]+)(\[\])?\\?>/g, ( match, type, array ) => {
-            if ( types[type] ) {
+            if ( type in types ) {
                 return `<[${type}${array ?? ""}](${types[type]})\\>`;
             }
             else {
@@ -161,6 +161,19 @@ class Theme {
 
         const article = document.querySelector( "article.markdown-section" );
         article.insertBefore( tocEl, article.firstChild );
+    }
+
+    #styleTypes () {
+        const links = document.querySelectorAll( "article.markdown-section a" ),
+            types = window.$docsify.types;
+
+        for ( const link of links ) {
+            const type = link.textContent.replace( "[]", "" );
+
+            if ( !( type in types ) ) continue;
+
+            link.classList.add( "data-type-tag" );
+        }
     }
 }
 
