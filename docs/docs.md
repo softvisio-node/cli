@@ -201,9 +201,22 @@ Documentation site URL. Default value is your repository upstream pages url.
 ### subMaxLevel
 
 -   type: <integer\>
--   default: 2
+-   default: `2`
 
 Maximum headings level to display in the sidebar. Refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=submaxlevel) for more details.
+
+### types
+
+-   type: <Object\>
+-   default: Standard pre-defined `javascript` and `nodejs` data types.
+
+Object of custom data types and links for your project. Example:
+
+```yaml
+types:
+    File: "/file.md#Class: file"
+    ExternalType: http://example.com/types#external
+```
 
 ## FAQ
 
