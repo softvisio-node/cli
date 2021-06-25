@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.0.0 (2021-06-25)
+
+Changed:
+
+-   docs types linkification added;
+-   docs updated;
+-   deps updated;
+-   cli commands refactored;
+
 ### 3.0.0-beta.1 (2021-06-22)
 
 Added:
