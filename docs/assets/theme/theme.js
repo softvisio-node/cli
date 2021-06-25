@@ -70,6 +70,23 @@ class Theme {
         hook.doneEach( this.#generateTOC.bind( this ) );
     }
 
+    #linkifyTypes ( content ) {
+        const types = window.$docsify.types;
+
+        if ( !types ) return content;
+
+        content = content.replaceAll( /\\?<([\w.]+)(\[\])?\\?>/g, ( match, type, array ) => {
+            if ( types[type] ) {
+                return `<[${type}${array ?? ""}](${types[type]})\\>`;
+            }
+            else {
+                return match;
+            }
+        } );
+
+        return content;
+    }
+
     #generateTOC () {
         const headings = document.querySelectorAll( TOC_SELECTOR );
 
@@ -144,23 +161,6 @@ class Theme {
 
         const article = document.querySelector( "article.markdown-section" );
         article.insertBefore( tocEl, article.firstChild );
-    }
-
-    #linkifyTypes ( content ) {
-        const types = window.$docsify.types;
-
-        if ( !types ) return content;
-
-        content = content.replaceAll( /\\?<(\w+)(\[\])?\\?>/g, ( match, type, array ) => {
-            if ( types[type] ) {
-                return `<[${type}${array ?? ""}](${types[type]})\\>`;
-            }
-            else {
-                return match;
-            }
-        } );
-
-        return content;
     }
 }
 

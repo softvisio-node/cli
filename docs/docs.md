@@ -13,7 +13,7 @@ Project documentation site generator.
     -   <string\>;
     -   <number\>;
     -   <integer\>;
-    -   <boolen\>;
+    -   <boolean\>;
     -   <null\>;
     -   <symbol\>;
     -   <bigint\>;
@@ -168,7 +168,7 @@ Set site logo. Possible values:
 -   <string\>: Logo URL. Height will be set to `50px`.
 -   <Object\>: Logo configuration object:
     -   `href` <string\> Logo URL.
-    -   `width?` <intege\> Logo width. **Default:** `null`.
+    -   `width?` <integer\> Logo width. **Default:** `null`.
     -   `height?` <integer\> Logo height. **Default:** `50px`.
 
 ### name
