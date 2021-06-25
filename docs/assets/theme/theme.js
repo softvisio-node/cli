@@ -65,6 +65,8 @@ class Theme {
     }
 
     #docsifyHook ( hook, vm ) {
+        hook.beforeEach( this.#linkifyTypes.bind( this ) );
+
         hook.doneEach( this.#generateTOC.bind( this ) );
     }
 
@@ -142,6 +144,23 @@ class Theme {
 
         const article = document.querySelector( "article.markdown-section" );
         article.insertBefore( tocEl, article.firstChild );
+    }
+
+    #linkifyTypes ( content ) {
+        const types = window.$docsify.types;
+
+        if ( !types ) return content;
+
+        content = content.replaceAll( /\\?<(\w+)(?:\[\])?\\?>/g, ( match, type ) => {
+            if ( types[type] ) {
+                return `[<${type}\\>](${types[type]})`;
+            }
+            else {
+                return match;
+            }
+        } );
+
+        return content;
     }
 }
 
