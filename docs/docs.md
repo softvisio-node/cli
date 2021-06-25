@@ -31,7 +31,7 @@ Project documentation site generator.
 #### **Example**
 
 -   `name` <string\> Mandatory parameter with the default value. **Default:** `null`.
--   `name` <"left" | "right"\> Enumerated string values. **Default:** `left`.
+-   `name` <string\> Enumerated string values. Possible values: `"left"`, `"right"`. **Default:** `"left"`.
 -   `name?` <Object\> Non mandatory parameter.
 -   `name` <string[]\> Typed array of strings.
 -   `name` <Array\> Array of any types.
@@ -43,7 +43,7 @@ Project documentation site generator.
 
 ```markdown
 -   `name` <string\> Mandatory parameter with the default value. **Default:** `null`.
--   `name` <"left" | "right"\> Enumerated string values. **Default:** `left`.
+-   `name` <string\> Enumerated string values. Possible values: `"left"`, `"right"`. **Default:** `"left"`.
 -   `name?` <Object\> Non mandatory parameter.
 -   `name` <string[]\> Typed array of strings.
 -   `name` <Array\> Array of any types.
