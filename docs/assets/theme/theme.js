@@ -71,20 +71,30 @@ class Theme {
         hook.doneEach( this.#styleTypes.bind( this ) );
     }
 
-    // XXX skip pre
     #linkifyTypes ( content ) {
         const types = window.$docsify.types;
 
-        content = content.replaceAll( /\\?<([\w.]+)(\[\])?\\?>/g, ( match, type, array ) => {
-            if ( type in types ) {
-                return `<[${type}${array ?? ""}](${types[type]})\\>`;
-            }
-            else {
-                return match;
-            }
-        } );
+        const blocks = content.split( /(```)/ );
 
-        return content;
+        var code;
+
+        for ( let n = 0; n < blocks.length; n++ ) {
+            if ( blocks[n] === "```" ) {
+                code = !code;
+            }
+            else if ( !code ) {
+                blocks[n] = blocks[n].replaceAll( /\\?<([\w.]+)(\[\])?\\?>/g, ( match, type, array ) => {
+                    if ( type in types ) {
+                        return `<[${type}${array ?? ""}](${types[type]})\\>`;
+                    }
+                    else {
+                        return match;
+                    }
+                } );
+            }
+        }
+
+        return blocks.join( "" );
     }
 
     #generateTOC () {
