@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.1.0 (2021-06-26)
+
+Added:
+
+-   changelog template updated
+
 ### 3.0.0 (2021-06-25)
 
 Changed:
