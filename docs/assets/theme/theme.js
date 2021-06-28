@@ -1,6 +1,6 @@
 const STORAGE_KEY = "theme";
 const THEMES = new Set( ["light", "dark"] );
-const TOC_SELECTOR = ".markdown-section h1, h2, h3, h4";
+const TOC_SELECTOR = "h1, h2, h3, h4";
 
 class Theme {
     #currentTheme;
@@ -97,18 +97,74 @@ class Theme {
         return blocks.join( "" );
     }
 
+    #styleTypes () {
+        const links = document.querySelectorAll( "article.markdown-section a" ),
+            types = window.$docsify.types;
+
+        for ( const link of links ) {
+            const type = link.textContent.replace( "[]", "" );
+
+            if ( !( type in types ) ) continue;
+
+            link.classList.add( "data-type-tag" );
+        }
+    }
+
     #generateTOC () {
-        const headings = document.querySelectorAll( TOC_SELECTOR );
+        const article = document.querySelector( "article.markdown-section" ),
+            headings = [...article.querySelectorAll( TOC_SELECTOR )],
+            toc = this.#generateTOCEl( headings );
+
+        if ( !toc ) return;
+
+        const header = document.createElement( "p" );
+        header.classList.add( "header" );
+        header.textContent = "Table of Contents";
+        toc.insertBefore( header, toc.firstChild );
+
+        article.insertBefore( toc, article.firstChild );
+
+        // generate sub-toc
+        while ( headings.length ) {
+            const heading = headings.shift();
+
+            this.#generateSubTOC( heading, headings );
+        }
+    }
+
+    #generateSubTOC ( el, headings ) {
+        const topLevel = +el.tagName.substr( 1 );
+
+        if ( topLevel === 1 ) return;
+
+        const subHeadings = [];
+
+        for ( const heading of headings ) {
+            const level = +heading.tagName.substr( 1 );
+
+            if ( level <= topLevel ) break;
+
+            subHeadings.push( heading );
+        }
+
+        if ( !subHeadings.length ) return;
+
+        const toc = this.#generateTOCEl( subHeadings );
+
+        const header = document.createElement( "p" );
+        header.classList.add( "header" );
+        header.textContent = "In this chapter";
+        toc.insertBefore( header, toc.firstChild );
+
+        el.after( toc );
+    }
+
+    #generateTOCEl ( headings ) {
 
         // no headings found
         if ( !headings.length ) return;
 
         const tocEl = document.createElement( "toc" );
-
-        const header = document.createElement( "div" );
-        header.classList.add( "header" );
-        header.textContent = "Table of Contents";
-        tocEl.appendChild( header );
 
         const levels = {},
             lists = [tocEl];
@@ -169,21 +225,7 @@ class Theme {
             list.appendChild( li );
         }
 
-        const article = document.querySelector( "article.markdown-section" );
-        article.insertBefore( tocEl, article.firstChild );
-    }
-
-    #styleTypes () {
-        const links = document.querySelectorAll( "article.markdown-section a" ),
-            types = window.$docsify.types;
-
-        for ( const link of links ) {
-            const type = link.textContent.replace( "[]", "" );
-
-            if ( !( type in types ) ) continue;
-
-            link.classList.add( "data-type-tag" );
-        }
+        return tocEl;
     }
 }
 

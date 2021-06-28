@@ -22,7 +22,8 @@ toc .header {
 
 toc .link {
     text-decoration: none;
-    color: var(--link-color) !important;
+    /* color: var(--link-color) !important; */
+    color: #58a6ff !important;
 }
 
 article a.data-type-tag {
