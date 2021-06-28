@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.2.3 (2021-06-28)
+
+Fixed:
+
+-   docs adding used types only
+
 ### 3.2.2 (2021-06-28)
 
 Fixed:
