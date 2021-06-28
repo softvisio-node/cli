@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.2.1 (2021-06-28)
+
+Fixed:
+
+-   docs table style fixed
+
 ### 3.2.0 (2021-06-28)
 
 Added:
