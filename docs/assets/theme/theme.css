@@ -21,9 +21,6 @@ toc .header {
     font-weight: bold;
 }
 
-toc .sub-header {
-}
-
 toc .link {
     text-decoration: none;
     /* color: var(--link-color) !important; */

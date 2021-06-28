@@ -88,7 +88,7 @@ method( options, ...args )
 
 ## Config `.docs.config.yaml`
 
-Config should be located in `/.docs.config.yaml` or `/docs/.docs.config.yaml`. Documentation will be generated relative to the config location.
+Config should be located in the `/.docs.config.yaml` or the `/docs/.docs.config.yaml` folders. Documentation will be generated relative to the config location.
 
 ### aliases
 

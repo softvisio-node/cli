@@ -151,11 +151,6 @@ class Theme {
 
         const toc = this.#generateTOCEl( subHeadings );
 
-        const header = document.createElement( "p" );
-        header.classList.add( "sub-header" );
-        header.textContent = "In this chapter";
-        toc.insertBefore( header, toc.firstChild );
-
         el.after( toc );
     }
 
