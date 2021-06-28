@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.2.4 (2021-06-28)
+
+Fixed:
+
+-   docs updated
+-   docs sort docsify options
+
 ### 3.2.3 (2021-06-28)
 
 Fixed:
