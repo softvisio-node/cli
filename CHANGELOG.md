@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.2.5 (2021-06-28)
+
+Fixed:
+
+-   docs sub-toc header removed
+
 ### 3.2.4 (2021-06-28)
 
 Fixed:
