@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.1.1 (2021-06-28)
+
+Fixed:
+
+-   deps updated
+-   rpc server exit on error with code 3
+
 ### 3.1.0 (2021-06-26)
 
 Added:
