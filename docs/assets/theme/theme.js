@@ -83,7 +83,7 @@ class Theme {
                 code = !code;
             }
             else if ( !code ) {
-                blocks[n] = blocks[n].replaceAll( /\\?<([\w.]+)(\[\])?\\?>/g, ( match, type, array ) => {
+                blocks[n] = blocks[n].replaceAll( /<([\w.]+)(\[\])?\\>/g, ( match, type, array ) => {
                     if ( type in types ) {
                         return `<[${type}${array ?? ""}](${types[type]})\\>`;
                     }
