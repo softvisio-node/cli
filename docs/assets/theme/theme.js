@@ -74,6 +74,8 @@ class Theme {
     #linkifyTypes ( content ) {
         const types = window.$docsify.types;
 
+        if ( !types ) return;
+
         const blocks = content.split( /(````*)(.+?\1)/s );
 
         for ( let n = 0; n < blocks.length; n++ ) {
