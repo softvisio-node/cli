@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.2.6 (2021-06-29)
+
+Fixed:
+
+-   docs markdown code blocks parser improved
+-   docs types regexp fixed
+
 ### 3.2.5 (2021-06-28)
 
 Fixed:
