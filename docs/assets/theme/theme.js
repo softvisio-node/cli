@@ -74,24 +74,24 @@ class Theme {
     #linkifyTypes ( content ) {
         const types = window.$docsify.types;
 
-        const blocks = content.split( /(```)/ );
-
-        var code;
+        const blocks = content.split( /(````*)(.+?\1)/s );
 
         for ( let n = 0; n < blocks.length; n++ ) {
-            if ( blocks[n] === "```" ) {
-                code = !code;
-            }
-            else if ( !code ) {
-                blocks[n] = blocks[n].replaceAll( /<([\w.]+)(\[\])?\\>/g, ( match, type, array ) => {
-                    if ( type in types ) {
-                        return `<[${type}${array ?? ""}](${types[type]})\\>`;
-                    }
-                    else {
-                        return match;
-                    }
-                } );
-            }
+
+            // code block start
+            if ( blocks[n].startsWith( "```" ) ) continue;
+
+            // code block body
+            if ( n && blocks[n - 1].startsWith( "```" ) ) continue;
+
+            blocks[n] = blocks[n].replaceAll( /<([\w.]+)(\[\])?\\>/g, ( match, type, array ) => {
+                if ( type in types ) {
+                    return `<[${type}${array ?? ""}](${types[type]})\\>`;
+                }
+                else {
+                    return match;
+                }
+            } );
         }
 
         return blocks.join( "" );
