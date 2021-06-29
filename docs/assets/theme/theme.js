@@ -100,8 +100,11 @@ class Theme {
     }
 
     #styleTypes () {
-        const links = document.querySelectorAll( "article.markdown-section a" ),
-            types = window.$docsify.types;
+        const types = window.$docsify.types;
+
+        if ( !types ) return;
+
+        const links = document.querySelectorAll( "article.markdown-section a" );
 
         for ( const link of links ) {
             const type = link.textContent.replace( "[]", "" );
