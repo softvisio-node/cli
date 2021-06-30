@@ -215,7 +215,7 @@ Object of custom data types and links for your project. Example:
 ```yaml
 types:
     File: "/file.md#Class: file"
-    ExternalType: http://example.com/types#external
+    ExternalType: "http://example.com/types#external"
 ```
 
 ## FAQ
