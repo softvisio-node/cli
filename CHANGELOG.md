@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.2.7 (2021-07-04)
+
+Fixed:
+
+-   docs readme generator fixed
+-   docs updated
+-   docs templates updated
+
 ### 3.2.6 (2021-06-29)
 
 Fixed:
