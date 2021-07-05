@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.2.8 (2021-07-05)
+
+Fixed:
+
+-   code improvements
+
 ### 3.2.7 (2021-07-04)
 
 Fixed:
