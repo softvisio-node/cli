@@ -69,6 +69,10 @@ export default {
     "Buffer": "https://nodejs.org/api/buffer.html#buffer_class_buffer",
     "URL": "https://nodejs.org/api/all.html#url_the_whatwg_url_api",
     "URLSearchParams": "https://nodejs.org/api/url.html#url_class_urlsearchparams",
+    "stream.Readable": "https://nodejs.org/api/stream.html#stream_class_stream_readable",
+    "stream.Writable": "https://nodejs.org/api/stream.html#stream_class_stream_writable",
+    "stream.Duplex": "https://nodejs.org/api/stream.html#stream_class_stream_duplex",
+    "stream.Transform": "https://nodejs.org/api/stream.html#stream_class_stream_transform",
 
     // global types
     "Result": "https://softvisio.github.io/result/#/?id=class-result",
