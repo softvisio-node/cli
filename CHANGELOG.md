@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.2.10 (2021-07-05)
+
+Fixed:
+
+-   docs types updated
+
 ### 3.2.9 (2021-07-05)
 
 Fixed:
