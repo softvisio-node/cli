@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.2.11 (2021-07-05)
+
+Fixed:
+
+-   status docs url added
+-   L sortcut for log command added
+-   docs updated
+
 ### 3.2.10 (2021-07-05)
 
 Fixed:
