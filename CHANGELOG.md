@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.3.0 (2021-07-06)
+
+Added:
+
+-   github pages api integrated
+
+Fixed:
+
+-   docs build readme order fixed
+
 ### 3.2.11 (2021-07-05)
 
 Fixed:
