@@ -3,5 +3,10 @@ logo: false
 aliases:
   /api: https://raw.githubusercontent.com/softvisio/core/main/docs/api.md
 
-api: [lib/api]
-rpc: [lib/rpc]
+api:
+  location: lib/api
+  url: wss://domain.com/api/
+
+rpc:
+  location: lib/rpc
+  url: ws://domain:8080/
