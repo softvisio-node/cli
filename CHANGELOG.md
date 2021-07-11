@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.4.0 (2021-07-11)
+
+Added:
+
+-   docs config options updated
+
 ### 3.3.0 (2021-07-06)
 
 Added:
