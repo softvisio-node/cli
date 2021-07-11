@@ -118,15 +118,19 @@ Use alias from html:
 
 ### api
 
--   type: <string[]\>
+-   type: <Object\>
+    -   `location` <string\> API schema location, relative to the project root directory.
+    -   `url` <string\> API server url.
 -   default: `null`
 
-Array of API schemas location (relative to the project root directory). Documentation for enumerated schemas will be generated during docs build process.
+Options for API schema documentation generator.
 
 Example:
 
 ```yaml
-api: [lib/api]
+api:
+    location: lib/api
+    url: wss://domain.com/api/
 ```
 
 ### changelog
@@ -180,15 +184,19 @@ Project name. Default value is `name` field value from the `package.json`.
 
 ### rpc
 
--   type: <string[]\>
+-   type: <Object\>
+    -   `location` <string\> RPC schema location, relative to the project root directory.
+    -   `url` <string\> RPC server url.
 -   default: `null`
 
-Array of RPC schemas location (relative to the project root directory). Documentation for enumerated schemas will be generated during docs build process.
+Options for RPC schema documentation generator.
 
 Example:
 
 ```yaml
-rpc: [lib/rpc]
+rpc:
+    location: lib/rpc
+    url: wss://service:8080/
 ```
 
 ### siteURL
