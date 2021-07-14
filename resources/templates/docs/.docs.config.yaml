@@ -4,6 +4,7 @@ types:
 
 externalTypes:
   - https://softvisio.github.io/core/
+  - https://softvisio.github.io/result/
 
 aliases:
   /api: https://raw.githubusercontent.com/softvisio/core/main/docs/api.md

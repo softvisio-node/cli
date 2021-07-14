@@ -73,7 +73,4 @@ export default {
     "stream.Writable": "https://nodejs.org/api/stream.html#stream_class_stream_writable",
     "stream.Duplex": "https://nodejs.org/api/stream.html#stream_class_stream_duplex",
     "stream.Transform": "https://nodejs.org/api/stream.html#stream_class_stream_transform",
-
-    // global types
-    "Result": "https://softvisio.github.io/result/#/?id=class-result",
 };
