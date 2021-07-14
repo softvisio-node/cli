@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.5.0 (2021-07-14)
+
+Added:
+
+-   docs externalTypes option added
+
 ### 3.4.0 (2021-07-11)
 
 Added:
