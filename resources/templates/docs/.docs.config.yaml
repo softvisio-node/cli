@@ -1,5 +1,10 @@
 logo: false
 
+types:
+
+externalTypes:
+  - https://softvisio.github.io/core/
+
 aliases:
   /api: https://raw.githubusercontent.com/softvisio/core/main/docs/api.md
 
