@@ -226,6 +226,18 @@ types:
     ExternalType: "http://example.com/types#external"
 ```
 
+### externalTypes
+
+-   type: <Array\>
+-   default: `null`.
+
+Array of links to the external projects config files to load external types:
+
+```yaml
+externalTypes:
+    - https://softvisio.github.io/core/.docs.config.yaml
+```
+
 ## FAQ
 
 ### How to add a link to the external file to the sidebar
