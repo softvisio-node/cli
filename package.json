@@ -19,7 +19,6 @@
     "author": "zdm <zdm@softvisio.net>",
     "type": "module",
     "imports": {
-        "#core": "@softvisio/core",
         "#core/*": "@softvisio/core/*",
         "#lib/*": "./lib/*.js",
         "#resources/*": "./resources/*"

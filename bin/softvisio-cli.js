@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import "#core";
+import "#core/result";
 
 import CLI from "#core/cli";
 
