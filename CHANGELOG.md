@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.6.0 (2021-07-17)
+
+Changed:
+
+-   File class renamed to LintFile
+-   Src class renamed to Lint
+-   lint api schemas during generation
+-   utils moved to @softvisio/utils
+
 ### 3.5.0 (2021-07-14)
 
 Added:
