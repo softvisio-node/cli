@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.6.1 (2021-07-20)
+
+Fixed:
+
+-   mime refactored
+-   fs.tmp refactored
+
 ### 3.6.0 (2021-07-17)
 
 Changed:
