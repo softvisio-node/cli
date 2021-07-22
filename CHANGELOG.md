@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.6.2 (2021-07-22)
+
+Fixed:
+
+-   msgpack stream updated
+
 ### 3.6.1 (2021-07-20)
 
 Fixed:
