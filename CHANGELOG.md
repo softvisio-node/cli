@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.6.3 (2021-07-25)
+
+Added:
+
+-   docs Infinity type added
+
 ### 3.6.2 (2021-07-22)
 
 Fixed:
