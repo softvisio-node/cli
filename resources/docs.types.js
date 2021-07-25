@@ -24,6 +24,7 @@ export default {
     "Number": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
     "BigInt": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt",
     "Date": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "Infinity": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
 
     // text processing
     "String": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
