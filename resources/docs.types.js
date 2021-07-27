@@ -66,6 +66,10 @@ export default {
     "TypedArray": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray",
     "ArrayBufferView": "https://developer.mozilla.org/en-US/docs/Web/API/ArrayBufferView",
 
+    // web API types
+    "Blob": "https://developer.mozilla.org/en-US/docs/Web/API/Blob",
+    "File": "https://developer.mozilla.org/en-US/docs/Web/API/File",
+
     // nodejs types
     "Buffer": "https://nodejs.org/api/buffer.html#buffer_class_buffer",
     "URL": "https://nodejs.org/api/all.html#url_the_whatwg_url_api",
