@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.7.2 (2021-07-28)
+
+Changed:
+
+-   fs.config moved to the config
+-   fs.resolve moved to the utils.resolve
+-   fs.FileTree moved to the file-tree
+-   fs.tmp moveed to tmp
+
 ### 3.7.1 (2021-07-28)
 
 Fixed:
