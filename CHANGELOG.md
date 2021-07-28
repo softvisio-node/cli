@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.7.0 (2021-07-28)
+
+Changed:
+
+-   vim rpc updated
+-   lint file refactored
+-   web api types added
+-   blob refactored
+-   os.tmpdir fixed
+-   TmpFile constructor options updated
+
 ### 3.6.3 (2021-07-25)
 
 Added:
