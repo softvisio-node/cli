@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.7.1 (2021-07-28)
+
+Fixed:
+
+-   lint file type detection updated
+
 ### 3.7.0 (2021-07-28)
 
 Changed:
