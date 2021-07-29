@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.8.0 (2021-07-29)
+
+Added:
+
+-   editorconfig for makefile fixed
+-   rpc lint refactored
+-   prettier xml parser added
+
 ### 3.7.2 (2021-07-28)
 
 Changed:
