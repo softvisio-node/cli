@@ -12,5 +12,5 @@ max_line_length = 99999999
 [*.{yml,yaml}]
 indent_size = 2
 
-[Makefile]
+[Makefile{,.*}]
 indent_style = tab
