@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.8.1 (2021-07-30)
+
+Fixed:
+
+-   docs external types overrides defult types
+
 ### 3.8.0 (2021-07-29)
 
 Added:
