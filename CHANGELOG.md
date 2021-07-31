@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.8.2 (2021-07-31)
+
+Fixed:
+
+-   @softvisio/api added
+-   @softvisio/app added
+
 ### 3.8.1 (2021-07-30)
 
 Fixed:
