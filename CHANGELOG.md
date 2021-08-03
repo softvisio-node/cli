@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.8.4 (2021-08-03)
+
+Fixed:
+
+-   core merged with app
+
 ### 3.8.3 (2021-08-01)
 
 Fixed:
