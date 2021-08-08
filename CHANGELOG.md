@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.8.5 (2021-08-08)
+
+Fixed:
+
+-   eslint rules updated
+
 ### 3.8.4 (2021-08-03)
 
 Fixed:
