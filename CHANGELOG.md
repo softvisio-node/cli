@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.9.1 (2021-08-11)
+
+Fixed:
+
+-   ls command options refactored
+
 ### 3.9.0 (2021-08-11)
 
 Changed:
