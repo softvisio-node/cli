@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.9.2 (2021-08-26)
+
+Fixed:
+
+-   githun api moved to the core
+
 ### 3.9.1 (2021-08-11)
 
 Fixed:
