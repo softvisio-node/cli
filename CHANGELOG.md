@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.9.3 (2021-08-27)
+
+Fixed:
+
+-   git pre-commit skip files < 200Kb
+
 ### 3.9.2 (2021-08-26)
 
 Fixed:
