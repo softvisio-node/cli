@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.9.4 (2021-08-30)
+
+Fixed:
+
+-   git pre-commit detect file type before get staged files
+-   linf file typeIsSupported() static method added
+-   lint file type detection fixed
+
 ### 3.9.3 (2021-08-27)
 
 Fixed:
