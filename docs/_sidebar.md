@@ -1,5 +1,5 @@
 -   [Introduction](/)
--   [Commit](/commit.md)
+-   [Commits](/commits.md)
 -   [Docs](/docs.md)
 
 **Links**
