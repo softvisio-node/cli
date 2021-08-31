@@ -1,15 +1,13 @@
 # Conventional commits
 
-Commit message structure:
-
-`<type>(<scope>)!: <description>`
+Commit message structure: `<type>(<scope>)!: <description>`
 
 -   `type` Commit type. Allowed characters: `[a-z0-9]`. `Required`.
 -   `scope` Commit scope. Allowed characters: `[a-z0-9]`. `Optional`.
 -   `"!"` before `":"` means, that commit is breaking change. `Optional`.
 -   `description` Arbitrary description. `Required`.
 
-Common commit types:
+Default commit types:
 
 -   `"chore"`
 -   `"docs"`
@@ -60,7 +58,7 @@ Scope is required.
 -   type: <Array\>
 -   default: `[]`
 
-List of the allowed scopes. If empty any acope is allowed.
+List of the allowed scopes. If empty any scope is allowed.
 
 ## Links
 
