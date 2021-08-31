@@ -1,0 +1,14 @@
+{
+    "strict": true,
+    "types": [
+        "chore",
+        "docs",
+        "feat",
+        "fix",
+        "refactor",
+        "style",
+        "test"
+    ],
+    "require_scope": false,
+    "scopes": []
+}
