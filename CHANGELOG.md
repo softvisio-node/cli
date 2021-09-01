@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.10.0 (2021-09-01)
+
+Features:
+
+-   (git): conventional commits
+-   (log): commits total report
+-   (git): commit-msg hook added
+
 ### 3.9.4 (2021-08-30)
 
 Fixed:
