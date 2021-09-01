@@ -1,4 +1,8 @@
 ### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
+<%_ if ( !changes._breaking && !changes.feat && !changes.fix ) { -%>
+
+No significant changes since the previous release
+<%_ } else { -%>
 <%_ if ( changes._breaking ) { -%>
 
 Breaking changes:
@@ -21,5 +25,6 @@ Fixes:
 
 <%_ for ( const change of changes.fix ) { -%>
 -   <%- change.scope ? `(change.scope): ` : "" %><%- change.description %>
+<%_ } -%>
 <%_ } -%>
 <%_ } -%>
