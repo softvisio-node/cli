@@ -1,0 +1,9 @@
+### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
+<%_ if ( changes.breaking ) { -%>
+
+Breaking changes:
+
+<%_ for ( const change of changes.breaking ) { -%>
+-   change.description
+<%_ } -%>
+<%_ } -%>
