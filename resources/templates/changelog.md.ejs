@@ -1,9 +1,9 @@
 ### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
-<%_ if ( changes.breaking ) { -%>
+<%_ if ( changes._breaking ) { -%>
 
 Breaking changes:
 
-<%_ for ( const change of changes.breaking ) { -%>
+<%_ for ( const change of changes._breaking ) { -%>
 -   <%- change.type %><%- change.scope ? `(change.scope)` : "" %>: <%- change.description %>
 <%_ } -%>
 <%_ } -%>
