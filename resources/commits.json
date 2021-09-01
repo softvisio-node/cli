@@ -6,9 +6,10 @@
         "feat",
         "fix",
         "refactor",
+        "release",
         "style",
         "test"
     ],
-    "require_scope": false,
+    "requireScope": false,
     "scopes": []
 }

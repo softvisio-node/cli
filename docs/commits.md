@@ -14,6 +14,7 @@ Default commit types:
 -   `"feat"` - new feature
 -   `"fix"` - bug fix
 -   `"refactor"`
+-   `"release"` - used by automated build tool to mark release, don't use it directly
 -   `"style"`
 -   `"test"`
 
@@ -46,7 +47,7 @@ Allow conventional commits only.
 
 Allowed commit types. If empty any type is allowed.
 
-### require_scope
+### requireScope
 
 -   type: <boolean\>
 -   default: `false`
