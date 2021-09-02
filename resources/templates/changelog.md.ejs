@@ -1,17 +1,17 @@
 ### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
-<%_ if ( !changes._breaking && !changes.feat && !changes.fix ) { -%>
+<%_ if ( !changes.breaking.length && !changes.feat.length && !changes.fix.length ) { -%>
 
 No significant changes since the previous release
 <%_ } else { -%>
-<%_ if ( changes._breaking ) { -%>
+<%_ if ( changes.breaking.length ) { -%>
 
 Breaking changes:
 
-<%_ for ( const change of changes._breaking ) { -%>
+<%_ for ( const change of changes.breaking ) { -%>
 -   <%- change.type %><%- change.scope ? `(${change.scope})` : "" %>: <%- change.description %>
 <%_ } -%>
 <%_ } -%>
-<%_ if ( changes.feat ) { -%>
+<%_ if ( changes.feat.length ) { -%>
 
 Features:
 
@@ -19,7 +19,7 @@ Features:
 -   <%- change.scope ? `(${change.scope}): ` : "" %><%- change.description %>
 <%_ } -%>
 <%_ } -%>
-<%_ if ( changes.fix ) { -%>
+<%_ if ( changes.fix.length ) { -%>
 
 Fixes:
 
