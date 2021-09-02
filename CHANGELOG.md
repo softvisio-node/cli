@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.10.1 (2021-09-02)
+
+Fixes:
+
+-   fix: conventional commits sort
+-   fix: publish cli help
+
 ### 3.10.0 (2021-09-01)
 
 Features:
