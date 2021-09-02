@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.10.2 (2021-09-02)
+
+Fixes:
+
+-   fix: changes report
+-   fix: conventional commits config
+-   fix: conventional commits sort
+
 ### 3.10.1 (2021-09-02)
 
 Fixes:
