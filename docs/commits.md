@@ -33,6 +33,19 @@ git commit -m"feat(core)!: commit description"
 
 ## Config
 
+`package.json`
+
+```json
+{
+    "commits": {
+        "strict": true,
+        "type": ["custom"],
+        "requireScope": true,
+        "scopes": ["core", "web"]
+    }
+}
+```
+
 ### strict
 
 -   type: <boolean\>
