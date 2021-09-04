@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.10.3 (2021-09-04)
+
+Fixes:
+
+-   fix(publish): check for already released versions on the other branches
+-   fix(publish): cli help updated
+-   fix(publish): pre-release dependencies check removed
+-   fix(publish): warning on pre-release dependencies
+
 ### 3.10.2 (2021-09-02)
 
 Fixes:
