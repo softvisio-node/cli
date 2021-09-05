@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.10.4 (2021-09-05)
+
+Fixes:
+
+-   fix(publish): changelog template
+-   fix(publish): cli messages updated
+-   fix(publish): pre-released deps warning
+
 ### 3.10.3 (2021-09-04)
 
 Fixes:
