@@ -11,19 +11,19 @@ Breaking changes:
 -   <%- change.raw %>
 <%_ } -%>
 <%_ } -%>
-<%_ if ( changes.feat.length ) { -%>
+<%_ if ( changes.featNonBreaking.length ) { -%>
 
 Features:
 
-<%_ for ( const change of changes.feat ) { -%>
+<%_ for ( const change of changes.featNonBreaking ) { -%>
 -   <%- change.raw %>
 <%_ } -%>
 <%_ } -%>
-<%_ if ( changes.fix.length ) { -%>
+<%_ if ( changes.fixNonBreaking.length ) { -%>
 
 Fixes:
 
-<%_ for ( const change of changes.fix ) { -%>
+<%_ for ( const change of changes.fixNonBreaking ) { -%>
 -   <%- change.raw %>
 <%_ } -%>
 <%_ } -%>
