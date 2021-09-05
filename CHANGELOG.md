@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.10.5 (2021-09-05)
+
+Fixes:
+
+-   fix(publish): detached head check disabled
+-   fix(publish): tags
+
 ### 3.10.4 (2021-09-05)
 
 Fixes:
