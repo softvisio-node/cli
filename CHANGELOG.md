@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.11.0 (2021-09-07)
+
+Features:
+
+-   feat(publish): next tag
+
 ### 3.10.6 (2021-09-07)
 
 Fixes:
