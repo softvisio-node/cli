@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.10.6 (2021-09-07)
+
+Fixes:
+
+-   fix(publish): npm tags
+
 ### 3.10.5 (2021-09-05)
 
 Fixes:
