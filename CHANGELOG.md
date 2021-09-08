@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.11.1 (2021-09-08)
+
+Fixes:
+
+-   fix: changelog template
+
 ### 3.11.0 (2021-09-07)
 
 Features:
