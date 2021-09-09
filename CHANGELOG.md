@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.11.3 (2021-09-09)
+
+Fixes:
+
+-   fix: babel top-level await preset merged with env
+
 ### 3.11.2 (2021-09-08)
 
 Fixes:
