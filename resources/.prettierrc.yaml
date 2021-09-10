@@ -7,7 +7,7 @@ quoteProps: as-needed
 jsxSingleQuote: false
 trailingComma: es5
 bracketSpacing: true
-jsxBracketSameLine: false
+bracketSameLine: false
 arrowParens: avoid
 proseWrap: preserve # TODO test
 htmlWhitespaceSensitivity: css
