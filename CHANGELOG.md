@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.11.4 (2021-09-10)
+
+Fixes:
+
+-   fix: prettier jsxBracketSameLine deprecated
+
 ### 3.11.3 (2021-09-09)
 
 Fixes:
