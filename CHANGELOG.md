@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.12.0 (2021-09-12)
+
+Features:
+
+-   feat: docker add git labels on build
+
+Fixes:
+
+-   fix: git branch parser
+
 ### 3.11.6 (2021-09-12)
 
 Fixes:
