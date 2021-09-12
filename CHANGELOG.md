@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.11.6 (2021-09-12)
+
+Fixes:
+
+-   fix: docker autobuild_tags renamed to auto_tags
+
 ### 3.11.5 (2021-09-12)
 
 Fixes:
