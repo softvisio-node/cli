@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.11.5 (2021-09-12)
+
+Fixes:
+
+-   fix: mirgation header added to the changelog template for major release
+
 ### 3.11.4 (2021-09-10)
 
 Fixes:
