@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.12.1 (2021-09-13)
+
+Fixes:
+
+-   fix: ls default filters
+
 ### 3.12.0 (2021-09-12)
 
 Features:
