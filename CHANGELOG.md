@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.13.0 (2021-09-14)
+
+Features:
+
+-   feat: git commits hashes
+
 ### 3.12.1 (2021-09-13)
 
 Fixes:
