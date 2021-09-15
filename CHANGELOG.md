@@ -1,5 +1,20 @@
 # Changelog
 
+### 3.14.0 (2021-09-15)
+
+Features:
+
+-   feat: git upstream .getCommitURL(hash)
+-   feat: git upstream .getIssueURL(id)
+-   feat: release .abbrev4 property
+
+Fixes:
+
+-   fix: changelog
+-   fix: ls report
+-   fix: ls sort projects
+-   fix: status report
+
 ### 3.13.0 (2021-09-14)
 
 Features:
