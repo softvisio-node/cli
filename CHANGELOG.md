@@ -1,5 +1,9 @@
 # Changelog
 
+### 3.14.1 (2021-09-15)
+
+No notable changes since the previous release.
+
 ### 3.14.0 (2021-09-15)
 
 Features:
