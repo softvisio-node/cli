@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.14.2 (2021-09-15)
+
+Fixes:
+
+-   fix: use git abbrev
+
 ### 3.14.1 (2021-09-15)
 
 No notable changes since the previous release.
