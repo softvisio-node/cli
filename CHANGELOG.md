@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.15.0 (2021-09-17)
+
+Features:
+
+-   feat: linkify commit messages in the changelog
+
 ### 3.14.2 (2021-09-15)
 
 Fixes:
