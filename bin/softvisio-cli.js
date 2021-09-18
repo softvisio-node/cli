@@ -30,7 +30,7 @@ const spec = {
             "module": () => new URL( "../lib/commands/lint.js", import.meta.url ),
         },
         "log": {
-            "short": "L",
+            "short": "l",
             "title": "get changelog for unreleased changes",
             "module": () => new URL( "../lib/commands/log.js", import.meta.url ),
         },
