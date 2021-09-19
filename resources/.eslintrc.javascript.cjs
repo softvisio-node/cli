@@ -42,6 +42,7 @@ const config = {
         "vue/custom-event-name-casing": ["error", "camelCase"],
         "vue/v-on-event-hyphenation": ["error", "never", { "autofix": false }],
         "vue/component-name-in-template-casing": ["error", "PascalCase", { "registeredComponentsOnly": true }],
+        "vue/prop-name-casing": ["error", "camelCase"],
         "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
         "vue/html-indent": "off", // ["warn", 4],
         "vue/script-indent": "off",
