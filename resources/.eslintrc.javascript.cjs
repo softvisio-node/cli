@@ -41,6 +41,7 @@ const config = {
         // eslint-plugin-vue, https://eslint.vuejs.org/rules/
         "vue/custom-event-name-casing": ["error", "camelCase"],
         "vue/v-on-event-hyphenation": ["error", "never", { "autofix": false }],
+        "vue/component-definition-name-casing": ["error", "PascalCase"],
         "vue/component-name-in-template-casing": ["error", "PascalCase", { "registeredComponentsOnly": true }],
         "vue/prop-name-casing": ["error", "camelCase"],
         "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
