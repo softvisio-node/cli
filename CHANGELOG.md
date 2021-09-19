@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.15.1 (2021-09-19)
+
+Fixes:
+
+-   fix: change log command shortcut to l
+-   fix: changes report
+-   fix: unreleased changes renamed to unreleased commits
+-   fix: vue eslint rules
+
 ### 3.15.0 (2021-09-17)
 
 Features:
