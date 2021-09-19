@@ -38,7 +38,10 @@ const config = {
         "eslint-comments/no-unused-disable": "error",
         "eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }],
 
-        // eslint-plugin-vue, https://vuejs.github.io/eslint-plugin-vue/rules
+        // eslint-plugin-vue, https://eslint.vuejs.org/rules/
+        "vue/custom-event-name-casing": ["error", "camelCase"],
+        "vue/v-on-event-hyphenation": ["error", "never", { "autofix": false }],
+        "vue/component-name-in-template-casing": ["error", "PascalCase", { "registeredComponentsOnly": true }],
         "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
         "vue/html-indent": "off", // ["warn", 4],
         "vue/script-indent": "off",
@@ -66,7 +69,6 @@ const config = {
         "vue/html-quotes": "off", // replaced with the @softvisio/html-quotes
 
         // eslint:recommended
-
         "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
         "comma-spacing": ["error", { "before": false, "after": true }],
         "curly": ["error", "multi-line"],
@@ -76,7 +78,7 @@ const config = {
 
         // "indent": [
         //     "error",
-        //     4, // XXX need to take from .editorconfig
+        //     4, // XXX need to take from the .editorconfig
         //     {
         //         "VariableDeclarator": {
         //             "var": 1,
