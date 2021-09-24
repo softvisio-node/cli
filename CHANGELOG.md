@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.15.3 (2021-09-24)
+
+Fixes:
+
+-   fix: docker buils spawnSync
+-   fix: meta property
+
 ### 3.15.2 (2021-09-22)
 
 No notable changes since the previous release.
