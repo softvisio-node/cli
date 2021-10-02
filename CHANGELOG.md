@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.16.1 (2021-10-02)
+
+Fixes:
+
+-   fix: ls options
+
 ### 3.16.0 (2021-10-02)
 
 Features:
