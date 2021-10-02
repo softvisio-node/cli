@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.16.0 (2021-10-02)
+
+Features:
+
+-   feat: projects namespaces
+
 ### 3.15.3 (2021-09-24)
 
 Fixes:
