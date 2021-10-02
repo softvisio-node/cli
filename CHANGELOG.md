@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.16.2 (2021-10-02)
+
+Fixes:
+
+-   fix: ls -p and -P options swapped
+-   fix: ls project name highlight
+
 ### 3.16.1 (2021-10-02)
 
 Fixes:
