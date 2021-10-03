@@ -29,10 +29,10 @@ class Theme {
 
     // private
     #gotoTop ( e ) {
-        const oldURL = window.location.href,
-            newURL = oldURL.replace( /\?.*/, "" );
+        const oldUrl = window.location.href,
+            newUrl = oldUrl.replace( /\?.*/, "" );
 
-        if ( oldURL !== newURL ) history.pushState( {}, null, newURL );
+        if ( oldUrl !== newUrl ) history.pushState( {}, null, newUrl );
 
         window.scroll( {
             "top": 0,
@@ -67,7 +67,7 @@ class Theme {
     #docsifyHook ( hook, vm ) {
         hook.beforeEach( this.#linkifyTypes.bind( this ) );
 
-        hook.doneEach( this.#generateTOC.bind( this ) );
+        hook.doneEach( this.#generateToc.bind( this ) );
         hook.doneEach( this.#styleTypes.bind( this ) );
     }
 
@@ -115,10 +115,10 @@ class Theme {
         }
     }
 
-    #generateTOC () {
+    #generateToc () {
         const article = document.querySelector( "article.markdown-section" ),
             headings = [...article.querySelectorAll( TOC_SELECTOR )],
-            toc = this.#generateTOCEl( headings );
+            toc = this.#generateTocEl( headings );
 
         if ( !toc ) return;
 
@@ -133,11 +133,11 @@ class Theme {
         while ( headings.length ) {
             const heading = headings.shift();
 
-            this.#generateSubTOC( heading, headings );
+            this.#generateSubToc( heading, headings );
         }
     }
 
-    #generateSubTOC ( el, headings ) {
+    #generateSubToc ( el, headings ) {
         const topLevel = +el.tagName.substr( 1 );
 
         if ( topLevel === 1 ) return;
@@ -154,12 +154,12 @@ class Theme {
 
         if ( !subHeadings.length ) return;
 
-        const toc = this.#generateTOCEl( subHeadings );
+        const toc = this.#generateTocEl( subHeadings );
 
         el.after( toc );
     }
 
-    #generateTOCEl ( headings ) {
+    #generateTocEl ( headings ) {
 
         // no headings found
         if ( !headings.length ) return;
