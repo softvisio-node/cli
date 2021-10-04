@@ -34,7 +34,7 @@ const config = {
     },
 
     "rules": {
-        "@softvisio/camelcase": ["error", { "properties": "never" }],
+        "@softvisio/camelcase": ["error", { "properties": "never", "allowConsecutiveCapitalLetters": false }],
 
         // eslint comments
         "eslint-comments/no-unused-disable": "error",
