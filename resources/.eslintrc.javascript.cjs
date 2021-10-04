@@ -34,8 +34,7 @@ const config = {
     },
 
     "rules": {
-
-        // "@softvisio/camelcase": "off",
+        "@softvisio/camelcase": ["error", { "properties": "never" }],
 
         // eslint comments
         "eslint-comments/no-unused-disable": "error",
