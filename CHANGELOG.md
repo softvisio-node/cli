@@ -1,5 +1,24 @@
 # Changelog
 
+### 3.17.0 (2021-10-07)
+
+Features:
+
+-   feat: camecase rule added
+-   feat: eslint camelcase rule added
+-   feat: strict camel case
+
+Fixes:
+
+-   fix: browser print command
+-   fix: camelcase ignore imports
+-   fix: docs resolve @softvisio/core from the source package
+-   fix: error if package name is not defined
+-   fix: ls columns resized
+-   fix: ls filters
+-   fix: ls header valign
+-   fix: public / private labels
+
 ### 3.16.2 (2021-10-02)
 
 Fixes:
