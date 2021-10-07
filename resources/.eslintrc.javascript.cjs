@@ -29,7 +29,7 @@ const config = {
         },
         "requireConfigFile": false,
         "babelOptions": {
-            "presets": [["@babel/preset-env", { "shippedProposals": true }]],
+            "presets": [[require.resolve( "@babel/preset-env" ), { "shippedProposals": true }]],
         },
     },
 
