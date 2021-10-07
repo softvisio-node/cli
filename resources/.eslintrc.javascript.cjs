@@ -29,7 +29,7 @@ const config = {
         },
         "requireConfigFile": false,
         "babelOptions": {
-            "configFile": __dirname + "/babel.config.cjs",
+            "presets": [["@babel/preset-env", { "shippedProposals": true }]],
         },
     },
 
