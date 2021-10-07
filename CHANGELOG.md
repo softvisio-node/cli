@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.17.1 (2021-10-07)
+
+Fixes:
+
+-   fix: resolve babel presets
+-   fix: vue babel removed
+
 ### 3.17.0 (2021-10-07)
 
 Features:
