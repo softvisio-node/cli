@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.17.2 (2021-10-11)
+
+Fixes:
+
+-   fix: core-js removed
+-   fix: eslint jest update
+-   fix: handle for invalid patterns in tests
+-   fix: handle invalid pattern in ls command
+-   fix: ls cli help
+-   fix: minimatch removed
+-   fix: typescript removed
+
 ### 3.17.1 (2021-10-07)
 
 Fixes:
