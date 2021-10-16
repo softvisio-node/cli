@@ -6,7 +6,6 @@
         "feat",
         "fix",
         "refactor",
-        "release",
         "style",
         "test"
     ],
