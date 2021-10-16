@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.17.4 (2021-10-16)
+
+Fixes:
+
+-   fix: release commit type removed
+
 ### 3.17.3 (2021-10-14)
 
 No notable changes since the previous release.
