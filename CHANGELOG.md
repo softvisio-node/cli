@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.18.0 (2021-10-20)
+
+Features:
+
+-   feat: docker build args
+
 ### 3.17.4 (2021-10-16)
 
 Fixes:
