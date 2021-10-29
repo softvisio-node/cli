@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.18.1 (2021-10-29)
+
+Fixes:
+
+-   fix: deps
+-   fix: vue/multi-word-component-names disabled
+
 ### 3.18.0 (2021-10-20)
 
 Features:
