@@ -49,6 +49,7 @@ const config = {
         "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
         "vue/html-indent": "off", // ["warn", 4],
         "vue/script-indent": "off",
+        "vue/multi-word-component-names": "off",
         "vue/attribute-hyphenation": ["warn", "never"], // for ExtJS webcomponents
         "vue/html-self-closing": [
             "warn",
