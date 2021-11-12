@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.18.2 (2021-11-12)
+
+Fixes:
+
+-   fix: docker spawn sync
+-   fix: spawn sync error handler
+
 ### 3.18.1 (2021-10-29)
 
 Fixes:
