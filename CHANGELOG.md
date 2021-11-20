@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.18.4 (2021-11-20)
+
+Fixes:
+
+-   fix: prettier-plugin-sh roll back
+
 ### 3.18.3 (2021-11-19)
 
 No notable changes since the previous release.
