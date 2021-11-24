@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.18.5 (2021-11-24)
+
+Fixes:
+
+-   fix: prettier plugin sh version
+
 ### 3.18.4 (2021-11-20)
 
 Fixes:
