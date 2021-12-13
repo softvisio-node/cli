@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.18.7 (2021-12-13)
+
+Fixes:
+
+-   fix: endpoint path
+
 ### 3.18.6 (2021-12-12)
 
 Fixes:
