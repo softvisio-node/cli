@@ -11,8 +11,8 @@ aliases:
 
 api:
   location: lib/api
-  url: wss://domain.com/api/
+  url: wss://domain.com/api
 
 rpc:
   location: lib/rpc
-  url: ws://domain/api/
+  url: ws://domain/api
