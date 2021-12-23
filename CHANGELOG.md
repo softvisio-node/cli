@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.18.8 (2021-12-23)
+
+Fixes:
+
+-   fix: docker push default answer
+
 ### 3.18.7 (2021-12-13)
 
 Fixes:
