@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.18.10 (2021-12-25)
+
+Fixes:
+
+-   fix: stop lintignore at git root
+
 ### 3.18.9 (2021-12-25)
 
 Fixes:
