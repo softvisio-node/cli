@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.18.9 (2021-12-25)
+
+Fixes:
+
+-   fix: do not stop lintignore on package.json
+
 ### 3.18.8 (2021-12-23)
 
 Fixes:
