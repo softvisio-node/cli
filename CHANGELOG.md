@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.19.0 (2022-01-02)
+
+Features:
+
+-   feat: git api
+
 ### 3.18.10 (2021-12-25)
 
 Fixes:
