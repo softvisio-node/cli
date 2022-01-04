@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.19.1 (2022-01-04)
+
+Fixes:
+
+-   fix: css unsafe presets removed
+
 ### 3.19.0 (2022-01-02)
 
 Features:
