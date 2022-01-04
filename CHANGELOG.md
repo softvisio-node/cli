@@ -1,5 +1,9 @@
 # Changelog
 
+### 3.19.2 (2022-01-04)
+
+No notable changes since the previous release.
+
 ### 3.19.1 (2022-01-04)
 
 Fixes:
