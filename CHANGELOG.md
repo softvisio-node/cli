@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.19.3 (2022-01-09)
+
+Fixes:
+
+-   fix: ls -z option renamed to -a
+
 ### 3.19.2 (2022-01-04)
 
 No notable changes since the previous release.
