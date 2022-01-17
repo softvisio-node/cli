@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.19.4 (2022-01-17)
+
+Fixes:
+
+-   fix: substr replaced with substring
+
 ### 3.19.3 (2022-01-09)
 
 Fixes:
