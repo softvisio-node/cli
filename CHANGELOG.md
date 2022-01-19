@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.19.5 (2022-01-19)
+
+Fixes:
+
+-   fix: file tree api
+
 ### 3.19.4 (2022-01-17)
 
 Fixes:
