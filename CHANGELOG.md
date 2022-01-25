@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.19.6 (2022-01-25)
+
+Fixes:
+
+-   fix: eslint jest 26
+-   fix: use file tree iterator
+
 ### 3.19.5 (2022-01-19)
 
 Fixes:
