@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.20.1 (2022-01-27)
+
+Fixes:
+
+-   fix: ajv refactored
+
 ### 3.20.0 (2022-01-27)
 
 Features:
