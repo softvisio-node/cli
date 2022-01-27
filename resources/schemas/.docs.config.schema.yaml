@@ -7,7 +7,7 @@ properties:
     type: object
     properties:
       location: { type: string }
-      url: { type: string, format: url }
+      url: { type: string, format: uri }
     additionalProperties: false
     required: [location, url]
   changelog:
@@ -32,7 +32,7 @@ properties:
     type: object
     properties:
       location: { type: string }
-      url: { type: string, format: url }
+      url: { type: string, format: uri }
     additionalProperties: false
     required: [location, url]
   siteURL: { type: string, format: url }
