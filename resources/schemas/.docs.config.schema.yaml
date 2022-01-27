@@ -1,6 +1,6 @@
 type: object
 properties:
-  location: { type: string } # XXX internal property
+  _location: { enum: [root, docs] }
 
   aliases: { type: object, additionalProperties: { type: string, format: url } }
   api:
