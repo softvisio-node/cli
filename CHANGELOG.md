@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.20.0 (2022-01-27)
+
+Features:
+
+-   feat: docs config validator
+
 ### 3.19.6 (2022-01-25)
 
 Fixes:
