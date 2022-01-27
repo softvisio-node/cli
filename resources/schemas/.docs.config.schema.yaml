@@ -1,0 +1,43 @@
+type: object
+properties:
+  location: { type: string } # XXX internal property
+
+  aliases: { type: object, additionalProperties: { type: string, format: url } }
+  api:
+    type: object
+    properties:
+      location: { type: string }
+      url: { type: string, format: url }
+    additionalProperties: false
+    required: [location, url]
+  changelog:
+    anyOf:
+      - { type: boolean }
+      - { type: string, format: url }
+  favicon: { type: string }
+  generateReadme: { type: boolean, default: true }
+  logo:
+    anyOf:
+      - { type: boolean }
+      - { type: string, format: url }
+      - type: object
+        properties:
+          href: { type: string, format: url }
+          width: { type: integer, minimum: 32 }
+          height: { type: integer, minimum: 32 }
+        additionalProperties: false
+        required: [href]
+  name: { type: string }
+  rpc:
+    type: object
+    properties:
+      location: { type: string }
+      url: { type: string, format: url }
+    additionalProperties: false
+    required: [location, url]
+  siteURL: { type: string, format: url }
+  subMaxLevel: { type: integer, minimum: 0 }
+  types: { type: object, additionalProperties: { type: string } }
+  externalTypes: { type: array, items: { type: string, format: url }, uniqueItems: true }
+additionalProperties: false
+required: []
