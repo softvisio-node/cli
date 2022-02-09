@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.20.2 (2022-02-09)
+
+Fixes:
+
+-   fix: msgpack stream
+
 ### 3.20.1 (2022-01-27)
 
 Fixes:
