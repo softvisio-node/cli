@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.20.4 (2022-02-12)
+
+Fixes:
+
+-   fix: config api changed
+-   fix: validate docker.stack.yaml on build
+
 ### 3.20.3 (2022-02-12)
 
 Fixes:
