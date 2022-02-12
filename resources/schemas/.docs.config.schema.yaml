@@ -2,7 +2,7 @@ type: object
 properties:
   _location: { enum: [root, docs] }
 
-  aliases: { type: object, additionalProperties: { type: string, format: url } }
+  aliases: { type: object, additionalProperties: { type: string, format: uri } }
   api:
     type: object
     properties:
@@ -13,16 +13,16 @@ properties:
   changelog:
     anyOf:
       - { type: boolean }
-      - { type: string, format: url }
+      - { type: string, format: uri }
   favicon: { type: string }
   generateReadme: { type: boolean, default: true }
   logo:
     anyOf:
       - { type: boolean }
-      - { type: string, format: url }
+      - { type: string, format: uri }
       - type: object
         properties:
-          href: { type: string, format: url }
+          href: { type: string, format: uri }
           width: { type: integer, minimum: 32 }
           height: { type: integer, minimum: 32 }
         additionalProperties: false
@@ -35,9 +35,9 @@ properties:
       url: { type: string, format: uri }
     additionalProperties: false
     required: [location, url]
-  siteURL: { type: string, format: url }
+  siteURL: { type: string, format: uri }
   subMaxLevel: { type: integer, minimum: 0 }
   types: { type: object, additionalProperties: { type: string } }
-  externalTypes: { type: array, items: { type: string, format: url }, uniqueItems: true }
+  externalTypes: { type: array, items: { type: string, format: uri }, uniqueItems: true }
 additionalProperties: false
 required: []
