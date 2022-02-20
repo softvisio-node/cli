@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.21.0 (2022-02-20)
+
+Features:
+
+-   feat: user env
+
 ### 3.20.4 (2022-02-12)
 
 Fixes:
