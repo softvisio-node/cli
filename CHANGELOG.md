@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.22.0 (2022-02-21)
+
+Features:
+
+-   feat: metadata update
+
+Fixes:
+
+-   fix: error messages
+-   fix: solid font awesome
+
 ### 3.21.0 (2022-02-20)
 
 Features:
