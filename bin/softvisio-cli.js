@@ -17,7 +17,13 @@ const spec = {
             "title": "documentation tools",
             "module": () => new URL( "../lib/commands/docs.js", import.meta.url ),
         },
+        "generate": {
+            "short": "g",
+            "title": "generate code",
+            "module": () => new URL( "../lib/commands/generate.js", import.meta.url ),
+        },
         "git": {
+            "short": "G",
             "title": "git tools",
             "module": () => new URL( "../lib/commands/git.js", import.meta.url ),
         },
