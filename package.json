@@ -9,7 +9,7 @@
     "homepage": "https://softvisio.github.io/cli/",
     "bugs": {
         "url": "https://github.com/softvisio/cli/issues",
-        "email": "zdm@softvisio.net"
+        "email": "zdm <zdm@softvisio.net>"
     },
     "repository": {
         "type": "git",
