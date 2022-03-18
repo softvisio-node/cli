@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.22.1 (2022-03-18)
+
+Fixes:
+
+-   fix: docs init
+
 ### 3.22.0 (2022-02-21)
 
 Features:
