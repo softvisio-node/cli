@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.22.3 (2022-03-31)
+
+Fixes:
+
+-   fix: error message case
+
 ### 3.22.2 (2022-03-24)
 
 Fixes:
