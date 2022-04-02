@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.22.4 (2022-04-02)
+
+Fixes:
+
+-   fix: deps update
+
 ### 3.22.3 (2022-03-31)
 
 Fixes:
