@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.22.5 (2022-04-02)
+
+Fixes:
+
+-   fix: git hooks
+
 ### 3.22.4 (2022-04-02)
 
 Fixes:
