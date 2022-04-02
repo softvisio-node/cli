@@ -2,4 +2,6 @@
 
 set -e
 
-npx softvisio-cli git commit-msg $1
+if [[ -x "$(command -v softvisio-cli)" || -f node_modules/.bin/softvisio-cli ]]; then
+    npx softvisio-cli git commit-msg $1
+fi
