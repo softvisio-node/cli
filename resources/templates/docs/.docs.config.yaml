@@ -1,6 +1,6 @@
 logo: false
 
-types:
+types: {}
 
 externalTypes:
   - https://softvisio.github.io/core/
