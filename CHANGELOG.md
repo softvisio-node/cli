@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.22.9 (2022-04-16)
+
+Fixes:
+
+-   fix: lint .gyp as json
+
 ### 3.22.8 (2022-04-16)
 
 Fixes:
