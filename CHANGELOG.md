@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.22.8 (2022-04-16)
+
+Fixes:
+
+-   fix: types templates
+
 ### 3.22.7 (2022-04-04)
 
 Fixes:
