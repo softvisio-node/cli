@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.22.10 (2022-04-19)
+
+Fixes:
+
+-   fix: docker labels for github
+
 ### 3.22.9 (2022-04-16)
 
 Fixes:
