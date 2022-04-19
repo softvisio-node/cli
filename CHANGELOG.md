@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.23.0 (2022-04-19)
+
+Features:
+
+-   feat: publish --force option
+
 ### 3.22.10 (2022-04-19)
 
 Fixes:
