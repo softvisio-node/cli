@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.23.1 (2022-04-22)
+
+Fixes:
+
+-   fix: args quote
+-   fix: child process spawn
+-   fix: cli help
+-   fix: docker build upstream detection
+-   fix: git error in ls
+
 ### 3.23.0 (2022-04-19)
 
 Features:
