@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.23.2 (2022-05-10)
+
+Fixes:
+
+-   fix: prettier sh update
+
 ### 3.23.1 (2022-04-22)
 
 Fixes:
