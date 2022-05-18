@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.23.3 (2022-05-18)
+
+Fixes:
+
+-   fix: eslint-plugin-vue update
+
 ### 3.23.2 (2022-05-10)
 
 Fixes:
