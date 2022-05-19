@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.23.4 (2022-05-19)
+
+Fixes:
+
+-   fix: eslint vue rules
+-   fix: eslint vue2 rules removed
+
 ### 3.23.3 (2022-05-18)
 
 Fixes:
