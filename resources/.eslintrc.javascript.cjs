@@ -41,16 +41,20 @@ const config = {
         "eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }],
 
         // eslint-plugin-vue, https://eslint.vuejs.org/rules/
-        "vue/custom-event-name-casing": ["error", "camelCase"],
-        "vue/v-on-event-hyphenation": ["error", "never", { "autofix": false }],
+        "vue/attribute-hyphenation": ["warn", "never"], // for ExtJS webcomponents
         "vue/component-definition-name-casing": ["error", "PascalCase"],
         "vue/component-name-in-template-casing": ["error", "PascalCase", { "registeredComponentsOnly": true }],
-        "vue/prop-name-casing": ["error", "camelCase"],
-        "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
+        "vue/custom-event-name-casing": ["error", "camelCase"],
         "vue/html-indent": "off", // ["warn", 4],
-        "vue/script-indent": "off",
-        "vue/multi-word-component-names": "off",
-        "vue/attribute-hyphenation": ["warn", "never"], // for ExtJS webcomponents
+        "vue/html-closing-bracket-spacing": [
+            "warn",
+            {
+                "startTag": "never",
+                "endTag": "never",
+                "selfClosingTag": "never", // set to "always" to make compatible with the prettier <br />
+            },
+        ],
+        "vue/html-quotes": "off", // replaced with the @softvisio/html-quotes
         "vue/html-self-closing": [
             "warn",
             {
@@ -63,15 +67,12 @@ const config = {
                 "math": "always",
             },
         ],
-        "vue/html-closing-bracket-spacing": [
-            "warn",
-            {
-                "startTag": "never",
-                "endTag": "never",
-                "selfClosingTag": "never", // set to "always" to make compatible with the prettier <br />
-            },
-        ],
-        "vue/html-quotes": "off", // replaced with the @softvisio/html-quotes
+        "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
+        "vue/multi-word-component-names": "off",
+        "vue/no-reserved-component-names": ["error", { "disallowVue3BuiltInComponents": true }],
+        "vue/prop-name-casing": ["error", "camelCase"],
+        "vue/script-indent": "off",
+        "vue/v-on-event-hyphenation": ["error", "never", { "autofix": false }],
 
         // eslint:recommended
         "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
