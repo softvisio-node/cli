@@ -7,7 +7,7 @@
 ## Install
 
 ```shell
-npm i -g @softvisio/cli
+npm i --location=global @softvisio/cli
 ```
 
 ## Usage
