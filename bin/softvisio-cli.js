@@ -35,6 +35,10 @@ const spec = {
             "title": "lint sources",
             "module": () => new URL( "../lib/commands/lint.js", import.meta.url ),
         },
+        "localization": {
+            "title": "localization tools",
+            "module": () => new URL( "../lib/commands/localization.js", import.meta.url ),
+        },
         "log": {
             "short": "l",
             "title": "get changelog for unreleased changes",
