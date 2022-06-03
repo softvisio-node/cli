@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.24.2 (2022-06-03)
+
+Fixes:
+
+-   fix: vue ast offset
+
 ### 3.24.1 (2022-06-03)
 
 Fixes:
