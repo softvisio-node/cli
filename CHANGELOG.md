@@ -1,5 +1,9 @@
 # Changelog
 
+### 3.24.5 (2022-06-03)
+
+No notable changes since the previous release.
+
 ### 3.24.4 (2022-06-03)
 
 No notable changes since the previous release.
