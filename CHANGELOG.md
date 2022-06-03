@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.24.0 (2022-06-03)
+
+Features:
+
+-   feat: localization
+
+Fixes:
+
+-   fix: throw errors to stderr
+
 ### 3.23.5 (2022-05-26)
 
 Fixes:
