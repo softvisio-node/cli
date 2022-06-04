@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.24.6 (2022-06-04)
+
+Fixes:
+
+-   fix: gettext extractor
+
 ### 3.24.5 (2022-06-03)
 
 No notable changes since the previous release.
