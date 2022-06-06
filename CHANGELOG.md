@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.24.8 (2022-06-06)
+
+Fixes:
+
+-   fix: locale domains
+
 ### 3.24.7 (2022-06-04)
 
 Fixes:
