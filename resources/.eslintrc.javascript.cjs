@@ -79,7 +79,7 @@ const config = {
         "comma-spacing": ["error", { "before": false, "after": true }],
         "curly": ["error", "multi-line"],
         "eqeqeq": ["error", "smart"],
-        "function-paren-newline": ["error", "never"],
+        "function-paren-newline": ["error", "multiline"],
         "grouped-accessor-pairs": ["error", "getBeforeSet"],
 
         // "indent": [
