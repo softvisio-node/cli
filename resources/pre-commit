@@ -2,6 +2,8 @@
 
 set -e
 
-if [ -x "$(command -v softvisio-cli)" ] || [ -f node_modules/.bin/softvisio-cli ]; then
+if [ -f node_modules/.bin/softvisio-cli ] && [ -x "$(command -v npx)" ]; then
     npx softvisio-cli git pre-commit
+elif [ -x "$(command -v softvisio-cli)" ]; then
+    softvisio-cli git pre-commit
 fi
