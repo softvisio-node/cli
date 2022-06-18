@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.24.10 (2022-06-18)
+
+Fixes:
+
+-   fix: git commit hooks
+
 ### 3.24.9 (2022-06-13)
 
 Fixes:
