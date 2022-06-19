@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+if [ -x node_modules/.bin/softvisio-cli ]; then
+    node_modules/.bin/softvisio-cli git pre-commit
+elif [ -x "$(command -v softvisio-cli)" ]; then
+    softvisio-cli git pre-commit
+fi
