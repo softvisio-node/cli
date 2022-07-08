@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.25.0 (2022-07-08)
+
+Features:
+
+-   feat: locale templates
+
+Fixes:
+
+-   fix: allowed prefixes comfigurable
+
 ### 3.24.11 (2022-06-19)
 
 Fixes:
