@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.25.1 (2022-07-28)
+
+Fixes:
+
+-   fix: sort vue arres alphbetically
+
 ### 3.25.0 (2022-07-08)
 
 Features:
