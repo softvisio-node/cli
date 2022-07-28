@@ -42,6 +42,7 @@ const config = {
 
         // eslint-plugin-vue, https://eslint.vuejs.org/rules/
         "vue/attribute-hyphenation": ["warn", "never"], // for ExtJS webcomponents
+        "vue/attributes-order": ["error", { "alphabetical": true }],
         "vue/component-definition-name-casing": ["error", "PascalCase"],
         "vue/component-name-in-template-casing": ["error", "PascalCase", { "registeredComponentsOnly": true }],
         "vue/custom-event-name-casing": ["error", "camelCase"],
