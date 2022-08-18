@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.25.3 (2022-08-18)
+
+Fixes:
+
+-   fix: use core browser
+
 ### 3.25.2 (2022-08-18)
 
 Fixes:
