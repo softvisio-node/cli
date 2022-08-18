@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.25.2 (2022-08-18)
+
+Fixes:
+
+-   fix: npm location
+
 ### 3.25.1 (2022-07-28)
 
 Fixes:
