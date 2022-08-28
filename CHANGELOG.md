@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.25.6 (2022-08-28)
+
+Fixes:
+
+-   fix: jest plugin update
+
 ### 3.25.5 (2022-08-28)
 
 Fixes:
