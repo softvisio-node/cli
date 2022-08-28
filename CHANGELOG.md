@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.25.5 (2022-08-28)
+
+Fixes:
+
+-   fix: cordova config location
+
 ### 3.25.4 (2022-08-18)
 
 Fixes:
