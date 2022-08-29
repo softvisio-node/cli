@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.25.7 (2022-08-29)
+
+Fixes:
+
+-   fix: recursive subPackages
+
 ### 3.25.6 (2022-08-28)
 
 Fixes:
