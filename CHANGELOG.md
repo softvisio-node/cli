@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.25.9 (2022-08-30)
+
+Fixes:
+
+-   fix: docker GIT_ID
+-   fix: git api moved to core
+
 ### 3.25.8 (2022-08-29)
 
 Fixes:
