@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.25.10 (2022-09-06)
+
+Fixes:
+
+-   fix: cordova icons generator
+
 ### 3.25.9 (2022-08-30)
 
 Fixes:
