@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.26.0 (2022-12-21)
+
+Features:
+
+-   feat: file constructor buffer
+
+Fixes:
+
+-   fix: deps
+
 ### 3.25.10 (2022-09-06)
 
 Fixes:
