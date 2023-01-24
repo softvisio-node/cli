@@ -6,14 +6,14 @@
         "softvisio",
         "cli"
     ],
-    "homepage": "https://softvisio.github.io/cli/",
+    "homepage": "https://softvisio-node.github.io/cli/",
     "bugs": {
-        "url": "https://github.com/softvisio/cli/issues",
+        "url": "https://github.com/softvisio-node/cli/issues",
         "email": "zdm <zdm@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/softvisio/cli.git"
+        "url": "https://github.com/softvisio-node/cli.git"
     },
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
