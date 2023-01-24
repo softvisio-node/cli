@@ -3,11 +3,11 @@ logo: false
 types: {}
 
 externalTypes:
-  - https://softvisio.github.io/core/
-  - https://softvisio.github.io/result/
+  - https://softvisio-node.github.io/core/
+  - https://softvisio-node.github.io/result/
 
 aliases:
-  /api: https://raw.githubusercontent.com/softvisio/core/main/docs/api.md
+  /api: https://raw.githubusercontent.com/softvisio-node/core/main/docs/api.md
 
 api:
   location: lib/api
