@@ -235,7 +235,7 @@ Array of links to the external projects config files to load external types:
 
 ```yaml
 externalTypes:
-    - https://softvisio.github.io/core/
+    - https://softvisio-node.github.io/core/
 ```
 
 ## FAQ
