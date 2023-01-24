@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.26.1 (2023-01-24)
+
+Fixes:
+
+-   fix: git repo relocated
+
 ### 3.26.0 (2022-12-21)
 
 Features:
