@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.26.3 (2023-02-14)
+
+Fixes:
+
+-   fix: app docs generator
+-   fix: deps
+
 ### 3.26.2 (2023-01-24)
 
 Fixes:
