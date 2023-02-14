@@ -9,10 +9,8 @@ externalTypes:
 aliases:
   /api: https://raw.githubusercontent.com/softvisio-node/core/main/docs/api.md
 
-api:
-  location: lib/api
-  url: wss://domain.com/api
-
-rpc:
-  location: lib/rpc
-  url: ws://domain/api
+app:
+  api:
+    url: wss://localhost/api
+  rpc:
+    url: ws://localhost/api
