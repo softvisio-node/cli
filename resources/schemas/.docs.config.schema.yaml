@@ -3,17 +3,33 @@ properties:
   _location: { enum: [root, docs] }
 
   aliases: { type: object, additionalProperties: { type: string, format: uri } }
-  api:
+
+  app:
     type: object
     properties:
-      location: { type: string }
-      url: { type: string, format: uri }
+      api:
+        type: object
+        properties:
+          url: { type: string, format: uri }
+
+        additionalProperties: false
+        required: [url]
+      rpc:
+        type: object
+        properties:
+          url: { type: string, format: uri }
+
+        additionalProperties: false
+        required: [url]
+
     additionalProperties: false
-    required: [location, url]
+    required: []
+
   changelog:
     anyOf:
       - { type: boolean }
       - { type: string, format: uri }
+
   favicon: { type: string }
   generateReadme: { type: boolean, default: true }
   logo:
@@ -25,19 +41,15 @@ properties:
           href: { type: string, format: uri }
           width: { type: integer, minimum: 32 }
           height: { type: integer, minimum: 32 }
+
         additionalProperties: false
         required: [href]
+
   name: { type: string }
-  rpc:
-    type: object
-    properties:
-      location: { type: string }
-      url: { type: string, format: uri }
-    additionalProperties: false
-    required: [location, url]
   siteURL: { type: string, format: uri }
   subMaxLevel: { type: integer, minimum: 0 }
   types: { type: object, additionalProperties: { type: string } }
   externalTypes: { type: array, items: { type: string, format: uri }, uniqueItems: true }
+
 additionalProperties: false
 required: []
