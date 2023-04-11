@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.26.9 (2023-04-11)
+
+Fixes:
+
+-   fix: glob pattern removed from workspaces parser
+
 ### 3.26.8 (2023-03-27)
 
 Fixes:
