@@ -138,14 +138,14 @@ class Theme {
     }
 
     #generateSubToc ( el, headings ) {
-        const topLevel = +el.tagName.substr( 1 );
+        const topLevel = +el.tagName.substring( 1 );
 
         if ( topLevel === 1 ) return;
 
         const subHeadings = [];
 
         for ( const heading of headings ) {
-            const level = +heading.tagName.substr( 1 );
+            const level = +heading.tagName.substring( 1 );
 
             if ( level <= topLevel ) break;
 
@@ -174,7 +174,7 @@ class Theme {
         // find minimal heading level
         for ( const heading of headings ) {
             const tag = heading.tagName,
-                level = +tag.substr( 1 );
+                level = +tag.substring( 1 );
 
             levels[level] = level;
         }
@@ -188,7 +188,7 @@ class Theme {
         // create toc
         for ( const heading of headings ) {
             const tag = heading.tagName,
-                level = levels[tag.substr( 1 )];
+                level = levels[tag.substring( 1 )];
 
             let list;
 
