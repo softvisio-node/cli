@@ -1,5 +1,9 @@
 # Changelog
 
+### 3.26.11 (2023-04-25)
+
+No notable changes since the previous release.
+
 ### 3.26.10 (2023-04-25)
 
 Fixes:
