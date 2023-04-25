@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.26.10 (2023-04-25)
+
+Fixes:
+
+-   fix: substr is deprecated
+
 ### 3.26.9 (2023-04-11)
 
 Fixes:
