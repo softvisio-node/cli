@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.26.12 (2023-05-05)
+
+Fixes:
+
+-   fix: eslint camel case rule options
+
 ### 3.26.11 (2023-04-25)
 
 No notable changes since the previous release.
