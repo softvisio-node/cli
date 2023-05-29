@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.26.13 (2023-05-29)
+
+Fixes:
+
+-   fix: app docks gen
+
 ### 3.26.12 (2023-05-05)
 
 Fixes:
