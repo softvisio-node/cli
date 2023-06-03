@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.27.1 (2023-06-03)
+
+Fixes:
+
+-   fix: yaml locale
+
 ### 3.27.0 (2023-06-03)
 
 Features:
