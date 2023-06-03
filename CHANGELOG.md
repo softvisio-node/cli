@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.27.0 (2023-06-03)
+
+Features:
+
+-   feat: yaml i18n parser
+
 ### 3.26.14 (2023-05-31)
 
 Fixes:
