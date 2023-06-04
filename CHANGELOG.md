@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.27.3 (2023-06-04)
+
+Fixes:
+
+-   fix: localizayion
+
 ### 3.27.2 (2023-06-04)
 
 Fixes:
