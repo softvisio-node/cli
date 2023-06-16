@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.27.5 (2023-06-16)
+
+Fixes:
+
+-   fix: glob
+-   fix: migrate to the new glob
+
 ### 3.27.4 (2023-06-09)
 
 Fixes:
