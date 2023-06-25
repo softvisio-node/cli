@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.28.0 (2023-06-25)
+
+Features:
+
+-   feat: package localization'
+
 ### 3.27.7 (2023-06-16)
 
 Fixes:
