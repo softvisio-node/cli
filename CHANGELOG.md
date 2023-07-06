@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.28.6 (2023-07-06)
+
+Fixes:
+
+-   fix: prettier
+
 ### 3.28.5 (2023-07-06)
 
 Fixes:
