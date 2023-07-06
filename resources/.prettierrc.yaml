@@ -12,4 +12,5 @@ arrowParens: avoid
 proseWrap: preserve # TODO test
 htmlWhitespaceSensitivity: css
 vueIndentScriptAndStyle: false
+xmlWhitespaceSensitivity: preserve
 # endOfLine: lf # inherited from .editorconfig "end_of_line"
