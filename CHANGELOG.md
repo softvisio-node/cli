@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.28.8 (2023-07-14)
+
+Fixes:
+
+-   fix: lint --no-lintignore
+
 ### 3.28.7 (2023-07-13)
 
 Fixes:
