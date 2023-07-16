@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.28.9 (2023-07-16)
+
+Fixes:
+
+-   fix: npm files
+
 ### 3.28.8 (2023-07-14)
 
 Fixes:
