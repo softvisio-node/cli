@@ -30,6 +30,12 @@
     "bin": {
         "softvisio-cli": "bin/softvisio-cli.js"
     },
+    "files": [
+        "/bin",
+        "/lib",
+        "/resources",
+        "/src"
+    ],
     "dependencies": {
         "@babel/core": "^7.12.10",
         "@babel/eslint-parser": "^7.12.1",
