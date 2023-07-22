@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.28.11 (2023-07-22)
+
+Fixes:
+
+-   fix: l10n command
+
 ### 3.28.10 (2023-07-20)
 
 Fixes:
