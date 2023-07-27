@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.29.6 (2023-07-27)
+
+Fixes:
+
+-   fix: cli config renamed
+
 ### 3.29.5 (2023-07-27)
 
 Fixes:
