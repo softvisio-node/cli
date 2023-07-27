@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.29.5 (2023-07-27)
+
+Fixes:
+
+-   fix: root package
+
 ### 3.29.4 (2023-07-27)
 
 Fixes:
