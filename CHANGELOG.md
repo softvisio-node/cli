@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.29.1 (2023-07-27)
+
+Fixes:
+
+-   fix: git upstream
+-   fix: repo url
+
 ### 3.29.0 (2023-07-22)
 
 Features:
