@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.29.7 (2023-07-28)
+
+Fixes:
+
+-   fix: docker build refactored
+
 ### 3.29.6 (2023-07-27)
 
 Fixes:
