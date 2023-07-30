@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.29.10 (2023-07-30)
+
+Fixes:
+
+-   fix: docker build
+-   fix: docker engine
+
 ### 3.29.9 (2023-07-29)
 
 Fixes:
