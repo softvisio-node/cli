@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.29.14 (2023-08-15)
+
+Fixes:
+
+-   fix: commint config
+
 ### 3.29.13 (2023-07-31)
 
 Fixes:
