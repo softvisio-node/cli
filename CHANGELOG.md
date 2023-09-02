@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.30.0 (2023-09-02)
+
+Features:
+
+-   feat: translation memory
+
 ### 3.29.15 (2023-08-25)
 
 Fixes:
