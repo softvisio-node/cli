@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.30.1 (2023-09-09)
+
+Fixes:
+
+-   fix: pofile extracted comments
+-   fix: yaml parse
+-   fix: yaml parser
+-   fix: yaml parset
+
 ### 3.30.0 (2023-09-02)
 
 Features:
