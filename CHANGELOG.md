@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.30.4 (2023-09-10)
+
+Fixes:
+
+-   fix: po-message domains removed
+
 ### 3.30.3 (2023-09-10)
 
 Fixes:
