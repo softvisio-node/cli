@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.30.2 (2023-09-10)
+
+Fixes:
+
+-   fix: l10n parser
+-   fix: l10n tags
+
 ### 3.30.1 (2023-09-09)
 
 Fixes:
