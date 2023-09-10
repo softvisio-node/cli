@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.30.3 (2023-09-10)
+
+Fixes:
+
+-   fix: po message
+
 ### 3.30.2 (2023-09-10)
 
 Fixes:
