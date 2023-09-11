@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.30.7 (2023-09-11)
+
+Fixes:
+
+-   fix: po rel path
+
 ### 3.30.6 (2023-09-11)
 
 Fixes:
