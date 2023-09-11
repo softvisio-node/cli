@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.30.6 (2023-09-11)
+
+Fixes:
+
+-   fix: locale domains
+
 ### 3.30.5 (2023-09-10)
 
 Fixes:
