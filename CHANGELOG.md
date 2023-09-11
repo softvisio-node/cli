@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.30.8 (2023-09-11)
+
+Fixes:
+
+-   fix: l10n domain removed
+
 ### 3.30.7 (2023-09-11)
 
 Fixes:
