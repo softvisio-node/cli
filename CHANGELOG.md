@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.30.9 (2023-09-15)
+
+Fixes:
+
+-   fix: l10n translation mem
+
 ### 3.30.8 (2023-09-11)
 
 Fixes:
