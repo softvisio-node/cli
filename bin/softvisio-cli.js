@@ -71,6 +71,6 @@ const spec = {
     },
 };
 
-const Class = await CLI.parse( spec );
+const cli = await CLI.parse( spec );
 
-await new Class().run();
+await new cli.module().run();
