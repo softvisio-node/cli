@@ -54,7 +54,15 @@ const config = {
         "vue/component-definition-name-casing": ["error", "PascalCase"],
         "vue/component-name-in-template-casing": ["error", "PascalCase", { "registeredComponentsOnly": true }],
         "vue/custom-event-name-casing": ["error", "camelCase"],
-        "vue/html-indent": "off", // ["warn", 4],
+
+        "vue/html-indent": [
+            "warn",
+            4,
+            {
+                "baseIndent": 1,
+            },
+        ],
+
         "vue/html-closing-bracket-spacing": [
             "warn",
             {
@@ -76,7 +84,7 @@ const config = {
                 "math": "always",
             },
         ],
-        "vue/max-attributes-per-line": ["warn", { "singleline": 99999 }],
+        "vue/max-attributes-per-line": ["warn", { "singleline": 100, "multiline": 1 }],
         "vue/multi-word-component-names": "off",
         "vue/no-reserved-component-names": ["error", { "disallowVue3BuiltInComponents": true }],
         "vue/prop-name-casing": ["error", "camelCase"],
