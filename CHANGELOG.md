@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.30.13 (2023-10-25)
+
+Fixes:
+
+-   fix: eslint vue indent
+
 ### 3.30.12 (2023-10-20)
 
 Fixes:
