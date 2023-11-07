@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.30.14 (2023-11-07)
+
+Fixes:
+
+-   fix: ejs
+-   fix: ejs global keyword
+-   fix: ejs parser
+
 ### 3.30.13 (2023-10-25)
 
 Fixes:
