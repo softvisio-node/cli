@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.31.0 (2024-01-22)
+
+Features:
+
+-   feat: private key generator
+
 ### 3.30.16 (2023-12-02)
 
 Fixes:
