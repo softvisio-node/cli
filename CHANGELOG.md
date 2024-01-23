@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.31.1 (2024-01-23)
+
+Fixes:
+
+-   fix: arrays brackets
+-   fix: linted
+
 ### 3.31.0 (2024-01-22)
 
 Features:
