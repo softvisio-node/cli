@@ -1,7 +1,7 @@
 const config = {
     ...JSON.parse( JSON.stringify( require( "./.eslintrc.javascript.cjs" ) ) ),
 
-    "plugins": ["@typescript-eslint"],
+    "plugins": [ "@typescript-eslint" ],
 
     "parserOptions": {
         "parser": "@typescript-eslint/parser",

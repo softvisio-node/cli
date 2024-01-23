@@ -1,5 +1,5 @@
 const STORAGE_KEY = "theme";
-const THEMES = new Set( ["light", "dark"] );
+const THEMES = new Set( [ "light", "dark" ] );
 const TOC_SELECTOR = "h1, h2, h3, h4";
 
 class Theme {
@@ -117,7 +117,7 @@ class Theme {
 
     #generateToc () {
         const article = document.querySelector( "article.markdown-section" ),
-            headings = [...article.querySelectorAll( TOC_SELECTOR )],
+            headings = [ ...article.querySelectorAll( TOC_SELECTOR ) ],
             toc = this.#generateTocEl( headings );
 
         if ( !toc ) return;
@@ -167,7 +167,7 @@ class Theme {
         const tocEl = document.createElement( "toc" );
 
         const levels = {},
-            lists = [tocEl];
+            lists = [ tocEl ];
 
         let currentLevel = 0;
 

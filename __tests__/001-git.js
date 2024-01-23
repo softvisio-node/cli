@@ -4,10 +4,10 @@ describe( "git-branch-parser", () => {
     const tests = [
 
         //
-        [`  main fa469cf [ahead 1] feat: docker add git labels on build`, { "branch": "main", "ahead": "1" }],
-        [`* (HEAD detached at latest) a938d78 [ahead 10] release: v0.1.7`, { "branch": undefined, "head": "HEAD", "ahead": "10" }],
-        [`  main fa469cf feat: docker add git labels on build`, { "branch": "main", "ahead": undefined }],
-        [`* (HEAD detached at latest) a938d78 release: v0.1.7`, { "branch": undefined, "head": "HEAD", "ahead": undefined }],
+        [ `  main fa469cf [ahead 1] feat: docker add git labels on build`, { "branch": "main", "ahead": "1" } ],
+        [ `* (HEAD detached at latest) a938d78 [ahead 10] release: v0.1.7`, { "branch": undefined, "head": "HEAD", "ahead": "10" } ],
+        [ `  main fa469cf feat: docker add git labels on build`, { "branch": "main", "ahead": undefined } ],
+        [ `* (HEAD detached at latest) a938d78 release: v0.1.7`, { "branch": undefined, "head": "HEAD", "ahead": undefined } ],
     ];
 
     for ( let n = 0; n < tests.length; n++ ) {
