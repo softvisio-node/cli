@@ -139,6 +139,7 @@ const config = {
 
         "array-bracket-spacing": [ "error", "always" ],
         "template-curly-spacing": [ "error", "always" ],
+        "computed-property-spacing": [ "error", "always" ],
 
         // TODO eslint
         // "array-bracket-newline": "error",
@@ -150,7 +151,6 @@ const config = {
         // "capitalized-comments": "error",
         // "comma-dangle": "error",
         // "comma-style": "error",
-        // "computed-property-spacing": "error",
         // "dot-location": "error",
         // "dot-notation": "error",
         // "eol-last": "error",
