@@ -12,12 +12,12 @@ describe( "git-branch-parser", () => {
 
     for ( let n = 0; n < tests.length; n++ ) {
         test( "test_" + n, () => {
-            const match = tests[n][0].match( BRANCH_RE );
+            const match = tests[ n ][ 0 ].match( BRANCH_RE );
 
-            if ( !match ) throw Error( `Parsing error: ` + tests[n][0] );
+            if ( !match ) throw Error( `Parsing error: ` + tests[ n ][ 0 ] );
 
-            for ( const prop in tests[n][1] ) {
-                expect( tests[n][1][prop] ).toBe( match.groups[prop] );
+            for ( const prop in tests[ n ][ 1 ] ) {
+                expect( tests[ n ][ 1 ][ prop ] ).toBe( match.groups[ prop ] );
             }
         } );
     }

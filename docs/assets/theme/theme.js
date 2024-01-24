@@ -81,14 +81,14 @@ class Theme {
         for ( let n = 0; n < blocks.length; n++ ) {
 
             // code block start
-            if ( blocks[n].startsWith( "```" ) ) continue;
+            if ( blocks[ n ].startsWith( "```" ) ) continue;
 
             // code block body
-            if ( n && blocks[n - 1].startsWith( "```" ) ) continue;
+            if ( n && blocks[ n - 1 ].startsWith( "```" ) ) continue;
 
-            blocks[n] = blocks[n].replaceAll( /<([\w.]+)(\[\])?\\>/g, ( match, type, array ) => {
+            blocks[ n ] = blocks[ n ].replaceAll( /<([\w.]+)(\[\])?\\>/g, ( match, type, array ) => {
                 if ( type in types ) {
-                    return `<[${ type }${ array ?? "" }](${ types[type] })\\>`;
+                    return `<[${ type }${ array ?? "" }](${ types[ type ] })\\>`;
                 }
                 else {
                     return match;
@@ -176,19 +176,19 @@ class Theme {
             const tag = heading.tagName,
                 level = +tag.substring( 1 );
 
-            levels[level] = level;
+            levels[ level ] = level;
         }
 
         const sortedLevels = Object.keys( levels ).sort();
 
         for ( let n = 0; n < sortedLevels.length; n++ ) {
-            levels[sortedLevels[n]] = n + 1;
+            levels[ sortedLevels[ n ] ] = n + 1;
         }
 
         // create toc
         for ( const heading of headings ) {
             const tag = heading.tagName,
-                level = levels[tag.substring( 1 )];
+                level = levels[ tag.substring( 1 ) ];
 
             let list;
 
@@ -197,7 +197,7 @@ class Theme {
                     for ( let n = 0; n < level - currentLevel; n++ ) {
                         list = document.createElement( "ul" );
 
-                        lists[lists.length - 1].appendChild( list );
+                        lists[ lists.length - 1 ].appendChild( list );
 
                         lists.push( list );
                     }
@@ -211,7 +211,7 @@ class Theme {
                 currentLevel = level;
             }
 
-            list = lists[lists.length - 1];
+            list = lists[ lists.length - 1 ];
 
             const link = heading.querySelector( "a" ),
                 li = document.createElement( "li" ),
