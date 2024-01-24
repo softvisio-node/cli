@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.31.2 (2024-01-24)
+
+Fixes:
+
+-   fix: linted
+-   fix: spaces around property
+-   fix: template expy spaces
+
 ### 3.31.1 (2024-01-23)
 
 Fixes:
