@@ -138,6 +138,7 @@ const config = {
         "yoda": [ "error", "never", { "exceptRange": true } ],
 
         "array-bracket-spacing": [ "error", "always" ],
+        "template-curly-spacing": [ "error", "always" ],
 
         // TODO eslint
         // "array-bracket-newline": "error",
@@ -212,7 +213,6 @@ const config = {
         // "space-unary-ops": "error",
         // "strict": "error",
         // "switch-colon-spacing": "error",
-        // "template-curly-spacing": "error",
         // "template-tag-spacing": "error",
         // "unicode-bom": "error",
         // "wrap-iife": "error",
