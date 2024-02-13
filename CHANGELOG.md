@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.32.1 (2024-02-13)
+
+Fixes:
+
+-   fix: tramslations
+
 ### 3.32.0 (2024-02-13)
 
 Features:
