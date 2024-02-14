@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.32.4 (2024-02-14)
+
+Fixes:
+
+-   fix: utils confirm
+
 ### 3.32.3 (2024-02-14)
 
 Fixes:
