@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.33.1 (2024-02-18)
+
+Fixes:
+
+-   fix: app global locale
+
 ### 3.33.0 (2024-02-18)
 
 Features:
