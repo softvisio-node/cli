@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.33.0 (2024-02-18)
+
+Features:
+
+-   feat: global.l10nt
+
 ### 3.32.10 (2024-02-18)
 
 Fixes:
