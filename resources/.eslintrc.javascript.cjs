@@ -16,6 +16,7 @@ const config = {
 
     "globals": {
         "Ext": "readonly",
+        "l10nt": "readonly",
         "msgid": "readonly",
         "result": "readonly",
     },
