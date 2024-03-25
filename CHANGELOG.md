@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.33.2 (2024-03-25)
+
+Fixes:
+
+-   fix: cli array
+
 ### 3.33.1 (2024-02-18)
 
 Fixes:
