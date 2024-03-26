@@ -81,7 +81,7 @@ try {
     var res = result.try( await new cli.module().run(), { "allowUndefined": true } );
 }
 catch ( e ) {
-    res = result.catch( e, { "log": false } );
+    res = result.catch( e );
 }
 
 if ( res.ok ) {
