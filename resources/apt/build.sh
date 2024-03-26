@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOT=pwd
+ROOT=$(pwd)
 
 _DISTS=$ROOT/dists
 _COMPONENT=main
@@ -26,7 +26,7 @@ MAINTAINER="zdm <zdm@softvisio.net>"
 # apt-get update
 
 # load spec
-. resources/packages/$1
+. $ROOT/packages/$1
 
 function _build_local() {
     local cwd=$PWD
