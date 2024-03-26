@@ -77,4 +77,18 @@ const spec = {
 
 const cli = await CLI.parse( spec );
 
-await new cli.module().run();
+try {
+    var res = result.try( await new cli.module().run(), { "allowUndefined": true } );
+}
+catch ( e ) {
+    res = result.catch( e, { "log": false } );
+}
+
+if ( res.ok ) {
+    process.exit( 0 );
+}
+else {
+    console.log( res + "" );
+
+    process.exit( 1 );
+}
