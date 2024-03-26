@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SCRIPT_DIR="$(cd -P -- "$(dirname -- "$0")" && pwd -P)"
+ROOT=pwd
 
-_DISTS=$SCRIPT_DIR/../dists
+_DISTS=$ROOT/dists
 _COMPONENT=main
 
 # init
