@@ -68,6 +68,10 @@ const spec = {
             "title": "wiki tools",
             "module": () => new URL( "../lib/commands/wiki.js", import.meta.url ),
         },
+        "apt": {
+            "title": "apt repository tools",
+            "module": () => new URL( "../lib/commands/apt.js", import.meta.url ),
+        },
     },
 };
 
