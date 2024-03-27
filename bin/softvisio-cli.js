@@ -88,7 +88,7 @@ if ( res.ok ) {
     process.exit( 0 );
 }
 else {
-    console.log( res + "" );
+    console.log( "Errot;", res + "" );
 
     process.exit( 1 );
 }
