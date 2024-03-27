@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.34.0 (2024-03-27)
+
+Features:
+
+-   feat: apt command
+
+Fixes:
+
+-   fix: env find package
+-   fix: git upstream
+
 ### 3.33.2 (2024-03-25)
 
 Fixes:
