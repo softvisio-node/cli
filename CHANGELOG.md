@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.34.2 (2024-03-27)
+
+Fixes:
+
+-   fix: apt archs
+
 ### 3.34.1 (2024-03-27)
 
 Fixes:
