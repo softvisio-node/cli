@@ -15,9 +15,9 @@ mkdir -p $DEBIAN
 
 # spec variables
 NAME=
-EPOCH=
+EPOCH=0
 VERSION=
-REVISION=
+REVISION=0
 ARCHITECTURE=
 DEPENDS=
 DESCRIPTION=
@@ -78,7 +78,7 @@ function _pack() { (
         FILE_VERSION_STRING=$EPOCH-$VERSION
     fi
 
-    if [[ ! -z $REVISION ]]; then
+    if [[ ! -z $REVISION && $REVISION != "0" ]]; then
         VERSION_STRING=$VERSION_STRING-$REVISION
         FILE_VERSION_STRING=$FILE_VERSION_STRING-$REVISION
     fi
