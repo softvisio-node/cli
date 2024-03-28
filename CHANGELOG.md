@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.34.5 (2024-03-28)
+
+Fixes:
+
+-   fix: apt base-images
+
 ### 3.34.4 (2024-03-28)
 
 Fixes:
