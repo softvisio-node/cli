@@ -15,9 +15,9 @@ mkdir -p $DEBIAN
 
 # spec variables
 NAME=
-EPOCH=1
+EPOCH=
 VERSION=
-REVISION=1
+REVISION=
 ARCHITECTURE=
 DEPENDS=
 DESCRIPTION=
@@ -65,21 +65,36 @@ function _pack() { (
     local VERSION_ID=$(source /etc/os-release && echo $VERSION_ID)
     local ARCH=$(dpkg --print-architecture)
 
+    local VERSION_STRING=
+    local FILE_VERSION_STRING=
     local BUILD_ARCH=
     local TARGET=
 
+    if [[ -z $EPOCH || $EPOCH == "0" ]]; then
+        VERSION_STRING=$VERSION
+        FILE_VERSION_STRING=$VERSION
+    else
+        VERSION_STRING=$EPOCH:$VERSION
+        FILE_VERSION_STRING=$EPOCH-$VERSION
+    fi
+
+    if [[ ! -z $REVISION ]]; then
+        VERSION_STRING=$VERSION_STRING-$REVISION
+        FILE_VERSION_STRING=$FILE_VERSION_STRING-$REVISION
+    fi
+
     if [[ $ARCHITECTURE == "all" ]]; then
         BUILD_ARCH=all
-        TARGET=$_DISTS/binary-all/${NAME}_$VERSION-${REVISION}_all.deb
+        TARGET=$_DISTS/binary-all/${NAME}_${FILE_VERSION_STRING}_all.deb
     else
         BUILD_ARCH=$ARCH
-        TARGET=$_DISTS/$VERSION_ID/$_COMPONENT/binary-$ARCH/${NAME}_$VERSION-${REVISION}_$ARCH.deb
+        TARGET=$_DISTS/$VERSION_ID/$_COMPONENT/binary-$ARCH/${NAME}_${FILE_VERSION_STRING}_$ARCH.deb
     fi
 
     # debian/control
     cat << EOF > $DEBIAN/control
 Package: $NAME
-Version: $EPOCH:$VERSION-$REVISION
+Version: $VERSION_STRING
 Architecture: $BUILD_ARCH
 Installed-Size: $(du -s $DESTDIR | cut -f1)
 Depends: $DEPENDS
