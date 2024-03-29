@@ -1,8 +1,7 @@
 #!/bin/bash
 
 ROOT=$(pwd)
-
-_DISTS=$ROOT/dists
+DISTS=$ROOT/dists
 
 # init
 _BUILD_ROOT=$(mktemp -d)
@@ -81,10 +80,10 @@ function _pack() { (
 
     if [[ $ARCHITECTURE == "all" ]]; then
         BUILD_ARCHITECTURE=all
-        TARGET=$_DISTS/binary-all/${NAME}_${FILE_VERSION_STRING}_all.deb
+        TARGET=$DISTS/binary-all/${NAME}_${FILE_VERSION_STRING}_all.deb
     else
         BUILD_ARCHITECTURE=$(dpkg --print-architecture)
-        TARGET=$_DISTS/$VERSION_ID/$COMPONENT/binary-$BUILD_ARCHITECTURE/${NAME}_${FILE_VERSION_STRING}_$BUILD_ARCHITECTURE.deb
+        TARGET=$DISTS/$VERSION_ID/$COMPONENT/binary-$BUILD_ARCHITECTURE/${NAME}_${FILE_VERSION_STRING}_$BUILD_ARCHITECTURE.deb
     fi
 
     # debian/control
