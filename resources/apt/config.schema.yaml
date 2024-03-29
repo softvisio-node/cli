@@ -1,0 +1,13 @@
+type: object
+properties:
+  label: { type: string }
+  maintainer: { type: string, format: email }
+  component: { type: string, format: kebab-case }
+  codenames:
+    type: array
+    items: { type: string }
+    minItems: 1
+    uniqueItems: true
+
+additionalProperties: false
+required: [label, maintainer, component, codenames]
