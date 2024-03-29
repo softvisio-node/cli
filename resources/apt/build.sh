@@ -21,7 +21,6 @@ REVISION=0
 ARCHITECTURE=
 DEPENDS=
 DESCRIPTION=
-MAINTAINER="zdm <zdm@softvisio.net>"
 
 # apt-get update
 
