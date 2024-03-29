@@ -3,7 +3,6 @@
 ROOT=$(pwd)
 
 _DISTS=$ROOT/dists
-_COMPONENT=main
 
 # init
 _BUILD_ROOT=$(mktemp -d)
@@ -87,7 +86,7 @@ function _pack() { (
         TARGET=$_DISTS/binary-all/${NAME}_${FILE_VERSION_STRING}_all.deb
     else
         BUILD_ARCH=$ARCH
-        TARGET=$_DISTS/$VERSION_ID/$_COMPONENT/binary-$ARCH/${NAME}_${FILE_VERSION_STRING}_$ARCH.deb
+        TARGET=$_DISTS/$VERSION_ID/$COMPONENT/binary-$ARCH/${NAME}_${FILE_VERSION_STRING}_$ARCH.deb
     fi
 
     # debian/control
