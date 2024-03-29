@@ -61,11 +61,9 @@ function _build() { (
 
 function _pack() { (
     local VERSION_ID=$(source /etc/os-release && echo $VERSION_ID)
-    local ARCH=$(dpkg --print-architecture)
-
     local VERSION_STRING=
     local FILE_VERSION_STRING=
-    local BUILD_ARCH=
+    local BUILD_ARCHITECTURE=
     local TARGET=
 
     if [[ -z $EPOCH || $EPOCH == "0" ]]; then
@@ -82,18 +80,18 @@ function _pack() { (
     fi
 
     if [[ $ARCHITECTURE == "all" ]]; then
-        BUILD_ARCH=all
+        BUILD_ARCHITECTURE=all
         TARGET=$_DISTS/binary-all/${NAME}_${FILE_VERSION_STRING}_all.deb
     else
-        BUILD_ARCH=$ARCH
-        TARGET=$_DISTS/$VERSION_ID/$COMPONENT/binary-$ARCH/${NAME}_${FILE_VERSION_STRING}_$ARCH.deb
+        BUILD_ARCHITECTURE=$(dpkg --print-architecture)
+        TARGET=$_DISTS/$VERSION_ID/$COMPONENT/binary-$BUILD_ARCHITECTURE/${NAME}_${FILE_VERSION_STRING}_$BUILD_ARCHITECTURE.deb
     fi
 
     # debian/control
     cat << EOF > $DEBIAN/control
 Package: $NAME
 Version: $VERSION_STRING
-Architecture: $BUILD_ARCH
+Architecture: $BUILD_ARCHITECTURE
 Installed-Size: $(du -s $DESTDIR | cut -f1)
 Depends: $DEPENDS
 Maintainer: $MAINTAINER
