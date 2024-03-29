@@ -108,7 +108,7 @@ $NAME (0.0.0-1) UNRELEASED; urgency=low
 EOF
 
     mkdir -p $(dirname $TARGET)
-    dpkg-deb --build --root-owner-group $DESTDIR $TARGET
+    dpkg-deb --build -Zgzip --root-owner-group $DESTDIR $TARGET
 
 ); }
 
