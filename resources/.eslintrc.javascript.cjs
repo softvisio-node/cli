@@ -22,17 +22,27 @@ const config = {
         "result": "readonly",
     },
 
+    // "parserOptions": {
+    //     "sourceType": "module",
+    //     "ecmaVersion": 2023,
+    //     "ecmaFeatures": {
+    //         "jsx": true,
+    //     },
+    // },
+
     "parserOptions": {
-        "parser": "@babel/eslint-parser",
         "sourceType": "module",
-        "ecmaVersion": 2021,
+        "ecmaVersion": 2023,
         "ecmaFeatures": {
             "jsx": true,
         },
-        "requireConfigFile": false,
-        "babelOptions": {
-            "presets": [ [ require.resolve( "@babel/preset-env" ), { "shippedProposals": true } ] ],
-        },
+
+        // babel parser
+        // "parser": "@babel/eslint-parser",
+        // "requireConfigFile": false,
+        // "babelOptions": {
+        //     "presets": [ [ require.resolve( "@babel/preset-env" ), { "shippedProposals": true } ] ],
+        // },
     },
 
     "rules": {

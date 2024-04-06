@@ -38,7 +38,6 @@
     ],
     "dependencies": {
         "@babel/core": "^7.12.10",
-        "@babel/eslint-parser": "^7.12.1",
         "@babel/preset-env": "^7.15.8",
         "@prettier/plugin-xml": "^3.4.1",
         "@softvisio/core": "^7.0.0",
