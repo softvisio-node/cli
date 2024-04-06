@@ -37,8 +37,6 @@
         "/src"
     ],
     "dependencies": {
-        "@babel/core": "^7.12.10",
-        "@babel/preset-env": "^7.15.8",
         "@prettier/plugin-xml": "^3.4.1",
         "@softvisio/core": "^7.0.0",
         "@softvisio/eslint-plugin": "^1.0.1",
