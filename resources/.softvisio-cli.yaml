@@ -1,0 +1,24 @@
+private: false
+
+subPackages: ~
+
+docker:
+  build:
+    defaultTag: ~
+    autoTags: ~
+
+commits:
+  strict: true
+
+  types:
+    - chore
+    - docs
+    - feat
+    - fix
+    - refactor
+    - style
+    - test
+
+  requireScope: false
+
+  scopes: []
