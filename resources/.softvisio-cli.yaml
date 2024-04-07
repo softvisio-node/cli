@@ -19,6 +19,6 @@ commits:
     - style
     - test
 
-  requireScope: false
+  scopeRequired: false
 
   scopes: []

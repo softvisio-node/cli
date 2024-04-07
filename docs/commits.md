@@ -39,7 +39,7 @@ git commit -m"feat(core)!: commit description"
     "commits": {
         "strict": true,
         "types": ["custom1", "custom2"],
-        "requireScope": true,
+        "scopeRequired": true,
         "scopes": ["core", "web"]
     }
 }
@@ -59,7 +59,7 @@ Allow conventional commits only.
 
 Allowed commit types. If empty any type is allowed.
 
-### requireScope
+### scopeRequired
 
 -   type: <boolean\>
 -   default: `false`
