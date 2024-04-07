@@ -35,9 +35,15 @@ properties:
     type: object
     properties:
       strict: { type: boolean }
-      types: { type: array, items: { type: string }, minItems: true, uniqueItems: true }
+      types:
+        anyOf:
+          - type: "null"
+          - { type: array, items: { type: string }, minItems: true, uniqueItems: true }
       scopeRequired: { type: boolean }
-      scopes: { type: array, items: { type: string }, minItems: true, uniqueItems: true }
+      scopes:
+        anyOf:
+          - type: "null"
+          - { type: array, items: { type: string }, minItems: true, uniqueItems: true }
 
     additionalProperties: false
     required: []
