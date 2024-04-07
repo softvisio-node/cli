@@ -1,0 +1,29 @@
+type: object
+properties:
+  private: { type: boolean }
+
+  subPackages:
+    anyOf:
+      - type: "null"
+      - type: array
+        items: { type: string }
+        minItems: 1
+        uniqueItems: true
+
+  docker:
+    type: object
+    properties:
+      build:
+        type: object
+        properties:
+          defaultTag: { type: ["null", string] }
+          autoTags: { type: ["null", boolean] }
+
+        additionalProperties: false
+        required: []
+
+    additionalProperties: false
+    required: [build]
+
+additionslProperties: false
+required: []
