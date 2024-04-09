@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.34.18 (2024-04-09)
+
+Fixes:
+
+-   fix: cli config
+-   fix: deps
+-   fix: esliny use default parser
+
 ### 3.34.17 (2024-03-30)
 
 Fixes:
