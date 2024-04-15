@@ -48,67 +48,67 @@ properties:
     additionalProperties: false
     required: []
 
-docs:
-  anyOf:
-    - type: "null"
-    - type: object
-      properties:
-        location:
-          anyOf:
-            - type: "null"
-            - const: docs
+  docs:
+    anyOf:
+      - type: "null"
+      - type: object
+        properties:
+          location:
+            anyOf:
+              - type: "null"
+              - const: docs
 
-        aliases: { type: object, additionalProperties: { type: string, format: uri } }
+          aliases: { type: object, additionalProperties: { type: string, format: uri } }
 
-        app:
-          type: object
-          properties:
-            api:
-              type: object
-              properties:
-                url: { type: string, format: uri }
+          app:
+            type: object
+            properties:
+              api:
+                type: object
+                properties:
+                  url: { type: string, format: uri }
 
-              additionalProperties: false
-              required: [url]
-            rpc:
-              type: object
-              properties:
-                url: { type: string, format: uri }
+                additionalProperties: false
+                required: [url]
+              rpc:
+                type: object
+                properties:
+                  url: { type: string, format: uri }
 
-              additionalProperties: false
-              required: [url]
+                additionalProperties: false
+                required: [url]
 
-          additionalProperties: false
-          required: []
+            additionalProperties: false
+            required: []
 
-        changelog:
-          anyOf:
-            - { type: boolean }
-            - { type: string, format: uri }
+          changelog:
+            anyOf:
+              - { type: boolean }
+              - { type: string, format: uri }
 
-        favicon: { type: string }
-        generateReadme: { type: boolean, default: true }
-        logo:
-          anyOf:
-            - { type: boolean }
-            - { type: string, format: uri }
-            - type: object
-              properties:
-                href: { type: string, format: uri }
-                width: { type: integer, minimum: 32 }
-                height: { type: integer, minimum: 32 }
+          favicon: { type: string }
+          generateReadme: { type: boolean, default: true }
+          logo:
+            anyOf:
+              - { type: boolean }
+              - { type: string, format: uri }
+              - type: object
+                properties:
+                  href: { type: string, format: uri }
+                  width: { type: integer, minimum: 32 }
+                  height: { type: integer, minimum: 32 }
 
-              additionalProperties: false
-              required: [href]
+                additionalProperties: false
+                required: [href]
 
-        name: { type: string }
-        siteURL: { type: string, format: uri }
-        subMaxLevel: { type: integer, minimum: 0 }
-        types: { type: object, additionalProperties: { type: string } }
-        externalTypes: { type: array, items: { type: string, format: uri }, uniqueItems: true }
+          name: { type: string }
+          siteURL: { type: string, format: uri }
+          subMaxLevel: { type: integer, minimum: 0 }
+          types: { type: object, additionalProperties: { type: string } }
+          externalTypes: { type: array, items: { type: string, format: string }, uniqueItems: true }
 
-      additionalProperties: false
-      required: []
+        additionalProperties: false
+        required: []
 
-additionslProperties: false
+additionalProperties: false
 required: []
