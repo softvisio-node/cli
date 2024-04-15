@@ -105,7 +105,7 @@ properties:
           siteURL: { type: string, format: uri }
           subMaxLevel: { type: integer, minimum: 0 }
           types: { type: object, additionalProperties: { type: string } }
-          externalTypes: { type: array, items: { type: string, format: string }, uniqueItems: true }
+          externalTypes: { type: array, items: { type: string }, uniqueItems: true }
 
         additionalProperties: false
         required: []
