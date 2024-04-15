@@ -56,7 +56,7 @@ docs:
         location:
           anyOf:
             - type: "null"
-            - type: sttring
+            - const: docs
 
         aliases: { type: object, additionalProperties: { type: string, format: uri } }
 
