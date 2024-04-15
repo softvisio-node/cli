@@ -1,8 +1,6 @@
 docs:
   location: docs
 
-  logo: false
-
   externalTypes:
     - softvisio-node/core
     - softvisio-node/result
