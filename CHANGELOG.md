@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.34.25 (2024-04-18)
+
+Fixes:
+
+-   fix: apt options
+
 ### 3.34.24 (2024-04-16)
 
 Fixes:
