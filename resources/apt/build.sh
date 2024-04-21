@@ -25,6 +25,10 @@ DESCRIPTION=
 # load spec
 . $ROOT/packages/$1
 
+if [[ ! -z $FORCE_VERSION ]]; then
+    VERSION=$FORCE_VERSION
+fi
+
 function _build_local() {
     local cwd=$PWD
 
