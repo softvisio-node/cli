@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.34.28 (2024-04-24)
+
+Fixes:
+
+-   fix: apt log
+-   fix: cli config docker schema
+
 ### 3.34.27 (2024-04-24)
 
 Fixes:
