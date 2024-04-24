@@ -16,6 +16,14 @@ properties:
       build:
         type: object
         properties:
+          composeFile:
+            anyOf:
+              - type: string
+              - type: array
+                items: { type: string }
+                minItems: 1
+                uniqueItems: true
+
           defaultTag: { type: ["null", string] }
           autoTags:
             anyOf:
@@ -26,7 +34,7 @@ properties:
                 uniqueItems: true
 
         additionalProperties: false
-        required: []
+        required: [composeFile]
 
     additionalProperties: false
     required: [build]

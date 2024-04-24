@@ -4,6 +4,7 @@ subPackages: ~
 
 docker:
   build:
+    composeFile: docker-compose.yaml
     defaultTag: ~
     autoTags: ~
 
