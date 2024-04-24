@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.34.27 (2024-04-24)
+
+Fixes:
+
+-   fix: docker builder
+
 ### 3.34.26 (2024-04-21)
 
 Fixes:
