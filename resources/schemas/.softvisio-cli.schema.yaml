@@ -13,31 +13,25 @@ properties:
   docker:
     type: object
     properties:
-      build:
-        type: object
-        properties:
-          composeFile:
-            anyOf:
-              - type: string
-              - type: array
-                items: { type: string }
-                minItems: 1
-                uniqueItems: true
+      composeFile:
+        anyOf:
+          - type: string
+          - type: array
+            items: { type: string }
+            minItems: 1
+            uniqueItems: true
 
-          defaultTag: { type: ["null", string] }
-          autoTags:
-            anyOf:
-              - type: "null"
-              - type: array
-                items: { type: string }
-                minItems: 1
-                uniqueItems: true
-
-        additionalProperties: false
-        required: [composeFile]
+      defaultTag: { type: ["null", string] }
+      autoTags:
+        anyOf:
+          - type: "null"
+          - type: array
+            items: { type: string }
+            minItems: 1
+            uniqueItems: true
 
     additionalProperties: false
-    required: [build]
+    required: []
 
   commits:
     type: object
