@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.34.31 (2024-04-27)
+
+Fixes:
+
+-   fix: docs build
+
 ### 3.34.30 (2024-04-25)
 
 Fixes:
