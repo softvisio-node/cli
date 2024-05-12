@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.34.32 (2024-05-12)
+
+Fixes:
+
+-   fix: pre-release deps detection
+
 ### 3.34.31 (2024-04-27)
 
 Fixes:
