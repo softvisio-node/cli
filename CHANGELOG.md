@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.34.34 (2024-05-19)
+
+Fixes:
+
+-   fix: pre-release check
+
 ### 3.34.33 (2024-05-12)
 
 Fixes:
