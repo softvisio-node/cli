@@ -2,6 +2,7 @@ type: object
 properties:
   label: { type: string }
   maintainer: { type: string, format: email }
+  gpgKeyName: { type: string, format: email }
   component: { type: string, format: kebab-case }
   codenames:
     type: array
@@ -10,4 +11,4 @@ properties:
     uniqueItems: true
 
 additionalProperties: false
-required: [label, maintainer, component, codenames]
+required: [label, maintainer, gpgKeyName, component, codenames]
