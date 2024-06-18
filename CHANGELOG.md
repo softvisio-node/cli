@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.34.37 (2024-06-18)
+
+Fixes:
+
+-   fix: apt image labels
+
 ### 3.34.36 (2024-05-29)
 
 Fixes:
