@@ -1,12 +1,12 @@
 {
     "name": "@softvisio/cli",
-    "version": "3.34.41",
+    "version": "3.34.42",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "@softvisio/cli",
-            "version": "3.34.41",
+            "version": "3.34.42",
             "license": "ISC",
             "dependencies": {
                 "@prettier/plugin-xml": "^3.4.1",
