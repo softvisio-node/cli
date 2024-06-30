@@ -809,9 +809,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.84.34",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.84.34.tgz",
-            "integrity": "sha512-oiRfGGmCzOBcPt7bAtSYF9HJDF0NFBnR2hfbHyAkbNFXSYzL69uFs+kgcBKivsmxiusIHMwUuy0tRpaTn1w1rw==",
+            "version": "7.84.35",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.84.35.tgz",
+            "integrity": "sha512-MKwmPVEu2oBUpUzmIlncTBV1VMQGUmkynkEgmrVjF4BlvyY2AHAPwOK77JCc6teECrx/OJ2jyddfnhN6K6lK1Q==",
             "hasInstallScript": true,
             "dependencies": {
                 "@mtproto/core": "^6.3.0",
