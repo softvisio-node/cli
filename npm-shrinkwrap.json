@@ -872,9 +872,9 @@
             }
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.15.69",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.15.69.tgz",
-            "integrity": "sha512-0SmuqW1sitRKQmiDFwSjZlgDTItRddhFy1UWBsCd/Q6qq3qHVF4EvokqjHBW7qQCpBamOJvf1XgoEXELAo55Tw==",
+            "version": "1.15.70",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.15.70.tgz",
+            "integrity": "sha512-ckF5TQyJ5tUb/Bvjxat+jGpUI3KkQXI3pOwylNd1jmGJSBZek71WJK1PlEF76aU9kb2y1GGPK8XV6eXksEq4Tg==",
             "hasInstallScript": true,
             "engines": {
                 "node": ">=16.0.0",
