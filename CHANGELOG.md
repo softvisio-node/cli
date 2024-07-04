@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.34.43 (2024-07-04)
+
+Fixes:
+
+-   fix: deps
+-   fix: lint color
+
 ### 3.34.42 (2024-06-24)
 
 Fixes:
