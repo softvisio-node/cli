@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.34.46 (2024-07-22)
+
+Fixes:
+
+-   fix: deps
+-   fix: lint
+-   fix: mime
+
 ### 3.34.45 (2024-07-16)
 
 Fixes:
