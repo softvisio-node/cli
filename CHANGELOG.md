@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.34.47 (2024-07-26)
+
+Fixes:
+
+-   fix: application/javascript removed
+-   fix: deps
+
 ### 3.34.46 (2024-07-22)
 
 Fixes:
