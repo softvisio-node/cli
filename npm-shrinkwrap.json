@@ -874,9 +874,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.84.41",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.84.41.tgz",
-            "integrity": "sha512-x0xNYE/5cNUetslfLbGgFm+rEHBer8ZP6GSa50aMo1PXI9rV4H04NRFxTd7qZosTzusiPqeMdJX+Gy5ARWrRiw==",
+            "version": "7.84.42",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.84.42.tgz",
+            "integrity": "sha512-huo5+zJQNz4XbGC/mYHEWfUYcGNTyJ3EN8tnMZFTogKLkqwSkydiNqSeDUal+oOw9P9nEMPy2Y0awksttxrEoQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -955,9 +955,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "1.2.9",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.9.tgz",
-            "integrity": "sha512-Li/Zxu0CrVIJ6u2ITkLq9SsoJpCEcONLYkZ0Les8vnj8NbZufrIwEk6vy6bdYCNwHdHxAeUHGMe+2LXKmSFBUg==",
+            "version": "1.2.10",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.10.tgz",
+            "integrity": "sha512-T4qJs9Fla1CiOpIMGj0Nqy3IQsZOPg0nOdVcFQrbjLsZsJ1VSvjoCwGmFnX90bAvLEe8tFhas+dRsicE+4PceA==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -2137,9 +2137,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.1",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.1.tgz",
-            "integrity": "sha512-FKbOCOQ5QRB3VlIbl1LZQefWIYwszlBloaXcY2rbfpu9ioJnNh3TK03YtIDKDo3WKBi8u+YV4+Fn2CkEozgf4w==",
+            "version": "1.5.2",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.2.tgz",
+            "integrity": "sha512-kc4r3U3V3WLaaZqThjYz/Y6z8tJe+7K0bbjUVo3i+LWIypVdMx5nXCkwRe6SWbY6ILqLdc1rKcKmr3HoH7wjSQ==",
             "license": "ISC"
         },
         "node_modules/emoji-regex": {
@@ -5026,9 +5026,9 @@
             }
         },
         "node_modules/tar": {
-            "version": "7.4.2",
-            "resolved": "https://registry.npmjs.org/tar/-/tar-7.4.2.tgz",
-            "integrity": "sha512-pP4ToLATHpXOrbxOZudW6rnfyPWJZoyERNrpTpQEtW6LkvpXw+WDnpj2GBQX9tyQ6teUyPESyyiOCFgp6HnGdw==",
+            "version": "7.4.3",
+            "resolved": "https://registry.npmjs.org/tar/-/tar-7.4.3.tgz",
+            "integrity": "sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==",
             "license": "ISC",
             "peer": true,
             "dependencies": {
