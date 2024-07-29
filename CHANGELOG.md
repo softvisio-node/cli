@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.34.49 (2024-07-29)
+
+Fixes:
+
+-   fix: deps
+-   fix: jest support removed
+-   fix: test command removed
+-   fix: test refactor
+
 ### 3.34.48 (2024-07-28)
 
 Fixes:
