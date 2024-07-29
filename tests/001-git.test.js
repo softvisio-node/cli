@@ -1,3 +1,6 @@
+import { describe, test } from "node:test";
+import assert from "node:assert";
+
 describe( "git-branch-parser", () => {
     const BRANCH_RE = /^(?<current>\*)? +(?:\((?<head>HEAD)[^)]+\)|(?<branch>[^ ]+)) +(?<hash>[a-z0-9]+)(?: \[ahead (?<ahead>\d+)\])? (?<description>.+)/;
 
@@ -17,7 +20,7 @@ describe( "git-branch-parser", () => {
             if ( !match ) throw Error( `Parsing error: ` + tests[ n ][ 0 ] );
 
             for ( const prop in tests[ n ][ 1 ] ) {
-                expect( tests[ n ][ 1 ][ prop ] ).toBe( match.groups[ prop ] );
+                assert.strictEqual( tests[ n ][ 1 ][ prop ], match.groups[ prop ] );
             }
         } );
     }
