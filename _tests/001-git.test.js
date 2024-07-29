@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-import { describe, test } from "node:test";
+import { suite, test } from "node:test";
 import assert from "node:assert";
 
-describe( "git", () => {
-    describe( "git-branch-parser", () => {
+suite( "git", () => {
+    suite( "git-branch-parser", () => {
         const BRANCH_RE = /^(?<current>\*)? +(?:\((?<head>HEAD)[^)]+\)|(?<branch>[^ ]+)) +(?<hash>[a-z0-9]+)(?: \[ahead (?<ahead>\d+)\])? (?<description>.+)/;
 
         const tests = [
