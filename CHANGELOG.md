@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.34.50 (2024-07-30)
+
+Fixes:
+
+-   fix: deps
+-   fix: package test
+-   fix: test package on publish
+-   fix: tests
+
 ### 3.34.49 (2024-07-29)
 
 Fixes:
