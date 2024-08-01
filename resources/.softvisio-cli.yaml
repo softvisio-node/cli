@@ -3,7 +3,7 @@ private: false
 subPackages: ~
 
 docker:
-  composeFile: docker-compose.yaml
+  composeFile: compose.yaml
   defaultTag: ~
   autoTags: ~
 
