@@ -943,9 +943,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "1.2.10",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.10.tgz",
-            "integrity": "sha512-T4qJs9Fla1CiOpIMGj0Nqy3IQsZOPg0nOdVcFQrbjLsZsJ1VSvjoCwGmFnX90bAvLEe8tFhas+dRsicE+4PceA==",
+            "version": "1.2.11",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.11.tgz",
+            "integrity": "sha512-YEmYpj83Bt1rMFkGCTDaWGKQmvGESOcPck/yF4toJHBRfHEbyA+QYFuRpXeA2rGLha+BR+FaryThIUzpud8rTg==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -953,9 +953,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.4.52",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.4.52.tgz",
-            "integrity": "sha512-zacwGQiX94nz7jaXD88e/IjewdTbxNYz0xC/o6yuozIuPiA+lbhzOuAqWSdyucC7yMWsyGCH+2vpf77OrNKuTA==",
+            "version": "2.4.53",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.4.53.tgz",
+            "integrity": "sha512-1Z0RbxrCtCQpESdueIYIgFBiDwmWug5weEVY8aiNnXMkWBUOxrDG4IqZYZ0pKSO5cJiQNjFSRB6n7wlEpTQtYQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
