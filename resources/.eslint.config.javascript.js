@@ -22,10 +22,27 @@ export default [
             "sourceType": "module",
 
             "parserOptions": {
+                "sourceType": "module",
+                "ecmaVersion": 2023,
                 "ecmaFeatures": {
                     "jsx": true,
                 },
+
+                // babel parser
+                // "parser": "@babel/eslint-parser",
+                // "requireConfigFile": false,
+                // "babelOptions": {
+                //     "presets": [ [ require.resolve( "@babel/preset-env" ), { "shippedProposals": true } ] ],
+                // },
             },
+
+            // "parserOptions": {
+            //     "sourceType": "module",
+            //     "ecmaVersion": 2023,
+            //     "ecmaFeatures": {
+            //         "jsx": true,
+            //     },
+            // },
         },
 
         "plugins": {
@@ -36,37 +53,6 @@ export default [
 
         // XXX remove
         // "extends": [ "plugin:eslint-comments/recommended", "plugin:vue/vue3-recommended", "plugin:@softvisio/recommended" ],
-
-        "globals": {
-            "Ext": "readonly",
-            "l10n": "readonly",
-            "l10nt": "readonly",
-            "msgid": "readonly",
-            "result": "readonly",
-        },
-
-        // "parserOptions": {
-        //     "sourceType": "module",
-        //     "ecmaVersion": 2023,
-        //     "ecmaFeatures": {
-        //         "jsx": true,
-        //     },
-        // },
-
-        "parserOptions": {
-            "sourceType": "module",
-            "ecmaVersion": 2023,
-            "ecmaFeatures": {
-                "jsx": true,
-            },
-
-            // babel parser
-            // "parser": "@babel/eslint-parser",
-            // "requireConfigFile": false,
-            // "babelOptions": {
-            //     "presets": [ [ require.resolve( "@babel/preset-env" ), { "shippedProposals": true } ] ],
-            // },
-        },
 
         "rules": {
             "@softvisio/camelcase": [
