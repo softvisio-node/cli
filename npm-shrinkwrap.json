@@ -855,17 +855,13 @@
             }
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.5.61",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.5.61.tgz",
-            "integrity": "sha512-aBJJ7z8asYjmD1PpOH8dgCDcceM8s4McECi+XGXk4gM05p4Xavl8jrPSbGtum1lnxB0zoiItN8FDxmtkPZNf1Q==",
+            "version": "1.5.62",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.5.62.tgz",
+            "integrity": "sha512-IHtK+LiOHONcY/6IUkEYXtC6uGvDwU8kKseR1r0dD4pvSEcqjEvIl0BwlOUVmxuTvMAh2VeoCYG5Itl71n2n+A==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
                 "@phc/format": "^1.0.0"
-            },
-            "engines": {
-                "node": ">=15.7.0",
-                "npm": ">=7.4.3"
             },
             "peerDependencies": {
                 "@softvisio/utils": "^1.1.6"
@@ -930,26 +926,18 @@
             "license": "ISC"
         },
         "node_modules/@softvisio/result": {
-            "version": "6.3.15",
-            "resolved": "https://registry.npmjs.org/@softvisio/result/-/result-6.3.15.tgz",
-            "integrity": "sha512-P3RiKk+s+JLn+EgYgGiQcU/hwTqU9tMLnOOuG9tUeIInIRSYnt8KQK/dwftD6O0YU11XzUwU0ZiOPcvmbuxuRA==",
+            "version": "6.3.16",
+            "resolved": "https://registry.npmjs.org/@softvisio/result/-/result-6.3.16.tgz",
+            "integrity": "sha512-6YfZx0E8FXSOJbzbdntDknoUQ6tHSlfWKRuByHIOhkw4zrBGgVLF5jOBV1Q8QO/idQoFafueLY8fQ/IsfjQ84w==",
             "license": "ISC",
-            "peer": true,
-            "engines": {
-                "node": ">=16.0.0",
-                "npm": ">=7.10.0"
-            }
+            "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.15.70",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.15.70.tgz",
-            "integrity": "sha512-ckF5TQyJ5tUb/Bvjxat+jGpUI3KkQXI3pOwylNd1jmGJSBZek71WJK1PlEF76aU9kb2y1GGPK8XV6eXksEq4Tg==",
+            "version": "1.15.71",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.15.71.tgz",
+            "integrity": "sha512-0/9kdQ6dI/DhUhZ1aEZJEG2dLOrUbjvwW/HODdm7h5u5mhOPW3wSATxaHcVSExOkP8l6q9MKCMocBijPBUD4bA==",
             "hasInstallScript": true,
             "license": "ISC",
-            "engines": {
-                "node": ">=16.0.0",
-                "npm": ">=7.10.0"
-            },
             "peerDependencies": {
                 "@softvisio/utils": "^1.1.11"
             }
@@ -965,15 +953,11 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.4.51",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.4.51.tgz",
-            "integrity": "sha512-G/BJumNlLoeKvrTm/6tq8XksZWaL+l+hIrqYGjUYZFfVIr9B65Ry4rOVMn9/t4bDTYiF58t+ObCPmwVP5q1lqA==",
+            "version": "2.4.52",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.4.52.tgz",
+            "integrity": "sha512-zacwGQiX94nz7jaXD88e/IjewdTbxNYz0xC/o6yuozIuPiA+lbhzOuAqWSdyucC7yMWsyGCH+2vpf77OrNKuTA==",
             "hasInstallScript": true,
             "license": "ISC",
-            "engines": {
-                "node": ">=16.0.0",
-                "npm": ">=7.10.0"
-            },
             "peerDependencies": {
                 "@softvisio/utils": "^1.1.5"
             }
