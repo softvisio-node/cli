@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.35.1 (2024-08-01)
+
+Fixes:
+
+-   fix: deps
+
 ### 3.35.0 (2024-08-01)
 
 Features:
