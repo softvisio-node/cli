@@ -28,7 +28,7 @@ export default [
             },
         },
 
-        "plugind": {
+        "plugins": {
             "eslint-comments": eslintComments,
             "vue": eslintVue,
             "@softvisio": eslintSoftvisio,
