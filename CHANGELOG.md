@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.35.0 (2024-08-01)
+
+Features:
+
+-   feat: eslint 9
+
+Fixes:
+
+-   fix: deps
+-   fix: lint
+
 ### 3.34.50 (2024-07-30)
 
 Fixes:
