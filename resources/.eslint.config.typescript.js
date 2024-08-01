@@ -1,14 +1,10 @@
-import { mergeObjects } from "#core/utils";
-import baseConfig from "./eslint.config.javascript.js";
+import baseConfig from "./.eslint.config.javascript.js";
+import tseslint from "typescript-eslint";
 
-const config = mergeObjects( {}, baseConfig, {
-    "plugins": [ "@typescript-eslint" ],
+export default tseslint.config(
+    ...baseConfig,
 
-    "parserOptions": {
-        "parser": "@typescript-eslint/parser",
-    },
-} );
-
-config.extends.unshift( "plugin:@typescript-eslint/recommended" );
-
-export default config;
+    // ...tseslint.configs.recommended,
+    ...tseslint.configs.strict,
+    ...tseslint.configs.stylistic
+);
