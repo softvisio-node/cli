@@ -5,14 +5,28 @@ import eslintVue from "eslint-plugin-vue";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 
 export default [
+
+    // recommended
     js.configs.recommended,
+
+    // eslint-comments:recommended
     {
+        "name": "eslint-comments",
+        "plugins": {
+            "eslint-comments": eslintComments,
+        },
         "rules": {
             ...eslintComments.configs.recommended.rules,
         },
     },
+
+    // vue:recommended
     ...eslintVue.configs[ "flat/recommended" ],
+
+    // softvisio:recommended
     eslintSoftvisio.configs.recommended,
+
+    // defaults
     {
         "languageOptions": {
             "globals": {
@@ -51,13 +65,6 @@ export default [
             //     },
             // },
         },
-
-        // XXX ???
-        // "plugins": {
-        //     "eslint-comments": eslintComments,
-        //     "vue": eslintVue,
-        //     "@softvisio": eslintSoftvisio,
-        // },
 
         "rules": {
             "@softvisio/camelcase": [
@@ -247,3 +254,17 @@ export default [
         },
     },
 ];
+
+// ----- SOURCE FILTER LOG BEGIN -----
+//
+// +----------+----------+--------------------------------------------------------------------------+
+// | Severity |     Line | Desctiption                                                              |
+// |==========+==========+==========================================================================|
+// | ERROR    |      1:1 | @softvisio/camelcase, Definition for rule '@softvisio/camelcase' was not |
+// |          |          | found.                                                                   |
+// |----------+----------+--------------------------------------------------------------------------|
+// | ERROR    |      1:1 | @softvisio/html-quotes, Definition for rule '@softvisio/html-quotes' was |
+// |          |          | not found.                                                               |
+// +----------+----------+--------------------------------------------------------------------------+
+//
+// ----- SOURCE FILTER LOG END -----
