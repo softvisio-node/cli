@@ -948,9 +948,9 @@
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.3.9",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.3.9.tgz",
-            "integrity": "sha512-Wq4ikpv19DYkS7ter4WcP7LJg7+iX+1znHZnBnU4hG+XX4eZ4HVAYaDB+DQT+ghAgcEV7EbGUf7pkBt6BydK3Q==",
+            "version": "1.4.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.4.0.tgz",
+            "integrity": "sha512-m4qBFtOnA5RWnMfqh5wlyk2HboPV4zScoJOCTIMP7CK7ghxx3of+mZsypV6Pnp9moW5krxQR++pbE2jQbOoQHQ==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
@@ -1661,9 +1661,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001645",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001645.tgz",
-            "integrity": "sha512-GFtY2+qt91kzyMk6j48dJcwJVq5uTkk71XxE3RtScx7XWRLsO7bU44LOFkOZYR8w9YMS0UhPSYpN/6rAMImmLw==",
+            "version": "1.0.30001646",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001646.tgz",
+            "integrity": "sha512-dRg00gudiBDDTmUhClSdv3hqRfpbOnU28IpI1T6PBTLWa+kOj0681C8uML3PifYfREuBrVjDGhL3adYpBT6spw==",
             "funding": [
                 {
                     "type": "opencollective",
