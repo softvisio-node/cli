@@ -28,6 +28,8 @@ export default [
 
     // defaults
     {
+        "name": "default config",
+
         "languageOptions": {
             "globals": {
                 ...globals.node,
@@ -254,17 +256,3 @@ export default [
         },
     },
 ];
-
-// ----- SOURCE FILTER LOG BEGIN -----
-//
-// +----------+----------+--------------------------------------------------------------------------+
-// | Severity |     Line | Desctiption                                                              |
-// |==========+==========+==========================================================================|
-// | ERROR    |      1:1 | @softvisio/camelcase, Definition for rule '@softvisio/camelcase' was not |
-// |          |          | found.                                                                   |
-// |----------+----------+--------------------------------------------------------------------------|
-// | ERROR    |      1:1 | @softvisio/html-quotes, Definition for rule '@softvisio/html-quotes' was |
-// |          |          | not found.                                                               |
-// +----------+----------+--------------------------------------------------------------------------+
-//
-// ----- SOURCE FILTER LOG END -----
