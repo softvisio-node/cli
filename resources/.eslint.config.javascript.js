@@ -160,7 +160,7 @@ export default [
             "no-empty": [ "error", { "allowEmptyCatch": true } ],
             "no-global-assign": "error",
             "no-regex-spaces": "error",
-            "no-unused-vars": [ "error", { "args": "none" } ],
+            "no-unused-vars": [ "error", { "args": "none", "caughtErrors": "none" } ],
             "prefer-const": "error",
             "prefer-exponentiation-operator": "error",
             "quote-props": [ "error", "always" ],
