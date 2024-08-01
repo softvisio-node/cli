@@ -7,6 +7,13 @@ import eslintSoftvisio from "@softvisio/eslint-plugin";
 export default [
     js.configs.recommended,
     {
+        "rules": {
+            ...eslintComments.configs.recommended.rules,
+        },
+    },
+    ...eslintVue.configs[ "flat/recommended" ],
+    eslintSoftvisio.configs.recommended,
+    {
         "languageOptions": {
             "globals": {
                 ...globals.node,
@@ -45,14 +52,12 @@ export default [
             // },
         },
 
-        "plugins": {
-            "eslint-comments": eslintComments,
-            "vue": eslintVue,
-            "@softvisio": eslintSoftvisio,
-        },
-
-        // XXX remove
-        // "extends": [ "plugin:eslint-comments/recommended", "plugin:vue/vue3-recommended", "plugin:@softvisio/recommended" ],
+        // XXX ???
+        // "plugins": {
+        //     "eslint-comments": eslintComments,
+        //     "vue": eslintVue,
+        //     "@softvisio": eslintSoftvisio,
+        // },
 
         "rules": {
             "@softvisio/camelcase": [
