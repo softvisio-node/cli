@@ -1,4 +1,4 @@
-import baseConfig from "./.eslint.config.javascript.js";
+import baseConfig from "./eslint.config.javascript.js";
 import tseslint from "typescript-eslint";
 
 export default tseslint.config(
