@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.35.3 (2024-08-02)
+
+Fixes:
+
+-   fix: deps
+-   fix: eslint configs
+
 ### 3.35.2 (2024-08-01)
 
 Fixes:
