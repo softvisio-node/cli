@@ -1,9 +1,14 @@
-import baseConfig from "./eslint.config.javascript.js";
-import tseslint from "typescript-eslint";
+import js from "@eslint/js";
+import eslintCommon from "./eslint.config.common.js";
+import eslintTypeScript from "typescript-eslint";
 
-export default tseslint.config(
+export default eslintTypeScript.config(
+    // eslint:recommended
+    js.configs.recommended,
 
-    //
-    ...baseConfig,
-    ...tseslint.configs.recommended
+    // typescript:recommended
+    ...eslintTypeScript.configs.recommended,
+
+    // common
+    ...eslintCommon
 );
