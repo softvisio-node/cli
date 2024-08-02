@@ -2,7 +2,7 @@ import js from "@eslint/js";
 import eslintCommon from "./eslint.config.common.js";
 import eslintTypeScript from "typescript-eslint";
 
-export default eslintTypeScript.config(
+export default [
     // eslint:recommended
     js.configs.recommended,
 
@@ -10,5 +10,5 @@ export default eslintTypeScript.config(
     ...eslintTypeScript.configs.recommended,
 
     // common
-    ...eslintCommon
-);
+    ...eslintCommon,
+];
