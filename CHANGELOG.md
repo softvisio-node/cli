@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.35.4 (2024-08-02)
+
+Fixes:
+
+-   fix: eslint patterns
+
 ### 3.35.3 (2024-08-02)
 
 Fixes:
