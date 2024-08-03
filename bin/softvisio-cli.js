@@ -77,7 +77,7 @@ if ( res.ok ) {
     process.exit( 0 );
 }
 else {
-    console.error( "Errot;", res.statusText );
+    console.error( "Error:", res.statusText );
 
     process.exit( 2 );
 }
