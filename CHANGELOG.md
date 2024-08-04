@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.36.1 (2024-08-04)
+
+Fixes:
+
+-   fix: link dry-run option
+
 ### 3.36.0 (2024-08-04)
 
 Features:
