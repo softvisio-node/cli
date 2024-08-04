@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.36.0 (2024-08-04)
+
+Features:
+
+-   feat: commands structure redactor
+
+Fixes:
+
+-   fix: commands
+-   fix: deps
+-   fix: package link command
+
 ### 3.35.4 (2024-08-02)
 
 Fixes:
