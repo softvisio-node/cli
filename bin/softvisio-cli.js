@@ -49,12 +49,9 @@ const spec = {
             "module": () => new URL( "../lib/commands/rpc.js", import.meta.url ),
         },
         "status": {
+            "short": "s",
             "title": "Get project status",
             "module": () => new URL( "../lib/commands/status.js", import.meta.url ),
-        },
-        "wiki": {
-            "title": "Wiki tools",
-            "module": () => new URL( "../lib/commands/wiki.js", import.meta.url ),
         },
         "apt": {
             "short": "a",
