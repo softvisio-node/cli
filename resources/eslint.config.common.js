@@ -26,6 +26,7 @@ export default [
                 ...globals.node,
                 ...globals.browser,
                 "Ext": "readonly",
+                "Temporal": "readonly",
                 "l10n": "readonly",
                 "l10nt": "readonly",
                 "msgid": "readonly",
