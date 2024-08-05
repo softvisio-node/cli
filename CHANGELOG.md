@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.36.2 (2024-08-05)
+
+Fixes:
+
+-   fix: deps
+-   fix: link report
+-   fix: package publish arguments
+-   fix: wiki command
+
 ### 3.36.1 (2024-08-04)
 
 Fixes:
