@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import "#core/result";
-
+import ansi from "#core/text/ansi";
 import CLI from "#core/cli";
 
 const spec = {
@@ -74,7 +74,7 @@ if ( res.ok ) {
     process.exit( 0 );
 }
 else {
-    console.error( "Error:", res.statusText );
+    console.error( ansi.error( " Error: " ), res.statusText );
 
     process.exit( 2 );
 }
