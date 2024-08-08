@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.37.0 (2024-08-08)
+
+Features:
+
+-   feat: link install / update options
+
+Fixes:
+
+-   fix: \_throwError remove
+-   fix: dependencies update
+-   fix: Temporal added to eslint globals
+
 ### 3.36.2 (2024-08-05)
 
 Fixes:
