@@ -920,9 +920,9 @@
             }
         },
         "node_modules/@softvisio/msgpack": {
-            "version": "3.3.8",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.3.8.tgz",
-            "integrity": "sha512-GyTrqRvEXHZJ47HGuCdHOr/oyxj3KQVjTQVT7y2gA7q2x2NHdzKIeBfMKvoVd6mBtZO2cyOdQPCmMD1zV0opZA==",
+            "version": "3.3.9",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.3.9.tgz",
+            "integrity": "sha512-mDjZ7BVF2MG1QtPICDtFfnda5ZNslnkbuD4IqgBQlbN4qgD7sxAuqLPcnYUbk1n3KBef0VJUcwPaeiuSbl7dDw==",
             "license": "ISC"
         },
         "node_modules/@softvisio/result": {
