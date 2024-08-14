@@ -1,0 +1,26 @@
+private: false
+
+subPackages: ~
+
+docker:
+  composeFile: compose.yaml
+  defaultTag: ~
+  autoTags: ~
+
+commits:
+  strict: true
+
+  types:
+    - chore
+    - docs
+    - feat
+    - fix
+    - refactor
+    - style
+    - test
+
+  scopeRequired: false
+
+  scopes: ~
+
+docs: ~
