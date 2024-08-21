@@ -868,9 +868,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.95.7",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.95.7.tgz",
-            "integrity": "sha512-OnhmaQezd4imdflkcO6zBsZfPotrD+CYzRD0rRG4HPQ29+rdi5YP74eE9kun6MBV9TiBPTpSmMCHaZVokFIILA==",
+            "version": "7.96.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.96.0.tgz",
+            "integrity": "sha512-/uIjARclzugtocxg/hzv3bucmWDgjvEmXRnLTrmbSbe1hxWJB4bb1vtLWN/N7ba0Q4hvsZ1E3pgSGbK+54f8YA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -931,9 +931,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.15.74",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.15.74.tgz",
-            "integrity": "sha512-f3x0VZJn9vZSg23TUc3RKsE7TVbqc0QcsUdreHDp98YcInpiQccVCi/EfTiDqJlu65b6kPKhIvZR4zE5EgGG1Q==",
+            "version": "1.15.75",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.15.75.tgz",
+            "integrity": "sha512-HDrTH48HKDemk13f/LfCREKpC+OEWh5ECGTzHuh/5UQ6f9mQMpMBNUGH0UcD8Npj5Fkoo7Zv03lMbrvp3nKzvw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -2157,9 +2157,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.12",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.12.tgz",
-            "integrity": "sha512-tIhPkdlEoCL1Y+PToq3zRNehUaKp3wBX/sr7aclAWdIWjvqAe/Im/H0SiCM4c1Q8BLPHCdoJTol+ZblflydehA==",
+            "version": "1.5.13",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.13.tgz",
+            "integrity": "sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q==",
             "license": "ISC"
         },
         "node_modules/emoji-regex": {
