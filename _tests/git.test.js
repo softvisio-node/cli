@@ -23,7 +23,7 @@ suite( "git", () => {
                 if ( !match ) throw Error( `Parsing error: ` + tests[ n ][ 0 ] );
 
                 for ( const prop in tests[ n ][ 1 ] ) {
-                    assert.equal( tests[ n ][ 1 ][ prop ], match.groups[ prop ] );
+                    assert.strictEqual( tests[ n ][ 1 ][ prop ], match.groups[ prop ] );
                 }
             } );
         }
