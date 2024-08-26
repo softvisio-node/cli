@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.39.0 (2024-08-26)
+
+Features:
+
+-   feat: migrated from jimp to sharp
+
 ### 3.38.5 (2024-08-26)
 
 No notable changes since the previous release.
