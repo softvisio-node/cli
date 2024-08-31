@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.39.1 (2024-08-31)
+
+Fixes:
+
+-   fix: package link
+
 ### 3.39.0 (2024-08-26)
 
 Features:
