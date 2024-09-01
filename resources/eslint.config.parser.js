@@ -1,6 +1,7 @@
-import babelEslintParser from "@babel/eslint-parser";
-import babelPresetEnv from "@babel/preset-env";
-import babelPluginSyntaxImportAssertions from "@babel/plugin-syntax-import-assertions";
+import babelEslintParser from "@softvisio/babel/eslint-parser";
+import { fileURLToPath } from "node:url";
+
+const babelConfig = fileURLToPath( import.meta.resolve( "@softvisio/babel/babel.config" ) );
 
 export default {
     "name": "babel parser",
@@ -21,33 +22,8 @@ export default {
             "requireConfigFile": false,
 
             "babelOptions": {
-
-                // "babelrc": false,
-                // "configFile": false,
-
-                "presets": [
-                    [
-                        babelPresetEnv,
-                        {
-                            "bugfixes": true,
-                            "corejs": 3,
-                            "loose": false,
-                            "debug": false,
-                            "modules": false,
-                            "targets": {},
-                            "useBuiltIns": "usage",
-                            "ignoreBrowserslistConfig": undefined,
-                            "exclude": [ "es.array.iterator", "es.promise", "es.object.assign", "es.promise.finally" ],
-                            "shippedProposals": true,
-                        },
-                    ],
-                ],
-
-                "plugins": [
-
-                    //
-                    babelPluginSyntaxImportAssertions,
-                ],
+                "babelrc": false,
+                "configFile": babelConfig,
             },
         },
     },
