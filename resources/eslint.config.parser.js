@@ -1,7 +1,5 @@
 import babelEslintParser from "@softvisio/babel/eslint-parser";
-import { fileURLToPath } from "node:url";
-
-const babelConfig = fileURLToPath( import.meta.resolve( "@softvisio/babel/babel.config" ) );
+import babelConfig from "@softvisio/babel/config";
 
 export default {
     "name": "babel parser",
@@ -23,7 +21,8 @@ export default {
 
             "babelOptions": {
                 "babelrc": false,
-                "configFile": babelConfig,
+                "configFile": false,
+                ...babelConfig,
             },
         },
     },
