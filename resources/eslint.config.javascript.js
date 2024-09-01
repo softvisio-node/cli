@@ -1,5 +1,8 @@
 import js from "@eslint/js";
 import eslintCommon from "./eslint.config.common.js";
+import babelEslintParser from "@babel/eslint-parser";
+import babelPresetEnv from "@babel/preset-env";
+import babelPluginSyntaxImportAssertions from "@babel/plugin-syntax-import-assertions";
 
 export default [
     // eslint:recommended
@@ -13,6 +16,8 @@ export default [
             "ecmaVersion": 2023,
             "sourceType": "module",
 
+            "parser": babelEslintParser,
+
             "parserOptions": {
                 "sourceType": "module",
                 "ecmaVersion": 2023,
@@ -21,20 +26,37 @@ export default [
                 },
 
                 // babel parser
-                // "parser": "@babel/eslint-parser",
-                // "requireConfigFile": false,
-                // "babelOptions": {
-                //     "presets": [ [ require.resolve( "@babel/preset-env" ), { "shippedProposals": true } ] ],
-                // },
-            },
+                "requireConfigFile": false,
+                "babelOptions": {
 
-            // "parserOptions": {
-            //     "sourceType": "module",
-            //     "ecmaVersion": 2023,
-            //     "ecmaFeatures": {
-            //         "jsx": true,
-            //     },
-            // },
+                    // "babelrc": false,
+                    // "configFile": false,
+
+                    "presets": [
+                        [
+                            babelPresetEnv,
+                            {
+                                "bugfixes": true,
+                                "corejs": 3,
+                                "loose": false,
+                                "debug": false,
+                                "modules": false,
+                                "targets": {},
+                                "useBuiltIns": "usage",
+                                "ignoreBrowserslistConfig": undefined,
+                                "exclude": [ "es.array.iterator", "es.promise", "es.object.assign", "es.promise.finally" ],
+                                "shippedProposals": true,
+                            },
+                        ],
+                    ],
+
+                    "plugins": [
+
+                        //
+                        babelPluginSyntaxImportAssertions,
+                    ],
+                },
+            },
         },
     },
 
