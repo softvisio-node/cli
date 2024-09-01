@@ -2,6 +2,10 @@ import globals from "globals";
 import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 
+// XXX fix
+delete globals.browser[ "AudioWorkletGlobalScope " ];
+globals.browser[ "AudioWorkletGlobalScope" ] = false;
+
 export default [
     // eslint-comments:recommended
     {
