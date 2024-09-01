@@ -2,7 +2,7 @@ import babelEslintParser from "@softvisio/babel/eslint-parser";
 import babelConfig from "@softvisio/babel/config";
 
 export default {
-    "name": "babel parser",
+    "name": "language options",
 
     "languageOptions": {
         "ecmaVersion": 2023,
