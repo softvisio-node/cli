@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.40.0 (2024-09-01)
+
+Features:
+
+-   feat: babel config
+-   feat: babel parser
+
+Fixes:
+
+-   fix: use default parser
+
 ### 3.39.1 (2024-08-31)
 
 Fixes:
