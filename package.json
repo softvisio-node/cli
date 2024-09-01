@@ -38,10 +38,8 @@
         "/src"
     ],
     "dependencies": {
-        "@babel/eslint-parser": "^7.25.1",
-        "@babel/plugin-syntax-import-assertions": "^7.25.6",
-        "@babel/preset-env": "^7.25.4",
         "@prettier/plugin-xml": "^3.4.1",
+        "@softvisio/babel": "^1.0.0",
         "@softvisio/core": "^7.0.0",
         "@softvisio/eslint-plugin": "^1.0.1",
         "@vue/compiler-sfc": "^3.2.36",
