@@ -1,5 +1,5 @@
-import babelEslintParser from "@softvisio/babel/eslint-parser";
-import babelConfig from "@softvisio/babel/config";
+// import babelEslintParser from "@softvisio/babel/eslint-parser";
+// import babelConfig from "@softvisio/babel/config";
 
 export default {
     "name": "language options",
@@ -8,7 +8,7 @@ export default {
         "ecmaVersion": 2023,
         "sourceType": "module",
 
-        "parser": babelEslintParser,
+        // "parser": babelEslintParser,
 
         "parserOptions": {
             "sourceType": "module",
@@ -19,11 +19,11 @@ export default {
 
             "requireConfigFile": false,
 
-            "babelOptions": {
-                "babelrc": false,
-                "configFile": false,
-                ...babelConfig,
-            },
+            // "babelOptions": {
+            //     "babelrc": false,
+            //     "configFile": false,
+            //     ...babelConfig,
+            // },
         },
     },
 };
