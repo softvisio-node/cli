@@ -807,9 +807,9 @@
             }
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.6.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.0.tgz",
-            "integrity": "sha512-YKPYpjLu9QldupH8Lx3P13rpJUK6e+zIGf/7DGbEIeEBzv0ZaEjoZo3pm1trNGmUl/JCEYwXtUCteggLjvTRkA==",
+            "version": "1.6.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.1.tgz",
+            "integrity": "sha512-RxPUDzRTuz+KIvqCv7iywpaUdegoIl/qnwdrfDcxK79Kxiu3R09gEYW741Uy5C2jaPwEjBRgcAo8/7opGhtAIA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -3372,9 +3372,9 @@
             }
         },
         "node_modules/postcss": {
-            "version": "8.4.41",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.4.41.tgz",
-            "integrity": "sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==",
+            "version": "8.4.42",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.4.42.tgz",
+            "integrity": "sha512-hywKUQB9Ra4dR1mGhldy5Aj1X3MWDSIA1cEi+Uy0CjheLvP6Ual5RlwMCh8i/X121yEDLDIKBsrCQ8ba3FDMfQ==",
             "funding": [
                 {
                     "type": "opencollective",
