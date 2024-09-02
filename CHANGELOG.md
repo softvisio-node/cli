@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.40.1 (2024-09-02)
+
+Fixes:
+
+-   fix: docs config
+-   fix: docs init
+
 ### 3.40.0 (2024-09-01)
 
 Features:
