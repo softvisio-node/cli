@@ -55,11 +55,7 @@ properties:
       - type: "null"
       - type: object
         properties:
-          location:
-            anyOf:
-              - type: "null"
-              - const: docs
-
+          location: { enum: [/, /docs] }
           aliases: { type: object, additionalProperties: { type: string, format: uri } }
 
           app:
@@ -110,7 +106,7 @@ properties:
           externalTypes: { type: array, items: { type: string }, uniqueItems: true }
 
         additionalProperties: false
-        required: []
+        required: [location]
 
 additionalProperties: false
 required: []
