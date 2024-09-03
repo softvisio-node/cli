@@ -1,4 +1,4 @@
-// import babelEslintParser from "@softvisio/babel/eslint-parser";
+// import babelEslintParser from "@babel/eslint-parser";
 // import babelConfig from "@softvisio/babel/config";
 
 export default {
@@ -8,8 +8,6 @@ export default {
         "ecmaVersion": 2023,
         "sourceType": "module",
 
-        // "parser": babelEslintParser,
-
         "parserOptions": {
             "sourceType": "module",
             "ecmaVersion": 2023,
@@ -18,6 +16,8 @@ export default {
             },
 
             "requireConfigFile": false,
+
+            // "parser": babelEslintParser,
 
             // "babelOptions": {
             //     "babelrc": false,
