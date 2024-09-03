@@ -39,7 +39,6 @@
     ],
     "dependencies": {
         "@prettier/plugin-xml": "^3.4.1",
-        "@softvisio/babel": "^1.0.0",
         "@softvisio/core": "^7.0.0",
         "@softvisio/eslint-plugin": "^1.0.1",
         "@vue/compiler-sfc": "^3.2.36",
