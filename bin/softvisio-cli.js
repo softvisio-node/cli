@@ -5,7 +5,7 @@ import ansi from "#core/text/ansi";
 import CLI from "#core/cli";
 
 const spec = {
-    "title": "Softvisio build tool",
+    "title": "Softvisio CLI",
     "commands": {
         "docker": {
             "short": "D",
