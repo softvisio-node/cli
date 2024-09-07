@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.40.2 (2024-09-07)
+
+Fixes:
+
+-   fix: babel config
+-   fix: editor config
+-   fix: eslint
+
 ### 3.40.1 (2024-09-02)
 
 Fixes:
