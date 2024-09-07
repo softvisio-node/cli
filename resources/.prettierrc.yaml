@@ -1,4 +1,4 @@
-# printWidth: 99999999 # inherited from .editorconfig "max_line_length"
+# printWidth: .inf # inherited from .editorconfig "max_line_length"
 # tabWidth: 4 # inherited from .editorconfig "indent_size"
 # useTabs: false # inherited from .editorconfig "indent_style"
 semi: true
