@@ -39,7 +39,6 @@ export default [
         },
 
         "rules": {
-
             // @softvisio:recommended
             "@softvisio/camelcase": [
                 "error",
@@ -100,6 +99,10 @@ export default [
                     "afterLineComment": false,
 
                     "allowBlockStart": true,
+                    "allowObjectStart": true,
+                    "allowArrayStart": true,
+                    "allowClassStart": true,
+                    "applyDefaultIgnorePatterns": true,
                     "afterHashbangComment": true,
                 },
             ],
