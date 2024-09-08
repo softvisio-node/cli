@@ -35,6 +35,5 @@ export default {
         "array-bracket-spacing": [ "error", "always" ],
         "template-curly-spacing": [ "error", "always" ],
         "computed-property-spacing": [ "error", "always" ],
-
-    }
+    },
 };

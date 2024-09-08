@@ -41,10 +41,13 @@ export default [
             ],
 
             // XXX
-            "@stylistic/object-curly-newline": [ "error", {
-                "multiline": true,
-                "consistent": true,
-            } ],
+            "@stylistic/object-curly-newline": [
+                "error",
+                {
+                    "multiline": true,
+                    "consistent": true,
+                },
+            ],
 
             "@stylistic/operator-linebreak": [
                 "error",
