@@ -90,6 +90,8 @@ export default [
                     },
                 },
             ],
+
+            // XXX
             "@stylistic/lines-around-comment": [
                 "error",
                 {
@@ -98,14 +100,17 @@ export default [
                     "beforeLineComment": true,
                     "afterLineComment": false,
 
-                    "allowBlockStart": true,
-                    "allowObjectStart": true,
-                    "allowArrayStart": false,
-                    "allowClassStart": true,
-                    "applyDefaultIgnorePatterns": true,
+                    // "allowBlockStart": false,
+                    // "allowBlockEnd": false,
+                    // "allowObjectStart": true,
+                    // "allowArrayStart": false,
+                    // "allowClassStart": true,
+                    // "applyDefaultIgnorePatterns": true,
                     "afterHashbangComment": true,
                 },
             ],
+            "@stylistic/padded-blocks": "off", // ["error", "always"],
+
             "@stylistic/quote-props": [ "error", "always" ],
             "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
             "@stylistic/semi": [ "error", "always" ],
