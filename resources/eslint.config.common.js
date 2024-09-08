@@ -100,8 +100,6 @@ export default [
                     "afterLineComment": false,
                 },
             ],
-
-            // XXX
             "@stylistic/operator-linebreak": [
                 "error",
                 "after",
@@ -112,10 +110,6 @@ export default [
                     },
                 },
             ],
-
-            // "@stylistic/operator-linebreak": "off",
-            // "@stylistic/operator-linebreak": [ "error", "none" ],
-
             "@stylistic/padded-blocks": "off", // NOTE conflicts with @stylistic/lines-around-comment
             "@stylistic/quote-props": [ "error", "always" ],
             "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
