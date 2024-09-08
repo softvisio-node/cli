@@ -39,7 +39,6 @@ export default [
         },
 
         "rules": {
-
             // @softvisio:recommended
             "@softvisio/camelcase": [
                 "error",
@@ -93,15 +92,15 @@ export default [
             ],
 
             // XXX
-            "@stylistic/lines-around-comment": [
-                "error",
-                {
-                    "beforeBlockComment": true,
-                    "afterBlockComment": false,
-                    "beforeLineComment": true,
-                    "afterLineComment": false,
-                },
-            ],
+            // "@stylistic/lines-around-comment": [
+            //     "error",
+            //     {
+            //         "beforeBlockComment": true,
+            //         "afterBlockComment": false,
+            //         "beforeLineComment": true,
+            //         "afterLineComment": false,
+            //     },
+            // ],
             "@stylistic/quote-props": [ "error", "always" ],
             "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
             "@stylistic/semi": [ "error", "always" ],
