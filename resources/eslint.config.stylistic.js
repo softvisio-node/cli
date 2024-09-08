@@ -2,6 +2,9 @@ import eslintStylistic from "@stylistic/eslint-plugin";
 
 export default [
 
+    // @stylistic:disable-legacy
+    eslintStylistic.configs[ "disable-legacy" ],
+
     // @stylistic:recommended
     eslintStylistic.configs[ "recommended-flat" ],
 
