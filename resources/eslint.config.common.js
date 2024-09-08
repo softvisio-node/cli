@@ -100,7 +100,7 @@ export default [
 
                     "allowBlockStart": true,
                     "allowObjectStart": true,
-                    "allowArrayStart": true,
+                    "allowArrayStart": false,
                     "allowClassStart": true,
                     "applyDefaultIgnorePatterns": true,
                     "afterHashbangComment": true,
