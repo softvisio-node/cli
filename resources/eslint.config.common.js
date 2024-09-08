@@ -39,6 +39,7 @@ export default [
         },
 
         "rules": {
+
             // @softvisio:recommended
             "@softvisio/camelcase": [
                 "error",
