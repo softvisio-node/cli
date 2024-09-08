@@ -77,15 +77,19 @@ export default [
             "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
             "@stylistic/computed-property-spacing": [ "error", "always" ],
             "@stylistic/function-paren-newline": [ "error", "multiline" ],
-            "@stylistic/quote-props": [ "error", "always" ],
-            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
-            "@stylistic/semi": [ "error", "always" ],
-            "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
-            "@stylistic/space-before-function-paren": [ "error", "always" ],
-            "@stylistic/space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
-            "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
-            "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
-            "@stylistic/template-curly-spacing": [ "error", "always" ],
+
+            // XXX
+            "@stylistic/indent": [
+                "error",
+                4,
+                {
+                    "VariableDeclarator": {
+                        "var": 1,
+                        "let": 1,
+                        "const": 1,
+                    },
+                },
+            ],
 
             // XXX
             "@stylistic/lines-around-comment": [
@@ -98,17 +102,15 @@ export default [
                 },
             ],
 
-            // "@stylistic/indent": [
-            //     "error",
-            //     4, // XXX need to take from the .editorconfig
-            //     {
-            //         "VariableDeclarator": {
-            //             "var": 1,
-            //             "let": 1,
-            //             "const": 1,
-            //         },
-            //     },
-            // ],
+            "@stylistic/quote-props": [ "error", "always" ],
+            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
+            "@stylistic/semi": [ "error", "always" ],
+            "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
+            "@stylistic/space-before-function-paren": [ "error", "always" ],
+            "@stylistic/space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
+            "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
+            "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
+            "@stylistic/template-curly-spacing": [ "error", "always" ],
         },
     },
 ];
