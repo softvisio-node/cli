@@ -7,7 +7,7 @@ export default [
     js.configs.recommended,
 
     // language options
-    eslintLanguageOptions,
+    ...eslintLanguageOptions,
 
     // common
     ...eslintCommon,
