@@ -102,18 +102,19 @@ export default [
             ],
 
             // XXX
-            // "@stylistic/operator-linebreak": [
-            //     "error",
-            //     "after",
-            //     {
-            //         "overrides": {
-            //             "?": "before",
-            //             ":": "before",
-            //         },
-            //     },
-            // ],
+            "@stylistic/operator-linebreak": [
+                "error",
+                "after",
+                {
+                    "overrides": {
+                        "?": "before",
+                        ":": "before",
+                    },
+                },
+            ],
+
             // "@stylistic/operator-linebreak": "off",
-            "@stylistic/operator-linebreak": [ "error", "none" ],
+            // "@stylistic/operator-linebreak": [ "error", "none" ],
 
             "@stylistic/padded-blocks": "off", // NOTE conflicts with @stylistic/lines-around-comment
             "@stylistic/quote-props": [ "error", "always" ],
