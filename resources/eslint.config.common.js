@@ -39,6 +39,7 @@ export default [
         },
 
         "rules": {
+
             // @softvisio:recommended
             "@softvisio/camelcase": [
                 "error",
@@ -87,15 +88,15 @@ export default [
             "@stylistic/template-curly-spacing": [ "error", "always" ],
 
             // XXX
-            // "@stylistic/lines-around-comment": [
-            //     "error",
-            //     {
-            //         "beforeBlockComment": true,
-            //         "afterBlockComment": false,
-            //         "beforeLineComment": true,
-            //         "afterLineComment": false,
-            //     },
-            // ],
+            "@stylistic/lines-around-comment": [
+                "error",
+                {
+                    "beforeBlockComment": true,
+                    "afterBlockComment": false,
+                    "beforeLineComment": true,
+                    "afterLineComment": false,
+                },
+            ],
 
             // "@stylistic/indent": [
             //     "error",
