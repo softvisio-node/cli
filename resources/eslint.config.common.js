@@ -91,16 +91,16 @@ export default [
                     },
                 },
             ],
-
-            // XXX
             "@stylistic/lines-around-comment": [
                 "error",
                 {
-                    "allowBlockStart": true,
                     "beforeBlockComment": true,
                     "afterBlockComment": false,
                     "beforeLineComment": true,
                     "afterLineComment": false,
+
+                    "allowBlockStart": true,
+                    "afterHashbangComment": true,
                 },
             ],
             "@stylistic/quote-props": [ "error", "always" ],
