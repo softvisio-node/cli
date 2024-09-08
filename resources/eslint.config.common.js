@@ -107,7 +107,7 @@ export default [
                     // "allowArrayStart": false,
                     // "allowClassStart": true,
                     // "applyDefaultIgnorePatterns": true,
-                    "afterHashbangComment": true,
+                    // "afterHashbangComment": true,
                 },
             ],
             "@stylistic/padded-blocks": "off", // ["error", "always"],
