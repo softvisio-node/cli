@@ -1,7 +1,7 @@
-import globals from "globals"
-import eslintComments from "eslint-plugin-eslint-comments"
-import eslintStylistic from "@stylistic/eslint-plugin"
-import eslintSoftvisio from "@softvisio/eslint-plugin"
+import globals from "globals";
+import eslintComments from "eslint-plugin-eslint-comments";
+import eslintStylistic from "@stylistic/eslint-plugin";
+import eslintSoftvisio from "@softvisio/eslint-plugin";
 
 export default [
     // eslint-comments:recommended
@@ -77,6 +77,7 @@ export default [
             "@stylistic/function-paren-newline": [ "error", "multiline" ],
             "@stylistic/quote-props": [ "error", "always" ],
             "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
+            "@stylistic/semi": [ "error", "always" ],
             "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
             "@stylistic/space-before-function-paren": [ "error", "always" ],
             "@stylistic/space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
@@ -108,4 +109,4 @@ export default [
             // ],
         },
     },
-]
+];
