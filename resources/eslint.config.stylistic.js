@@ -13,8 +13,6 @@ export default [
         "name": "@stylistic",
 
         "rules": {
-
-            // @stylistic:recommended
             "@stylistic/array-bracket-spacing": [ "error", "always" ],
             "@stylistic/arrow-parens": [ "error", "as-needed" ],
             "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
@@ -42,16 +40,6 @@ export default [
                     "afterLineComment": false,
                 },
             ],
-
-            // XXX
-            "@stylistic/object-curly-newline": [
-                "error",
-                {
-                    "multiline": true,
-                    "consistent": true,
-                },
-            ],
-
             "@stylistic/operator-linebreak": [
                 "error",
                 "after",
