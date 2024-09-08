@@ -2,8 +2,9 @@ import globals from "globals";
 import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 
-// import eslintStylistic from "./eslint.config.stylistic.js";
-import eslintDeprecated from "./eslint.config.deprecated.js";
+import eslintStylistic from "./eslint.config.stylistic.js";
+
+// import eslintDeprecated from "./eslint.config.deprecated.js";
 
 export default [
     // eslint-comments:recommended
@@ -74,8 +75,8 @@ export default [
     },
 
     // @stylistic
-    // ...eslintStylistic,
+    ...eslintStylistic,
 
     // eslint:deprecated
-    ...eslintDeprecated,
+    // ...eslintDeprecated,
 ];
