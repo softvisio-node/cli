@@ -78,8 +78,6 @@ export default [
             "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
             "@stylistic/computed-property-spacing": [ "error", "always" ],
             "@stylistic/function-paren-newline": [ "error", "multiline" ],
-
-            // XXX
             "@stylistic/indent": [
                 "error",
                 4,
@@ -102,7 +100,6 @@ export default [
                     "afterLineComment": false,
                 },
             ],
-
             "@stylistic/quote-props": [ "error", "always" ],
             "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
             "@stylistic/semi": [ "error", "always" ],
