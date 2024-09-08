@@ -74,7 +74,7 @@ export default [
             "@stylistic/array-bracket-spacing": [ "error", "always" ],
             "@stylistic/arrow-parens": [ "error", "as-needed" ],
             "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
-            "@stylistic/comma-dangle": [ "error", "always-multiline" ],
+            "@stylistic/comma-dangle": [ "error", "only-multiline" ],
             "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
             "@stylistic/computed-property-spacing": [ "error", "always" ],
             "@stylistic/function-paren-newline": [ "error", "multiline" ],
