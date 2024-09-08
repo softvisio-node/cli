@@ -71,6 +71,7 @@ export default [
 
             // @stylistic:recommended
             "@stylistic/array-bracket-spacing": [ "error", "always" ],
+            "@stylistic/arrow-parens": [ "error", "as-needed" ],
             "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
             "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
             "@stylistic/computed-property-spacing": [ "error", "always" ],
