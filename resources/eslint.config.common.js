@@ -100,6 +100,13 @@ export default [
                     "afterLineComment": false,
                 },
             ],
+
+            // XXX
+            "@stylistic/object-curly-newline": [ "error", {
+                "multiline": true,
+                "consistent": true,
+            } ],
+
             "@stylistic/operator-linebreak": [
                 "error",
                 "after",
