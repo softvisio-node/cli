@@ -51,8 +51,8 @@ export default [
             ],
 
             // eslint comments
-            "eslint-comments/no-unused-disable": "error",
             "eslint-comments/disable-enable-pair": [ "error", { "allowWholeFile": true } ],
+            "eslint-comments/no-unused-disable": "error",
 
             // eslint:recommended
             "curly": [ "error", "multi-line" ],
@@ -70,9 +70,19 @@ export default [
             "yoda": [ "error", "never", { "exceptRange": true } ],
 
             // @stylistic:recommended
+            "@stylistic/array-bracket-spacing": [ "error", "always" ],
             "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
             "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
+            "@stylistic/computed-property-spacing": [ "error", "always" ],
             "@stylistic/function-paren-newline": [ "error", "multiline" ],
+            "@stylistic/quote-props": [ "error", "always" ],
+            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
+            "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
+            "@stylistic/space-before-function-paren": [ "error", "always" ],
+            "@stylistic/space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
+            "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
+            "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
+            "@stylistic/template-curly-spacing": [ "error", "always" ],
 
             // XXX
             // "@stylistic/lines-around-comment": [
@@ -84,16 +94,6 @@ export default [
             //         "afterLineComment": false,
             //     },
             // ],
-            "@stylistic/quote-props": [ "error", "always" ],
-            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
-            "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
-            "@stylistic/space-before-function-paren": [ "error", "always" ],
-            "@stylistic/space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
-            "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
-            "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
-            "@stylistic/array-bracket-spacing": [ "error", "always" ],
-            "@stylistic/template-curly-spacing": [ "error", "always" ],
-            "@stylistic/computed-property-spacing": [ "error", "always" ],
 
             // "@stylistic/indent": [
             //     "error",
