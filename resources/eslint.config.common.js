@@ -1,7 +1,7 @@
 import globals from "globals";
 import eslintComments from "eslint-plugin-eslint-comments";
-import eslintStylistic from "@stylistic/eslint-plugin";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
+import eslintStylistic from "./eslint.config.stylistic.js";
 
 export default [
     // eslint-comments:recommended
@@ -14,9 +14,6 @@ export default [
             ...eslintComments.configs.recommended.rules,
         },
     },
-
-    // @stylistic:recommended
-    eslintStylistic.configs[ "recommended-flat" ],
 
     // @softvisio:recommended
     eslintSoftvisio.configs.recommended,
@@ -71,62 +68,9 @@ export default [
             "no-global-assign": "error",
             "no-regex-spaces": "error",
             "no-unused-vars": [ "error", { "args": "none", "caughtErrors": "none" } ],
-
-            // @stylistic:recommended
-            "@stylistic/array-bracket-spacing": [ "error", "always" ],
-            "@stylistic/arrow-parens": [ "error", "as-needed" ],
-            "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
-            "@stylistic/comma-dangle": [ "error", "only-multiline" ],
-            "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
-            "@stylistic/computed-property-spacing": [ "error", "always" ],
-            "@stylistic/function-paren-newline": [ "error", "multiline" ],
-            "@stylistic/indent": [
-                "error",
-                4,
-                {
-                    "VariableDeclarator": {
-                        "var": 1,
-                        "let": 1,
-                        "const": 1,
-                    },
-                },
-            ],
-            "@stylistic/lines-around-comment": [
-                "error",
-                {
-                    "beforeBlockComment": true,
-                    "afterBlockComment": false,
-                    "beforeLineComment": true,
-                    "afterLineComment": false,
-                },
-            ],
-
-            // XXX
-            "@stylistic/object-curly-newline": [ "error", {
-                "multiline": true,
-                "consistent": true,
-            } ],
-
-            "@stylistic/operator-linebreak": [
-                "error",
-                "after",
-                {
-                    "overrides": {
-                        "?": "before",
-                        ":": "before",
-                    },
-                },
-            ],
-            "@stylistic/padded-blocks": "off", // NOTE conflicts with @stylistic/lines-around-comment
-            "@stylistic/quote-props": [ "error", "always" ],
-            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
-            "@stylistic/semi": [ "error", "always" ],
-            "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
-            "@stylistic/space-before-function-paren": [ "error", "always" ],
-            "@stylistic/space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
-            "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
-            "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
-            "@stylistic/template-curly-spacing": [ "error", "always" ],
         },
     },
+
+    // @stylistic
+    ...eslintStylistic,
 ];
