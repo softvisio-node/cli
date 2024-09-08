@@ -1,10 +1,7 @@
-import globals from "globals";
-import eslintComments from "eslint-plugin-eslint-comments";
-import eslintSoftvisio from "@softvisio/eslint-plugin";
-
-// XXX fix
-delete globals.browser[ "AudioWorkletGlobalScope " ];
-globals.browser[ "AudioWorkletGlobalScope" ] = false;
+import globals from "globals"
+import eslintComments from "eslint-plugin-eslint-comments"
+import eslintStylistic from "@stylistic/eslint-plugin"
+import eslintSoftvisio from "@softvisio/eslint-plugin"
 
 export default [
     // eslint-comments:recommended
@@ -18,7 +15,10 @@ export default [
         },
     },
 
-    // softvisio:recommended
+    // @stylistic:recommended
+    eslintStylistic.configs[ "recommended-flat" ],
+
+    // @softvisio:recommended
     eslintSoftvisio.configs.recommended,
 
     // common config
@@ -39,6 +39,7 @@ export default [
         },
 
         "rules": {
+            // @softvisio:recommended
             "@softvisio/camelcase": [
                 "error",
                 {
@@ -54,14 +55,47 @@ export default [
             "eslint-comments/disable-enable-pair": [ "error", { "allowWholeFile": true } ],
 
             // eslint:recommended
-            "brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
-            "comma-spacing": [ "error", { "before": false, "after": true } ],
             "curly": [ "error", "multi-line" ],
             "eqeqeq": [ "error", "smart" ],
-            "function-paren-newline": [ "error", "multiline" ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
+            "no-constant-condition": [ "error", { "checkLoops": false } ],
+            "no-constructor-return": [ "error" ],
+            "no-control-regex": "off",
+            "no-empty": [ "error", { "allowEmptyCatch": true } ],
+            "no-global-assign": "error",
+            "no-regex-spaces": "error",
+            "no-unused-vars": [ "error", { "args": "none", "caughtErrors": "none" } ],
+            "prefer-const": "error",
+            "prefer-exponentiation-operator": "error",
+            "yoda": [ "error", "never", { "exceptRange": true } ],
 
-            // "indent": [
+            // @stylistic:recommended
+            "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
+            "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
+            "@stylistic/function-paren-newline": [ "error", "multiline" ],
+
+            // XXX
+            // "@stylistic/lines-around-comment": [
+            //     "error",
+            //     {
+            //         "beforeBlockComment": true,
+            //         "afterBlockComment": false,
+            //         "beforeLineComment": true,
+            //         "afterLineComment": false,
+            //     },
+            // ],
+            "@stylistic/quote-props": [ "error", "always" ],
+            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
+            "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
+            "@stylistic/space-before-function-paren": [ "error", "always" ],
+            "@stylistic/space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
+            "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
+            "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
+            "@stylistic/array-bracket-spacing": [ "error", "always" ],
+            "@stylistic/template-curly-spacing": [ "error", "always" ],
+            "@stylistic/computed-property-spacing": [ "error", "always" ],
+
+            // "@stylistic/indent": [
             //     "error",
             //     4, // XXX need to take from the .editorconfig
             //     {
@@ -72,37 +106,6 @@ export default [
             //         },
             //     },
             // ],
-
-            "lines-around-comment": [
-                "error",
-                {
-                    "beforeBlockComment": true,
-                    "afterBlockComment": false,
-                    "beforeLineComment": true,
-                    "afterLineComment": false,
-                },
-            ],
-
-            "no-constant-condition": [ "error", { "checkLoops": false } ],
-            "no-constructor-return": [ "error" ],
-            "no-control-regex": "off",
-            "no-empty": [ "error", { "allowEmptyCatch": true } ],
-            "no-global-assign": "error",
-            "no-regex-spaces": "error",
-            "no-unused-vars": [ "error", { "args": "none", "caughtErrors": "none" } ],
-            "prefer-const": "error",
-            "prefer-exponentiation-operator": "error",
-            "quote-props": [ "error", "always" ],
-            "quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
-            "semi-spacing": [ "error", { "before": false, "after": true } ],
-            "space-before-function-paren": [ "error", "always" ],
-            "space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
-            "space-infix-ops": [ "error", { "int32Hint": false } ],
-            "spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
-            "yoda": [ "error", "never", { "exceptRange": true } ],
-            "array-bracket-spacing": [ "error", "always" ],
-            "template-curly-spacing": [ "error", "always" ],
-            "computed-property-spacing": [ "error", "always" ],
         },
     },
-];
+]
