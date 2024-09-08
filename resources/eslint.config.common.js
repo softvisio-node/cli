@@ -55,20 +55,22 @@ export default [
             "eslint-comments/disable-enable-pair": [ "error", { "allowWholeFile": true } ],
             "eslint-comments/no-unused-disable": "error",
 
-            // eslint:recommended
+            // eslint core rules
             "curly": [ "error", "multi-line" ],
             "eqeqeq": [ "error", "smart" ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
-            "no-constant-condition": [ "error", { "checkLoops": false } ],
             "no-constructor-return": [ "error" ],
+            "prefer-const": "error",
+            "prefer-exponentiation-operator": "error",
+            "yoda": [ "error", "never", { "exceptRange": true } ],
+
+            // eslint:recommended
+            "no-constant-condition": [ "error", { "checkLoops": false } ],
             "no-control-regex": "off",
             "no-empty": [ "error", { "allowEmptyCatch": true } ],
             "no-global-assign": "error",
             "no-regex-spaces": "error",
             "no-unused-vars": [ "error", { "args": "none", "caughtErrors": "none" } ],
-            "prefer-const": "error",
-            "prefer-exponentiation-operator": "error",
-            "yoda": [ "error", "never", { "exceptRange": true } ],
 
             // @stylistic:recommended
             "@stylistic/array-bracket-spacing": [ "error", "always" ],
