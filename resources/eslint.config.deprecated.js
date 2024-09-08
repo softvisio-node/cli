@@ -3,8 +3,10 @@ export default [
         "name": "eslint:deprecated",
 
         "rules": {
+            "array-bracket-spacing": [ "error", "always" ],
             "brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
             "comma-spacing": [ "error", { "before": false, "after": true } ],
+            "computed-property-spacing": [ "error", "always" ],
             "function-paren-newline": [ "error", "multiline" ],
             "indent": [
                 "error",
@@ -33,9 +35,7 @@ export default [
             "space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
             "space-infix-ops": [ "error", { "int32Hint": false } ],
             "spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
-            "array-bracket-spacing": [ "error", "always" ],
             "template-curly-spacing": [ "error", "always" ],
-            "computed-property-spacing": [ "error", "always" ],
         },
     },
 ];
