@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.41.0 (2024-09-09)
+
+Features:
+
+-   feat: eslint @stylistic
+-   feat: eslint fix option
+-   feat: lint --use-defaults option
+-   feat: lint refactor
+
 ### 3.40.2 (2024-09-07)
 
 Fixes:
