@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.41.2 (2024-09-09)
+
+Fixes:
+
+-   fix: lint parser
+
 ### 3.41.1 (2024-09-09)
 
 No notable changes since the previous release.
