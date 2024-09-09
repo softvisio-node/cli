@@ -5,6 +5,9 @@ export default [
     // @stylistic:disable-legacy
     eslintStylistic.configs[ "disable-legacy" ],
 
+    // @stylistic:all
+    // eslintStylistic.configs[ "all-flat" ],
+
     // @stylistic:recommended
     eslintStylistic.configs[ "recommended-flat" ],
 
