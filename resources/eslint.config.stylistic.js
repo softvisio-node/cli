@@ -34,6 +34,7 @@ export default [
                     },
                 },
             ],
+            "@stylistic/indent-binary-ops": "off",
             "@stylistic/lines-around-comment": [
                 "error",
                 {
