@@ -44,6 +44,7 @@ export default [
                     "afterLineComment": false,
                 },
             ],
+            "@stylistic/lines-between-class-members": "off",
             "@stylistic/operator-linebreak": [
                 "error",
                 "after",
