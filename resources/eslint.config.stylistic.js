@@ -47,7 +47,12 @@ export default [
             "@stylistic/lines-between-class-members": [
                 "error",
                 {
-                    "enforce": [ { "blankLine": "always", "prev": "*", "next": "method" } ],
+                    "enforce": [
+
+                        //
+                        { "blankLine": "always", "prev": "*", "next": "method" },
+                        { "blankLine": "always", "prev": "method", "next": "*" },
+                    ],
                 },
             ],
             "@stylistic/operator-linebreak": [
