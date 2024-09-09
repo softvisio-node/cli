@@ -1,5 +1,9 @@
 # Changelog
 
+### 3.41.1 (2024-09-09)
+
+No notable changes since the previous release.
+
 ### 3.41.0 (2024-09-09)
 
 Features:
