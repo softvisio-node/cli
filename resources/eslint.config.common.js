@@ -1,12 +1,12 @@
-import js from "@eslint/js";
 import globals from "globals";
+import eslintJs from "@eslint/js";
 import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "@stylistic/eslint-plugin";
 
 const start = [
     // eslint:recommended
-    js.configs.recommended,
+    eslintJs.configs.recommended,
 
     // eslint-comments:recommended
     {
