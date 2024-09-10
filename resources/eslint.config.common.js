@@ -1,9 +1,13 @@
+import js from "@eslint/js";
 import globals from "globals";
 import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "./eslint.config.stylistic.js";
 
 export default [
+    // eslint:recommended
+    js.configs.recommended,
+
     // eslint-comments:recommended
     {
         "name": "eslint-comments",

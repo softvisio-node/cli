@@ -1,10 +1,10 @@
-import js from "@eslint/js";
 import eslintCommon from "./eslint.config.common.js";
 import eslintVue from "eslint-plugin-vue";
 
 export default [
-    // eslint:recommended
-    js.configs.recommended,
+
+    // common
+    ...eslintCommon,
 
     // vue:recommended
     ...eslintVue.configs[ "flat/recommended" ],
@@ -58,7 +58,4 @@ export default [
             "vue/v-on-event-hyphenation": [ "error", "never", { "autofix": false } ],
         },
     },
-
-    // common
-    ...eslintCommon,
 ];
