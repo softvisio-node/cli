@@ -2,7 +2,7 @@ import js from "@eslint/js";
 import globals from "globals";
 import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
-import eslintStylistic from "./eslint.config.stylistic.js";
+import eslintStylistic from "@stylistic/eslint-plugin";
 
 const start = [
     // eslint:recommended
@@ -78,8 +78,90 @@ const start = [
 
 const end = [
 
+    // @stylistic:disable-legacy
+    eslintStylistic.configs[ "disable-legacy" ],
+
+    // @stylistic:all
+    // eslintStylistic.configs[ "all-flat" ],
+
+    // @stylistic:recommended
+    eslintStylistic.configs[ "recommended-flat" ],
+
     // @stylistic
-    ...eslintStylistic,
+    {
+        "name": "@stylistic",
+
+        "rules": {
+            "@stylistic/array-bracket-spacing": [ "error", "always" ],
+            "@stylistic/arrow-parens": [ "error", "as-needed" ],
+            "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
+            "@stylistic/comma-dangle": [ "error", "only-multiline" ],
+            "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
+            "@stylistic/computed-property-spacing": [ "error", "always" ],
+            "@stylistic/function-paren-newline": [ "error", "multiline" ],
+            "@stylistic/indent": [
+                "error",
+                4,
+                {
+                    "VariableDeclarator": {
+                        "var": 1,
+                        "let": 1,
+                        "const": 1,
+                    },
+                },
+            ],
+            "@stylistic/indent-binary-ops": "off",
+            "@stylistic/lines-around-comment": [
+                "error",
+                {
+                    "beforeBlockComment": true,
+                    "afterBlockComment": false,
+                    "beforeLineComment": true,
+                    "afterLineComment": false,
+                },
+            ],
+            "@stylistic/lines-between-class-members": [
+                "error",
+                {
+                    "enforce": [
+
+                        //
+                        { "blankLine": "always", "prev": "*", "next": "method" },
+                        { "blankLine": "always", "prev": "method", "next": "*" },
+                    ],
+                },
+            ],
+            "@stylistic/operator-linebreak": [
+                "error",
+                "after",
+                {
+                    "overrides": {
+                        "?": "before",
+                        ":": "before",
+                    },
+                },
+            ],
+            "@stylistic/padded-blocks": "off", // NOTE conflicts with @stylistic/lines-around-comment
+            "@stylistic/quote-props": [ "error", "always" ],
+            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
+            "@stylistic/semi": [ "error", "always" ],
+            "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
+            "@stylistic/space-before-function-paren": [ "error", "always" ],
+            "@stylistic/space-in-parens": [ "error", "always", { "exceptions": [ "empty" ] } ],
+            "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
+            "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
+            "@stylistic/template-curly-spacing": [ "error", "always" ],
+
+            // XXX  test
+            // "@stylistic/no-extra-semi": "error",
+            // "@stylistic/no-extra-parens": [ "error", "all" ],
+            // "no-lone-blocks": "error",
+
+            // XXX test
+            // "@stylistic/block-spacing": [ "error", "always" ],
+            // "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
+        },
+    },
 ];
 
 export default function configure ( ...args ) {
