@@ -75,6 +75,15 @@ export default [
             "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
             "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
             "@stylistic/template-curly-spacing": [ "error", "always" ],
+
+            // XXX  test
+            // "@stylistic/no-extra-semi": "error",
+            // "@stylistic/no-extra-parens": [ "error", "all" ],
+            // "no-lone-blocks": "error",
+
+            // XXX test
+            // "@stylistic/block-spacing": [ "error", "always" ],
+            // "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
         },
     },
 ];
