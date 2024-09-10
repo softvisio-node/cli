@@ -1,11 +1,10 @@
-import eslintCommon from "./eslint.config.common.js";
+import configure from "./eslint.config.common.js";
 import eslintTypeScript from "typescript-eslint";
 
-export default [
-
-    // common
-    ...eslintCommon,
+const config = [
 
     // typescript:recommended
     ...eslintTypeScript.configs.recommended,
 ];
+
+export default configure( ...config );

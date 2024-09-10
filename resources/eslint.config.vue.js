@@ -1,10 +1,7 @@
-import eslintCommon from "./eslint.config.common.js";
+import configure from "./eslint.config.common.js";
 import eslintVue from "eslint-plugin-vue";
 
-export default [
-
-    // common
-    ...eslintCommon,
+const config = [
 
     // vue:recommended
     ...eslintVue.configs[ "flat/recommended" ],
@@ -59,3 +56,5 @@ export default [
         },
     },
 ];
+
+export default configure( ...config );

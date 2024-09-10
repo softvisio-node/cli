@@ -1,11 +1,10 @@
-import eslintCommon from "./eslint.config.common.js";
+import configure from "./eslint.config.common.js";
 import eslintLanguageOptions from "./eslint.config.language-options.js";
 
-export default [
-
-    // common
-    ...eslintCommon,
+const config = [
 
     // language options
     ...eslintLanguageOptions,
 ];
+
+export default configure( ...config );

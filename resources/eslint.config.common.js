@@ -4,7 +4,7 @@ import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "./eslint.config.stylistic.js";
 
-export default [
+const start = [
     // eslint:recommended
     js.configs.recommended,
 
@@ -74,7 +74,20 @@ export default [
             "no-unused-vars": [ "error", { "args": "none", "caughtErrors": "none" } ],
         },
     },
+];
+
+const end = [
 
     // @stylistic
     ...eslintStylistic,
 ];
+
+export default function configure ( ...args ) {
+    return [
+
+        //
+        ...start,
+        ...args,
+        ...end,
+    ];
+}
