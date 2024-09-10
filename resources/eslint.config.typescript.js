@@ -11,4 +11,12 @@ export default [
 
     // common
     ...eslintCommon,
+
+    {
+        "rules": {
+
+            // XXX
+            "no-unused-vars": "off",
+        },
+    },
 ];
