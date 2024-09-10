@@ -44,7 +44,7 @@ export default [
                     "properties": "never",
                     "ignoreImports": true,
                     "allowConsecutiveCapitalLetters": false,
-                    "allowedPrefixes": [ "API_", "CALLBACK_", "COMMAND_" ],
+                    "allowedPrefixes": [ "API_" ],
                 },
             ],
 
