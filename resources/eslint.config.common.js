@@ -133,6 +133,7 @@ const end = [
                     ],
                 },
             ],
+            "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
             "@stylistic/no-extra-semi": "error",
             "@stylistic/operator-linebreak": [
                 "error",
@@ -157,7 +158,6 @@ const end = [
 
             // XXX  test
             // "@stylistic/no-extra-parens": [ "error", "all" ],
-            // "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
         },
     },
 ];
