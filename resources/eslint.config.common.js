@@ -61,7 +61,7 @@ const start = [
             "eqeqeq": [ "error", "smart" ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
             "no-constructor-return": [ "error" ],
-            "no-lone-blocks": "error",
+            "no-lone-blocks": "off", // XXX we are using lone blocks for code folding in vim
             "prefer-const": "error",
             "prefer-exponentiation-operator": "error",
             "yoda": [ "error", "never", { "exceptRange": true } ],
