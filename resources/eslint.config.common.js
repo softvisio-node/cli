@@ -4,6 +4,8 @@ import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "@stylistic/eslint-plugin";
 
+// import eslintUnicorn from "eslint-plugin-unicorn";
+
 const start = [
     // eslint:recommended
     eslintJs.configs.recommended,
@@ -21,6 +23,19 @@ const start = [
 
     // @softvisio:recommended
     eslintSoftvisio.configs.recommended,
+
+    // unicorn
+    // eslintUnicorn.configs[ "flat/recommended" ],
+
+    // {
+    //     "rules": {
+    //         "unicorn/no-null": "off",
+    //         "unicorn/prevent-abbreviations": "off",
+    //         "unicorn/consistent-function-scoping": "off",
+    //         "unicorn/no-process-exit": "off",
+    //         "unicorn/prefer-number-properties": "off",
+    //     },
+    // },
 
     // common config
     {
