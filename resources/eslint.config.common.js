@@ -95,6 +95,7 @@ const end = [
         "rules": {
             "@stylistic/array-bracket-spacing": [ "error", "always" ],
             "@stylistic/arrow-parens": [ "error", "as-needed" ],
+            "@stylistic/block-spacing": [ "error", "always" ],
             "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
             "@stylistic/comma-dangle": [ "error", "only-multiline" ],
             "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
@@ -156,7 +157,6 @@ const end = [
 
             // XXX  test
             // "@stylistic/no-extra-parens": [ "error", "all" ],
-            // "@stylistic/block-spacing": [ "error", "always" ],
             // "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
         },
     },
