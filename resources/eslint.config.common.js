@@ -61,6 +61,7 @@ const start = [
             "eqeqeq": [ "error", "smart" ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
             "no-constructor-return": [ "error" ],
+            "no-lone-blocks": "error",
             "prefer-const": "error",
             "prefer-exponentiation-operator": "error",
             "yoda": [ "error", "never", { "exceptRange": true } ],
@@ -154,7 +155,6 @@ const end = [
             "@stylistic/template-curly-spacing": [ "error", "always" ],
 
             // XXX  test
-            // "no-lone-blocks": "error",
             // "@stylistic/no-extra-parens": [ "error", "all" ],
             // "@stylistic/block-spacing": [ "error", "always" ],
             // "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
