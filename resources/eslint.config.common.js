@@ -131,6 +131,7 @@ const end = [
                     ],
                 },
             ],
+            "@stylistic/no-extra-semi": "error",
             "@stylistic/operator-linebreak": [
                 "error",
                 "after",
@@ -153,11 +154,8 @@ const end = [
             "@stylistic/template-curly-spacing": [ "error", "always" ],
 
             // XXX  test
-            // "@stylistic/no-extra-semi": "error",
-            // "@stylistic/no-extra-parens": [ "error", "all" ],
             // "no-lone-blocks": "error",
-
-            // XXX test
+            // "@stylistic/no-extra-parens": [ "error", "all" ],
             // "@stylistic/block-spacing": [ "error", "always" ],
             // "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
         },
