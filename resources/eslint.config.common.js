@@ -33,7 +33,12 @@ const start = [
             "unicorn/better-regex": "error",
 
             // "unicorn/prefer-optional-catch-binding": "error",
-            // "unicorn/catch-error-name": "error",
+            "unicorn/catch-error-name": [
+                "error",
+                {
+                    "name": "e",
+                },
+            ],
             "unicorn/escape-case": "error",
 
             // "unicorn/no-nested-ternary": "error",
