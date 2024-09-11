@@ -5,7 +5,7 @@ import assert from "node:assert";
 
 suite( "git", () => {
     suite( "git-branch-parser", () => {
-        const BRANCH_RE = /^(?<current>\*)? +(?:\((?<head>HEAD)[^)]+\)|(?<branch>[^ ]+)) +(?<hash>[a-z0-9]+)(?: \[ahead (?<ahead>\d+)\])? (?<description>.+)/;
+        const BRANCH_RE = /^(?<current>\*)? +(?:\((?<head>HEAD)[^)]+\)|(?<branch>[^ ]+)) +(?<hash>[\da-z]+)(?: \[ahead (?<ahead>\d+)])? (?<description>.+)/;
 
         const tests = [
 
