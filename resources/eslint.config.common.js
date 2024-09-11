@@ -186,6 +186,8 @@ const end = [
                 },
             ],
             "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
+
+            // "@stylistic/no-extra-parens": [ "error", "all" ], // XXX test
             "@stylistic/no-extra-semi": "error",
             "@stylistic/operator-linebreak": [
                 "error",
@@ -207,9 +209,6 @@ const end = [
             "@stylistic/space-infix-ops": [ "error", { "int32Hint": false } ],
             "@stylistic/spaced-comment": [ "error", "always", { "markers": [ "*" ] } ],
             "@stylistic/template-curly-spacing": [ "error", "always" ],
-
-            // XXX  test
-            // "@stylistic/no-extra-parens": [ "error", "all" ],
         },
     },
 ];
