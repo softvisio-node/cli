@@ -42,6 +42,7 @@ const start = [
             "unicorn/escape-case": "error",
 
             // "unicorn/no-nested-ternary": "error",
+            "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-zero-fractions": "error",
             "unicorn/number-literal-case": "error",
             "unicorn/numeric-separators-style": "error",
