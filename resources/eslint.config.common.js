@@ -3,8 +3,7 @@ import eslintJs from "@eslint/js";
 import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "@stylistic/eslint-plugin";
-
-// import eslintUnicorn from "eslint-plugin-unicorn";
+import eslintUnicorn from "eslint-plugin-unicorn";
 
 const start = [
     // eslint:recommended
@@ -25,6 +24,30 @@ const start = [
     eslintSoftvisio.configs.recommended,
 
     // unicorn
+    {
+        "name": "unicorn",
+        "plugins": {
+            "unicorn": eslintUnicorn,
+        },
+        "rules": {
+
+            // "unicorn/prefer-optional-catch-binding": "error",
+            // "unicorn/catch-error-name": "error",
+            // "unicorn/escape-case": "error",
+            // "unicorn/no-nested-ternary": "error",
+            "unicorn/no-zero-fractions": "error",
+            "unicorn/number-literal-case": "error",
+            "unicorn/numeric-separators-style": "error",
+
+            // "unicorn/prefer-at": "error",
+            "unicorn/prefer-date-now": "error",
+            "unicorn/prefer-node-protocol": "error",
+
+            // "unicorn/prefer-string-slice": "error",
+            // "unicorn/throw-new-error": "error",
+        },
+    },
+
     // eslintUnicorn.configs[ "flat/recommended" ],
 
     // {
