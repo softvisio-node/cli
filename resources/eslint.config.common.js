@@ -41,6 +41,16 @@ const start = [
             ],
             "unicorn/escape-case": "error",
 
+            // "unicorn/no-array-for-each": "error", // XXX
+            "unicorn/no-array-push-push": "error",
+
+            // "unicorn/no-array-reduce": "error", // XXX
+            // "unicorn/no-await-expression-member": "error", // XXX
+
+            "unicorn/no-instanceof-array": "error",
+            "unicorn/no-length-as-slice-end": "error",
+            "unicorn/no-lonely-if": "error",
+
             // "unicorn/no-nested-ternary": "error",
             "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-zero-fractions": "error",
