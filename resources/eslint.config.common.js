@@ -48,6 +48,8 @@ const start = [
 
             // "unicorn/prefer-at": "error",
             "unicorn/prefer-date-now": "error",
+            "unicorn/prefer-modern-dom-apis": "error",
+            "unicorn/prefer-modern-math-apis": "error",
             "unicorn/prefer-node-protocol": "error",
 
             // "unicorn/prefer-string-slice": "error",
