@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.42.0 (2024-09-11)
+
+Features:
+
+-   feat: rpc daemon
+
 ### 3.41.2 (2024-09-09)
 
 Fixes:
