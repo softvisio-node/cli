@@ -84,23 +84,24 @@ const start = [
 
     // {
     //     "rules": {
-    //         "unicorn/explicit-length-check": "off", // XXX enable
-    //         "unicorn/no-await-expression-member": "off", // XXX enable
+    //         "unicorn/prefer-optional-catch-binding": "off",
+    //         "unicorn/catch-error-name": [
+    //             "error",
+    //             {
+    //                 "name": "e",
+    //             },
+    //         ],
+    //         "unicorn/no-array-for-each": "off", // XXX
+    //         "unicorn/no-array-push-push": "off", // XXX remove
+    //         "unicorn/no-array-reduce": "off", // XXX
+    //         "unicorn/no-await-expression-member": "off", // XXX
+    //         "unicorn/no-lonely-if": "off",
+    //         "unicorn/no-nested-ternary": "off",
     //         "unicorn/no-null": "off",
-    //         "unicorn/prevent-abbreviations": "off",
-    //         "unicorn/consistent-function-scoping": "off",
-    //         "unicorn/no-anonymous-default-export": "off",
-    //         "unicorn/no-hex-escape": "off",
-    //         "unicorn/no-invalid-fetch-options": "off", // XXX false positive
-    //         "unicorn/no-negated-condition": "off", // XXX enable
-    //         "unicorn/no-for-loop": "off",
     //         "unicorn/no-process-exit": "off",
-    //         "unicorn/prefer-number-properties": "off",
-    //         "unicorn/prefer-spread": "off", // XXX enable
-    //         "unicorn/prefer-string-raw": "off",
-    //         "unicorn/prefer-switch": "off",
-    //         "unicorn/prefer-ternary": "off",
-    //         "unicorn/template-indent": "off", // XXX enable
+    //         "unicorn/prefer-at": "off",
+    //         "unicorn/prefer-string-slice": "off",
+    //         "unicorn/throw-new-error": "off",
     //     },
     // },
 
