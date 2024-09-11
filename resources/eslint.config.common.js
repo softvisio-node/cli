@@ -41,6 +41,8 @@ const start = [
             ],
             "unicorn/escape-case": "error",
 
+            // "unicorn/new-for-builtins": "error", // XXX ???
+
             // "unicorn/no-array-for-each": "error", // XXX
             // "unicorn/no-array-push-push": "error", // XXX remove
 
