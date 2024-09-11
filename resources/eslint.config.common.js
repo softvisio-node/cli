@@ -55,6 +55,8 @@ const start = [
             "unicorn/prefer-modern-math-apis": "error",
             "unicorn/prefer-node-protocol": "error",
             "unicorn/prefer-regexp-test": "error",
+            "unicorn/prefer-set-has": "error",
+            "unicorn/prefer-set-size": "error",
 
             // "unicorn/prefer-string-slice": "error",
             // "unicorn/throw-new-error": "error",
