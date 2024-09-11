@@ -197,7 +197,7 @@ class Theme {
                     for ( let n = 0; n < level - currentLevel; n++ ) {
                         list = document.createElement( "ul" );
 
-                        lists[ lists.length - 1 ].appendChild( list );
+                        lists[ lists.length - 1 ].append( list );
 
                         lists.push( list );
                     }
@@ -221,8 +221,8 @@ class Theme {
             a.textContent = link.textContent;
             a.classList.add( "link" );
 
-            li.appendChild( a );
-            list.appendChild( li );
+            li.append( a );
+            list.append( li );
         }
 
         return tocEl;
