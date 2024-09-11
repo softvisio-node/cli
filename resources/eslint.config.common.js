@@ -31,6 +31,8 @@ const start = [
             "unicorn/no-null": "off",
             "unicorn/prevent-abbreviations": "off",
             "unicorn/consistent-function-scoping": "off",
+            "unicorn/no-anonymous-default-export": "off",
+            "unicorn/no-for-loop": "off",
             "unicorn/no-process-exit": "off",
             "unicorn/prefer-number-properties": "off",
             "unicorn/prefer-ternary": "off",
