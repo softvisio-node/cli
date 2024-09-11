@@ -42,7 +42,7 @@ const start = [
             "unicorn/escape-case": "error",
 
             // "unicorn/no-array-for-each": "error", // XXX
-            "unicorn/no-array-push-push": "error",
+            // "unicorn/no-array-push-push": "error", // XXX remove
 
             // "unicorn/no-array-reduce": "error", // XXX
             // "unicorn/no-await-expression-member": "error", // XXX
