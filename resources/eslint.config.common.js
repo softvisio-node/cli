@@ -3,7 +3,8 @@ import eslintJs from "@eslint/js";
 import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "@stylistic/eslint-plugin";
-import eslintUnicorn from "eslint-plugin-unicorn";
+
+// import eslintUnicorn from "eslint-plugin-unicorn";
 
 const start = [
     // eslint:recommended
@@ -24,25 +25,29 @@ const start = [
     eslintSoftvisio.configs.recommended,
 
     // unicorn
-    eslintUnicorn.configs[ "flat/recommended" ],
+    // eslintUnicorn.configs[ "flat/recommended" ],
 
-    {
-        "rules": {
-            "unicorn/no-await-expression-member": "off", // XXX enable
-            "unicorn/no-null": "off",
-            "unicorn/prevent-abbreviations": "off",
-            "unicorn/consistent-function-scoping": "off",
-            "unicorn/no-anonymous-default-export": "off",
-            "unicorn/no-invalid-fetch-options": "off", // XXX false positive
-            "unicorn/no-negated-condition": "off", // XXX enable
-            "unicorn/no-for-loop": "off",
-            "unicorn/no-process-exit": "off",
-            "unicorn/prefer-number-properties": "off",
-            "unicorn/prefer-string-raw": "off",
-            "unicorn/prefer-switch": "off",
-            "unicorn/prefer-ternary": "off",
-        },
-    },
+    // {
+    //     "rules": {
+    //         "unicorn/explicit-length-check": "off", // XXX enable
+    //         "unicorn/no-await-expression-member": "off", // XXX enable
+    //         "unicorn/no-null": "off",
+    //         "unicorn/prevent-abbreviations": "off",
+    //         "unicorn/consistent-function-scoping": "off",
+    //         "unicorn/no-anonymous-default-export": "off",
+    //         "unicorn/no-hex-escape": "off",
+    //         "unicorn/no-invalid-fetch-options": "off", // XXX false positive
+    //         "unicorn/no-negated-condition": "off", // XXX enable
+    //         "unicorn/no-for-loop": "off",
+    //         "unicorn/no-process-exit": "off",
+    //         "unicorn/prefer-number-properties": "off",
+    //         "unicorn/prefer-spread": "off", // XXX enable
+    //         "unicorn/prefer-string-raw": "off",
+    //         "unicorn/prefer-switch": "off",
+    //         "unicorn/prefer-ternary": "off",
+    //         "unicorn/template-indent": "off", // XXX enable
+    //     },
+    // },
 
     // common config
     {
