@@ -28,13 +28,18 @@ const start = [
 
     {
         "rules": {
+            "unicorn/no-await-expression-member": "off", // XXX enable
             "unicorn/no-null": "off",
             "unicorn/prevent-abbreviations": "off",
             "unicorn/consistent-function-scoping": "off",
             "unicorn/no-anonymous-default-export": "off",
+            "unicorn/no-invalid-fetch-options": "off", // XXX false positive
+            "unicorn/no-negated-condition": "off", // XXX enable
             "unicorn/no-for-loop": "off",
             "unicorn/no-process-exit": "off",
             "unicorn/prefer-number-properties": "off",
+            "unicorn/prefer-string-raw": "off",
+            "unicorn/prefer-switch": "off",
             "unicorn/prefer-ternary": "off",
         },
     },
