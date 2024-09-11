@@ -33,7 +33,8 @@ const start = [
 
             // "unicorn/prefer-optional-catch-binding": "error",
             // "unicorn/catch-error-name": "error",
-            // "unicorn/escape-case": "error",
+            "unicorn/escape-case": "error",
+
             // "unicorn/no-nested-ternary": "error",
             "unicorn/no-zero-fractions": "error",
             "unicorn/number-literal-case": "error",
