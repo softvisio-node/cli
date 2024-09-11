@@ -42,10 +42,8 @@ const start = [
             "unicorn/escape-case": "error",
 
             // "unicorn/new-for-builtins": "error", // XXX ???
-
             // "unicorn/no-array-for-each": "error", // XXX
             // "unicorn/no-array-push-push": "error", // XXX remove
-
             // "unicorn/no-array-reduce": "error", // XXX
             // "unicorn/no-await-expression-member": "error", // XXX
 
@@ -53,7 +51,6 @@ const start = [
             "unicorn/no-length-as-slice-end": "error",
 
             // "unicorn/no-lonely-if": "error",
-
             // "unicorn/no-nested-ternary": "error",
             "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-zero-fractions": "error",
