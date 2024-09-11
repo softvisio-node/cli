@@ -57,6 +57,7 @@ const start = [
             "unicorn/prefer-regexp-test": "error",
             "unicorn/prefer-set-has": "error",
             "unicorn/prefer-set-size": "error",
+            "unicorn/prefer-string-replace-all": "error",
 
             // "unicorn/prefer-string-slice": "error",
             // "unicorn/throw-new-error": "error",
