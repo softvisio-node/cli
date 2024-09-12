@@ -59,6 +59,7 @@ const start = [
             "unicorn/prefer-dom-node-remove": "error",
             "unicorn/prefer-modern-dom-apis": "error",
             "unicorn/prefer-modern-math-apis": "error",
+            "unicorn/prefer-negative-index": "error",
             "unicorn/prefer-node-protocol": "error",
             "unicorn/prefer-number-properties": [
                 "error",
