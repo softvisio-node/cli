@@ -73,6 +73,7 @@ const start = [
             "unicorn/prefer-structured-clone": "error",
 
             // "unicorn/prefer-string-slice": "error",
+            "unicorn/relative-url-style": "error",
             "unicorn/text-encoding-identifier-case": "error",
 
             // "unicorn/throw-new-error": "error",
