@@ -221,7 +221,7 @@ const end = [
                 },
             ],
             "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
-            "@stylistic/multiline-ternary": [ "error", "always" ],
+            "@stylistic/multiline-ternary": [ "error", "always-multiline" ],
 
             // "@stylistic/no-extra-parens": [ "error", "all" ], // XXX test
             "@stylistic/no-extra-semi": "error",
