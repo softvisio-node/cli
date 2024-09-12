@@ -8,7 +8,11 @@ class Theme {
     constructor () {
         var theme = localStorage.getItem( STORAGE_KEY );
 
-        if ( !theme || !THEMES.has( theme ) ) theme = window.matchMedia && window.matchMedia( "(prefers-color-scheme: dark)" ).matches ? "dark" : "light";
+        if ( !theme || !THEMES.has( theme ) ) {
+            theme = window.matchMedia && window.matchMedia( "(prefers-color-scheme: dark)" ).matches
+                ? "dark"
+                : "light";
+        }
 
         // set toggleTheme click handler
         document.querySelectorAll( `a[href="#toggleTheme"]` ).forEach( el => ( el.onclick = this.#toggleTheme.bind( this ) ) );
@@ -23,7 +27,9 @@ class Theme {
 
         // listen for system dark mode change
         window.matchMedia( "(prefers-color-scheme: dark)" ).addEventListener( "change", e => {
-            this.#setTheme( e.matches ? "dark" : "light" );
+            this.#setTheme( e.matches
+                ? "dark"
+                : "light" );
         } );
     }
 
@@ -59,7 +65,9 @@ class Theme {
     }
 
     #toggleTheme ( e ) {
-        this.#setTheme( this.#currentTheme === "light" ? "dark" : "light" );
+        this.#setTheme( this.#currentTheme === "light"
+            ? "dark"
+            : "light" );
 
         return false;
     }
