@@ -74,9 +74,7 @@ const start = [
             "unicorn/prefer-string-starts-ends-with": "error",
             "unicorn/prefer-string-trim-start-end": "error",
             "unicorn/prefer-structured-clone": "error",
-
-            // XXX "unicorn/prefer-string-slice": "error",
-
+            "unicorn/prefer-string-slice": "error",
             "unicorn/relative-url-style": "error",
             "unicorn/text-encoding-identifier-case": "error",
         },
