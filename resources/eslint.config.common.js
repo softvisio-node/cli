@@ -28,8 +28,7 @@ const start = [
         },
         "rules": {
             "unicorn/better-regex": "error",
-
-            // "unicorn/prefer-optional-catch-binding": "error",
+            "unicorn/prefer-optional-catch-binding": "error",
             "unicorn/catch-error-name": [
                 "error",
                 {
