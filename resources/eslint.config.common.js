@@ -51,7 +51,7 @@ const start = [
             "unicorn/no-length-as-slice-end": "error",
 
             // "unicorn/no-lonely-if": "error",
-            "unicorn/no-nested-ternary": "error",
+
             "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-zero-fractions": "error",
             "unicorn/number-literal-case": "error",
@@ -135,7 +135,12 @@ const start = [
             ],
 
             // eslint comments
-            "eslint-comments/disable-enable-pair": [ "error", { "allowWholeFile": true } ],
+            "eslint-comments/disable-enable-pair": [
+                "error",
+                {
+                    "allowWholeFile": true,
+                },
+            ],
             "eslint-comments/no-unused-disable": "error",
 
             // eslint core rules
@@ -216,6 +221,7 @@ const end = [
                 },
             ],
             "@stylistic/max-statements-per-line": [ "error", { "max": 1 } ],
+            "@stylistic/multiline-ternary": [ "error", "always" ],
 
             // "@stylistic/no-extra-parens": [ "error", "all" ], // XXX test
             "@stylistic/no-extra-semi": "error",
