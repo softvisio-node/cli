@@ -63,6 +63,7 @@ const start = [
             "unicorn/prefer-modern-dom-apis": "error",
             "unicorn/prefer-modern-math-apis": "error",
             "unicorn/prefer-node-protocol": "error",
+            "unicorn/prefer-number-properties": "error",
             "unicorn/prefer-regexp-test": "error",
             "unicorn/prefer-set-has": "error",
             "unicorn/prefer-set-size": "error",
