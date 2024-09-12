@@ -37,7 +37,7 @@ const start = [
                 },
             ],
             "unicorn/escape-case": "error",
-            "unicorn/new-for-builtins": "error", // XXX ???
+            "unicorn/new-for-builtins": "error",
 
             // "unicorn/no-array-for-each": "error", // XXX
             // "unicorn/no-array-reduce": "error", // XXX
