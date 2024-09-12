@@ -39,15 +39,15 @@ const start = [
             "unicorn/escape-case": "error",
             "unicorn/new-for-builtins": "error",
 
-            // "unicorn/no-array-for-each": "error", // XXX
-            // "unicorn/no-array-reduce": "error", // XXX
+            // XXX "unicorn/no-array-for-each": "error",
+            // XXX "unicorn/no-array-reduce": "error",
 
-            // "unicorn/no-await-expression-member": "error", // XXX
+            // XXX "unicorn/no-await-expression-member": "error",
 
             "unicorn/no-instanceof-array": "error",
             "unicorn/no-length-as-slice-end": "error",
 
-            // "unicorn/no-lonely-if": "error",
+            // XXX "unicorn/no-lonely-if": "error",
 
             "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-zero-fractions": "error",
@@ -76,38 +76,12 @@ const start = [
             "unicorn/prefer-string-trim-start-end": "error",
             "unicorn/prefer-structured-clone": "error",
 
-            // "unicorn/prefer-string-slice": "error",
+            // XXX "unicorn/prefer-string-slice": "error",
+
             "unicorn/relative-url-style": "error",
             "unicorn/text-encoding-identifier-case": "error",
-
-            // "unicorn/throw-new-error": "error",
         },
     },
-
-    // eslintUnicorn.configs[ "flat/recommended" ],
-
-    // {
-    //     "rules": {
-    //         "unicorn/prefer-optional-catch-binding": "off",
-    //         "unicorn/catch-error-name": [
-    //             "error",
-    //             {
-    //                 "name": "e",
-    //             },
-    //         ],
-    //         "unicorn/no-array-for-each": "off", // XXX
-    //         "unicorn/no-array-push-push": "off", // XXX remove
-    //         "unicorn/no-array-reduce": "off", // XXX
-    //         "unicorn/no-await-expression-member": "off", // XXX
-    //         "unicorn/no-lonely-if": "off",
-    //         "unicorn/no-nested-ternary": "off",
-    //         "unicorn/no-null": "off",
-    //         "unicorn/no-process-exit": "off",
-    //         "unicorn/prefer-at": "off",
-    //         "unicorn/prefer-string-slice": "off",
-    //         "unicorn/throw-new-error": "off",
-    //     },
-    // },
 
     // common config
     {
