@@ -20,7 +20,7 @@ suite( "git", () => {
             test( "test_" + n, () => {
                 const match = tests[ n ][ 0 ].match( BRANCH_RE );
 
-                if ( !match ) throw Error( `Parsing error: ` + tests[ n ][ 0 ] );
+                if ( !match ) throw new Error( `Parsing error: ` + tests[ n ][ 0 ] );
 
                 for ( const prop in tests[ n ][ 1 ] ) {
                     assert.strictEqual( tests[ n ][ 1 ][ prop ], match.groups[ prop ] );
