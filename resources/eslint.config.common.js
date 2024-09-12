@@ -56,8 +56,7 @@ const start = [
             "unicorn/no-zero-fractions": "error",
             "unicorn/number-literal-case": "error",
             "unicorn/numeric-separators-style": "error",
-
-            // "unicorn/prefer-at": "error",
+            "unicorn/prefer-at": "error",
             "unicorn/prefer-date-now": "error",
             "unicorn/prefer-dom-node-append": "error",
             "unicorn/prefer-dom-node-remove": "error",

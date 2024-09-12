@@ -197,7 +197,7 @@ class Theme {
                     for ( let n = 0; n < level - currentLevel; n++ ) {
                         list = document.createElement( "ul" );
 
-                        lists[ lists.length - 1 ].append( list );
+                        lists.at( -1 ).append( list );
 
                         lists.push( list );
                     }
@@ -211,7 +211,7 @@ class Theme {
                 currentLevel = level;
             }
 
-            list = lists[ lists.length - 1 ];
+            list = lists.at( -1 );
 
             const link = heading.querySelector( "a" ),
                 li = document.createElement( "li" ),
