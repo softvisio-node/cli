@@ -6,10 +6,9 @@ const config = [
     // vue:recommended
     ...eslintVue.configs[ "flat/recommended" ],
 
-    // vue custom rules
+    // vue:custom
     {
-        "name": "vue custom rules",
-
+        "name": "vue:custom",
         "rules": {
             // eslint-plugin-vue, https://eslint.vuejs.org/rules/
             "vue/attribute-hyphenation": [ "warn", "never" ], // for ExtJS webcomponents
@@ -17,7 +16,6 @@ const config = [
             "vue/component-definition-name-casing": [ "error", "PascalCase" ],
             "vue/component-name-in-template-casing": [ "error", "PascalCase", { "registeredComponentsOnly": true } ],
             "vue/custom-event-name-casing": [ "error", "camelCase" ],
-
             "vue/html-indent": [
                 "warn",
                 4,
@@ -25,7 +23,6 @@ const config = [
                     "baseIndent": 1,
                 },
             ],
-
             "vue/html-closing-bracket-spacing": [
                 "warn",
                 {
@@ -34,7 +31,6 @@ const config = [
                     "selfClosingTag": "never", // set to "always" to make compatible with the prettier <br />
                 },
             ],
-            "vue/html-quotes": "off", // replaced with the @softvisio/html-quotes
             "vue/html-self-closing": [
                 "warn",
                 {

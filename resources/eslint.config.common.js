@@ -20,9 +20,6 @@ const start = [
         },
     },
 
-    // @softvisio:recommended
-    eslintSoftvisio.configs.recommended,
-
     // unicorn
     {
         "name": "unicorn",
@@ -114,7 +111,6 @@ const start = [
     // common config
     {
         "name": "common config",
-
         "languageOptions": {
             "globals": {
                 ...globals.node,
@@ -127,21 +123,8 @@ const start = [
                 "result": "readonly",
             },
         },
-
         "rules": {
-
-            // @softvisio:recommended
-            "@softvisio/camel-case": [
-                "error",
-                {
-                    "properties": "never",
-                    "ignoreImports": true,
-                    "allowConsecutiveCapitalLetters": false,
-                    "allowedPrefixes": [ "API_" ],
-                },
-            ],
-
-            // eslint comments
+            // eslint-comments
             "eslint-comments/disable-enable-pair": [
                 "error",
                 {
@@ -150,7 +133,7 @@ const start = [
             ],
             "eslint-comments/no-unused-disable": "error",
 
-            // eslint core rules
+            // eslint
             "curly": [ "error", "multi-line" ],
             "eqeqeq": [ "error", "smart" ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
@@ -173,6 +156,25 @@ const start = [
 
 const end = [
 
+    // @softvisio:recommended
+    eslintSoftvisio.configs.recommended,
+
+    // @softvisio:custom
+    {
+        "name": "@softvisio:custom",
+        "rules": {
+            "@softvisio/camel-case": [
+                "error",
+                {
+                    "properties": "never",
+                    "ignoreImports": true,
+                    "allowConsecutiveCapitalLetters": false,
+                    "allowedPrefixes": [ "API_" ],
+                },
+            ],
+        },
+    },
+
     // @stylistic:disable-legacy
     eslintStylistic.configs[ "disable-legacy" ],
 
@@ -182,10 +184,9 @@ const end = [
     // @stylistic:recommended
     eslintStylistic.configs[ "recommended-flat" ],
 
-    // @stylistic
+    // @stylistic:custom
     {
-        "name": "@stylistic",
-
+        "name": "@stylistic:custom",
         "rules": {
             "@stylistic/array-bracket-spacing": [ "error", "always" ],
             "@stylistic/arrow-parens": [ "error", "as-needed" ],
