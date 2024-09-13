@@ -1,4 +1,4 @@
-import configure from "./eslint.config.common.js";
+import { Config as CommonConfig } from "./eslint.config.common.js";
 import eslintVue from "eslint-plugin-vue";
 
 const config = [
@@ -53,4 +53,40 @@ const config = [
     },
 ];
 
-export default configure( ...config );
+export class Config extends CommonConfig {
+
+    // public
+    create ( editorConfig ) {
+        return super.create( {
+            config,
+            editorConfig,
+        } );
+    }
+
+    customize ( editorConfig ) {
+        const config = super.customize( editorConfig );
+
+        if ( !editorConfig ) return config;
+
+        const indent = editorConfig.indent_style === "tab"
+            ? "tab"
+            : editorConfig.indent_size;
+
+        config.push( {
+            "name": "customized vue config",
+            "rules": {
+                "vue/html-indent": [
+                    "warn",
+                    indent,
+                    {
+                        "baseIndent": 1,
+                    },
+                ],
+            },
+        } );
+
+        return config;
+    }
+}
+
+export default new Config().create();

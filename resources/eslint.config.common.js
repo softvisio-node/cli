@@ -235,12 +235,83 @@ const end = [
     },
 ];
 
-export default function configure ( ...args ) {
-    return [
+export class Config {
 
-        //
-        ...start,
-        ...args,
-        ...end,
-    ];
+    // public
+    create ( { config, editorConfig } = {} ) {
+        return [
+
+            //
+            ...start,
+            ...config,
+            ...end,
+            ...this.customize( editorConfig ),
+        ];
+    }
+
+    customize ( editorConfig ) {
+        if ( !editorConfig ) return [];
+
+        const config = {
+            "name": "customized common config",
+            "rules": {},
+        };
+
+        const indent = editorConfig.indent_style === "tab"
+            ? "tab"
+            : editorConfig.indent_size;
+
+        // override @stylistic/indent
+        if ( indent ) {
+            config.rules[ "@stylistic/indent" ] = [
+                "error",
+                indent,
+                {
+                    "VariableDeclarator": {
+                        "var": 1,
+                        "let": 1,
+                        "const": 1,
+                    },
+                },
+            ];
+
+            // config.rules[ "@stylistic/indent-binary-ops" ] = [ "error", indent ];
+
+            config.rules[ "@stylistic/jsx-indent-props" ] = [ "error", indent ];
+        }
+
+        // override @stylistic/no-tabs
+        config.rules[ "@stylistic/no-tabs" ] = indent === "tab"
+            ? "off"
+            : "error";
+
+        // override @stylistic/max-len
+        if ( editorConfig.max_line_length ) {
+            config.rules[ "@stylistic/max-len" ] = [
+                "error",
+                {
+                    "code": editorConfig.max_line_length === "off"
+                        ? Infinity
+                        : editorConfig.max_line_length,
+                    "tabWidth": editorConfig.tab_width,
+                },
+            ];
+        }
+
+        // override @stylistic/eol-last
+        config.rules[ "@stylistic/eol-last" ] = [ "error", editorConfig.insert_final_newline
+            ? "always"
+            : "never" ];
+
+        // override @stylistic/no-trailing-spaces
+        config.rules[ "@stylistic/no-trailing-spaces" ] = [
+            "error",
+            {
+                "skipBlankLines": !editorConfig.trim_trailing_whitespace,
+                "ignoreComments": !editorConfig.trim_trailing_whitespace,
+            },
+        ];
+
+        return [ config ];
+    }
 }
