@@ -971,9 +971,9 @@
             }
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.6.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.4.tgz",
-            "integrity": "sha512-8J05yeSpalwoOdd5fQzer5roDrYb2SDTAtfQ0c+Uxd5mRwY2HoNYEvX3fl9Ie62lfQcehCf+aaTQKHTGBfM4Vw==",
+            "version": "1.6.5",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.5.tgz",
+            "integrity": "sha512-yd/CzvcIwPcQhn+/iaOpj7MXV8tHTrcsa6nNQKuRdeup15Sa2GXfxi8+CfcxUYgQWkRBP3K+wBXYIUEbkgbR4g==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -1025,31 +1025,31 @@
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.6.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.6.1.tgz",
-            "integrity": "sha512-7y1Dqg2XjwsUUdlPj4noOmUQWh1GhNEFshRiYzWWVrgUqY8RruCdohP0iTugT5ZMc/iQ6H8ufmsewauf3DivKA==",
+            "version": "1.7.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.0.tgz",
+            "integrity": "sha512-LYCRAg3AVw+Tpu7NQxxs1pSRu+mbQ4VdXUefGd3jfQR3pHXDYTZi5hIrzfbf8uUHVqTrdr6pBd18rT0xP1zc8w==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
             }
         },
         "node_modules/@softvisio/msgpack": {
-            "version": "3.3.13",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.3.13.tgz",
-            "integrity": "sha512-1G6KdVWkocNRNLbj0BinX1WGBRx09kVsmrxoyX+Xg0tqu9mz+wxk64TkKzXDcRTFhxGZrO1MWALQIDOJoIaFyQ==",
+            "version": "3.3.14",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.3.14.tgz",
+            "integrity": "sha512-64h7n8VwVX2CdPxJp6JNBJnfmothbqwZDphdSbwHDGXZUGygTw7vWIL3rxe7AC0SY0ZS44mzr7JLoI8OVbRfmQ==",
             "license": "ISC"
         },
         "node_modules/@softvisio/result": {
-            "version": "6.3.21",
-            "resolved": "https://registry.npmjs.org/@softvisio/result/-/result-6.3.21.tgz",
-            "integrity": "sha512-nu3a3q8p8w48XianTNwHRAM4aabctaPnyQvhPdIlZgyBm0KUyvfVMgCmJIU1rKZwzeJn/FAO0MO7DLM6wSwDDA==",
+            "version": "6.3.22",
+            "resolved": "https://registry.npmjs.org/@softvisio/result/-/result-6.3.22.tgz",
+            "integrity": "sha512-BPT+rl20JZu2IpIxPGEJ47pF69FZyRwx+UksXm6Fy0P04pdB60q5VGhvf2UCgwMZ/dXbKgjH7Tg+0jZsX5ZUtg==",
             "license": "ISC",
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.15.81",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.15.81.tgz",
-            "integrity": "sha512-NXK8uMcxgttKODYoYXWR2HU+VSj/8n8QpRA1/iZs5Bze2oxp3NdAQ9zRuyYf9eOqzeKzE/HglduDbY0DQ7HQwQ==",
+            "version": "1.15.82",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.15.82.tgz",
+            "integrity": "sha512-5LuNvRy1Rtx/3lBGFAGKnztYuXuGrpWaFESt/xdXclH4dtDA321nf/cXir8bg9C+tlPndgA2w6JQNz43n/75IA==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1057,9 +1057,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "1.2.16",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.16.tgz",
-            "integrity": "sha512-Fx9UfBQ5XmngP3Aj2kmtxIAeAtGs1OBVeVhq2XBs5hWzLYBvzIKIdq+2o+sxBLQYnbPIoJy6Rnihftld7XS59g==",
+            "version": "1.2.17",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.17.tgz",
+            "integrity": "sha512-8DA4r+UW0cp1e2l4draG0GGyT9fv2D8c0CYtfPGlh0jFKpBjJWdsrHXyW1+ZU5En/m/wZvplDaOTC/8SMhBo1A==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -2291,9 +2291,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.20",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.20.tgz",
-            "integrity": "sha512-74mdl6Fs1HHzK9SUX4CKFxAtAe3nUns48y79TskHNAG6fGOlLfyKA4j855x+0b5u8rWJIrlaG9tcTPstMlwjIw==",
+            "version": "1.5.22",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.22.tgz",
+            "integrity": "sha512-tKYm5YHPU1djz0O+CGJ+oJIvimtsCcwR2Z9w7Skh08lUdyzXY5djods3q+z2JkWdb7tCcmM//eVavSRAiaPRNg==",
             "license": "ISC"
         },
         "node_modules/emoji-regex": {
