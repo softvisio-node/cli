@@ -106,7 +106,7 @@ const start = [
             "eslint-comments/no-unused-disable": "error",
 
             // eslint
-            "curly": [ "error", "multi-line" ],
+            "curly": [ "error", "multi-line", "consistent" ],
             "eqeqeq": [ "error", "smart" ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
             "no-constructor-return": [ "error" ],
@@ -163,7 +163,13 @@ const end = [
             "@stylistic/array-bracket-spacing": [ "error", "always" ],
             "@stylistic/arrow-parens": [ "error", "as-needed" ],
             "@stylistic/block-spacing": [ "error", "always" ],
-            "@stylistic/brace-style": [ "error", "stroustrup", { "allowSingleLine": true } ],
+            "@stylistic/brace-style": [
+                "error",
+                "stroustrup",
+                {
+                    "allowSingleLine": false,
+                },
+            ],
             "@stylistic/comma-dangle": [ "error", "only-multiline" ],
             "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
             "@stylistic/computed-property-spacing": [ "error", "always" ],
