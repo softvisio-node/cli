@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.43.0 (2024-09-13)
+
+Features:
+
+-   feat: lint refactor
+-   feat: rpc commands refactor
+
+Fixes:
+
+-   fix: rpc command
+
 ### 3.42.0 (2024-09-11)
 
 Features:
