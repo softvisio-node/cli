@@ -40,8 +40,8 @@ const start = [
 
             // XXX "unicorn/no-array-for-each": "error",
             // XXX "unicorn/no-array-reduce": "error",
+            // XXX "unicorn/no-await-expression-member": "error",
 
-            "unicorn/no-await-expression-member": "error",
             "unicorn/no-instanceof-array": "error",
             "unicorn/no-length-as-slice-end": "error",
 
