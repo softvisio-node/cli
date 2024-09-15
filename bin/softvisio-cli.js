@@ -4,8 +4,6 @@ import "#core/result";
 import ansi from "#core/text/ansi";
 import CLI from "#core/cli";
 
-await CLI.preserveSymlinks();
-
 const spec = {
     "title": "Softvisio CLI",
     "commands": {
