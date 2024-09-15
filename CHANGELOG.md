@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.44.4 (2024-09-15)
+
+Fixes:
+
+-   fix: ajv ip-port format
+-   fix: docs start port
+
 ### 3.44.3 (2024-09-15)
 
 No notable changes since the previous release.
