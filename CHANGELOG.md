@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.44.0 (2024-09-15)
+
+Features:
+
+-   feat: docsify
+
+Fixes:
+
+-   fix: docs builder
+-   fix: preserve symlinks
+
 ### 3.43.0 (2024-09-13)
 
 Features:
