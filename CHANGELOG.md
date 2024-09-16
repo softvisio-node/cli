@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.44.5 (2024-09-16)
+
+Fixes:
+
+-   fix: ajv ip-port format
+
 ### 3.44.4 (2024-09-15)
 
 Fixes:
