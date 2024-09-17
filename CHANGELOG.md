@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.44.7 (2024-09-17)
+
+Fixes:
+
+-   fix: dependencies update
+-   fix: websocket connection events
+
 ### 3.44.6 (2024-09-16)
 
 Fixes:
