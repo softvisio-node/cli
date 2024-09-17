@@ -964,18 +964,18 @@
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.7.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.0.tgz",
-            "integrity": "sha512-LYCRAg3AVw+Tpu7NQxxs1pSRu+mbQ4VdXUefGd3jfQR3pHXDYTZi5hIrzfbf8uUHVqTrdr6pBd18rT0xP1zc8w==",
+            "version": "1.7.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.2.tgz",
+            "integrity": "sha512-jdlQrZAib3RXe2QJi2M1ACuM4wwq8x2EO7PbrOKfqSUrb28jYNzmhdQXhvRRrs/KcHi9hOeJDVkQYXovrKUYzw==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
             }
         },
         "node_modules/@softvisio/msgpack": {
-            "version": "3.3.14",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.3.14.tgz",
-            "integrity": "sha512-64h7n8VwVX2CdPxJp6JNBJnfmothbqwZDphdSbwHDGXZUGygTw7vWIL3rxe7AC0SY0ZS44mzr7JLoI8OVbRfmQ==",
+            "version": "3.3.15",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.3.15.tgz",
+            "integrity": "sha512-z3N4g4SWe9O54cPkiWVsSmyH1jOQELGSo8okJLT0Iah+t1AIuV478MWdhpYRrjtSaQK+lHrgIOllM2S6BbXhEA==",
             "license": "ISC"
         },
         "node_modules/@softvisio/result": {
@@ -1006,9 +1006,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.5.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.5.4.tgz",
-            "integrity": "sha512-SdLyG83+rl3cDTXwKrGS4PwTkBetWuhYuxUqdwcPFzyrNxZdTeapmFo02iHyrw/Iu4ezbSBNIkwv52KGyvPh0Q==",
+            "version": "2.5.5",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.5.5.tgz",
+            "integrity": "sha512-TRcdqMsdvq2tSTUR3rKvlBQMK3T8WIUTHl0XKUOELTYNdZ1xQjB29SaEJRv9gIAZaA9eiTnO3drAAeaHMrJFzA==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
