@@ -973,9 +973,9 @@
             }
         },
         "node_modules/@softvisio/msgpack": {
-            "version": "3.3.15",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.3.15.tgz",
-            "integrity": "sha512-z3N4g4SWe9O54cPkiWVsSmyH1jOQELGSo8okJLT0Iah+t1AIuV478MWdhpYRrjtSaQK+lHrgIOllM2S6BbXhEA==",
+            "version": "3.3.16",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.3.16.tgz",
+            "integrity": "sha512-pb31o4XoL40PLXEXF7aAg2E3i6nTXjxNtWfbpLFyUfKl0H8E0NPYWnUaIhtlTaogkNBrHbHK++jgEITIfALPNQ==",
             "license": "ISC"
         },
         "node_modules/@softvisio/result": {
@@ -2822,9 +2822,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.24",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.24.tgz",
-            "integrity": "sha512-0x0wLCmpdKFCi9ulhvYZebgcPmHTkFVUfU2wzDykadkslKwT4oAmDTHEKLnlrDsMGZe4B+ksn8quZfZjYsBetA==",
+            "version": "1.5.25",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.25.tgz",
+            "integrity": "sha512-kMb204zvK3PsSlgvvwzI3wBIcAw15tRkYk+NQdsjdDtcQWTp2RABbMQ9rUBy8KNEOM+/E6ep+XC3AykiWZld4g==",
             "license": "ISC"
         },
         "node_modules/emoji-regex": {
@@ -4432,9 +4432,9 @@
             "license": "MIT"
         },
         "node_modules/linkedom": {
-            "version": "0.18.4",
-            "resolved": "https://registry.npmjs.org/linkedom/-/linkedom-0.18.4.tgz",
-            "integrity": "sha512-JhLErxMIEOKByMi3fURXgI1fYOzR87L1Cn0+MI9GlMckFrqFZpV1SUGox1jcKtsKN3y6JgclcQf0FzZT//BuGw==",
+            "version": "0.18.5",
+            "resolved": "https://registry.npmjs.org/linkedom/-/linkedom-0.18.5.tgz",
+            "integrity": "sha512-JGLaGGtqtu+eOhYrC1wkWYTBcpVWL4AsnwAtMtgO1Q0gI0PuPJKI0zBBE+a/1BrhOE3Uw8JI/ycByAv5cLrAuQ==",
             "license": "ISC",
             "dependencies": {
                 "css-select": "^5.1.0",
