@@ -19,10 +19,7 @@ export default [
                 "requireConfigFile": false,
 
                 // "parser": babelEslintParser,
-
-                // "babelOptions": {
-                //     ...babelConfig,
-                // },
+                // "babelOptions": babelConfig,
             },
         },
     },
