@@ -21,8 +21,6 @@ export default [
                 // "parser": babelEslintParser,
 
                 // "babelOptions": {
-                //     "babelrc": false,
-                //     "configFile": false,
                 //     ...babelConfig,
                 // },
             },
