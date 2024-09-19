@@ -1,5 +1,5 @@
 // import babelEslintParser from "@babel/eslint-parser";
-// import babelConfig from "@softvisio/babel/config";
+// import { createConfig } from "@softvisio/babel";
 
 export default [
     {
@@ -19,7 +19,7 @@ export default [
                 "requireConfigFile": false,
 
                 // "parser": babelEslintParser,
-                // "babelOptions": babelConfig,
+                // "babelOptions": createConfig(),
             },
         },
     },
