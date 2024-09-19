@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.44.9 (2024-09-19)
+
+Fixes:
+
+-   fix: eslint babel
+
 ### 3.44.8 (2024-09-17)
 
 No notable changes since the previous release.
