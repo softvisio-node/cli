@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.44.12 (2024-09-20)
+
+Fixes:
+
+-   fix: open-url moved to core
+
 ### 3.44.11 (2024-09-20)
 
 Fixes:
