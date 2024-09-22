@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.44.13 (2024-09-22)
+
+Fixes:
+
+-   fix: prettier disabled for js
+
 ### 3.44.12 (2024-09-20)
 
 Fixes:
