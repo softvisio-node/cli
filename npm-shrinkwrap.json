@@ -1015,9 +1015,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.5.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.5.5.tgz",
-            "integrity": "sha512-TRcdqMsdvq2tSTUR3rKvlBQMK3T8WIUTHl0XKUOELTYNdZ1xQjB29SaEJRv9gIAZaA9eiTnO3drAAeaHMrJFzA==",
+            "version": "2.6.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.6.0.tgz",
+            "integrity": "sha512-f+fh7AAs3Th7iDlmBuv/s4gobRrVNDnTWrDUkTf990v5yzAZiA4FerDvxu6apVoLp0uOMN0u84nd67N00z/79g==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -2843,9 +2843,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.27",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.27.tgz",
-            "integrity": "sha512-o37j1vZqCoEgBuWWXLHQgTN/KDKe7zwpiY5CPeq2RvUqOyJw9xnrULzZAEVQ5p4h+zjMk7hgtOoPdnLxr7m/jw==",
+            "version": "1.5.28",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.28.tgz",
+            "integrity": "sha512-VufdJl+rzaKZoYVUijN13QcXVF5dWPZANeFTLNy+OSpHdDL5ynXTF35+60RSBbaQYB1ae723lQXHCrf4pyLsMw==",
             "license": "ISC"
         },
         "node_modules/emoji-regex": {
