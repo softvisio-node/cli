@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 import { suite, test } from "node:test";
-import assert from "node:assert";
+import { strictEqual } from "node:assert";
 
 suite( "git", () => {
-    suite( "git-branch-parser", () => {
+    suite( "branch-parser", () => {
         const BRANCH_RE = /^(?<current>\*)? +(?:\((?<head>HEAD)[^)]+\)|(?<branch>[^ ]+)) +(?<hash>[\da-z]+)(?: \[ahead (?<ahead>\d+)])? (?<description>.+)/;
 
         const tests = [
@@ -17,13 +17,13 @@ suite( "git", () => {
         ];
 
         for ( let n = 0; n < tests.length; n++ ) {
-            test( "test_" + n, () => {
+            test( n + "", () => {
                 const match = tests[ n ][ 0 ].match( BRANCH_RE );
 
                 if ( !match ) throw new Error( `Parsing error: ` + tests[ n ][ 0 ] );
 
                 for ( const prop in tests[ n ][ 1 ] ) {
-                    assert.strictEqual( tests[ n ][ 1 ][ prop ], match.groups[ prop ] );
+                    strictEqual( tests[ n ][ 1 ][ prop ], match.groups[ prop ] );
                 }
             } );
         }
