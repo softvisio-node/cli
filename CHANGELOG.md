@@ -1,5 +1,12 @@
 # Changelog
 
+### 3.44.14 (2024-09-25)
+
+Fixes:
+
+-   fix: cli options
+-   fix: sql.new sync
+
 ### 3.44.13 (2024-09-22)
 
 Fixes:
