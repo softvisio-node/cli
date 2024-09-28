@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.44.15 (2024-09-28)
+
+Fixes:
+
+-   fix: cli options
+
 ### 3.44.14 (2024-09-25)
 
 Fixes:
