@@ -147,14 +147,20 @@ const end = [
         },
     },
 
-    // import-x
+    // import-x:recommended
+    eslintImportX.flatConfigs.recommended,
+
+    // import-x:custom
     {
-        "name": "import-x",
-        "plugins": {
-            "import-x": eslintImportX,
-        },
+        "name": "import-x:custom",
         "rules": {
-            ...eslintImportX.flatConfigs.recommended.rules,
+
+            // XXX conflicted with vue
+            "import-x/namespace": "off",
+            "import-x/default": "off",
+            "import-x/no-named-as-default": "off",
+            "import-x/no-named-as-default-member": "off",
+
             "import-x/no-unresolved": "off",
 
             // "import-x/order": [
