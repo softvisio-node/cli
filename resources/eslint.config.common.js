@@ -80,29 +80,6 @@ const start = [
         },
     },
 
-    // import-x::recommended
-    eslintImportX.flatConfigs.recommended,
-
-    // import-x:custom
-    {
-        "name": "import-x:custom",
-        "rules": {
-            "import-x/no-unresolved": "off",
-
-            // "import-x/order": [
-            //     "error",
-            //     {
-            //         "newlines-between": "ignore",
-            //         "alphabetize": {
-            //             "order": "asc",
-            //             "orderImportKind": "asc",
-            //             "caseInsensitive": true,
-            //         },
-            //     },
-            // ],
-        },
-    },
-
     // common config
     {
         "name": "common config",
@@ -170,11 +147,32 @@ const end = [
         },
     },
 
+    // import-x
+    {
+        "name": "import-x",
+        "plugins": {
+            "import-x": eslintImportX,
+        },
+        "rules": {
+            ...eslintImportX.flatConfigs.recommended.rules,
+            "import-x/no-unresolved": "off",
+
+            // "import-x/order": [
+            //     "error",
+            //     {
+            //         "newlines-between": "ignore",
+            //         "alphabetize": {
+            //             "order": "asc",
+            //             "orderImportKind": "asc",
+            //             "caseInsensitive": true,
+            //         },
+            //     },
+            // ],
+        },
+    },
+
     // @stylistic:disable-legacy
     eslintStylistic.configs[ "disable-legacy" ],
-
-    // @stylistic:all
-    // eslintStylistic.configs[ "all-flat" ],
 
     // @stylistic:recommended
     eslintStylistic.configs[ "recommended-flat" ],
