@@ -4,8 +4,7 @@ import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "@stylistic/eslint-plugin";
 import eslintUnicorn from "eslint-plugin-unicorn";
-
-// import eslintImportX from "eslint-plugin-import-x";
+import eslintImportX from "eslint-plugin-import-x";
 
 const start = [
     // eslint:recommended
@@ -149,28 +148,28 @@ const end = [
     },
 
     // import-x
-    // {
-    //     "name": "import-x",
-    //     "plugins": {
-    //         "import-x": eslintImportX,
-    //     },
-    //     "rules": {
-    //         ...eslintImportX.flatConfigs.recommended.rules,
-    //         "import-x/no-unresolved": "off",
+    {
+        "name": "import-x",
+        "plugins": {
+            "import-x": eslintImportX,
+        },
+        "rules": {
+            ...eslintImportX.flatConfigs.recommended.rules,
+            "import-x/no-unresolved": "off",
 
-    //         // "import-x/order": [
-    //         //     "error",
-    //         //     {
-    //         //         "newlines-between": "ignore",
-    //         //         "alphabetize": {
-    //         //             "order": "asc",
-    //         //             "orderImportKind": "asc",
-    //         //             "caseInsensitive": true,
-    //         //         },
-    //         //     },
-    //         // ],
-    //     },
-    // },
+            // "import-x/order": [
+            //     "error",
+            //     {
+            //         "newlines-between": "ignore",
+            //         "alphabetize": {
+            //             "order": "asc",
+            //             "orderImportKind": "asc",
+            //             "caseInsensitive": true,
+            //         },
+            //     },
+            // ],
+        },
+    },
 
     // @stylistic:disable-legacy
     eslintStylistic.configs[ "disable-legacy" ],
