@@ -4,6 +4,7 @@ import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "@stylistic/eslint-plugin";
 import eslintUnicorn from "eslint-plugin-unicorn";
+import eslintImportX from "eslint-plugin-import-x";
 
 const start = [
     // eslint:recommended
@@ -76,6 +77,29 @@ const start = [
             "unicorn/prefer-string-slice": "error",
             "unicorn/relative-url-style": "error",
             "unicorn/text-encoding-identifier-case": "error",
+        },
+    },
+
+    // import-x::recommended
+    eslintImportX.flatConfigs.recommended,
+
+    // import-x:custom
+    {
+        "name": "import-x:custom",
+        "rules": {
+            "import-x/no-unresolved": "off",
+
+            // "import-x/order": [
+            //     "error",
+            //     {
+            //         "newlines-between": "ignore",
+            //         "alphabetize": {
+            //             "order": "asc",
+            //             "orderImportKind": "asc",
+            //             "caseInsensitive": true,
+            //         },
+            //     },
+            // ],
         },
     },
 
