@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.45.0 (2024-10-01)
+
+Features:
+
+-   feat: import-x eslint plugin
+
+Fixes:
+
+-   fix: git pre-commit hook
+
 ### 3.44.16 (2024-09-29)
 
 No notable changes since the previous release.
