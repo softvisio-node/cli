@@ -1,7 +1,11 @@
 import { Config as CommonConfig } from "./eslint.config.common.js";
 import eslintLanguageOptions from "./eslint.config.language-options.js";
+import eslintImportX from "./eslint.config.import-x.js";
 
 const config = [
+
+    // import-x
+    ...eslintImportX,
 
     // language options
     ...eslintLanguageOptions,
