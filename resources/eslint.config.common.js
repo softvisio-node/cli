@@ -4,7 +4,6 @@ import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
 import eslintStylistic from "@stylistic/eslint-plugin";
 import eslintUnicorn from "eslint-plugin-unicorn";
-import eslintImportX from "eslint-plugin-import-x";
 
 const start = [
     // eslint:recommended
@@ -144,36 +143,6 @@ const end = [
                     "allowedPrefixes": [ "API_" ],
                 },
             ],
-        },
-    },
-
-    // import-x:recommended
-    eslintImportX.flatConfigs.recommended,
-
-    // import-x:custom
-    {
-        "name": "import-x:custom",
-        "rules": {
-
-            // XXX conflicted with vue
-            "import-x/namespace": "off",
-            "import-x/default": "off",
-            "import-x/no-named-as-default": "off",
-            "import-x/no-named-as-default-member": "off",
-
-            "import-x/no-unresolved": "off",
-
-            // "import-x/order": [
-            //     "error",
-            //     {
-            //         "newlines-between": "ignore",
-            //         "alphabetize": {
-            //             "order": "asc",
-            //             "orderImportKind": "asc",
-            //             "caseInsensitive": true,
-            //         },
-            //     },
-            // ],
         },
     },
 
