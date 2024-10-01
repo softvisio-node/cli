@@ -10,18 +10,17 @@ export default [
         "name": "import-x:custom",
         "rules": {
             "import-x/no-unresolved": "off",
-
-            // "import-x/order": [
-            //     "error",
-            //     {
-            //         "newlines-between": "ignore",
-            //         "alphabetize": {
-            //             "order": "asc",
-            //             "orderImportKind": "asc",
-            //             "caseInsensitive": true,
-            //         },
-            //     },
-            // ],
+            "import-x/order": [
+                "error",
+                {
+                    "newlines-between": "ignore",
+                    "alphabetize": {
+                        "order": "asc",
+                        "orderImportKind": "asc",
+                        "caseInsensitive": true,
+                    },
+                },
+            ],
         },
     },
 ];
