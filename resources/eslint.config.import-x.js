@@ -8,6 +8,12 @@ export default [
     // import-x:custom
     {
         "name": "import-x:custom",
+        "settings": {
+            "import-x/parsers": {
+                "espree": [ ".js", ".cjs", ".mjs", ".jsx" ],
+                "vue-eslint-parser": [ ".vue" ],
+            },
+        },
         "rules": {
             "import-x/no-unresolved": "off",
 
