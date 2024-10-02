@@ -15,8 +15,8 @@ export class Config extends Common( EslintConfig ) {
         return [
 
             //
-            ...CONFIG,
             ...super.wrap( config ),
+            ...CONFIG,
         ];
     }
 }
