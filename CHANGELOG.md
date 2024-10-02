@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.45.2 (2024-10-02)
+
+Fixes:
+
+-   fix: apt update
+
 ### 3.45.1 (2024-10-02)
 
 No notable changes since the previous release.
