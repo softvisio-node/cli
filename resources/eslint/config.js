@@ -2,20 +2,30 @@ export default class {
 
     // public
     create ( editorConfig ) {
-        const config = this.wrap( [] );
+        return [
 
-        if ( editorConfig ) {
-            config.push( ...this.customize( editorConfig ) );
-        }
-
-        return config;
+            //
+            ...this.wrap(),
+            ...this.customize( editorConfig ),
+        ];
     }
 
     wrap ( config ) {
-        return config;
+        return this._wrap( config || [] );
     }
 
     customize ( editorConfig ) {
+        if ( !editorConfig ) return [];
+
+        return this._customize( editorConfig );
+    }
+
+    // protected
+    _wrap ( config ) {
+        return config;
+    }
+
+    _customize ( editorConfig ) {
         return [];
     }
 }

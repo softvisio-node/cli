@@ -1,3 +1,4 @@
+import mixins from "#core/mixins";
 import EslintConfig from "./eslint/config.js";
 import Common from "./eslint/common.js";
 import eslintVue from "eslint-plugin-vue";
@@ -54,41 +55,42 @@ const CONFIG = [
     },
 ];
 
-export class Config extends Common( EslintConfig ) {
+export class Config extends mixins( Common, EslintConfig ) {
 
-    // public
-    wrap ( config ) {
+    // protected
+    _wrap ( config ) {
         return [
 
             //
             ...CONFIG,
-            ...super.wrap( config ),
+            ...super._wrap( config ),
         ];
     }
 
-    customize ( editorConfig ) {
-        const config = super.customize( editorConfig );
-
-        if ( !editorConfig ) return config;
+    _customize ( editorConfig ) {
+        const config = {
+            "name": "customized vue config",
+            "rules": {},
+        };
 
         const indent = editorConfig.indent_style === "tab"
             ? "tab"
             : editorConfig.indent_size;
 
-        config.push( {
-            "name": "customized vue config",
-            "rules": {
-                "vue/html-indent": [
-                    "warn",
-                    indent,
-                    {
-                        "baseIndent": 1,
-                    },
-                ],
+        config.rules[ "vue/html-indent" ] = [
+            "warn",
+            indent,
+            {
+                "baseIndent": 1,
             },
-        } );
+        ];
 
-        return config;
+        return [
+
+            //
+            ...super._customize( editorConfig ),
+            config,
+        ];
     }
 }
 

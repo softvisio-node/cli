@@ -28,13 +28,13 @@ const CONFIG = [
 export default Super =>
     class extends ( Super || class {} ) {
 
-        // public
-        wrap ( config ) {
+        // protected
+        _wrap ( config ) {
             return [
 
                 //
                 ...CONFIG,
-                ...super.wrap( config ),
+                ...super._wrap( config ),
             ];
         }
     };

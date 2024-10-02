@@ -1,3 +1,4 @@
+import mixins from "#core/mixins";
 import EslintConfig from "./eslint/config.js";
 import Common from "./eslint/common.js";
 import eslintTypeScript from "typescript-eslint";
@@ -8,14 +9,14 @@ const CONFIG = [
     ...eslintTypeScript.configs.recommended,
 ];
 
-export class Config extends Common( EslintConfig ) {
+export class Config extends mixins( Common, EslintConfig ) {
 
-    // public
-    wrap ( config ) {
+    // protected
+    _wrap ( config ) {
         return [
 
             //
-            ...super.wrap( config ),
+            ...super._wrap( config ),
             ...CONFIG,
         ];
     }

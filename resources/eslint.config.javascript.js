@@ -1,18 +1,19 @@
+import mixins from "#core/mixins";
 import EslintConfig from "./eslint/config.js";
 import Common from "./eslint/common.js";
 import LanguageOptions from "./eslint/language-options.js";
 
 const CONFIG = [];
 
-export class Config extends Common( LanguageOptions( EslintConfig ) ) {
+export class Config extends mixins( Common, LanguageOptions, EslintConfig ) {
 
-    // public
-    wrap ( config ) {
+    // protected
+    _wrap ( config ) {
         return [
 
             //
             ...CONFIG,
-            ...super.wrap( config ),
+            ...super._wrap( config ),
         ];
     }
 }

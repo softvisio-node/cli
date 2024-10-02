@@ -90,17 +90,17 @@ const CONFIG = [
 export default Super =>
     class extends ( Super || class {} ) {
 
-        // public
-        wrap ( config ) {
+        // protected
+        _wrap ( config ) {
             return [
 
                 //
-                ...super.wrap( config ),
+                ...super._wrap( config ),
                 ...CONFIG,
             ];
         }
 
-        customize ( editorConfig ) {
+        _customize ( editorConfig ) {
             const config = {
                 "name": "customized common config",
                 "rules": {},
@@ -164,7 +164,7 @@ export default Super =>
             return [
 
                 //
-                ...super.customize( editorConfig ),
+                ...super._customize( editorConfig ),
                 config,
             ];
         }

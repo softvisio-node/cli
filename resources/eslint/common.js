@@ -91,13 +91,13 @@ const END = [
 export default Super =>
     class extends Stylistic( Unicorn( Super || class {} ) ) {
 
-        // public
-        wrap ( config ) {
+        // protected
+        _wrap ( config ) {
             return [
 
                 //
                 ...START,
-                ...super.wrap( config ),
+                ...super._wrap( config ),
                 ...END,
             ];
         }
