@@ -1,7 +1,8 @@
-import globals from "globals";
+import mixins from "#core/mixins";
 import eslintJs from "@eslint/js";
 import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
+import Globals from "./globals.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
 
@@ -23,18 +24,6 @@ const START = [
     // common config
     {
         "name": "common config",
-        "languageOptions": {
-            "globals": {
-                ...globals.node,
-                ...globals.browser,
-                "Ext": "readonly",
-                "Temporal": "readonly",
-                "l10n": "readonly",
-                "l10nt": "readonly",
-                "msgid": "readonly",
-                "result": "readonly",
-            },
-        },
         "rules": {
             // eslint-comments
             "eslint-comments/disable-enable-pair": [
@@ -89,7 +78,7 @@ const END = [
 ];
 
 export default Super =>
-    class extends Stylistic( Unicorn( Super || class {} ) ) {
+    class extends mixins( Globals, Stylistic, Unicorn, Super ) {
 
         // protected
         _wrap ( config ) {

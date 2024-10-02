@@ -1,8 +1,6 @@
 import eslintUnicorn from "eslint-plugin-unicorn";
 
 const CONFIG = [
-
-    // unicorn
     {
         "name": "unicorn",
         "plugins": {
