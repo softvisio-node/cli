@@ -1,26 +1,19 @@
-import { Config as CommonConfig } from "./eslint/common.js";
-import eslintLanguageOptions from "./eslint/language-options.js";
+import EslintConfig from "./eslint/config.js";
+import Common from "./eslint/common.js";
+import LanguageOptions from "./eslint/language-options.js";
 
-const config = [
+const CONFIG = [];
 
-    // language options
-    ...eslintLanguageOptions,
-];
-
-export class Config extends CommonConfig {
+export class Config extends Common( LanguageOptions( EslintConfig ) ) {
 
     // public
-    create ( editorConfig ) {
-        return super.create( {
-            config,
-            editorConfig,
-        } );
-    }
+    wrap ( config ) {
+        return [
 
-    customize ( editorConfig ) {
-        const config = super.customize( editorConfig );
-
-        return config;
+            //
+            ...CONFIG,
+            ...super.wrap( config ),
+        ];
     }
 }
 

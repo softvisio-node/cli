@@ -1,6 +1,6 @@
 import eslintImportX from "eslint-plugin-import-x";
 
-export default [
+const CONFIG = [
 
     // import-x:recommended
     eslintImportX.flatConfigs.recommended,
@@ -31,3 +31,17 @@ export default [
         },
     },
 ];
+
+export default Super =>
+    class extends ( Super || class {} ) {
+
+        // public
+        wrap ( config ) {
+            return [
+
+                //
+                ...CONFIG,
+                ...super.wrap( config ),
+            ];
+        }
+    };

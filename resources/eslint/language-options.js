@@ -1,7 +1,7 @@
 // import babelEslintParser from "@babel/eslint-parser";
 // import { createConfig } from "@softvisio/babel";
 
-export default [
+const CONFIG = [
     {
         "name": "language options",
 
@@ -24,3 +24,17 @@ export default [
         },
     },
 ];
+
+export default Super =>
+    class extends ( Super || class {} ) {
+
+        // public
+        wrap ( config ) {
+            return [
+
+                //
+                ...CONFIG,
+                ...super.wrap( config ),
+            ];
+        }
+    };

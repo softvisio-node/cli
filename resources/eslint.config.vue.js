@@ -1,7 +1,8 @@
-import { Config as CommonConfig } from "./eslint/common.js";
+import EslintConfig from "./eslint/config.js";
+import Common from "./eslint/common.js";
 import eslintVue from "eslint-plugin-vue";
 
-const config = [
+const CONFIG = [
 
     // vue:recommended
     ...eslintVue.configs[ "flat/recommended" ],
@@ -53,14 +54,16 @@ const config = [
     },
 ];
 
-export class Config extends CommonConfig {
+export class Config extends Common( EslintConfig ) {
 
     // public
-    create ( editorConfig ) {
-        return super.create( {
-            config,
-            editorConfig,
-        } );
+    wrap ( config ) {
+        return [
+
+            //
+            ...CONFIG,
+            ...super.wrap( config ),
+        ];
     }
 
     customize ( editorConfig ) {

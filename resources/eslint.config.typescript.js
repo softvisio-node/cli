@@ -1,26 +1,23 @@
-import { Config as CommonConfig } from "./eslint/common.js";
+import EslintConfig from "./eslint/config.js";
+import Common from "./eslint/common.js";
 import eslintTypeScript from "typescript-eslint";
 
-const config = [
+const CONFIG = [
 
     // typescript:recommended
     ...eslintTypeScript.configs.recommended,
 ];
 
-export class Config extends CommonConfig {
+export class Config extends Common( EslintConfig ) {
 
     // public
-    create ( editorConfig ) {
-        return super.create( {
-            config,
-            editorConfig,
-        } );
-    }
+    wrap ( config ) {
+        return [
 
-    customize ( editorConfig ) {
-        const config = super.customize( editorConfig );
-
-        return config;
+            //
+            ...CONFIG,
+            ...super.wrap( config ),
+        ];
     }
 }
 
