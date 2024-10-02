@@ -1,4 +1,4 @@
-import { Config as CommonConfig } from "./eslint.config.common.js";
+import { Config as CommonConfig } from "./eslint/common.js";
 import eslintTypeScript from "typescript-eslint";
 
 const config = [

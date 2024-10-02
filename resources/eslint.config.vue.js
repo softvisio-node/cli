@@ -1,4 +1,4 @@
-import { Config as CommonConfig } from "./eslint.config.common.js";
+import { Config as CommonConfig } from "./eslint/common.js";
 import eslintVue from "eslint-plugin-vue";
 
 const config = [
