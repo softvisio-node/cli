@@ -6,6 +6,8 @@ import Globals from "./globals.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
 
+// import Import from "./import.js";
+
 const START = [
     // eslint:recommended
     eslintJs.configs.recommended,
