@@ -1,7 +1,8 @@
+import mixins from "#core/mixins";
+
 import Common from "./eslint/common.js";
 import EslintConfig from "./eslint/config.js";
 import LanguageOptions from "./eslint/language-options.js";
-import mixins from "#core/mixins";
 
 const CONFIG = [];
 
