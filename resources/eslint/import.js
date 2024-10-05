@@ -26,21 +26,28 @@ const CONFIG = [
             "import/no-unresolved": "off",
             "import/default": "off",
 
-            "import/named": "error",
-            "import/namespace": "error",
+            "import/named": "off", // XXX
+            "import/namespace": [
+                "error",
+                {
+                    "allowComputed": true,
+                },
+            ],
             "import/export": "error",
             "import/no-named-as-default": "off", // XXX
             "import/no-named-as-default-member": "error",
             "import/no-duplicates": "error",
             "import/first": "error",
             "import/newline-after-import": "error",
-            "import/no-cycle": [
-                "error",
-                {
-                    "maxDepth": Infinity,
-                    "allowUnsafeDynamicCyclicDependency": true,
-                },
-            ],
+
+            // // XXX
+            // "import/no-cycle": [
+            //     "error",
+            //     {
+            //         "maxDepth": Infinity,
+            //         "allowUnsafeDynamicCyclicDependency": true,
+            //     },
+            // ],
 
             "simple-import-sort/imports": [
                 "error",

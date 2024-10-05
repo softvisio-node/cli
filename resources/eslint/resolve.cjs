@@ -23,6 +23,7 @@ function isCoreModule ( name ) {
 
 exports.interfaceVersion = 2;
 
+// XXX session cache
 exports.resolve = function ( name, from, config ) {
     if ( isCoreModule( name ) ) {
         return {
