@@ -13,7 +13,12 @@ function resolve ( name, from ) {
 }
 
 function isCoreModule ( name ) {
-    return coreModules.has( name.replace( "node:", "" ) );
+    if ( name.startsWith( "node:" ) ) {
+        return true;
+    }
+    else {
+        return coreModules.has( name );
+    }
 }
 
 exports.interfaceVersion = 2;
