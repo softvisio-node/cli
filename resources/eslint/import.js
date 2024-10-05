@@ -9,6 +9,12 @@ const CONFIG = [
             "simple-import-sort": eslintSimpleImportSort,
         },
         "settings": {
+            "import/resolver": {
+                "node": true,
+
+                // "webpack": true,
+                // "typescript": true,
+            },
             "import/parsers": {
                 "typescript-eslint/parser": [ ".ts", ".tsx", ".mts", ".cts" ],
                 "vue-eslint-parser": [ ".vue" ],
@@ -26,10 +32,11 @@ const CONFIG = [
             "import/first": "error",
             "import/newline-after-import": "error",
 
-            // XXX not works
-            "import/no-cycle": [ "error", {
-                "allowUnsafeDynamicCyclicDependency": false
-            } ],
+            // XXX enable, when imports will be supported by resolver
+            // "import/no-cycle": [ "error", {
+            //     "maxDepth": Infinity,
+            //     "allowUnsafeDynamicCyclicDependency": false
+            // } ],
 
             "simple-import-sort/imports": [
                 "error",
