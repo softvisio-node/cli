@@ -33,7 +33,14 @@ const CONFIG = [
                 },
             ],
             "simple-import-sort/exports": "error",
+        },
+    },
+];
 
+const OVERRIDES = [
+    {
+        "name": "import overrides",
+        "rules": {
             "sort-imports": "off",
             "import/order": "off",
         },
@@ -41,15 +48,24 @@ const CONFIG = [
 ];
 
 export default Super =>
-    class extends ( Super || class {} ) {
+    class extends Super {
 
         // protected
-        _wrap ( config ) {
+        _createConfig () {
             return [
 
                 //
+                ...super._createConfig(),
                 ...CONFIG,
-                ...super._wrap( config ),
+            ];
+        }
+
+        _createOverrides () {
+            return [
+
+                //
+                ...super._createOverrides(),
+                ...OVERRIDES,
             ];
         }
     };

@@ -1,7 +1,7 @@
 import eslintTypeScript from "typescript-eslint";
 import EslintConfig from "./eslint/config.js";
 
-const CONFIG = [
+const OVERRIDES = [
 
     // typescript:recommended
     ...eslintTypeScript.configs.recommended,
@@ -10,12 +10,12 @@ const CONFIG = [
 export class Config extends EslintConfig {
 
     // protected
-    _wrap ( config ) {
+    _createOverrides () {
         return [
 
             //
-            ...super._wrap( config ),
-            ...CONFIG,
+            ...super._createOverrides(),
+            ...OVERRIDES,
         ];
     }
 }

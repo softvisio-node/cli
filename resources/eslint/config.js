@@ -8,7 +8,7 @@ import LanguageOptions from "./language-options.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
 
-const START = [
+const CONFIG = [
     // eslint:recommended
     eslintJs.configs.recommended,
 
@@ -57,7 +57,7 @@ const START = [
     },
 ];
 
-const END = [
+const OVERRIDES = [
 
     // @softvisio:recommended
     eslintSoftvisio.configs.recommended,
@@ -86,27 +86,39 @@ class BaseConfig {
         return [
 
             //
-            ...this.wrap(),
-            ...this.applyEditorConfig( editorConfig ),
+            ...this.createConfig(),
+            ...this.createEditorConfig( editorConfig ),
+            ...this.createOverrides(),
         ];
     }
 
-    wrap ( config ) {
-        return this._wrap( config || [] );
+    createConfig () {
+        return this._createConfig();
     }
 
-    applyEditorConfig ( editorConfig ) {
-        if ( !editorConfig ) return [];
+    createEditorConfig ( editorConfig ) {
+        if ( editorConfig ) {
+            return this._createEditorConfig( editorConfig );
+        }
+        else {
+            return [];
+        }
+    }
 
-        return this._applyEditorConfig( editorConfig );
+    createOverrides () {
+        return this._createOverrides();
     }
 
     // protected
-    _wrap ( config ) {
-        return config;
+    _createConfig () {
+        return [];
     }
 
-    _applyEditorConfig ( editorConfig ) {
+    _createEditorConfig ( editorConfig ) {
+        return [];
+    }
+
+    _createOverrides () {
         return [];
     }
 }
@@ -114,13 +126,21 @@ class BaseConfig {
 export default class Config extends mixins( LanguageOptions, Stylistic, Import, Unicorn, Globals, BaseConfig ) {
 
     // protected
-    _wrap ( config ) {
+    _createConfig () {
         return [
 
             //
-            ...START,
-            ...super._wrap( config ),
-            ...END,
+            ...super._createConfig(),
+            ...CONFIG,
+        ];
+    }
+
+    _createOverrides () {
+        return [
+
+            //
+            ...super._createOverrides(),
+            ...OVERRIDES,
         ];
     }
 }

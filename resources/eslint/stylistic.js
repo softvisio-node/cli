@@ -2,15 +2,12 @@ import eslintStylistic from "@stylistic/eslint-plugin";
 
 const CONFIG = [
 
-    // @stylistic:disable-legacy
-    eslintStylistic.configs[ "disable-legacy" ],
-
     // @stylistic:recommended
     eslintStylistic.configs[ "recommended-flat" ],
 
     // @stylistic:custom
     {
-        "name": "@stylistic:custom",
+        "name": "@stylistic custom",
         "rules": {
             "@stylistic/array-bracket-spacing": [ "error", "always" ],
             "@stylistic/arrow-parens": [ "error", "as-needed" ],
@@ -87,24 +84,27 @@ const CONFIG = [
     },
 ];
 
+const OVERRIDES = [
+
+    // @stylistic:disable-legacy
+    eslintStylistic.configs[ "disable-legacy" ],
+];
+
 export default Super =>
-    class extends ( Super || class {} ) {
+    class extends Super {
 
         // protected
-        _wrap ( config ) {
+        _createConfig () {
             return [
 
                 //
-                ...super._wrap( config ),
+                ...super._createConfig(),
                 ...CONFIG,
             ];
         }
 
-        _applyEditorConfig ( editorConfig ) {
-            const config = {
-                "name": "editor config",
-                "rules": {},
-            };
+        _createEditorConfig ( editorConfig ) {
+            const rules = {};
 
             const indent = editorConfig.indent_style === "tab"
                 ? "tab"
@@ -112,7 +112,7 @@ export default Super =>
 
             // override @stylistic/indent
             if ( indent ) {
-                config.rules[ "@stylistic/indent" ] = [
+                rules[ "@stylistic/indent" ] = [
                     "error",
                     indent,
                     {
@@ -126,17 +126,17 @@ export default Super =>
 
                 // config.rules[ "@stylistic/indent-binary-ops" ] = [ "error", indent ];
 
-                config.rules[ "@stylistic/jsx-indent-props" ] = [ "error", indent ];
+                rules[ "@stylistic/jsx-indent-props" ] = [ "error", indent ];
             }
 
             // override @stylistic/no-tabs
-            config.rules[ "@stylistic/no-tabs" ] = indent === "tab"
+            rules[ "@stylistic/no-tabs" ] = indent === "tab"
                 ? "off"
                 : "error";
 
             // override @stylistic/max-len
             if ( editorConfig.max_line_length ) {
-                config.rules[ "@stylistic/max-len" ] = [
+                rules[ "@stylistic/max-len" ] = [
                     "error",
                     {
                         "code": editorConfig.max_line_length === "off"
@@ -148,12 +148,12 @@ export default Super =>
             }
 
             // override @stylistic/eol-last
-            config.rules[ "@stylistic/eol-last" ] = [ "error", editorConfig.insert_final_newline
+            rules[ "@stylistic/eol-last" ] = [ "error", editorConfig.insert_final_newline
                 ? "always"
                 : "never" ];
 
             // override @stylistic/no-trailing-spaces
-            config.rules[ "@stylistic/no-trailing-spaces" ] = [
+            rules[ "@stylistic/no-trailing-spaces" ] = [
                 "error",
                 {
                     "skipBlankLines": !editorConfig.trim_trailing_whitespace,
@@ -164,8 +164,20 @@ export default Super =>
             return [
 
                 //
-                ...super._applyEditorConfig( editorConfig ),
-                config,
+                ...super._createEditorConfig( editorConfig ),
+                {
+                    "name": "stylistic editor config",
+                    rules,
+                },
+            ];
+        }
+
+        _createOverrides () {
+            return [
+
+                //
+                ...super._createOverrides(),
+                ...OVERRIDES,
             ];
         }
     };

@@ -25,14 +25,14 @@ const CONFIG = [
 ];
 
 export default Super =>
-    class extends ( Super || class {} ) {
+    class extends Super {
 
         // protected
-        _wrap ( config ) {
+        _createOverrides () {
             return [
 
                 //
-                ...super._wrap( config ),
+                ...super._createOverrides(),
                 ...CONFIG,
             ];
         }

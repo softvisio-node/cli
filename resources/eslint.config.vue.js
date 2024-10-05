@@ -56,26 +56,23 @@ const CONFIG = [
 export class Config extends EslintConfig {
 
     // protected
-    _wrap ( config ) {
+    _createConfig () {
         return [
 
             //
+            ...super._createConfig(),
             ...CONFIG,
-            ...super._wrap( config ),
         ];
     }
 
-    _applyEditorConfig ( editorConfig ) {
-        const config = {
-            "name": "vue editor config",
-            "rules": {},
-        };
+    _createEditorConfig ( editorConfig ) {
+        const rules = {};
 
         const indent = editorConfig.indent_style === "tab"
             ? "tab"
             : editorConfig.indent_size;
 
-        config.rules[ "vue/html-indent" ] = [
+        rules[ "vue/html-indent" ] = [
             "warn",
             indent,
             {
@@ -86,8 +83,11 @@ export class Config extends EslintConfig {
         return [
 
             //
-            ...super._applyEditorConfig( editorConfig ),
-            config,
+            ...super._createEditorConfig( editorConfig ),
+            {
+                "name": "vue editor config",
+                rules,
+            },
         ];
     }
 }

@@ -5,12 +5,12 @@ const CONFIG = [];
 export class Config extends EslintConfig {
 
     // protected
-    _wrap ( config ) {
+    _createConfig () {
         return [
 
             //
+            ...super._createConfig(),
             ...CONFIG,
-            ...super._wrap( config ),
         ];
     }
 }
