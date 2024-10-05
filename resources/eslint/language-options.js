@@ -4,10 +4,9 @@
 const CONFIG = [
     {
         "name": "language options",
-
         "languageOptions": {
-            "ecmaVersion": "latest",
             "sourceType": "module",
+            "ecmaVersion": "latest",
 
             "parserOptions": {
                 "sourceType": "module",
@@ -33,8 +32,8 @@ export default Super =>
             return [
 
                 //
-                ...CONFIG,
                 ...super._wrap( config ),
+                ...CONFIG,
             ];
         }
     };

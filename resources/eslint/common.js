@@ -4,6 +4,7 @@ import eslintComments from "eslint-plugin-eslint-comments";
 import mixins from "#core/mixins";
 import Globals from "./globals.js";
 import Import from "./import.js";
+import LanguageOptions from "./language-options.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
 
@@ -79,7 +80,7 @@ const END = [
 ];
 
 export default Super =>
-    class extends mixins( Stylistic, Import, Unicorn, Globals, Super ) {
+    class extends mixins( LanguageOptions, Stylistic, Import, Unicorn, Globals, Super ) {
 
         // protected
         _wrap ( config ) {
