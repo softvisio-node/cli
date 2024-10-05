@@ -20,18 +20,20 @@ const CONFIG = [
             "import/no-named-as-default": "error",
             "import/no-named-as-default-member": "error",
             "import/no-duplicates": "error",
+            "import/first": "error",
+            "import/newline-after-import": "error",
 
-            // "import/order": [
-            //     "error",
-            //     {
-            //         "newlines-between": "ignore",
-            //         "alphabetize": {
-            //             "order": "asc",
-            //             "orderImportKind": "asc",
-            //             "caseInsensitive": true,
-            //         },
-            //     },
-            // ],
+            "import/order": [
+                "error",
+                {
+                    "newlines-between": "ignore",
+                    "alphabetize": {
+                        "order": "asc",
+                        "orderImportKind": "asc",
+                        "caseInsensitive": false,
+                    },
+                },
+            ],
         },
     },
 ];
