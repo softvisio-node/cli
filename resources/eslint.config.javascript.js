@@ -1,18 +1,14 @@
-import mixins from "#core/mixins";
-import Common from "./eslint/common.js";
 import EslintConfig from "./eslint/config.js";
 
 const CONFIG = [];
 
-export class Config extends mixins( Common, EslintConfig ) {
-
+export class Config extends EslintConfig {
     // protected
-    _wrap ( config ) {
+    _wrap(config) {
         return [
-
             //
             ...CONFIG,
-            ...super._wrap( config ),
+            ...super._wrap(config),
         ];
     }
 }
