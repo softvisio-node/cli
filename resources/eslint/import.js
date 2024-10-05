@@ -26,7 +26,6 @@ const CONFIG = [
             "import/no-unresolved": "off",
             "import/default": "off",
 
-            "import/named": "off", // XXX
             "import/namespace": [
                 "error",
                 {
@@ -34,13 +33,18 @@ const CONFIG = [
                 },
             ],
             "import/export": "error",
-            "import/no-named-as-default": "off", // XXX
             "import/no-named-as-default-member": "error",
             "import/no-duplicates": "error",
             "import/first": "error",
             "import/newline-after-import": "error",
 
-            // // XXX
+            // XXX does not supports re-exporrt
+            // "import/named": "error",
+
+            // XXX
+            // "import/no-named-as-default": "error",
+
+            // XXX
             // "import/no-cycle": [
             //     "error",
             //     {
