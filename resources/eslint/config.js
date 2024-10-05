@@ -87,7 +87,7 @@ class BaseConfig {
 
             //
             ...this.wrap(),
-            ...this.customize( editorConfig ),
+            ...this.applyEditorConfig( editorConfig ),
         ];
     }
 
@@ -95,10 +95,10 @@ class BaseConfig {
         return this._wrap( config || [] );
     }
 
-    customize ( editorConfig ) {
+    applyEditorConfig ( editorConfig ) {
         if ( !editorConfig ) return [];
 
-        return this._customize( editorConfig );
+        return this._applyEditorConfig( editorConfig );
     }
 
     // protected
@@ -106,7 +106,7 @@ class BaseConfig {
         return config;
     }
 
-    _customize ( editorConfig ) {
+    _applyEditorConfig ( editorConfig ) {
         return [];
     }
 }

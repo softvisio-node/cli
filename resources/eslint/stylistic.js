@@ -100,9 +100,9 @@ export default Super =>
             ];
         }
 
-        _customize ( editorConfig ) {
+        _applyEditorConfig ( editorConfig ) {
             const config = {
-                "name": "customized common config",
+                "name": "editor config",
                 "rules": {},
             };
 
@@ -164,7 +164,7 @@ export default Super =>
             return [
 
                 //
-                ...super._customize( editorConfig ),
+                ...super._applyEditorConfig( editorConfig ),
                 config,
             ];
         }

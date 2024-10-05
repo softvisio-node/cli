@@ -65,9 +65,9 @@ export class Config extends EslintConfig {
         ];
     }
 
-    _customize ( editorConfig ) {
+    _applyEditorConfig ( editorConfig ) {
         const config = {
-            "name": "customized vue config",
+            "name": "vue editor config",
             "rules": {},
         };
 
@@ -86,7 +86,7 @@ export class Config extends EslintConfig {
         return [
 
             //
-            ...super._customize( editorConfig ),
+            ...super._applyEditorConfig( editorConfig ),
             config,
         ];
     }
