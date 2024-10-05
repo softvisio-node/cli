@@ -5,6 +5,15 @@ const OVERRIDES = [
 
     // typescript:recommended
     ...eslintTypeScript.configs.recommended,
+
+    {
+        "name": "typescript language options",
+        "languageOptions": {
+            "parserOptions": {
+                "warnOnUnsupportedTypeScriptVersion": false,
+            },
+        },
+    },
 ];
 
 export class Config extends EslintConfig {
