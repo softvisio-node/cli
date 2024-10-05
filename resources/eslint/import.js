@@ -1,7 +1,6 @@
+import { fileURLToPath } from "node:url";
 import eslintImport from "eslint-plugin-import";
 import eslintSimpleImportSort from "eslint-plugin-simple-import-sort";
-
-// import { fileURLToPath } from "node:url";
 
 const CONFIG = [
     {
@@ -12,9 +11,8 @@ const CONFIG = [
         },
         "settings": {
             "import/resolver": {
+                [ fileURLToPath( new URL( "resolve.cjs", import.meta.url ) ) ]: {},
 
-                // XXX
-                // [ fileURLToPath( new URL( "resolve.cjs", import.meta.url ) ) ]: {},
                 // "node": true,
                 // "webpack": true,
                 // "typescript": true,

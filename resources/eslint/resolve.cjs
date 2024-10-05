@@ -1,7 +1,9 @@
-const { createRequire } = require( "node:module" );
+const { createRequire, builtinModules } = require( "node:module" );
 const url = require( "node:url" );
 
 // const resolve = require( "enhanced-resolve" );
+
+const coreModules = new Set( builtinModules );
 
 function resolve ( name, from ) {
     try {
@@ -10,14 +12,8 @@ function resolve ( name, from ) {
     catch {}
 }
 
-// XXX improve
 function isCoreModule ( name ) {
-    if ( name.startsWith( "node:" ) ) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    return coreModules.has( name.replace( "node:", "" ) );
 }
 
 exports.interfaceVersion = 2;
