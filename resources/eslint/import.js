@@ -2,6 +2,8 @@ import { fileURLToPath } from "node:url";
 import eslintImport from "eslint-plugin-import";
 import eslintSimpleImportSort from "eslint-plugin-simple-import-sort";
 
+const nodeResolverPath = fileURLToPath( new URL( "resolve.cjs", import.meta.url ) );
+
 const CONFIG = [
     {
         "name": "import",
@@ -11,7 +13,7 @@ const CONFIG = [
         },
         "settings": {
             "import/resolver": {
-                [ fileURLToPath( new URL( "resolve.cjs", import.meta.url ) ) ]: {},
+                [ nodeResolverPath ]: {},
 
                 // "node": true,
                 // "webpack": true,
@@ -23,8 +25,9 @@ const CONFIG = [
             },
         },
         "rules": {
-            "import/no-unresolved": "off",
-            "import/default": "off",
+
+            // "import/no-unresolved": "off",
+            // "import/default": "off",
 
             // XXX does not supports re-exports
             // "import/namespace": [
