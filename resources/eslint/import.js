@@ -1,10 +1,12 @@
 import eslintImport from "eslint-plugin-import";
+import eslintSimpleImportSort from "eslint-plugin-simple-import-sort";
 
 const CONFIG = [
     {
         "name": "import",
         "plugins": {
             "import": eslintImport,
+            "simple-import-sort": eslintSimpleImportSort,
         },
         "settings": {
             "import/parsers": {
@@ -23,17 +25,11 @@ const CONFIG = [
             "import/first": "error",
             "import/newline-after-import": "error",
 
-            "import/order": [
-                "error",
-                {
-                    "newlines-between": "ignore",
-                    "alphabetize": {
-                        "order": "asc",
-                        "orderImportKind": "asc",
-                        "caseInsensitive": false,
-                    },
-                },
-            ],
+            "simple-import-sort/imports": "error",
+            "simple-import-sort/exports": "error",
+
+            "sort-imports": "off",
+            "import/order": "off",
         },
     },
 ];

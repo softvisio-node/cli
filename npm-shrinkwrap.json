@@ -20,6 +20,7 @@
                 "eslint": "^9.0.0",
                 "eslint-plugin-eslint-comments": "^3.2.0",
                 "eslint-plugin-import": "^2.31.0",
+                "eslint-plugin-simple-import-sort": "^12.1.1",
                 "eslint-plugin-unicorn": "^56.0.0",
                 "eslint-plugin-vue": "^9.0.1",
                 "espree": "^10.0.1",
@@ -3559,6 +3560,15 @@
             "license": "ISC",
             "bin": {
                 "semver": "bin/semver.js"
+            }
+        },
+        "node_modules/eslint-plugin-simple-import-sort": {
+            "version": "12.1.1",
+            "resolved": "https://registry.npmjs.org/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz",
+            "integrity": "sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==",
+            "license": "MIT",
+            "peerDependencies": {
+                "eslint": ">=5.0.0"
             }
         },
         "node_modules/eslint-plugin-unicorn": {
