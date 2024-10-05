@@ -7,9 +7,7 @@ function resolve ( name, from ) {
     try {
         return createRequire( url.pathToFileURL( from ) ).resolve( name );
     }
-    catch {
-        return;
-    }
+    catch {}
 }
 
 // XXX improve
