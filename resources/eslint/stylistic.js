@@ -22,6 +22,14 @@ const CONFIG = [
             "@stylistic/comma-dangle": [ "error", "only-multiline" ],
             "@stylistic/comma-spacing": [ "error", { "before": false, "after": true } ],
             "@stylistic/computed-property-spacing": [ "error", "always" ],
+            "@stylistic/curly-newline": [
+                "error",
+                {
+                    "multiline": true,
+                    "minElements": 2,
+                    "consistent": true,
+                },
+            ],
             "@stylistic/function-paren-newline": [ "error", "multiline" ],
             "@stylistic/indent": [
                 "error",
