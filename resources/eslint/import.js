@@ -26,12 +26,14 @@ const CONFIG = [
             "import/no-unresolved": "off",
             "import/default": "off",
 
-            "import/namespace": [
-                "error",
-                {
-                    "allowComputed": true,
-                },
-            ],
+            // XXX does not supports re-exports
+            // "import/namespace": [
+            //     "error",
+            //     {
+            //         "allowComputed": true,
+            //     },
+            // ],
+
             "import/export": "error",
             "import/no-named-as-default-member": "error",
             "import/no-duplicates": "error",
@@ -44,7 +46,7 @@ const CONFIG = [
             // XXX
             // "import/no-named-as-default": "error",
 
-            // XXX
+            // XXX can be enabled
             // "import/no-cycle": [
             //     "error",
             //     {
