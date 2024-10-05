@@ -1,14 +1,14 @@
-import eslintPluginComments from "eslint-plugin-eslint-comments";
+import eslintComments from "eslint-plugin-eslint-comments";
 
 const CONFIG = [
     // eslint-comments:recommended
     {
         "name": "eslint-comments",
         "plugins": {
-            "eslint-comments": eslintPluginComments,
+            "eslint-comments": eslintComments,
         },
         "rules": {
-            ...eslintPluginComments.configs.recommended.rules,
+            ...eslintComments.configs.recommended.rules,
             "eslint-comments/disable-enable-pair": [
                 "error",
                 {

@@ -1,9 +1,9 @@
-import eslintPluginSoftvisio from "@softvisio/eslint-plugin";
+import eslintSoftvisio from "@softvisio/eslint-plugin";
 
 const OVERRIDES = [
 
     // @softvisio:recommended
-    eslintPluginSoftvisio.configs.recommended,
+    eslintSoftvisio.configs.recommended,
 
     // @softvisio:custom
     {
