@@ -10,6 +10,7 @@ const CONFIG = [
         },
         "settings": {
             "import/parsers": {
+                "typescript-eslint/parser": [ ".ts", ".tsx", ".mts", ".cts" ],
                 "vue-eslint-parser": [ ".vue" ],
             },
         },
