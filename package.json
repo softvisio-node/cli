@@ -48,6 +48,7 @@
         "editorconfig": "^2.0.0",
         "eslint": "^9.0.0",
         "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-import": "^2.31.0",
         "eslint-plugin-unicorn": "^56.0.0",
         "eslint-plugin-vue": "^9.0.1",
         "espree": "^10.0.1",
