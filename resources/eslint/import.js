@@ -1,6 +1,8 @@
 import eslintImport from "eslint-plugin-import";
 import eslintSimpleImportSort from "eslint-plugin-simple-import-sort";
 
+// import { fileURLToPath } from "node:url";
+
 const CONFIG = [
     {
         "name": "import",
@@ -10,8 +12,10 @@ const CONFIG = [
         },
         "settings": {
             "import/resolver": {
-                "node": true,
 
+                // XXX
+                // [ fileURLToPath( new URL( "resolve.cjs", import.meta.url ) ) ]: {},
+                // "node": true,
                 // "webpack": true,
                 // "typescript": true,
             },
@@ -22,21 +26,23 @@ const CONFIG = [
         },
         "rules": {
             "import/no-unresolved": "off",
+            "import/default": "off",
+
             "import/named": "error",
             "import/namespace": "error",
-            "import/default": "error",
             "import/export": "error",
             "import/no-named-as-default": "error",
             "import/no-named-as-default-member": "error",
             "import/no-duplicates": "error",
             "import/first": "error",
             "import/newline-after-import": "error",
-
-            // XXX enable, when imports will be supported by resolver
-            // "import/no-cycle": [ "error", {
-            //     "maxDepth": Infinity,
-            //     "allowUnsafeDynamicCyclicDependency": false
-            // } ],
+            "import/no-cycle": [
+                "error",
+                {
+                    "maxDepth": Infinity,
+                    "allowUnsafeDynamicCyclicDependency": true,
+                },
+            ],
 
             "simple-import-sort/imports": [
                 "error",
