@@ -25,9 +25,15 @@ const CONFIG = [
             },
         },
         "rules": {
+            "import/export": "error",
+            "import/no-named-as-default-member": "error",
+            "import/no-duplicates": "error",
+            "import/first": "error",
+            "import/newline-after-import": "error",
 
-            // "import/no-unresolved": "off",
-            // "import/default": "off",
+            // "import/no-unresolved": "error",
+            // "import/default": "error",
+            // "import/no-named-as-default": "error",
 
             // XXX does not supports re-exports
             // "import/namespace": [
@@ -37,17 +43,8 @@ const CONFIG = [
             //     },
             // ],
 
-            "import/export": "error",
-            "import/no-named-as-default-member": "error",
-            "import/no-duplicates": "error",
-            "import/first": "error",
-            "import/newline-after-import": "error",
-
             // XXX does not supports re-exporrt
             // "import/named": "error",
-
-            // XXX
-            // "import/no-named-as-default": "error",
 
             // XXX can be enabled
             // "import/no-cycle": [
