@@ -26,6 +26,11 @@ const CONFIG = [
             "import/first": "error",
             "import/newline-after-import": "error",
 
+            // XXX not works
+            "import/no-cycle": [ "error", {
+                "allowUnsafeDynamicCyclicDependency": false
+            } ],
+
             "simple-import-sort/imports": [
                 "error",
                 {
