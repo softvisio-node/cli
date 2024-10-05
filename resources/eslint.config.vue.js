@@ -1,7 +1,7 @@
-import mixins from "#core/mixins";
-import EslintConfig from "./eslint/config.js";
-import Common from "./eslint/common.js";
 import eslintVue from "eslint-plugin-vue";
+import Common from "./eslint/common.js";
+import EslintConfig from "./eslint/config.js";
+import mixins from "#core/mixins";
 
 const CONFIG = [
 

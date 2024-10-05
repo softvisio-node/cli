@@ -1,11 +1,11 @@
-import mixins from "#core/mixins";
 import eslintJs from "@eslint/js";
-import eslintComments from "eslint-plugin-eslint-comments";
 import eslintSoftvisio from "@softvisio/eslint-plugin";
+import eslintComments from "eslint-plugin-eslint-comments";
 import Globals from "./globals.js";
+import Import from "./import.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
-import Import from "./import.js";
+import mixins from "#core/mixins";
 
 const START = [
     // eslint:recommended
