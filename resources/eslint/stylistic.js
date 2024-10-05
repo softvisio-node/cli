@@ -68,6 +68,15 @@ const CONFIG = [
 
             // "@stylistic/no-extra-parens": [ "error", "all" ], // XXX test
             "@stylistic/no-extra-semi": "error",
+
+            // XXX ugly formatting, blocking issue for prettier
+            // "@stylistic/object-curly-newline": [
+            //     "error", {
+            //         "multiline": true,
+            //         "consistent": true
+            //     }
+            // ],
+
             "@stylistic/operator-linebreak": [
                 "error",
                 "after",
