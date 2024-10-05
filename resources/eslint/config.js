@@ -14,101 +14,113 @@ const START = [
 
     // eslint-comments:recommended
     {
-        name: "eslint-comments",
-        plugins: {
+        "name": "eslint-comments",
+        "plugins": {
             "eslint-comments": eslintComments,
         },
-        rules: {
+        "rules": {
             ...eslintComments.configs.recommended.rules,
         },
     },
 
     // common config
     {
-        name: "common config",
-        rules: {
+        "name": "common config",
+        "rules": {
             // eslint-comments
             "eslint-comments/disable-enable-pair": [
                 "error",
                 {
-                    allowWholeFile: true,
+                    "allowWholeFile": true,
                 },
             ],
             "eslint-comments/no-unused-disable": "error",
 
             // eslint
-            curly: ["error", "multi-line", "consistent"],
-            eqeqeq: ["error", "smart"],
-            "grouped-accessor-pairs": ["error", "getBeforeSet"],
-            "no-constructor-return": ["error"],
+            "curly": [ "error", "multi-line", "consistent" ],
+            "eqeqeq": [ "error", "smart" ],
+            "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
+            "no-constructor-return": [ "error" ],
             "no-lone-blocks": "off", // XXX we are using lone blocks for code folding in vim
             "prefer-const": "error",
             "prefer-exponentiation-operator": "error",
-            yoda: ["error", "never", { exceptRange: true }],
+            "yoda": [ "error", "never", { "exceptRange": true } ],
 
             // eslint:recommended
-            "no-constant-condition": ["error", { checkLoops: false }],
+            "no-constant-condition": [ "error", { "checkLoops": false } ],
             "no-control-regex": "off",
-            "no-empty": ["error", { allowEmptyCatch: true }],
+            "no-empty": [ "error", { "allowEmptyCatch": true } ],
             "no-global-assign": "error",
             "no-regex-spaces": "error",
-            "no-unused-vars": ["error", { args: "none", caughtErrors: "none" }],
+            "no-unused-vars": [ "error", { "args": "none", "caughtErrors": "none" } ],
         },
     },
 ];
 
 const END = [
+
     // @softvisio:recommended
     eslintSoftvisio.configs.recommended,
 
     // @softvisio:custom
     {
-        name: "@softvisio:custom",
-        rules: {
+        "name": "@softvisio:custom",
+        "rules": {
             "@softvisio/camel-case": [
                 "error",
                 {
-                    properties: "never",
-                    ignoreImports: true,
-                    allowConsecutiveCapitalLetters: false,
-                    allowedPrefixes: ["API_"],
+                    "properties": "never",
+                    "ignoreImports": true,
+                    "allowConsecutiveCapitalLetters": false,
+                    "allowedPrefixes": [ "API_" ],
                 },
             ],
         },
     },
 ];
 
-export default class Config extends mixins(LanguageOptions, Stylistic, Import, Unicorn, Globals) {
+class BaseConfig {
+
     // public
-    create(editorConfig) {
+    create ( editorConfig ) {
         return [
+
             //
             ...this.wrap(),
-            ...this.customize(editorConfig),
+            ...this.customize( editorConfig ),
         ];
     }
 
-    wrap(config) {
-        return this._wrap(config || []);
+    wrap ( config ) {
+        return this._wrap( config || [] );
     }
 
-    customize(editorConfig) {
-        if (!editorConfig) return [];
+    customize ( editorConfig ) {
+        if ( !editorConfig ) return [];
 
-        return this._customize(editorConfig);
+        return this._customize( editorConfig );
     }
 
     // protected
-    _wrap(config) {
-        return [
-            //
-            ...START,
-            ...config,
-            ...END,
-        ];
+    _wrap ( config ) {
+        return config;
     }
 
-    _customize(editorConfig) {
+    _customize ( editorConfig ) {
         return [];
+    }
+}
+
+export default class Config extends mixins( LanguageOptions, Stylistic, Import, Unicorn, Globals, BaseConfig ) {
+
+    // protected
+    _wrap ( config ) {
+        return [
+
+            //
+            ...START,
+            ...super._wrap( config ),
+            ...END,
+        ];
     }
 }
