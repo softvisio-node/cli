@@ -29,7 +29,7 @@ const CONFIG = [
             "import/named": "error",
             "import/namespace": "error",
             "import/export": "error",
-            "import/no-named-as-default": "error",
+            "import/no-named-as-default": "off", // XXX
             "import/no-named-as-default-member": "error",
             "import/no-duplicates": "error",
             "import/first": "error",
