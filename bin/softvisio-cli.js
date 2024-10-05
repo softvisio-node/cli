@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import "#core/result";
-
 import CLI from "#core/cli";
 import ansi from "#core/text/ansi";
 
