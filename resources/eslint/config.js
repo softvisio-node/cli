@@ -8,7 +8,7 @@ import Softvisio from "./softvisio.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
 
-class BaseConfig {
+class EslintConfig {
 
     // public
     create ( editorConfig ) {
@@ -63,5 +63,5 @@ export default class Config extends mixins(
     Softvisio,
     Comments,
     Eslint,
-    BaseConfig
+    EslintConfig
 ) {}
