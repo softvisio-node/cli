@@ -5,8 +5,7 @@ import eslintSoftvisio from "@softvisio/eslint-plugin";
 import Globals from "./globals.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
-
-// import Import from "./import.js";
+import Import from "./import.js";
 
 const START = [
     // eslint:recommended
@@ -80,7 +79,7 @@ const END = [
 ];
 
 export default Super =>
-    class extends mixins( Globals, Stylistic, Unicorn, Super ) {
+    class extends mixins( Stylistic, Import, Unicorn, Globals, Super ) {
 
         // protected
         _wrap ( config ) {

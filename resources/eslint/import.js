@@ -1,22 +1,25 @@
 import eslintImport from "eslint-plugin-import";
 
 const CONFIG = [
-
-    // import:recommended
-    eslintImport.flatConfigs.recommended,
-
-    // import:custom
     {
-        "name": "import:custom",
+        "name": "import",
+        "plugins": {
+            "import": eslintImport,
+        },
         "settings": {
             "import/parsers": {
-
-                // "espree": [ ".js", ".cjs", ".mjs", ".jsx" ],
                 "vue-eslint-parser": [ ".vue" ],
             },
         },
         "rules": {
             "import/no-unresolved": "off",
+            "import/named": "error",
+            "import/namespace": "error",
+            "import/default": "error",
+            "import/export": "error",
+            "import/no-named-as-default": "error",
+            "import/no-named-as-default-member": "error",
+            "import/no-duplicates": "error",
 
             // "import/order": [
             //     "error",
