@@ -9,7 +9,7 @@ const CONFIG = [
         "name": "import",
         "plugins": {
             "import": eslintImport,
-            "simple-import-sort": eslintSimpleImportSort,
+            "import-sort": eslintSimpleImportSort,
         },
         "settings": {
             "import/resolver": {
@@ -54,13 +54,13 @@ const CONFIG = [
                 },
             ],
 
-            "simple-import-sort/imports": [
+            "import-sort/imports": [
                 "error",
                 {
                     "groups": [ [ "^\\u0000", "^node:", "^@?\\w", "^", "^\\." ] ],
                 },
             ],
-            "simple-import-sort/exports": "error",
+            "import-sort/exports": "error",
         },
     },
 ];
