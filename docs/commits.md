@@ -10,12 +10,8 @@ Commit message structure: `<type>(<scope>)!: <description>`
 Default commit types:
 
 -   `"chore"`
--   `"docs"`
 -   `"feat"` - new feature
 -   `"fix"` - bug fix
--   `"refactor"`
--   `"style"`
--   `"test"`
 
 Examples:
 

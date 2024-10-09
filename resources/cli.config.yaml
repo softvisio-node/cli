@@ -12,12 +12,8 @@ commits:
 
   types:
     - chore
-    - docs
     - feat
     - fix
-    - refactor
-    - style
-    - test
 
   scopeRequired: false
 
