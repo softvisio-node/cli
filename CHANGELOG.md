@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.46.1 (2024-10-09)
+
+Fixes:
+
+-   fix: git push status
+
 ### 3.46.0 (2024-10-09)
 
 Features:
