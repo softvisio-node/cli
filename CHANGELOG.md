@@ -1,5 +1,18 @@
 # Changelog
 
+### 3.46.0 (2024-10-09)
+
+Features:
+
+-   feat: eslint-plugin-import
+-   feat: eslit plugin import
+
+Fixes:
+
+-   fix: dependabot
+-   fix: eslint
+-   fix: package link
+
 ### 3.45.2 (2024-10-02)
 
 Fixes:
