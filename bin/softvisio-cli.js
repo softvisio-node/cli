@@ -58,6 +58,11 @@ const spec = {
             "title": "Apt repository tools",
             "module": () => new URL( "../lib/commands/apt.js", import.meta.url ),
         },
+        "workspace": {
+            "short": "w",
+            "title": "Bulk operations with workspace",
+            "module": () => new URL( "../lib/commands/workspace.js", import.meta.url ),
+        },
     },
 };
 
