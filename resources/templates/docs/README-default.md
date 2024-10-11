@@ -5,7 +5,7 @@
 ## Install
 
 ```shell
-npm i <%- npmName %>
+npm install <%- npmName %>
 ```
 
 ## Usage
