@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.47.0 (2024-10-11)
+
+Features:
+
+-   feat: changelog compare url
+-   feat: workspace command
+
+[Full list of the changes](https://github.com/softvisio-node/cli/compare/v3.46.1...v3.47.0)
+
 ### 3.46.1 (2024-10-09)
 
 Fixes:
