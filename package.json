@@ -37,6 +37,9 @@
         "/resources",
         "/src"
     ],
+    "scripts": {
+        "test": "node --test _tests/**/*.js"
+    },
     "dependencies": {
         "@prettier/plugin-xml": "^3.4.1",
         "@softvisio/core": "^7.0.0",
