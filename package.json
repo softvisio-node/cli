@@ -38,6 +38,7 @@
         "/src"
     ],
     "scripts": {
+        "release": "softvisio-cli package release",
         "test": "node --test '_tests/**/*.test.js'"
     },
     "dependencies": {
