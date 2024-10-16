@@ -1448,9 +1448,9 @@
             }
         },
         "node_modules/acorn": {
-            "version": "8.12.1",
-            "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.12.1.tgz",
-            "integrity": "sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==",
+            "version": "8.13.0",
+            "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.13.0.tgz",
+            "integrity": "sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==",
             "license": "MIT",
             "bin": {
                 "acorn": "bin/acorn"
@@ -8036,9 +8036,9 @@
             }
         },
         "node_modules/terser": {
-            "version": "5.34.1",
-            "resolved": "https://registry.npmjs.org/terser/-/terser-5.34.1.tgz",
-            "integrity": "sha512-FsJZ7iZLd/BXkz+4xrRTGJ26o/6VTjQytUk8b8OxkwcD2I+79VPJlz7qss1+zE7h8GNIScFqXcDyJ/KqBYZFVA==",
+            "version": "5.35.0",
+            "resolved": "https://registry.npmjs.org/terser/-/terser-5.35.0.tgz",
+            "integrity": "sha512-TmYbQnzVfrx3RQsPoItoPplymixIAtp2R2xlpyVBYmFmvI34IzLhCLj8SimRb/kZXlq4t1gA+vbcTqLQ3+5Q5g==",
             "license": "BSD-2-Clause",
             "dependencies": {
                 "@jridgewell/source-map": "^0.3.3",
