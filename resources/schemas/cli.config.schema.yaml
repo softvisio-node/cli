@@ -6,7 +6,7 @@ properties:
     anyOf:
       - type: "null"
       - type: array
-        items: { type: string, format: kebab-case-glob-pattern }
+        items: { type: string, format: kebab-case-glob-pattern, pattern: ^/ }
         minItems: 1
         uniqueItems: true
 
