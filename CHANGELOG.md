@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.48.0 (2024-10-17)
+
+Features:
+
+-   feat: add text table column format row
+-   feat: add worspace outdated command
+-   feat: add worspace run script
+-   feat: package test script
+-   feat: rename publish command to release
+
+[Full list of the changes](https://github.com/softvisio-node/cli/compare/v3.47.0...v3.48.0)
+
 ### 3.47.0 (2024-10-11)
 
 Features:
