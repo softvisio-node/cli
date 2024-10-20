@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.49.0 (2024-10-20)
+
+Features:
+
+-   feat: change force option to yes
+
+[Full list of the changes](https://github.com/softvisio-node/cli/compare/v3.48.0...v3.49.0)
+
 ### 3.48.0 (2024-10-17)
 
 Features:
