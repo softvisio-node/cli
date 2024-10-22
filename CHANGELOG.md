@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.49.1 (2024-10-22)
+
+No notable changes since the previous release.
+
+[Full list of the changes](https://github.com/softvisio-node/cli/compare/v3.49.0...v3.49.1)
+
 ### 3.49.0 (2024-10-20)
 
 Features:
