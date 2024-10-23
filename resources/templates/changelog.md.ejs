@@ -38,7 +38,7 @@ Other:
 <%_ } -%>
 <%_ if ( compareUrl ) { -%>
 
-[Full list of the changes](<%- compareUrl %>)
+[Compare with the previous release: <%- previousVersion.toVersionString() %> ... <%- newVersion.toVersionString() %>](<%- compareUrl %>)
 <%_ } -%>
 <%_ if ( newVersion.isMajor ) { -%>
 
