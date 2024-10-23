@@ -3,36 +3,36 @@
 
 No changes since the previous release.
 <%_ } else { -%>
-<%_ if ( changes.breaking.length ) { -%>
+<%_ if ( changes.hasBreakingChanges ) { -%>
 
 Breaking changes:
 
-<%_ for ( const change of changes.breaking ) { -%>
--   <%- change.subject %>
+<%_ for ( const change of changes.breakingChanges ) { -%>
+-   <%- change.title %>
 <%_ } -%>
 <%_ } -%>
-<%_ if ( changes.featNonBreaking.length ) { -%>
+<%_ if ( changes.hasFeatureNonBreakingChanges ) { -%>
 
 Features:
 
-<%_ for ( const change of changes.featNonBreaking ) { -%>
--   <%- change.subject %>
+<%_ for ( const change of changes.featureNonBreakingChanges ) { -%>
+-   <%- change.title %>
 <%_ } -%>
 <%_ } -%>
-<%_ if ( changes.fixNonBreaking.length ) { -%>
+<%_ if ( changes.hasFixNonBreakingChanges ) { -%>
 
 Fixes:
 
-<%_ for ( const change of changes.fixNonBreaking ) { -%>
--   <%- change.subject %>
+<%_ for ( const change of changes.fixNonBreakingChanges ) { -%>
+-   <%- change.title %>
 <%_ } -%>
 <%_ } -%>
-<%_ if ( changes.otherNonBreaking.length ) { -%>
+<%_ if ( changes.hasOtherNonBreakingChanges ) { -%>
 
 Other changes:
 
-<%_ for ( const change of changes.otherNonBreaking ) { -%>
--   <%- change.subject %>
+<%_ for ( const change of changes.otherNonBreakingChanges ) { -%>
+-   <%- change.title %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
