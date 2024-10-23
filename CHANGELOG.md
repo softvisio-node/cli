@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.49.2 (2024-10-23)
+
+Other changes:
+
+-   chore: refactor changesets
+-   chore: update changelog generator
+-   chore: update package dependencies
+
+[Compare with the previous release: v3.49.1 ... v3.49.2](https://github.com/softvisio-node/cli/compare/v3.49.1...v3.49.2)
+
 ### 3.49.1 (2024-10-22)
 
 No notable changes since the previous release.
