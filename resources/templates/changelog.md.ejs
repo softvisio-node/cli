@@ -1,7 +1,7 @@
 ### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
-<%_ if ( !changes.breaking.length && !changes.feat.length && !changes.fix.length ) { -%>
+<%_ if ( !changes.hasChanges ) { -%>
 
-No notable changes since the previous release.
+No changes since the previous release.
 <%_ } else { -%>
 <%_ if ( changes.breaking.length ) { -%>
 
@@ -24,6 +24,14 @@ Features:
 Fixes:
 
 <%_ for ( const change of changes.fixNonBreaking ) { -%>
+-   <%- change.subject %>
+<%_ } -%>
+<%_ } -%>
+<%_ if ( changes.otherNonBreaking.length ) { -%>
+
+Other:
+
+<%_ for ( const change of changes.otherNonBreaking ) { -%>
 -   <%- change.subject %>
 <%_ } -%>
 <%_ } -%>
