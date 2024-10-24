@@ -1,5 +1,19 @@
 # Changelog
 
+### 3.50.0 (2024-10-24)
+
+Features:
+
+-   feat: add --all option to outdated command
+-   feat: add package update command
+
+Other changes:
+
+-   chore: refactor package update dependencies
+-   chore: update package dependencies
+
+[Compare with the previous release: v3.49.2 ... v3.50.0](https://github.com/softvisio-node/cli/compare/v3.49.2...v3.50.0)
+
 ### 3.49.2 (2024-10-23)
 
 Other changes:
