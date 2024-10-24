@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.50.1 (2024-10-24)
+
+Other changes:
+
+-   chore: refactor generate keys command
+
+[Compare with the previous release: v3.50.0 ... v3.50.1](https://github.com/softvisio-node/cli/compare/v3.50.0...v3.50.1)
+
 ### 3.50.0 (2024-10-24)
 
 Features:
