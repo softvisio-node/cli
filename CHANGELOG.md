@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.50.2 (2024-10-24)
+
+Other changes:
+
+-   chore: update dependabot generator
+-   chore: update package dependencies
+-   chore: update package metadata
+
+[Compare with the previous release: v3.50.1 ... v3.50.2](https://github.com/softvisio-node/cli/compare/v3.50.1...v3.50.2)
+
 ### 3.50.1 (2024-10-24)
 
 Other changes:
