@@ -96,7 +96,7 @@ class Theme {
 
             blocks[ n ] = blocks[ n ].replaceAll( /\\<([\w.]+)(\\?\[])?>/g, ( match, type, array ) => {
                 if ( type in types ) {
-                    return `\\<[${ type }${ array ?? "" }](${ types[ type ] })>`;
+                    return `\\<[${ type }${ array?.replace( "\\", "" ) ?? "" }](${ types[ type ] })>`;
                 }
                 else {
                     return match;
