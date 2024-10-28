@@ -79,6 +79,7 @@ class Theme {
         hook.doneEach( this.#styleTypes.bind( this ) );
     }
 
+    // XXX use mdast parser
     #linkifyTypes ( content ) {
         const types = window.$docsify.types;
 
