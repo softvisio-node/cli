@@ -102,7 +102,7 @@ class Theme {
 
                     if ( !url ) return match;
 
-                    res.push( `[ ${ type } ]( ${ url } )` );
+                    res.push( `\\<[${ type }](${ url })>` );
                 }
 
                 return res.join( " | " );
