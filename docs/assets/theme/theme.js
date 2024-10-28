@@ -94,13 +94,18 @@ class Theme {
             // code block body
             if ( n && blocks[ n - 1 ].startsWith( "```" ) ) continue;
 
-            blocks[ n ] = blocks[ n ].replaceAll( /\\<([\w.]+)(\\?\[])?>/g, ( match, type, array ) => {
-                if ( type in types ) {
-                    return `\\<[${ type }${ array?.replace( "\\", "" ) ?? "" }](${ types[ type ] })>`;
+            blocks[ n ] = blocks[ n ].replaceAll( /{([\w.[\\\]|]+)}/g, ( match, value ) => {
+                const res = [];
+
+                for ( const type of value.split( "|" ) ) {
+                    const url = types[ type.replace( /\\\[]$/, "" ) ];
+
+                    if ( !url ) return match;
+
+                    res.push( `[ ${ type } ]( ${ url } )` );
                 }
-                else {
-                    return match;
-                }
+
+                return res.join( " | " );
             } );
         }
 
