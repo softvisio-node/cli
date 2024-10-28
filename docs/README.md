@@ -7,3 +7,7 @@ npm install --global @softvisio/cli
 ```
 
 ## Usage
+
+```shell
+softvisio-cli --help
+```

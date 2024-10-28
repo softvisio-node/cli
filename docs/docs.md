@@ -6,23 +6,23 @@ Project documentation site generator.
 
 ### Data types
 
--   Data type definition should be placed in angle brackets. Example: <string\>.
--   Primitive data type should be in the lowercase. Example: <boolean\>. List of primitive types:
+-   Data type definition should be placed in angle brackets. Example: {string}.
+-   Primitive data type should be in the lowercase. Example: {boolean}. List of primitive types:
 
-    -   <any\> any data type;
-    -   <string\>;
-    -   <number\>;
-    -   <integer\>;
-    -   <boolean\>;
-    -   <null\>;
-    -   <symbol\>;
-    -   <bigint\>;
+    -   {any} any data type;
+    -   {string};
+    -   {number};
+    -   {integer};
+    -   {boolean};
+    -   {null};
+    -   {symbol};
+    -   {bigint};
 
 -   Object data types and classes names should start with the capital letter. List of the embedded object data types:
-    -   <Object\>;
-    -   <Array\>;
-    -   <Function\>;
-    -   <Promise\>;
+    -   {Object};
+    -   {Array};
+    -   {Function};
+    -   {Promise};
 
 ### Parameters definition
 
@@ -30,26 +30,26 @@ Project documentation site generator.
 
 #### **Example**
 
--   `name` <string\> Mandatory parameter with the default value. **Default:** `null`.
--   `name` <string\> Enumerated string values. Possible values: `"left"`, `"right"`. **Default:** `"left"`.
--   `name?` <Object\> Non mandatory parameter.
--   `name` <string[]\> Typed array of strings.
--   `name` <Array\> Array of any types.
--   `name` <any[]\> Array of any types.
--   `name` <Promise\> | <boolean\> Parameter with the several allowed types.
--   `...args` <any\> Rest of the arguments.
+-   `name` {string} Mandatory parameter with the default value. **Default:** `null`.
+-   `name` {string} Enumerated string values. Possible values: `"left"`, `"right"`. **Default:** `"left"`.
+-   `name?` {Object} Non mandatory parameter.
+-   `name` {string[]} Typed array of strings.
+-   `name` {Array} Array of any types.
+-   `name` {any[]} Array of any types.
+-   `name` {Promise|boolean} Parameter with the several allowed types.
+-   `...args` {any} Rest of the arguments.
 
 #### **Source**
 
 ```markdown
--   `name` <string\> Mandatory parameter with the default value. **Default:** `null`.
--   `name` <string\> Enumerated string values. Possible values: `"left"`, `"right"`. **Default:** `"left"`.
--   `name?` <Object\> Non mandatory parameter.
--   `name` <string[]\> Typed array of strings.
--   `name` <Array\> Array of any types.
--   `name` <any[]\> Array of any types.
--   `name` <Promise\> | <boolean\> Parameter with the several allowed types.
--   `...args` <any\> Rest of the arguments.
+-   `name` {string} Mandatory parameter with the default value. **Default:** `null`.
+-   `name` {string} Enumerated string values. Possible values: `"left"`, `"right"`. **Default:** `"left"`.
+-   `name?` {Object} Non mandatory parameter.
+-   `name` {string[]} Typed array of strings.
+-   `name` {Array} Array of any types.
+-   `name` {any[]} Array of any types.
+-   `name` {Promise|boolean} Parameter with the several allowed types.
+-   `...args` {any} Rest of the arguments.
 ```
 
 <!-- tabs:end -->
@@ -66,22 +66,22 @@ For more examples refer to the [nodejs documentation](https://nodejs.org/api/).
 
 method( options, ...args )
 
--   `options` <Object\> Options:
-    -   `name1?` <string\> Optional parameter.
-    -   `name2` <boolean\> Boolean parameter with the default value. **Default:** `true`.
--   `...args` <any\> Any number of the arguments of the any type.
--   Returns: <Promise\>
+-   `options` {Object} Options:
+    -   `name1?` {string} Optional parameter.
+    -   `name2` {boolean} Boolean parameter with the default value. **Default:** `true`.
+-   `...args` {any} Any number of the arguments of the any type.
+-   Returns: {Promise}
 
 #### **Source**
 
 ```markdown
 method( options, ...args )
 
--   `options` <Object\> Options:
-    -   `name1?` <string\> Optional parameter.
-    -   `name2` <boolean\> Boolean parameter with the default value. **Default:** `true`.
--   `...args` <any\> Any number of the arguments of the any type.
--   Returns: <Promise\>
+-   `options` {Object} Options:
+    -   `name1?` {string} Optional parameter.
+    -   `name2` {boolean} Boolean parameter with the default value. **Default:** `true`.
+-   `...args` {any} Any number of the arguments of the any type.
+-   Returns: {Promise}.
 ```
 
 <!-- tabs:end -->
@@ -92,7 +92,7 @@ Config should be located in the `/.docs.config.yaml` or the `/docs/.docs.config.
 
 ### aliases
 
--   type: <Object\>
+-   type: {Object}
 -   default: `null`
 
 Set of routes aliases in `alias`: `url` form. `alias` can be string or regular expression. For more detaild pls refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=alias).
@@ -118,9 +118,9 @@ Use alias from html:
 
 ### api
 
--   type: <Object\>
-    -   `location` <string\> API schema location, relative to the project root directory.
-    -   `url` <string\> API server url.
+-   type: {Object}
+    -   `location` {string} API schema location, relative to the project root directory.
+    -   `url` {string} API server url.
 -   default: `null`
 
 Options for API schema documentation generator.
@@ -135,58 +135,58 @@ api:
 
 ### changelog
 
--   type: <boolean\> | <string\>
+-   type: {boolean|string}
 -   default: `true`
 
 Enable changelog integration. Possible values:
 
 -   `false`: Disable changelog.
 -   `true`: Use `CHANGELOG.md` in `main` branch.
--   <string\>: Changelog URL, relative URL resovled using your repo user content URL as base.
+-   {string}: Changelog URL, relative URL resovled using your repo user content URL as base.
 
 If changelog is enabled `/changelog` alias created automatically.
 
 ### favicon
 
--   type: <string\>
+-   type: {string}
 -   default: `null`
 
 Set site favicon url. If not set but `logo` option is defined - your logo will be used as favicon.
 
 ### generateReadme
 
--   type: <boolean\>
+-   type: {boolean}
 -   default: `true`
 
 Generate root `README.md` from docs `README.md`.
 
 ### logo
 
--   type: <boolean\> | <string\> | <Object\>
+-   type: {boolean|string|Object}
 -   default: `false`
 
 Set site logo. Possible values:
 
 -   `false`: Logo is not used.
 -   `true`: Logo URL `assets/logo.png`, height `50px`.
--   <string\>: Logo URL. Height will be set to `50px`.
--   <Object\>: Logo configuration object:
-    -   `href` <string\> Logo URL.
-    -   `width?` <integer\> Logo width. **Default:** `null`.
-    -   `height?` <integer\> Logo height. **Default:** `50px`.
+-   {string}: Logo URL. Height will be set to `50px`.
+-   {Object}: Logo configuration object:
+    -   `href` {string} Logo URL.
+    -   `width?` {integer} Logo width. **Default:** `null`.
+    -   `height?` {integer} Logo height. **Default:** `50px`.
 
 ### name
 
--   type: <string\>
+-   type: {string}
 -   default: `name` field from the project `package.json`
 
 Project name. Default value is `name` field value from the `package.json`.
 
 ### rpc
 
--   type: <Object\>
-    -   `location` <string\> RPC schema location, relative to the project root directory.
-    -   `url` <string\> RPC server url.
+-   type: {Object}
+    -   `location` {string} RPC schema location, relative to the project root directory.
+    -   `url` {string} RPC server url.
 -   default: `null`
 
 Options for RPC schema documentation generator.
@@ -201,21 +201,21 @@ rpc:
 
 ### siteURL
 
--   type: <string\>
+-   type: {string}
 -   default: your `git` upstream hosting pages url (if available)
 
 Documentation site URL. Default value is your repository upstream pages url.
 
 ### subMaxLevel
 
--   type: <integer\>
+-   type: {integer}
 -   default: `2`
 
 Maximum headings level to display in the sidebar. Refer to the [docsify documentation](https://docsify.js.org/#/configuration?id=submaxlevel) for more details.
 
 ### types
 
--   type: <Object\>
+-   type: {Object}
 -   default: Standard pre-defined `javascript` and `nodejs` data types.
 
 Object of custom data types and links for your project. Example:
@@ -228,7 +228,7 @@ types:
 
 ### externalTypes
 
--   type: <Array\>
+-   type: {Array}
 -   default: `null`.
 
 Array of links to the external projects config files to load external types:

@@ -43,28 +43,28 @@ git commit -m"feat(core)!: commit description"
 
 ### strict
 
--   type: <boolean\>
+-   type: {boolean}
 -   default: `true`
 
 Allow conventional commits only.
 
 ### types
 
--   type: <Array\>
+-   type: {Array}
 -   default: `[]`
 
 Allowed commit types. If empty any type is allowed.
 
 ### scopeRequired
 
--   type: <boolean\>
+-   type: {boolean}
 -   default: `false`
 
 Scope is required.
 
 ### scopes
 
--   type: <Array\>
+-   type: {Array}
 -   default: `[]`
 
 List of the allowed scopes. If empty any scope is allowed.
