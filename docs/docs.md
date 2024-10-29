@@ -46,9 +46,9 @@ Project documentation site generator.
 -   `name` {string} Mandatory parameter with the default value. **Default:** `null`.
 -   `name` {string} Enumerated string values. Possible values: `"left"`, `"right"`. **Default:** `"left"`.
 -   `name?` {Object} Non mandatory parameter.
--   `name` {string[]} Typed array of strings.
+-   `name` {string\[]} Typed array of strings.
 -   `name` {Array} Array of any types.
--   `name` {any[]} Array of any types.
+-   `name` {any\[]} Array of any types.
 -   `name` {Promise|boolean} Parameter with the several allowed types.
 -   `...args` {any} Rest of the arguments.
 ```
