@@ -73,18 +73,14 @@ class Theme {
     }
 
     #docsifyHook ( hook, vm ) {
-        hook.beforeEach( this.#linkifyTypes.bind( this ) );
+        hook.beforeEach( this.#beforeEach.bind( this ) );
 
         hook.doneEach( this.#generateToc.bind( this ) );
         hook.doneEach( this.#styleTypes.bind( this ) );
     }
 
     // XXX use mdast parser
-    #linkifyTypes ( markdown ) {
-        const types = window.$docsify.types;
-
-        if ( !types ) return;
-
+    #beforeEach ( markdown ) {
         const blocks = markdown.split( /(```+)(.+?\1)/s );
 
         for ( let n = 0; n < blocks.length; n++ ) {
@@ -95,24 +91,34 @@ class Theme {
             // code block body
             if ( n && blocks[ n - 1 ].startsWith( "```" ) ) continue;
 
+            blocks[ n ] = this.#linkifyTypes( blocks[ n ] );
+
             blocks[ n ] = this.#linkifyFootnotes( blocks[ n ] );
-
-            blocks[ n ] = blocks[ n ].replaceAll( /{([\w.[\\\]|]+)}/g, ( match, value ) => {
-                const res = [];
-
-                for ( const type of value.split( "|" ) ) {
-                    const url = types[ type.replace( /\\\[]$/, "" ) ];
-
-                    if ( !url ) return match;
-
-                    res.push( `\\<[${ type.replace( /\\\[]$/, "[]" ) }](${ url })>` );
-                }
-
-                return res.join( " | " );
-            } );
         }
 
         return blocks.join( "" );
+    }
+
+    #linkifyTypes ( markdown ) {
+        const types = window.$docsify.types;
+
+        if ( !types ) return;
+
+        markdown = markdown.replaceAll( /{([\w.[\\\]|]+)}/g, ( match, value ) => {
+            const res = [];
+
+            for ( const type of value.split( "|" ) ) {
+                const url = types[ type.replace( /\\\[]$/, "" ) ];
+
+                if ( !url ) return match;
+
+                res.push( `\\<[${ type.replace( /\\\[]$/, "[]" ) }](${ url })>` );
+            }
+
+            return res.join( " | " );
+        } );
+
+        return markdown;
     }
 
     #linkifyFootnotes ( markdown ) {
