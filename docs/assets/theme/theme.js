@@ -122,13 +122,14 @@ class Theme {
     }
 
     #linkifyFootnotes ( markdown ) {
+        console.log( "---", /\[\^([\w-]+)]:/.test( markdown ) );
 
         // [^1]:
         markdown = markdown.replaceAll(
 
             //
             /\[\^([\w-]+)]:/g,
-            ( match, name ) => `<strong class="footnote-reference" id="footnote-${ name }">[[${ name }]](#footnote-${ name })</strong>:leftwards_arrow_with_hook: `
+            ( match, id ) => `<strong class="footnote-reference" id="footnote-${ id }">[[${ id }]](#footnote-${ id })</strong>:leftwards_arrow_with_hook:`
         );
 
         // [^1]
@@ -136,7 +137,7 @@ class Theme {
 
             //
             /\[\^([\w-]+)]/g,
-            ( match, name ) => `<sup class="footnote-symbol">[[${ name }]](#footnote-${ name })</sup>`
+            ( match, id ) => `<sup class="footnote-symbol">[[${ id }]](#footnote-${ id })</sup>`
         );
 
         return markdown;
