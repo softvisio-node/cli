@@ -102,7 +102,7 @@ class Theme {
     #linkifyTypes ( markdown ) {
         const types = window.$docsify.types;
 
-        if ( !types ) return;
+        if ( !types ) return markdown;
 
         markdown = markdown.replaceAll( /{([\w.[\\\]|]+)}/g, ( match, value ) => {
             const res = [];
@@ -122,8 +122,8 @@ class Theme {
     }
 
     #linkifyFootnotes ( markdown ) {
+        console.log( "---", markdown, /\[\^([\w-]+)]:/.test( markdown ) );
         if ( !markdown ) return markdown;
-        console.log( "---", /\[\^([\w-]+)]:/.test( markdown ) );
 
         // [^1]:
         markdown = markdown.replaceAll(
