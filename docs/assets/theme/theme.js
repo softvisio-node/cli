@@ -80,12 +80,12 @@ class Theme {
     }
 
     // XXX use mdast parser
-    #linkifyTypes ( content ) {
+    #linkifyTypes ( markdown ) {
         const types = window.$docsify.types;
 
         if ( !types ) return;
 
-        const blocks = content.split( /(```+)(.+?\1)/s );
+        const blocks = markdown.split( /(```+)(.+?\1)/s );
 
         for ( let n = 0; n < blocks.length; n++ ) {
 
@@ -115,13 +115,25 @@ class Theme {
         return blocks.join( "" );
     }
 
-    // - [^1]
-    // - [^1]:
-    #linkifyFootnotes ( content ) {
-        if ( /\[\^([\dA-Za-z-]+)][^:]/.test( content ) ) {
-            content = content.replaceAll( /\[\^([\dA-Za-z-]+)][^:]/gm, '<sup class="footnote-symbol" id="fn-$1">[[$1]](#fnref-$1)</sup>' ).replaceAll( /\[\^([\dA-Za-z-]+)]: /gm, '<strong class="footnote-reference-symbol" id="fnref-$1">[[$1]](#fn-$1)</strong>:leftwards_arrow_with_hook: ' );
-        }
-        return content;
+    #linkifyFootnotes ( markdown ) {
+
+        // [^1]:
+        markdown = markdown.replaceAll(
+
+            //
+            /\[\^([\w-]+)]:/g,
+            ( match, name ) => `<strong class="footnote-reference" id="footnote-${ name }">[[${ name }]](#footnote-${ name })</strong>:leftwards_arrow_with_hook: `
+        );
+
+        // [^1]
+        markdown = markdown.replaceAll(
+
+            //
+            /\[\^([\w-]+)]/g,
+            ( match, name ) => `<sup class="footnote-symbol">[[${ name }]](#footnote-${ name })</sup>`
+        );
+
+        return markdown;
     }
 
     #styleTypes () {
