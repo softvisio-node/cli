@@ -122,6 +122,7 @@ class Theme {
     }
 
     #linkifyFootnotes ( markdown ) {
+        if ( !markdown ) return markdown;
         console.log( "---", /\[\^([\w-]+)]:/.test( markdown ) );
 
         // [^1]:
