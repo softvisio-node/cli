@@ -80,8 +80,6 @@ class Theme {
     }
 
     // XXX use mdast parser
-    // - [^1]
-    // - [^1]:
     #linkifyTypes ( content ) {
         const types = window.$docsify.types;
 
@@ -96,6 +94,8 @@ class Theme {
 
             // code block body
             if ( n && blocks[ n - 1 ].startsWith( "```" ) ) continue;
+
+            blocks[ n ] = this.#linkifyFootnotes( blocks[ n ] );
 
             blocks[ n ] = blocks[ n ].replaceAll( /{([\w.[\\\]|]+)}/g, ( match, value ) => {
                 const res = [];
@@ -113,6 +113,15 @@ class Theme {
         }
 
         return blocks.join( "" );
+    }
+
+    // - [^1]
+    // - [^1]:
+    #linkifyFootnotes ( content ) {
+        if ( /\[\^([\dA-Za-z-]+)][^:]/.test( content ) ) {
+            content = content.replaceAll( /\[\^([\dA-Za-z-]+)][^:]/gm, '<sup class="footnote-symbol" id="fn-$1">[[$1]](#fnref-$1)</sup>' ).replaceAll( /\[\^([\dA-Za-z-]+)]: /gm, '<strong class="footnote-reference-symbol" id="fnref-$1">[[$1]](#fn-$1)</strong>:leftwards_arrow_with_hook: ' );
+        }
+        return content;
     }
 
     #styleTypes () {
