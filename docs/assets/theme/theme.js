@@ -80,6 +80,8 @@ class Theme {
     }
 
     // XXX use mdast parser
+    // - [^1]
+    // - [^1]:
     #linkifyTypes ( content ) {
         const types = window.$docsify.types;
 
