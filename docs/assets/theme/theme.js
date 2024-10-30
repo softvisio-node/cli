@@ -122,15 +122,13 @@ class Theme {
     }
 
     #linkifyFootnotes ( markdown ) {
-        console.log( "---", markdown, /\[\^([\w-]+)]:/.test( markdown ) );
-        if ( !markdown ) return markdown;
 
         // [^1]:
         markdown = markdown.replaceAll(
 
             //
             /\[\^([\w-]+)]:/g,
-            ( match, id ) => `<strong class="footnote-reference" id="footnote-${ id }">[[${ id }]](#footnote-${ id })</strong>:leftwards_arrow_with_hook:`
+            ( match, id ) => `<strong class="footnote-reference" id="footnote-${ id }">[[${ id }]](#footnote-${ id })</strong>:`
         );
 
         // [^1]
