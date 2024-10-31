@@ -1,5 +1,25 @@
 # Changelog
 
+### 3.51.0 (2024-10-31)
+
+Features:
+
+-   feat: add workspace run-command command
+-   feat: added docs footnotes support
+
+Other changes:
+
+-   chore: fix deps updater
+-   chore: migrate to node v22
+-   chore: refactor markdown
+-   chore: remove docsify dependency
+-   chore: update dependencies updater
+-   chore: update docs
+-   chore: update package dependencies
+-   chore: update package deps updater
+
+[Compare with the previous release: v3.50.2 ... v3.51.0](https://github.com/softvisio-node/cli/compare/v3.50.2...v3.51.0)
+
 ### 3.50.2 (2024-10-24)
 
 Other changes:
