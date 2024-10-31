@@ -1835,9 +1835,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001675",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001675.tgz",
-            "integrity": "sha512-/wV1bQwPrkLiQMjaJF5yUMVM/VdRPOCU8QZ+PmG6uW6DvYSrNY1bpwHI/3mOcUosLaJCzYDi5o91IQB51ft6cg==",
+            "version": "1.0.30001676",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001676.tgz",
+            "integrity": "sha512-Qz6zwGCiPghQXGJvgQAem79esjitvJ+CxSbSQkW9H/UX5hg8XM88d4lp2W+MEQ81j+Hip58Il+jGVdazk1z9cw==",
             "funding": [
                 {
                     "type": "opencollective",
@@ -2037,12 +2037,12 @@
             }
         },
         "node_modules/core-js-compat": {
-            "version": "3.38.1",
-            "resolved": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.38.1.tgz",
-            "integrity": "sha512-JRH6gfXxGmrzF3tZ57lFx97YARxCXPaMzPo6jELZhv88pBH5VXpQ+y0znKGlFnzuaihqhLbefxSJxWJMPtfDzw==",
+            "version": "3.39.0",
+            "resolved": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.39.0.tgz",
+            "integrity": "sha512-VgEUx3VwlExr5no0tXlBt+silBvhTryPwCXRI2Id1PN8WTKu7MreethvddqOubrYxkFdv/RnYrqlv1sFNAUelw==",
             "license": "MIT",
             "dependencies": {
-                "browserslist": "^4.23.3"
+                "browserslist": "^4.24.2"
             },
             "funding": {
                 "type": "opencollective",
