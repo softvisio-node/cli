@@ -128,7 +128,7 @@ class Theme {
 
             //
             /\[\^([\w-]+)]:/g,
-            ( match, id ) => `<strong class="footnote-reference" id="footnote-${ id }">[[${ id }]](#footnote-${ id })</strong>:`
+            ( match, id ) => `<strong class="footnote-definition" id="footnote-${ id }">[[${ id }]](#footnote-${ id })</strong>:`
         );
 
         // [^1]
@@ -136,7 +136,7 @@ class Theme {
 
             //
             /\[\^([\w-]+)]/g,
-            ( match, id ) => `<sup class="footnote-symbol">[[${ id }]](#footnote-${ id })</sup>`
+            ( match, id ) => `<sup class="footnote-reference">[[${ id }]](#footnote-${ id })</sup>`
         );
 
         return markdown;
