@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.52.2 (2024-11-04)
+
+Fixes:
+
+-   fix: fix lint type
+
+[Compare with the previous release: v3.52.1 ... v3.52.2](https://github.com/softvisio-node/cli/compare/v3.52.1...v3.52.2)
+
 ### 3.52.1 (2024-11-04)
 
 Other changes:
