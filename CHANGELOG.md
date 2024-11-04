@@ -1,5 +1,22 @@
 # Changelog
 
+### 3.52.0 (2024-11-04)
+
+Features:
+
+-   feat: add markdown api
+
+Other changes:
+
+-   chore: move markdown to core
+-   chore: refactor markdown
+-   chore: refactor table api
+-   chore: update cli help
+-   chore: update dependencies filter
+-   chore: update package dependencies
+
+[Compare with the previous release: v3.51.0 ... v3.52.0](https://github.com/softvisio-node/cli/compare/v3.51.0...v3.52.0)
+
 ### 3.51.0 (2024-10-31)
 
 Features:
