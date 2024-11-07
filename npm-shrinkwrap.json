@@ -911,9 +911,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.6.15",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.15.tgz",
-            "integrity": "sha512-AG5GSMtUrCGhFX4aWMg5FDD3opRldAg7q2X0kXRkkKKxTnnHH6lFT1P+ZkZe+5Jkoz97B8Cuuz4XEattyETU2g==",
+            "version": "1.6.16",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.16.tgz",
+            "integrity": "sha512-qdrIjaaNtoPwqi/HEhLG8UEhP6tXx1JFAytuytRSgmuMog/+NMDJ8i3KrfG1MTPYx9LCcJyIMhxvLIUTL/yNOg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -970,9 +970,9 @@
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.7.13",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.13.tgz",
-            "integrity": "sha512-cwu40qc9U8xtHjk0tryjWQVy5kt0apbpbbqWcI7XSxJpWhNSniDnmWMh9QkYW5RB1eOHZpCfWXpJYF5Y+peOyg==",
+            "version": "1.7.15",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.15.tgz",
+            "integrity": "sha512-pbHO4LjnnET2ANerWtUGdxPbyYev8jSkmWyUwA4uwydyMO8oi8a8KbYVMxzIhsCq+tu5uF6JWUmo2rN1KFOtew==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
@@ -992,9 +992,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.17.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.17.5.tgz",
-            "integrity": "sha512-kX5QAUAmlez/97UW3GfyJMXkMzDUkEmnqN3W6sjbEs70Y7mpewKEMEVUjlNiIXEUs9tiFTvD6ufkJGKIpPLITA==",
+            "version": "1.17.6",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.17.6.tgz",
+            "integrity": "sha512-3TqhojNi8Th1KAUDeBli644mz2gydFEi5vulq6yM20Z6HD2TbBvIQ2G+9+YxemiDwPzBoYRHushUrcfKKvEdfA==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1002,9 +1002,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "1.2.25",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.25.tgz",
-            "integrity": "sha512-z4ttleF6/OZsv1j53V9ukuraQYDRbba+OpNkEqHBj6R/XO0cSjISaWUzdRtWbuQpeY2qJMYgasgOtX07VSEZmg==",
+            "version": "1.2.26",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.26.tgz",
+            "integrity": "sha512-d/GTcgrL7fMG4R1VTDcVEbOm0FmdvJpGjjPeoKQa4KV7WnL+8l9fxzdrSjsONVewsiPAXZmc5zgiAArOUmmEOw==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -1012,9 +1012,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.6.8",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.6.8.tgz",
-            "integrity": "sha512-i+M6yYMs4AhUwdWvCaHPjoGALgQ2slCMkQzgoK6T0rEy9ln81+OZJYR+Ie7j+iHYtBVkDGG0qv8hLvz2kyDNRA==",
+            "version": "2.6.9",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.6.9.tgz",
+            "integrity": "sha512-5gXSUi0s6dhm2IdS+SxPW7AeOuak6Ne/36jzJfvLDsRrrM1hui4c0+bj2vivxSu0bLL+LjUuV92t+sMG5DQ80g==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1848,9 +1848,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001677",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001677.tgz",
-            "integrity": "sha512-fmfjsOlJUpMWu+mAAtZZZHz7UEwsUxIIvu1TJfO1HqFQvB/B+ii0xr9B5HpbZY/mC4XZ8SvjHJqtAY6pDPQEog==",
+            "version": "1.0.30001678",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001678.tgz",
+            "integrity": "sha512-RR+4U/05gNtps58PEBDZcPWTgEO2MBeoPZ96aQcjmfkBWRIDfN451fW2qyDA9/+HohLLIL5GqiMwA+IB1pWarw==",
             "funding": [
                 {
                     "type": "opencollective",
