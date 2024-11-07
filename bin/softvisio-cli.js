@@ -60,7 +60,7 @@ const spec = {
             "module": () => new URL( "../lib/commands/apt.js", import.meta.url ),
         },
         "git": {
-            "title": "GIT tools",
+            "title": "Git tools",
             "module": () => new URL( "../lib/commands/git.js", import.meta.url ),
         },
     },
