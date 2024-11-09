@@ -2,6 +2,13 @@ private: false
 
 subPackages: ~
 
+metadata:
+  executables:
+    - /_tests/**/*.sh
+    - /_tests/**/*.js
+    - /bin/**/*.sh
+    - /bin/**/*.js
+
 docker:
   composeFile: compose.yaml
   defaultTag: ~
