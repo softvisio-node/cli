@@ -1,5 +1,30 @@
 # Changelog
 
+### 3.53.0 (2024-11-10)
+
+Features:
+
+-   feat: add generate telegram session command
+-   feat: ass generate telegram session
+-   feat: chmod on pre-commit hook
+-   feat: update package file modes
+
+Other changes:
+
+-   chore: add git hooks chmod
+-   chore: chmod files
+-   chore: fix git hooksPath name
+-   chore: refactor Git commands
+-   chore: refactor keys generator command
+-   chore: update apt commit message
+-   chore: update dependabot config
+-   chore: update package dependencies
+-   chore: update package metadata
+-   chore: update package release
+-   chore: var renamed
+
+[Compare with the previous release: v3.52.3 ... v3.53.0](https://github.com/softvisio-node/cli/compare/v3.52.3...v3.53.0)
+
 ### 3.52.3 (2024-11-04)
 
 Other changes:
