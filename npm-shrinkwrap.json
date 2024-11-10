@@ -898,9 +898,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.6.18",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.18.tgz",
-            "integrity": "sha512-14u7ivIXOe6UK2HO/PX9e/iEI3o8No2Z0pKUohmhbrcMvb4GNw4nPv3OR45Xss6awKnOsEmIoxkOuH9dkqZNwg==",
+            "version": "1.6.19",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.19.tgz",
+            "integrity": "sha512-xOR49VKKiDB9wTnYYP0Qzkjw40Qg3PLDNNyb7KUVLOsxZ1K3RP/+pNVBihF3AhD72Elj1IMqANV1LxsU/CD5Jw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -979,9 +979,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.17.7",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.17.7.tgz",
-            "integrity": "sha512-EZz7brWtNwabj2VqSx13iinXdrIN16VKKDeWaNgiI+ivvD03sYMYSlBeRTx9F+9WTCcJ3eNhFY4qvtUfgkG6hg==",
+            "version": "1.17.8",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.17.8.tgz",
+            "integrity": "sha512-8XHLVkVqTPcOPgzbGqDfhSePYMsW/JML3xBKVMk7Bb3nelmhjo9zsXxslc/uQIzhTTZen0XMXVbRlki28biAYg==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -999,9 +999,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.6.9",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.6.9.tgz",
-            "integrity": "sha512-5gXSUi0s6dhm2IdS+SxPW7AeOuak6Ne/36jzJfvLDsRrrM1hui4c0+bj2vivxSu0bLL+LjUuV92t+sMG5DQ80g==",
+            "version": "2.6.10",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.6.10.tgz",
+            "integrity": "sha512-amR5vRtbktFlI9hXOSxOVyg6OQdv+gy/ysaPgzaKRn6sHb2zpzKi85FgiZDf+wqkklCVLGI9meHm9n/uQAtIug==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
