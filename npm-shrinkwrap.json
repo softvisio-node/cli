@@ -898,9 +898,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.6.19",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.19.tgz",
-            "integrity": "sha512-xOR49VKKiDB9wTnYYP0Qzkjw40Qg3PLDNNyb7KUVLOsxZ1K3RP/+pNVBihF3AhD72Elj1IMqANV1LxsU/CD5Jw==",
+            "version": "1.6.20",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.6.20.tgz",
+            "integrity": "sha512-3dX1cAFea1ItF8v+u4gJdTXlpJZl6UURi2s07Ur7k4MT2w6edEi9OwqE6GSu0mBkDFI9igH0VGKYsWQ0e/LueQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -911,9 +911,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.114.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.114.0.tgz",
-            "integrity": "sha512-2LT5TabkcsrUE0/XG+64aljdGOhN9xw5Xb9bYBMEazd22ATNkWYZP0KXUblV/w8RaeVXbTURji5xreO6LmxHqA==",
+            "version": "7.114.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.114.1.tgz",
+            "integrity": "sha512-jb8iONtEtYol7Q8/p+F1qZ5+reFDUZyeLe004chivZOX9X7Z9VBtq7GXe5bV6wUkhUU+CFoH6N2lr8ssO24SoQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -979,9 +979,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.17.8",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.17.8.tgz",
-            "integrity": "sha512-8XHLVkVqTPcOPgzbGqDfhSePYMsW/JML3xBKVMk7Bb3nelmhjo9zsXxslc/uQIzhTTZen0XMXVbRlki28biAYg==",
+            "version": "1.17.9",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.17.9.tgz",
+            "integrity": "sha512-c5b0kM90TR5nbI2vNJb+eXsvaG5SwY0MOoyilYK+3fAxbqmz7SbNAuPdW7zk8FsnPojqvGXqjYylJ/BX8tsDHw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -989,9 +989,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "1.2.26",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.26.tgz",
-            "integrity": "sha512-d/GTcgrL7fMG4R1VTDcVEbOm0FmdvJpGjjPeoKQa4KV7WnL+8l9fxzdrSjsONVewsiPAXZmc5zgiAArOUmmEOw==",
+            "version": "1.2.29",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-1.2.29.tgz",
+            "integrity": "sha512-q3QoccpE/v4KBikwWZTrNxVntachYjP4h4ZURtqtRvoUqy6hXp5wzwXjACsIq4XHip3UpiKXBg7jpjyug0B5VQ==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -999,9 +999,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.6.10",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.6.10.tgz",
-            "integrity": "sha512-amR5vRtbktFlI9hXOSxOVyg6OQdv+gy/ysaPgzaKRn6sHb2zpzKi85FgiZDf+wqkklCVLGI9meHm9n/uQAtIug==",
+            "version": "2.6.11",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.6.11.tgz",
+            "integrity": "sha512-M6ZwaVxw7yosWUvZ6/eT9GWIxsBqUad481H9iPI7QIIXQpl4FA7X1r4Rx7lp4oxJKYN/qlS57ZCNmhdlJhM5Fw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1826,9 +1826,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001679",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001679.tgz",
-            "integrity": "sha512-j2YqID/YwpLnKzCmBOS4tlZdWprXm3ZmQLBH9ZBXFOhoxLA46fwyBvx6toCBWBmnuwUY/qB3kEU6gFx8qgCroA==",
+            "version": "1.0.30001680",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001680.tgz",
+            "integrity": "sha512-rPQy70G6AGUMnbwS1z6Xg+RkHYPAi18ihs47GH0jcxIG7wArmPgY3XbS2sRdBbxJljp3thdT8BIqv9ccCypiPA==",
             "funding": [
                 {
                     "type": "opencollective",
@@ -5810,9 +5810,9 @@
             }
         },
         "node_modules/postcss": {
-            "version": "8.4.47",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.4.47.tgz",
-            "integrity": "sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==",
+            "version": "8.4.48",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.4.48.tgz",
+            "integrity": "sha512-GCRK8F6+Dl7xYniR5a4FYbpBzU8XnZVeowqsQFYdcXuSbChgiks7qybSkbvnaeqv0G0B+dd9/jJgH8kkLDQeEA==",
             "funding": [
                 {
                     "type": "opencollective",
@@ -5830,7 +5830,7 @@
             "license": "MIT",
             "dependencies": {
                 "nanoid": "^3.3.7",
-                "picocolors": "^1.1.0",
+                "picocolors": "^1.1.1",
                 "source-map-js": "^1.2.1"
             },
             "engines": {
