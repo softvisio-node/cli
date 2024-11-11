@@ -2,11 +2,10 @@ private: false
 
 subPackages: ~
 
-metadata:
+meta:
   executables:
-    - /_tests/**/*.sh
+    - /**/*.sh
     - /_tests/**/*.js
-    - /bin/**/*.sh
     - /bin/**/*.js
 
 docker:

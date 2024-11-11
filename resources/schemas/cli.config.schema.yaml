@@ -10,7 +10,7 @@ properties:
         minItems: 1
         uniqueItems: true
 
-  metadata:
+  meta:
     anyOf:
       - type: "null"
       - type: object
