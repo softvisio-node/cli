@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.53.1 (2024-11-14)
+
+Other changes:
+
+-   chore: update apt dists
+-   chore: update default executables patterns
+-   chore: update git upstream api
+-   chore: update package dependencies
+
+[Compare with the previous release: v3.53.0 ... v3.53.1](https://github.com/softvisio-node/cli/compare/v3.53.0...v3.53.1)
+
 ### 3.53.0 (2024-11-10)
 
 Features:
