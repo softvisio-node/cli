@@ -18,6 +18,9 @@ VERSION=
 REVISION=0
 ARCHITECTURE=
 DEPENDS=
+RECOMMENDS=
+CONFLICTS=
+REPLACES=
 DESCRIPTION=
 
 # apt-get update
@@ -97,6 +100,9 @@ Version: $VERSION_STRING
 Architecture: $BUILD_ARCHITECTURE
 Installed-Size: $(du -s $DESTDIR | cut -f1)
 Depends: $DEPENDS
+Recommends: $RECOMMENDS
+Conflicts: $CONFLICTS
+Replaces: $REPLACES
 Maintainer: $MAINTAINER
 Description: $DESCRIPTION
 EOF
