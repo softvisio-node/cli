@@ -13,6 +13,7 @@ mkdir -p $DEBIAN
 
 # spec variables
 NAME=
+DESCRIPTION=
 EPOCH=0
 VERSION=
 REVISION=0
@@ -21,7 +22,6 @@ DEPENDS=
 RECOMMENDS=
 CONFLICTS=
 REPLACES=
-DESCRIPTION=
 
 # apt-get update
 
