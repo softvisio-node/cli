@@ -999,9 +999,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.6.11",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.6.11.tgz",
-            "integrity": "sha512-M6ZwaVxw7yosWUvZ6/eT9GWIxsBqUad481H9iPI7QIIXQpl4FA7X1r4Rx7lp4oxJKYN/qlS57ZCNmhdlJhM5Fw==",
+            "version": "2.7.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.7.0.tgz",
+            "integrity": "sha512-oRMJmiCwigUAPvQbmrelD6VfH0GjD2gGrSSJv7VWvnpTIKhe6Z6/gPyo6X1D2x+qZLRb4Dp2SUmD1x9hRATcrA==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
