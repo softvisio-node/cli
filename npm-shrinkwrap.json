@@ -911,9 +911,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.115.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.115.0.tgz",
-            "integrity": "sha512-nE+NV3QQ5InJ0a6YWAFEK79A49PEqTiamTNFXaivObnf6yVBMrww8Z/kg7u+0pBE2TzIdh6asbap6iW/LvzgUg==",
+            "version": "7.115.12",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.115.12.tgz",
+            "integrity": "sha512-xOJ/Eq1Mn6wpSmA9i9uARC8f9Z3kGU6Wd+2/A31CuF15YxZ5jYsnPcT0oZV9MtJUbiaOKxk3rmYyH3F8+oLwXg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -978,9 +978,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.17.9",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.17.9.tgz",
-            "integrity": "sha512-c5b0kM90TR5nbI2vNJb+eXsvaG5SwY0MOoyilYK+3fAxbqmz7SbNAuPdW7zk8FsnPojqvGXqjYylJ/BX8tsDHw==",
+            "version": "1.18.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.18.1.tgz",
+            "integrity": "sha512-DWN10hifn9xKk5LRn+fq8rKixYOuUi1d9e3tsG7BfJDXg//i1s/538/NmNRF028a+VLgdy0GGgOzqAAC8gNrIg==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -4513,9 +4513,9 @@
             "peer": true
         },
         "node_modules/magic-string": {
-            "version": "0.30.13",
-            "resolved": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.13.tgz",
-            "integrity": "sha512-8rYBO+MsWkgjDSOvLomYnzhdwEG51olQ4zL5KXnNJWV5MNmrb4rTZdrtkhxjnD/QyZUqR/Z/XDsUs/4ej2nx0g==",
+            "version": "0.30.14",
+            "resolved": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.14.tgz",
+            "integrity": "sha512-5c99P1WKTed11ZC0HMJOj6CDIue6F8ySu+bJL+85q1zBEIY8IklrJ1eiKC2NDRh3Ct3FcvmJPyQHb9erXMTJNw==",
             "license": "MIT",
             "dependencies": {
                 "@jridgewell/sourcemap-codec": "^1.5.0"
