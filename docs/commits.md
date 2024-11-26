@@ -2,16 +2,16 @@
 
 Commit message structure: `<type>(<scope>)!: <description>`
 
--   `type` Commit type. Allowed characters: `[a-z0-9]`. `Required`.
--   `scope` Commit scope. Allowed characters: `[a-z0-9]`. `Optional`.
--   `"!"` before `":"` means, that commit is breaking change. `Optional`.
--   `description` Arbitrary description. `Required`.
+- `type` Commit type. Allowed characters: `[a-z0-9]`. `Required`.
+- `scope` Commit scope. Allowed characters: `[a-z0-9]`. `Optional`.
+- `"!"` before `":"` means, that commit is breaking change. `Optional`.
+- `description` Arbitrary description. `Required`.
 
 Default commit types:
 
--   `"chore"`
--   `"feat"` - new feature
--   `"fix"` - bug fix
+- `"chore"`
+- `"feat"` - new feature
+- `"fix"` - bug fix
 
 Examples:
 
@@ -43,34 +43,34 @@ git commit -m"feat(core)!: commit description"
 
 ### strict
 
--   type: {boolean}
--   default: `true`
+- type: {boolean}
+- default: `true`
 
 Allow conventional commits only.
 
 ### types
 
--   type: {Array}
--   default: `[]`
+- type: {Array}
+- default: `[]`
 
 Allowed commit types. If empty any type is allowed.
 
 ### scopeRequired
 
--   type: {boolean}
--   default: `false`
+- type: {boolean}
+- default: `false`
 
 Scope is required.
 
 ### scopes
 
--   type: {Array}
--   default: `[]`
+- type: {Array}
+- default: `[]`
 
 List of the allowed scopes. If empty any scope is allowed.
 
 ## Links
 
--   [Conventional commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
--   [vuejs commit convention](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md)
--   [vue-cli commit convention](https://github.com/vuejs/vue-cli/blob/dev/.github/COMMIT_CONVENTION.md)
+- [Conventional commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
+- [vuejs commit convention](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md)
+- [vue-cli commit convention](https://github.com/vuejs/vue-cli/blob/dev/.github/COMMIT_CONVENTION.md)

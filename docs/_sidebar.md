@@ -1,7 +1,7 @@
--   [Introduction](/)
--   [Commits](/commits.md)
--   [Docs](/docs.md)
+- [Introduction](/)
+- [Commits](/commits.md)
+- [Docs](/docs.md)
 
 **Links**
 
--   [Changelog](/changelog)
+- [Changelog](/changelog)
