@@ -4,9 +4,12 @@ subPackages: ~
 
 meta:
   dependabot:
-    npm: false
-    docker: true
-    github-actions: true
+    npm:
+      interval: weekly
+    docker:
+      interval: daily
+    github-actions:
+      interval: daily
   executables:
     - /**/*.sh
     - /_tests/**/*.js

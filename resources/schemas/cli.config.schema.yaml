@@ -2,23 +2,36 @@ type: object
 properties:
   private: { type: boolean }
 
-  subPackages:
-    anyOf:
-      - type: "null"
-      - type: array
-        items: { type: string, format: kebab-case-glob-pattern, pattern: ^/ }
-        minItems: 1
-        uniqueItems: true
-
   meta:
     type: object
     properties:
       dependabot:
         type: object
         properties:
-          npm: { type: boolean }
-          docker: { type: boolean }
-          github-actions: { type: boolean }
+          npm:
+            type: object
+            properties:
+              interval:
+                anyOf:
+                  - type: "null"
+                  - enum: [daily, weekly, monthly]
+            additionalProperties: false
+          docker:
+            type: object
+            properties:
+              interval:
+                anyOf:
+                  - type: "null"
+                  - enum: [daily, weekly, monthly]
+            additionalProperties: false
+          github-actions:
+            type: object
+            properties:
+              interval:
+                anyOf:
+                  - type: "null"
+                  - enum: [daily, weekly, monthly]
+            additionalProperties: false
         additionalProperties: false
       executables:
         anyOf:
@@ -29,6 +42,14 @@ properties:
             uniqueItems: true
     additionalProperties: false
     required: [dependabot]
+
+  subPackages:
+    anyOf:
+      - type: "null"
+      - type: array
+        items: { type: string, format: kebab-case-glob-pattern, pattern: ^/ }
+        minItems: 1
+        uniqueItems: true
 
   docker:
     type: object
