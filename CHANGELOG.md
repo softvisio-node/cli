@@ -1,5 +1,18 @@
 # Changelog
 
+### 3.54.0 (2024-11-27)
+
+Features:
+
+- feat: dependabot config
+
+Other changes:
+
+- chore: update package dependencies
+- chore: update package metadata
+
+[Compare with the previous release: v3.53.3 ... v3.54.0](https://github.com/softvisio-node/cli/compare/v3.53.3...v3.54.0)
+
 ### 3.53.3 (2024-11-26)
 
 Other changes:
