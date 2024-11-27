@@ -3,6 +3,10 @@ private: false
 subPackages: ~
 
 meta:
+  dependabot:
+    npm: false
+    docker: true
+    github-actions: true
   executables:
     - /**/*.sh
     - /_tests/**/*.js

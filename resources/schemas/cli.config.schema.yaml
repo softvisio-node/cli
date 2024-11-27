@@ -11,18 +11,24 @@ properties:
         uniqueItems: true
 
   meta:
-    anyOf:
-      - type: "null"
-      - type: object
+    type: object
+    properties:
+      dependabot:
+        type: object
         properties:
-          executables:
-            anyOf:
-              - type: "null"
-              - type: array
-                items: { type: string }
-                minItems: 1
-                uniqueItems: true
+          npm: { type: boolean }
+          docker: { type: boolean }
+          github-actions: { type: boolean }
         additionalProperties: false
+      executables:
+        anyOf:
+          - type: "null"
+          - type: array
+            items: { type: string }
+            minItems: 1
+            uniqueItems: true
+    additionalProperties: false
+    required: [dependabot]
 
   docker:
     type: object
@@ -123,4 +129,4 @@ properties:
         required: [location]
 
 additionalProperties: false
-required: []
+required: [meta]
