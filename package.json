@@ -38,7 +38,7 @@
         "/src"
     ],
     "scripts": {
-        "test": "node --test _tests/**/*.test.js"
+        "test": "node --test tests/**/*.test.js"
     },
     "dependencies": {
         "@prettier/plugin-xml": "^3.4.1",
