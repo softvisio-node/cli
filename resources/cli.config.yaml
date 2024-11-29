@@ -12,8 +12,8 @@ meta:
       interval: daily
   executables:
     - /**/*.sh
-    - /_tests/**/*.js
     - /bin/**/*.js
+    - /tests/**/*.js
 
 docker:
   composeFile: compose.yaml
