@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.54.1 (2024-12-06)
+
+Other changes:
+
+- chore: lint
+- chore: refactor semver
+- chore: rename tests directory
+- chore: update package dependencies
+- chore: update package metadata
+
+[Compare with the previous release: v3.54.0 ... v3.54.1](https://github.com/softvisio-node/cli/compare/v3.54.0...v3.54.1)
+
 ### 3.54.0 (2024-11-27)
 
 Features:
