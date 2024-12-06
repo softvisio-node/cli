@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.54.2 (2024-12-06)
+
+Other changes:
+
+- chore: update package dependencies
+
+[Compare with the previous release: v3.54.1 ... v3.54.2](https://github.com/softvisio-node/cli/compare/v3.54.1...v3.54.2)
+
 ### 3.54.1 (2024-12-06)
 
 Other changes:
