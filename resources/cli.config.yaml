@@ -3,33 +3,33 @@ private: false
 subPackages: ~
 
 meta:
-  dependabot:
-    npm:
-      interval: weekly
-    docker:
-      interval: daily
-    github-actions:
-      interval: daily
-  executables:
-    - /**/*.sh
-    - /bin/**/*.js
-    - /tests/**/*.js
+    dependabot:
+        npm:
+            interval: weekly
+        docker:
+            interval: daily
+        github-actions:
+            interval: daily
+    executables:
+        - /**/*.sh
+        - /bin/**/*.js
+        - /tests/**/*.js
 
 docker:
-  composeFile: compose.yaml
-  defaultTag: ~
-  autoTags: ~
+    composeFile: compose.yaml
+    defaultTag: ~
+    autoTags: ~
 
 commits:
-  strict: true
+    strict: true
 
-  types:
-    - chore
-    - feat
-    - fix
+    types:
+        - chore
+        - feat
+        - fix
 
-  scopeRequired: false
+    scopeRequired: false
 
-  scopes: ~
+    scopes: ~
 
 docs: ~
