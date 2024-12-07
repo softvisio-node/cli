@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.54.3 (2024-12-07)
+
+Other changes:
+
+- chore: fix docs server address
+- chore: set yaml indent to 4 spaces
+- chore: update markdown linter
+- chore: update package dependencies
+
+[Compare with the previous release: v3.54.2 ... v3.54.3](https://github.com/softvisio-node/cli/compare/v3.54.2...v3.54.3)
+
 ### 3.54.2 (2024-12-06)
 
 Other changes:
