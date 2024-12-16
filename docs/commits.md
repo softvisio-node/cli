@@ -34,9 +34,15 @@ git commit -m"feat(core)!: commit description"
 {
     "commits": {
         "strict": true,
-        "types": ["custom1", "custom2"],
+        "types": [
+            "custom1",
+            "custom2"
+        ],
         "scopeRequired": true,
-        "scopes": ["core", "web"]
+        "scopes": [
+            "core",
+            "web"
+        ]
     }
 }
 ```
