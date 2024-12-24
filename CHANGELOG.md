@@ -1,5 +1,27 @@
 # Changelog
 
+### 3.55.0 (2024-12-24)
+
+Features:
+
+- feat: add aes-256 key generator
+
+Other changes:
+
+- chore: add .json5 extension
+- chore: add json extension
+- chore: add more elliptic curves
+- chore: fix lint file abs path
+- chore: lint package metadata files
+- chore: refactor lint
+- chore: refactor mime
+- chore: update copy to clipboard
+- chore: update default value for apt/update delete=outdated-packages
+- chore: update dependencies
+- chore: update package dependencies
+
+[Compare with the previous release: v3.54.3 ... v3.55.0](https://github.com/softvisio-node/cli/compare/v3.54.3...v3.55.0)
+
 ### 3.54.3 (2024-12-07)
 
 Other changes:
