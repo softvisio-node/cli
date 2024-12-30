@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.56.0 (2024-12-30)
+
+Features:
+
+- feat: add uuid generator
+
+Other changes:
+
+- chore: update package dependencies
+
+[Compare with the previous release: v3.55.1 ... v3.56.0](https://github.com/softvisio-node/cli/compare/v3.55.1...v3.56.0)
+
 ### 3.55.1 (2024-12-27)
 
 Other changes:
