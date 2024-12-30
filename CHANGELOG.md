@@ -1,5 +1,20 @@
 # Changelog
 
+### 3.57.0 (2024-12-30)
+
+Features:
+
+- feat: add secret key generator
+
+Other changes:
+
+- chore: keep formatting on eslint parsing error
+- chore: refactor lint file results
+- chore: update package dependencies
+- chore: update uuid generator
+
+[Compare with the previous release: v3.56.0 ... v3.57.0](https://github.com/softvisio-node/cli/compare/v3.56.0...v3.57.0)
+
 ### 3.56.0 (2024-12-30)
 
 Features:
