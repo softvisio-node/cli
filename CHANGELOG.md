@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.57.1 (2024-12-31)
+
+Other changes:
+
+- chore: use async fs.exists where possible
+
+[Compare with the previous release: v3.57.0 ... v3.57.1](https://github.com/softvisio-node/cli/compare/v3.57.0...v3.57.1)
+
 ### 3.57.0 (2024-12-30)
 
 Features:
