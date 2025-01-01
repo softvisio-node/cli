@@ -47,7 +47,7 @@ properties:
         anyOf:
             - type: "null"
             - type: array
-              items: { type: string, format: kebab-case-glob-pattern, pattern: ^/ }
+              items: { type: string, format: glob-pattern, pattern: ^/ }
               minItems: 1
               uniqueItems: true
 
