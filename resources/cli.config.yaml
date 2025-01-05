@@ -11,9 +11,9 @@ meta:
         github-actions:
             interval: daily
     executables:
-        - /**/*.sh
-        - /bin/**/*.js
-        - /tests/**/*.js
+        - "**/*.sh"
+        - bin/**/*.js
+        - tests/**/*.js
 
 docker:
     composeFile: compose.yaml
