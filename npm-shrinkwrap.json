@@ -913,9 +913,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.7.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.7.5.tgz",
-            "integrity": "sha512-7Dj84ldWlOusvONCNnVWr+HTNheCCVgxsWSLV1rq7gbSLLfeR/s1M4BjxPQJKHArrBXUhAP+wF3HWhKeqeeu/Q==",
+            "version": "1.7.6",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.7.6.tgz",
+            "integrity": "sha512-jEL/3MVr/nEJCyC6V6tCrTukcDdZe0D08Jsnyl8qK3zD+WO/G5Qnrfik321rA3GVuUCwHsIevvPZXZMp/0DeuA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -926,9 +926,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.129.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.129.0.tgz",
-            "integrity": "sha512-qIgh2IXfwOJ6y68lMC8JZb5dXj7Oso5/NvuC6OHMpX4PL9ZgqFRSo0uWZBMjoIG3ZJKblUdKkFiqFUIjHFz4nA==",
+            "version": "7.129.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.129.1.tgz",
+            "integrity": "sha512-gPk60mgWJ+BR5hOa1sbvNIZFBimaFQtRF5ozXAAs1TnARgTGBn24OV6mmv+53i/amTw/IvLRGz7wlUez4l7erw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -971,9 +971,9 @@
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.7.18",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.18.tgz",
-            "integrity": "sha512-3IXTJaAe9dKhkgoKMkzjOxXEPIxDQEfzOyTZO7P9Iw2xQaaRy7eC4Wnb/2TLL0dS1BQlRINpTGswCaK6xzFQFQ==",
+            "version": "1.7.19",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.19.tgz",
+            "integrity": "sha512-dIpVQkhhHlB15fYbW6RejuWZF4X0hmNH2Wl8o7/WkXB/UOzgruCwVtFC1sAM6eSfKlgwnkEr3NFIxMrBRVkQIw==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
@@ -993,9 +993,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.20.6",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.20.6.tgz",
-            "integrity": "sha512-74hA4qGbv2HFO7h6Fyn1Ms1k2rPKa8F7g46QvPwDI1YZsUoJmRdVM/sQUvHVDW+vVWgQ7x2w2AoilQZkrdBmMw==",
+            "version": "1.20.7",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.20.7.tgz",
+            "integrity": "sha512-rTSdaW9A7HHTd6BON17p4P3TIEKrA7IFSgU0Ii+mXxx89vDq/Oc+rfdDy2eKDId2teNgJp54PbF6se8ppUwOBQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1003,9 +1003,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "2.4.2",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.4.2.tgz",
-            "integrity": "sha512-cjXzTa0+SW/iRyS2tC+WSy36aQ0epC9nfs9G22qOaojCRKupoPllt5JgdFKu/Rgs2SuZvfe4dprBoe6DJNXjug==",
+            "version": "2.4.3",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.4.3.tgz",
+            "integrity": "sha512-D9FttBfg4IbYXQcoIHxfBVZ991rz/6Lznfc/CbpcZK7rg9+gO2p1pI+LgJTxRUKAfYY5vq26/+wdZzg2hDhAZA==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -1013,9 +1013,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.9.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.9.3.tgz",
-            "integrity": "sha512-W6ZSdFJ/mna3Iue6kjLBGFS1X4Rd+vXkwMRvi/RCNWrT60xAWGcvWOiO3AfBT9hEfmwCcs6Ldf/moMg1uHD+Bg==",
+            "version": "2.9.4",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.9.4.tgz",
+            "integrity": "sha512-knSn0w45kViFb+t307DJ2U0Zl0JFyRqpLCmAmA2GaKpjgIfyLlKpNFgVOiGsxf8x4YdPmo2s/BATegxQoV6r/Q==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
