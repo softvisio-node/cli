@@ -1,5 +1,22 @@
 # Changelog
 
+### 3.58.0 (2025-01-08)
+
+Features:
+
+- feat: add async glob
+
+Other changes:
+
+- chore: fix await glob
+- chore: fix executables patterns
+- chore: refactor glob patterns
+- chore: update cli spec
+- chore: update package dependencies
+- chore: use async glob
+
+[Compare with the previous release: v3.57.1 ... v3.58.0](https://github.com/softvisio-node/cli/compare/v3.57.1...v3.58.0)
+
 ### 3.57.1 (2024-12-31)
 
 Other changes:
