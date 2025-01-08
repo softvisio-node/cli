@@ -913,9 +913,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.7.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.7.4.tgz",
-            "integrity": "sha512-wF+LfsYMQWk/RgaFcfEHJeVX2pCr5X3orzFUrwdSx1s6VdgRmQun+I6tkwyAW3whcqCJ1AKerGz8xZhos/APJA==",
+            "version": "1.7.5",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.7.5.tgz",
+            "integrity": "sha512-7Dj84ldWlOusvONCNnVWr+HTNheCCVgxsWSLV1rq7gbSLLfeR/s1M4BjxPQJKHArrBXUhAP+wF3HWhKeqeeu/Q==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -926,9 +926,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.128.2",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.128.2.tgz",
-            "integrity": "sha512-j7FeLLWeJeen90lK4sCxU3U791r6rskUQogKAqT3Xw4Gg5P/UQKF3LjMZIcKedZL4yXsibfqcY8x3PU3fkGvfw==",
+            "version": "7.129.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.129.0.tgz",
+            "integrity": "sha512-qIgh2IXfwOJ6y68lMC8JZb5dXj7Oso5/NvuC6OHMpX4PL9ZgqFRSo0uWZBMjoIG3ZJKblUdKkFiqFUIjHFz4nA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -993,9 +993,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.20.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.20.5.tgz",
-            "integrity": "sha512-X+PTxdc1ck+y82SY0Aa1Y1C1RKb/cJGMasphCMOzn5beie3FR1OLBHzb9nPCAJ+yQU5Q/kJuHSxTcnc+P7oihg==",
+            "version": "1.20.6",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.20.6.tgz",
+            "integrity": "sha512-74hA4qGbv2HFO7h6Fyn1Ms1k2rPKa8F7g46QvPwDI1YZsUoJmRdVM/sQUvHVDW+vVWgQ7x2w2AoilQZkrdBmMw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1003,9 +1003,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "2.3.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.3.0.tgz",
-            "integrity": "sha512-IYo81EBMf/+NZb/pt1YPW4YS0gswy0Cc/yR/Fp4pGp3ALklK/LiEqHxYdk8cZAJ2MgjuXHAc+cLxgjhprVk5qA==",
+            "version": "2.4.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.4.2.tgz",
+            "integrity": "sha512-cjXzTa0+SW/iRyS2tC+WSy36aQ0epC9nfs9G22qOaojCRKupoPllt5JgdFKu/Rgs2SuZvfe4dprBoe6DJNXjug==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -1013,9 +1013,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.9.2",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.9.2.tgz",
-            "integrity": "sha512-niGBWUnFjbjQZSHYYzCsJEKqrG+ZEF1yGwjdMAzfNBsJO4sBH0LhgZDGCytXAhgoElzKux/oftK54gCbD+Byjg==",
+            "version": "2.9.3",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.9.3.tgz",
+            "integrity": "sha512-W6ZSdFJ/mna3Iue6kjLBGFS1X4Rd+vXkwMRvi/RCNWrT60xAWGcvWOiO3AfBT9hEfmwCcs6Ldf/moMg1uHD+Bg==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1709,9 +1709,9 @@
             }
         },
         "node_modules/browserslist": {
-            "version": "4.24.3",
-            "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.24.3.tgz",
-            "integrity": "sha512-1CPmv8iobE2fyRMV97dAcMVegvvWKxmq94hkLiAkUGwKVTyDLw33K+ZxiFrREKmmps4rIw6grcCFCnTMSZ/YiA==",
+            "version": "4.24.4",
+            "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.24.4.tgz",
+            "integrity": "sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==",
             "funding": [
                 {
                     "type": "opencollective",
@@ -7988,9 +7988,9 @@
             }
         },
         "node_modules/typescript": {
-            "version": "5.7.2",
-            "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.7.2.tgz",
-            "integrity": "sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==",
+            "version": "5.7.3",
+            "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz",
+            "integrity": "sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==",
             "license": "Apache-2.0",
             "peer": true,
             "bin": {
@@ -8124,9 +8124,9 @@
             }
         },
         "node_modules/update-browserslist-db": {
-            "version": "1.1.1",
-            "resolved": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.1.tgz",
-            "integrity": "sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==",
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.2.tgz",
+            "integrity": "sha512-PPypAm5qvlD7XMZC3BujecnaOxwhrtoFR+Dqkk5Aa/6DssiH0ibKoketaj9w8LP7Bont1rYeoV5plxD7RTEPRg==",
             "funding": [
                 {
                     "type": "opencollective",
@@ -8144,7 +8144,7 @@
             "license": "MIT",
             "dependencies": {
                 "escalade": "^3.2.0",
-                "picocolors": "^1.1.0"
+                "picocolors": "^1.1.1"
             },
             "bin": {
                 "update-browserslist-db": "cli.js"
