@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.58.1 (2025-01-08)
+
+Other changes:
+
+- chore: fix docs builder
+- chore: update package dependencies
+- chore: update package metadata
+
+[Compare with the previous release: v3.58.0 ... v3.58.1](https://github.com/softvisio-node/cli/compare/v3.58.0...v3.58.1)
+
 ### 3.58.0 (2025-01-08)
 
 Features:
