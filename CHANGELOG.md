@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.58.2 (2025-01-10)
+
+Other changes:
+
+- chore: update changelog template
+- chore: update package dependencies
+
+[Compare with the previous release: v3.58.1...v3.58.2](https://github.com/softvisio-node/cli/compare/v3.58.1...v3.58.2)
+
 ### 3.58.1 (2025-01-08)
 
 Other changes:
