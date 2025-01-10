@@ -926,9 +926,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.129.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.129.3.tgz",
-            "integrity": "sha512-buf3dJzW8Sj91H91mKePAD1tOBzImATF1h8uVxBEk/bODPMkAUZAOApKFLK1xCf+4uzqkh/hmPkvfDk/qPPwlw==",
+            "version": "7.129.4",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.129.4.tgz",
+            "integrity": "sha512-6mgwGO1znYhyf8HB7191sVL1k6ZIugf8LosGN7LvQhNCFkJzPA/VegJ+Pxz7XGXoOBxvvvhexwA4PyD63i1mZg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -962,6 +962,7 @@
                 "undici": "^7.0.0"
             },
             "bin": {
+                "install-google-chrome": "bin/install-google-chrome.js",
                 "nenv": "bin/nenv.js",
                 "softvisio-api": "bin/softvisio-api.js"
             },
@@ -1003,9 +1004,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "2.4.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.4.3.tgz",
-            "integrity": "sha512-D9FttBfg4IbYXQcoIHxfBVZ991rz/6Lznfc/CbpcZK7rg9+gO2p1pI+LgJTxRUKAfYY5vq26/+wdZzg2hDhAZA==",
+            "version": "2.5.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.5.1.tgz",
+            "integrity": "sha512-Osuo4Q/TNnkW2QcWa77Fse07MA9qr50Drfgu5BGMuT6ncAxyq7BTDswdCtfEJnFYD/CIPMDX5Ll7E5oauvERaA==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
