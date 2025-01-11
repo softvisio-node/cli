@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.59.0 (2025-01-11)
+
+Features:
+
+- feat: refactor env dirs
+
+Other changes:
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.58.5...v3.59.0`](https://github.com/softvisio-node/cli/compare/v3.58.5...v3.59.0)
+
 ### 3.58.5 (2025-01-10)
 
 Other changes:
