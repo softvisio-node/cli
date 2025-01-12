@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.59.1 (2025-01-12)
+
+Other changes:
+
+- chore: update nginx ssl settings
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.59.0...v3.59.1`](https://github.com/softvisio-node/cli/compare/v3.59.0...v3.59.1)
+
 ### 3.59.0 (2025-01-11)
 
 Features:
