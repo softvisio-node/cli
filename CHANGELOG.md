@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.60.0 (2025-01-13)
+
+Features:
+
+- feat: add update-resources command
+
+Other changes:
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.59.1...v3.60.0`](https://github.com/softvisio-node/cli/compare/v3.59.1...v3.60.0)
+
 ### 3.59.1 (2025-01-12)
 
 Other changes:
