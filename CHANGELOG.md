@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.60.2 (2025-01-18)
+
+Other changes:
+
+- chore: sort external resources on update
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.60.1...v3.60.2`](https://github.com/softvisio-node/cli/compare/v3.60.1...v3.60.2)
+
 ### 3.60.1 (2025-01-15)
 
 Other changes:
