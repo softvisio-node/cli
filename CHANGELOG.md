@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.60.3 (2025-01-21)
+
+Other changes:
+
+- chore: set outdated scan max threads to 2
+- chore: set outdated scan max threads to 5
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.60.2...v3.60.3`](https://github.com/softvisio-node/cli/compare/v3.60.2...v3.60.3)
+
 ### 3.60.2 (2025-01-18)
 
 Other changes:
