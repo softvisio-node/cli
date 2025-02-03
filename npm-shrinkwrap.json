@@ -914,9 +914,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.7.6",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.7.6.tgz",
-            "integrity": "sha512-jEL/3MVr/nEJCyC6V6tCrTukcDdZe0D08Jsnyl8qK3zD+WO/G5Qnrfik321rA3GVuUCwHsIevvPZXZMp/0DeuA==",
+            "version": "1.8.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.8.0.tgz",
+            "integrity": "sha512-q7/VYsau3KawF4FrmWveqQTdEIzYcujXc8CPs9j4fGmqqnbkXJ7B1A9kHz356ltq/aPOEnKvQzXZC2/Tdhm2hg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -927,9 +927,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.133.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.133.3.tgz",
-            "integrity": "sha512-RSHTDe9fSNKs3wuepJEV0rWxjryRPgGAhFF/qOSknL12y3PyzKTN3Rf0JKgzULLFAChD7FpIN3WwBcRi9/TmAQ==",
+            "version": "7.134.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.134.0.tgz",
+            "integrity": "sha512-qV94bh0HoVTMCqwoX3EMd4aL2VIKr3MAqJEJV/cjFyIsHnODVmACkv62CqJrLtfvXLYb1RLmvfQOEQ+YJLGjPQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -960,6 +960,7 @@
                 "semver": "^7.3.7",
                 "telegram": "^2.26.6",
                 "temporal-polyfill": "^0.2.5",
+                "to-regex-range": "^5.0.1",
                 "undici": "^7.0.0"
             },
             "bin": {
@@ -995,9 +996,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.22.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.22.1.tgz",
-            "integrity": "sha512-+o7fgoqVgZ27E28wlvO1D/hXtCb+POXvdPmLkFX3QWiJFVdLBzPpzGGsh40Rlpca9QdQDI/OGkr0LTVLIoidmQ==",
+            "version": "1.23.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.23.0.tgz",
+            "integrity": "sha512-0j+e/svGRkITypmIg6AEaWrlv1HKVvzkleb8PglCrI/eKVT57ta+AFnL7UjIPf5H3SiLuy2IMrmHSbMCccfsUg==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1015,9 +1016,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.9.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.9.4.tgz",
-            "integrity": "sha512-knSn0w45kViFb+t307DJ2U0Zl0JFyRqpLCmAmA2GaKpjgIfyLlKpNFgVOiGsxf8x4YdPmo2s/BATegxQoV6r/Q==",
+            "version": "2.10.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.10.0.tgz",
+            "integrity": "sha512-MXituGjIoVUmEwJnFRnspmZ7FFgZoIfSrICB62GeX09DnP7eNtkfhdE9bOCSzDrsm+y7rrV7W1q1DSoptGIShQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -2620,9 +2621,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.90",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.90.tgz",
-            "integrity": "sha512-C3PN4aydfW91Natdyd449Kw+BzhLmof6tzy5W1pFC5SpQxVXT+oyiyOG9AgYYSN9OdA/ik3YkCrpwqI8ug5Tug==",
+            "version": "1.5.91",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.91.tgz",
+            "integrity": "sha512-sNSHHyq048PFmZY4S90ax61q+gLCs0X0YmcOII9wG9S2XwbVr+h4VW2wWhnbp/Eys3cCwTxVF292W3qPaxIapQ==",
             "license": "ISC"
         },
         "node_modules/emoji-regex": {
@@ -7002,9 +7003,9 @@
             }
         },
         "node_modules/semver": {
-            "version": "7.7.0",
-            "resolved": "https://registry.npmjs.org/semver/-/semver-7.7.0.tgz",
-            "integrity": "sha512-DrfFnPzblFmNrIZzg5RzHegbiRWg7KMR7btwi2yjHwx06zsUbO5g613sVwEV7FTwmzJu+Io0lJe2GJ3LxqpvBQ==",
+            "version": "7.7.1",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-7.7.1.tgz",
+            "integrity": "sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==",
             "license": "ISC",
             "bin": {
                 "semver": "bin/semver.js"
