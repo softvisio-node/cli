@@ -3953,9 +3953,9 @@
             }
         },
         "node_modules/import-fresh": {
-            "version": "3.3.0",
-            "resolved": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz",
-            "integrity": "sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==",
+            "version": "3.3.1",
+            "resolved": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz",
+            "integrity": "sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==",
             "license": "MIT",
             "dependencies": {
                 "parent-module": "^1.0.0",
@@ -7845,9 +7845,9 @@
             }
         },
         "node_modules/ts-api-utils": {
-            "version": "2.0.0",
-            "resolved": "https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.0.0.tgz",
-            "integrity": "sha512-xCt/TOAc+EOHS1XPnijD3/yzpH6qg2xppZO1YDqGoVsNXfQfzHpOdNuXwrwOU8u4ITXJyDCTyt8w5g1sZv9ynQ==",
+            "version": "2.0.1",
+            "resolved": "https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.0.1.tgz",
+            "integrity": "sha512-dnlgjFSVetynI8nzgJ+qF62efpglpWRk8isUEWZGWlJYySCTD6aKvbUDu+zbPeDakk3bg5H4XpitHukgfL1m9w==",
             "license": "MIT",
             "engines": {
                 "node": ">=18.12"
