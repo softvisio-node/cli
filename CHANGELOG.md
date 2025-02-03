@@ -1,5 +1,20 @@
 # Changelog
 
+### 3.61.0 (2025-02-03)
+
+Features:
+
+- feat: refactor read / write config
+- feat: refactor utils confirm
+
+Other changes:
+
+- chore: set focus to confirm yes
+- chore: update @stylistic/eslint-plugin
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.60.3...v3.61.0`](https://github.com/softvisio-node/cli/compare/v3.60.3...v3.61.0)
+
 ### 3.60.3 (2025-01-21)
 
 Other changes:
