@@ -56,7 +56,7 @@ const spec = {
         },
         "deb": {
             "short": false,
-            "title": "Deb repository tools",
+            "title": "Debian package repository tools",
             "module": () => new URL( "../lib/commands/deb.js", import.meta.url ),
         },
         "git": {
