@@ -54,10 +54,10 @@ const spec = {
             "title": "Run RPC service",
             "module": () => new URL( "../lib/commands/rpc.js", import.meta.url ),
         },
-        "apt": {
-            "short": "a",
-            "title": "Apt repository tools",
-            "module": () => new URL( "../lib/commands/apt.js", import.meta.url ),
+        "deb": {
+            "short": false,
+            "title": "Deb repository tools",
+            "module": () => new URL( "../lib/commands/deb.js", import.meta.url ),
         },
         "git": {
             "title": "Git tools",
