@@ -1,5 +1,18 @@
 # Changelog
 
+### 3.62.0 (2025-02-05)
+
+Features:
+
+- feat: add package update-dependencies --yes option
+- feat: rename apt command to deb
+
+Other changes:
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.61.0...v3.62.0`](https://github.com/softvisio-node/cli/compare/v3.61.0...v3.62.0)
+
 ### 3.61.0 (2025-02-03)
 
 Features:
