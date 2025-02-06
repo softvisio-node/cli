@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.62.1 (2025-02-06)
+
+Other changes:
+
+- chore: refactor deb command
+
+Compare with the previous release: [`v3.62.0...v3.62.1`](https://github.com/softvisio-node/cli/compare/v3.62.0...v3.62.1)
+
 ### 3.62.0 (2025-02-05)
 
 Features:
