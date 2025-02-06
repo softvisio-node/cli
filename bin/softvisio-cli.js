@@ -54,10 +54,10 @@ const spec = {
             "title": "Run RPC service",
             "module": () => new URL( "../lib/commands/rpc.js", import.meta.url ),
         },
-        "deb": {
+        "debian-repository": {
             "short": false,
             "title": "Debian package repository tools",
-            "module": () => new URL( "../lib/commands/deb.js", import.meta.url ),
+            "module": () => new URL( "../lib/commands/debian-repository.js", import.meta.url ),
         },
         "git": {
             "title": "Git tools",
