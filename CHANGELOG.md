@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.62.2 (2025-02-10)
+
+Other changes:
+
+- chore: update package dependencies
+- chore: update private key generator
+
+Compare with the previous release: [`v3.62.1...v3.62.2`](https://github.com/softvisio-node/cli/compare/v3.62.1...v3.62.2)
+
 ### 3.62.1 (2025-02-06)
 
 Other changes:
