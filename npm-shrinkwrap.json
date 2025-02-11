@@ -1018,9 +1018,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "2.6.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.6.3.tgz",
-            "integrity": "sha512-qP4fK+YhpOSXt9mqw2a/GC0hYPY16SHSylS/zePPLZNhWyHXp18zxu5Rt+e+1gdvOWnmmDK8UPMkVj8pMJP32Q==",
+            "version": "2.6.4",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.6.4.tgz",
+            "integrity": "sha512-BsnVMuSi3a4C/vYl2GK5jE78qim0MvCBK+Xge2pmaY2FcmrbQ75ehl7iQ5oj1kSE1O0VJGKEy5rKbctexRgakw==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -3522,9 +3522,9 @@
             "license": "ISC"
         },
         "node_modules/for-each": {
-            "version": "0.3.4",
-            "resolved": "https://registry.npmjs.org/for-each/-/for-each-0.3.4.tgz",
-            "integrity": "sha512-kKaIINnFpzW6ffJNDjjyjrk21BkDx38c0xa/klsT8VzLCaMEefv4ZTacrcVR4DmgTeBra++jMDAfS/tS799YDw==",
+            "version": "0.3.5",
+            "resolved": "https://registry.npmjs.org/for-each/-/for-each-0.3.5.tgz",
+            "integrity": "sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==",
             "license": "MIT",
             "dependencies": {
                 "is-callable": "^1.2.7"
