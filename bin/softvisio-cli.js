@@ -47,10 +47,12 @@ const spec = {
             "module": () => new URL( "../lib/commands/workspace.js", import.meta.url ),
         },
         "generate": {
+            "short": "g",
             "title": "Generate data",
             "module": () => new URL( "../lib/commands/generate.js", import.meta.url ),
         },
         "rpc": {
+            "short": "r",
             "title": "Run RPC service",
             "module": () => new URL( "../lib/commands/rpc.js", import.meta.url ),
         },
