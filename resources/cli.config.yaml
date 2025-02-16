@@ -23,7 +23,7 @@ meta:
         hasProjects: false
         hasWiki: false
         defaultBranch: ~
-        allowForking: true
+        allowForking: ~
         secretScanning: enabled
         secretScanningPushProtection: enabled
 
