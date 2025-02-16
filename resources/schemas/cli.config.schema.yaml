@@ -56,9 +56,21 @@ properties:
                     hasWiki: { type: ["null", boolean] }
                     defaultBranch: { type: ["null", string] }
                     allowForking: { type: ["null", boolean] }
-                    secretScanning: { type: ["null", boolean] }
-                    secretScanningPushProtection: { type: ["null", boolean] }
-                    secretScanningNonProviderPatterns: { type: ["null", boolean] }
+
+                    secretScanning:
+                        anyOf:
+                            - type: "null"
+                            - enum: [enabled, disabled]
+
+                    secretScanningPushProtection:
+                        anyOf:
+                            - type: "null"
+                            - enum: [enabled, disabled]
+
+                    secretScanningNonProviderPatterns:
+                        anyOf:
+                            - type: "null"
+                            - enum: [enabled, disabled]
 
                 additionalProperties: false
 

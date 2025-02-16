@@ -24,9 +24,9 @@ meta:
         hasWiki: false
         defaultBranch: ~
         allowForking: true
-        secretScanning: true
-        secretScanningPushProtection: true
-        secretScanningNonProviderPatterns: true
+        secretScanning: enabled
+        secretScanningPushProtection: enabled
+        secretScanningNonProviderPatterns: enabled
 
 docker:
     composeFile: compose.yaml
