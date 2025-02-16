@@ -33,6 +33,7 @@ properties:
                                     - enum: [daily, weekly, monthly]
                         additionalProperties: false
                 additionalProperties: false
+
             executables:
                 anyOf:
                     - type: "null"
@@ -40,8 +41,31 @@ properties:
                       items: { type: string }
                       minItems: 1
                       uniqueItems: true
+
+            repository:
+                type: object
+                properties:
+                    private: { type: ["null", boolean] }
+                    visibility:
+                        anyOf:
+                            - type: "null"
+                            - enum: [public, private]
+
+                    hasIssues: { type: ["null", boolean] }
+                    hasProjects: { type: ["null", boolean] }
+                    hasWiki: { type: ["null", boolean] }
+                    defaultBranch: { type: ["null", string] }
+                    allowForking: { type: ["null", boolean] }
+                    advancedSecurity: { type: ["null", boolean] }
+                    secretScanning: { type: ["null", boolean] }
+                    secretScanningPushProtection: { type: ["null", boolean] }
+                    secretScanningAiDetection: { type: ["null", boolean] }
+                    secretScanningNonProviderPatterns: { type: ["null", boolean] }
+
+                additionalProperties: false
+
         additionalProperties: false
-        required: [dependabot]
+        required: [dependabot, executables, repository]
 
     subPackages:
         anyOf:

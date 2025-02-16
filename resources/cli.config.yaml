@@ -10,10 +10,25 @@ meta:
             interval: daily
         github-actions:
             interval: daily
+
     executables:
         - "**/*.sh"
         - bin/**/*.js
         - tests/**/*.js
+
+    repository:
+        private: ~
+        visibility: ~
+        hasIssues: true
+        hasProjects: false
+        hasWiki: false
+        defaultBranch: ~
+        allowForking: true
+        advancedSecurity: true
+        secretScanning: true
+        secretScanningPushProtection: true
+        secretScanningAiDetection: true
+        secretScanningNonProviderPatterns: true
 
 docker:
     composeFile: compose.yaml
