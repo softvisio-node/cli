@@ -24,10 +24,8 @@ meta:
         hasWiki: false
         defaultBranch: ~
         allowForking: true
-        advancedSecurity: true
         secretScanning: true
         secretScanningPushProtection: true
-        secretScanningAiDetection: true
         secretScanningNonProviderPatterns: true
 
 docker:

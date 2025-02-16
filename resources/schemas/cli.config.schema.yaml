@@ -56,10 +56,8 @@ properties:
                     hasWiki: { type: ["null", boolean] }
                     defaultBranch: { type: ["null", string] }
                     allowForking: { type: ["null", boolean] }
-                    advancedSecurity: { type: ["null", boolean] }
                     secretScanning: { type: ["null", boolean] }
                     secretScanningPushProtection: { type: ["null", boolean] }
-                    secretScanningAiDetection: { type: ["null", boolean] }
                     secretScanningNonProviderPatterns: { type: ["null", boolean] }
 
                 additionalProperties: false
