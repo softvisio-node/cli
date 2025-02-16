@@ -1,5 +1,20 @@
 # Changelog
 
+### 3.63.0 (2025-02-16)
+
+Features:
+
+- feat: add setup project on github
+
+Other changes:
+
+- chore: refactor resources
+- chore: update dependencies
+- chore: update package dependencies
+- chore: update resources logger
+
+Compare with the previous release: [`v3.62.3...v3.63.0`](https://github.com/softvisio-node/cli/compare/v3.62.3...v3.63.0)
+
 ### 3.62.3 (2025-02-11)
 
 Other changes:
