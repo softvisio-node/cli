@@ -67,11 +67,6 @@ properties:
                             - type: "null"
                             - enum: [enabled, disabled]
 
-                    secretScanningNonProviderPatterns:
-                        anyOf:
-                            - type: "null"
-                            - enum: [enabled, disabled]
-
                 additionalProperties: false
 
         additionalProperties: false

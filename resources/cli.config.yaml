@@ -26,7 +26,6 @@ meta:
         allowForking: true
         secretScanning: enabled
         secretScanningPushProtection: enabled
-        secretScanningNonProviderPatterns: enabled
 
 docker:
     composeFile: compose.yaml
