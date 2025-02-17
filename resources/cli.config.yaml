@@ -22,6 +22,7 @@ meta:
         hasIssues: true
         hasProjects: false
         hasWiki: false
+        hasDiscussions: true
         defaultBranch: ~
         allowForking: ~
         secretScanning: enabled

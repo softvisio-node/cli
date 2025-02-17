@@ -54,6 +54,7 @@ properties:
                     hasIssues: { type: ["null", boolean] }
                     hasProjects: { type: ["null", boolean] }
                     hasWiki: { type: ["null", boolean] }
+                    hasDiscussions: { type: ["null", boolean] }
                     defaultBranch: { type: ["null", string] }
                     allowForking: { type: ["null", boolean] }
 
