@@ -45,6 +45,7 @@ properties:
             repository:
                 type: object
                 properties:
+                    archived: { type: ["null", boolean] }
                     private: { type: ["null", boolean] }
                     visibility:
                         anyOf:
