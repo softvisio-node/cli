@@ -28,9 +28,9 @@ meta:
         allowForking: ~
         secretScanning: enabled
         secretScanningPushProtection: enabled
+        vulnerabilityAlerts: true
         dependabotsecurityupdates: true
         privateVulnerabilityReporting: true
-        vulnerabilityAlerts: true
 
 docker:
     composeFile: compose.yaml
