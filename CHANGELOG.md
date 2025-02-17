@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.63.2 (2025-02-17)
+
+Other changes:
+
+- chore: update github api
+
+Compare with the previous release: [`v3.63.1...v3.63.2`](https://github.com/softvisio-node/cli/compare/v3.63.1...v3.63.2)
+
 ### 3.63.1 (2025-02-17)
 
 Other changes:
