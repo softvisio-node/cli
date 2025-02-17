@@ -69,6 +69,10 @@ properties:
                             - type: "null"
                             - enum: [enabled, disabled]
 
+                    dependabotsecurityupdates: { type: ["null", boolean] }
+                    privateVulnerabilityReporting: { type: ["null", boolean] }
+                    vulnerabilityAlerts: { type: ["null", boolean] }
+
                 additionalProperties: false
 
         additionalProperties: false
