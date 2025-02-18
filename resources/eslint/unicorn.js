@@ -15,8 +15,12 @@ const CONFIG = [
                     "name": "e",
                 },
             ],
+
+            "unicorn/consistent-assert": "error",
+            "unicorn/consistent-date-clone": "error",
             "unicorn/escape-case": "error",
             "unicorn/new-for-builtins": "error",
+            "unicorn/no-accessor-recursion": "error",
 
             // XXX "unicorn/no-array-for-each": "error",
             // XXX "unicorn/no-array-reduce": "error",
@@ -27,6 +31,7 @@ const CONFIG = [
 
             // XXX "unicorn/no-lonely-if": "error",
 
+            "unicorn/no-named-default": "error",
             "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-zero-fractions": "error",
             "unicorn/number-literal-case": "error",
