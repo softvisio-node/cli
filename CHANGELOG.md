@@ -1,5 +1,18 @@
 # Changelog
 
+### 3.63.4 (2025-02-18)
+
+Other changes:
+
+- chore: linted
+- chore: refactor dependencies updater
+- chore: update dependencies
+- chore: update eslint rules
+- chore: update help
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.63.3...v3.63.4`](https://github.com/softvisio-node/cli/compare/v3.63.3...v3.63.4)
+
 ### 3.63.3 (2025-02-17)
 
 Other changes:
