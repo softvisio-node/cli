@@ -22,7 +22,7 @@ const CONFIG = [
             // XXX "unicorn/no-array-reduce": "error",
             // XXX "unicorn/no-await-expression-member": "error",
 
-            "unicorn/no-instanceof-array": "error",
+            // "unicorn/no-instanceof-builtins": "error",
             "unicorn/no-length-as-slice-end": "error",
 
             // XXX "unicorn/no-lonely-if": "error",
