@@ -21,9 +21,9 @@ meta:
         private: ~
         visibility: ~
         hasIssues: true
-        hasProjects: false
+        hasDiscussions: false
         hasWiki: false
-        hasDiscussions: true
+        hasProjects: false
         defaultBranch: ~
         allowForking: ~
         secretScanning: enabled
