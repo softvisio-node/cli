@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.63.9 (2025-02-19)
+
+Other changes:
+
+- chore: optimize code
+
+Compare with the previous release: [`v3.63.8...v3.63.9`](https://github.com/softvisio-node/cli/compare/v3.63.8...v3.63.9)
+
 ### 3.63.8 (2025-02-19)
 
 Other changes:
