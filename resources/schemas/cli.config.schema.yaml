@@ -1,6 +1,6 @@
 type: object
 properties:
-    private: { type: boolean }
+    releasable: { type: boolean }
 
     meta:
         type: object
@@ -186,4 +186,4 @@ properties:
               required: [location]
 
 additionalProperties: false
-required: [meta]
+required: [releasable, meta]
