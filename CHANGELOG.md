@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.63.11 (2025-02-20)
+
+Other changes:
+
+- chore: update html minifier
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.63.10...v3.63.11`](https://github.com/softvisio-node/cli/compare/v3.63.10...v3.63.11)
+
 ### 3.63.10 (2025-02-20)
 
 Other changes:
