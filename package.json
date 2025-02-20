@@ -41,7 +41,6 @@
         "test": "node --test tests/**/*.test.js"
     },
     "dependencies": {
-        "@minify-html/node": "^0.15.0",
         "@prettier/plugin-xml": "^3.4.1",
         "@softvisio/core": "^7.0.0",
         "@softvisio/eslint-plugin": "^1.0.1",
@@ -57,6 +56,7 @@
         "eslint-plugin-vue": "^9.0.1",
         "espree": "^10.0.1",
         "estraverse": "^5.3.0",
+        "html-minifier-terser": "^7.2.0",
         "postcss": "^8.2.4",
         "prettier": "^3.0.0",
         "prettier-plugin-packagejson": "^2.2.9",
