@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.63.12 (2025-02-26)
+
+Other changes:
+
+- chore: cleanup code
+- chore: update editorconfig
+- chore: update file linter
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.63.11...v3.63.12`](https://github.com/softvisio-node/cli/compare/v3.63.11...v3.63.12)
+
 ### 3.63.11 (2025-02-20)
 
 Other changes:
