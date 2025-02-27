@@ -102,7 +102,7 @@ Example:
 
 ```yaml
 aliases:
-    info: http://example.com/info.md
+  info: http://example.com/info.md
 ```
 
 Use alias from markdown:
@@ -130,8 +130,8 @@ Example:
 
 ```yaml
 api:
-    location: lib/api
-    url: wss://domain.com/api/
+  location: lib/api
+  url: wss://domain.com/api/
 ```
 
 ### changelog
@@ -196,8 +196,8 @@ Example:
 
 ```yaml
 rpc:
-    location: lib/rpc
-    url: wss://service:8080/
+  location: lib/rpc
+  url: wss://service:8080/
 ```
 
 ### siteURL
@@ -223,8 +223,8 @@ Object of custom data types and links for your project. Example:
 
 ```yaml
 types:
-    File: "/file.md#Class: file"
-    ExternalType: "http://example.com/types#external"
+  File: "/file.md#Class: file"
+  ExternalType: "http://example.com/types#external"
 ```
 
 ### externalTypes
@@ -236,7 +236,7 @@ Array of links to the external projects config files to load external types:
 
 ```yaml
 externalTypes:
-    - https://softvisio-node.github.io/core/
+  - https://softvisio-node.github.io/core/
 ```
 
 ## FAQ
@@ -249,7 +249,7 @@ You need to use aliases.
 
 ```yaml
 aliases:
-    "/external-file-alias": "https://external/file.md"
+  "/external-file-alias": "https://external/file.md"
 ```
 
 `_sidebar.md`:

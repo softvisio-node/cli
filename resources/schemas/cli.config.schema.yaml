@@ -1,189 +1,189 @@
 type: object
 properties:
-    releasable: { type: boolean }
+  releasable: { type: boolean }
 
-    meta:
+  meta:
+    type: object
+    properties:
+      dependabot:
         type: object
         properties:
-            dependabot:
+          npm:
+            type: object
+            properties:
+              interval:
+                anyOf:
+                  - type: "null"
+                  - enum: [daily, weekly, monthly]
+            additionalProperties: false
+          docker:
+            type: object
+            properties:
+              interval:
+                anyOf:
+                  - type: "null"
+                  - enum: [daily, weekly, monthly]
+            additionalProperties: false
+          github-actions:
+            type: object
+            properties:
+              interval:
+                anyOf:
+                  - type: "null"
+                  - enum: [daily, weekly, monthly]
+            additionalProperties: false
+        additionalProperties: false
+
+      executables:
+        anyOf:
+          - type: "null"
+          - type: array
+            items: { type: string }
+            minItems: 1
+            uniqueItems: true
+
+      repository:
+        type: object
+        properties:
+          archived: { type: ["null", boolean] }
+          private: { type: ["null", boolean] }
+          visibility:
+            anyOf:
+              - type: "null"
+              - enum: [public, private]
+
+          hasIssues: { type: ["null", boolean] }
+          hasDiscussions: { type: ["null", boolean] }
+          hasWiki: { type: ["null", boolean] }
+          hasProjects: { type: ["null", boolean] }
+          defaultBranch: { type: ["null", string] }
+          allowForking: { type: ["null", boolean] }
+          webCommitSignoffRequired: { type: ["null", boolean] }
+
+          secretScanning:
+            anyOf:
+              - type: "null"
+              - enum: [enabled, disabled]
+
+          secretScanningPushProtection:
+            anyOf:
+              - type: "null"
+              - enum: [enabled, disabled]
+
+          vulnerabilityAlerts: { type: ["null", boolean] }
+          dependabotsecurityupdates: { type: ["null", boolean] }
+          privateVulnerabilityReporting: { type: ["null", boolean] }
+
+        additionalProperties: false
+
+    additionalProperties: false
+    required: [dependabot, executables, repository]
+
+  subPackages:
+    anyOf:
+      - type: "null"
+      - type: array
+        items: { type: string, format: glob-pattern, pattern: ^/ }
+        minItems: 1
+        uniqueItems: true
+
+  docker:
+    type: object
+    properties:
+      composeFile:
+        anyOf:
+          - type: string
+          - type: array
+            items: { type: string }
+            minItems: 1
+            uniqueItems: true
+
+      defaultTag: { type: ["null", string] }
+      autoTags:
+        anyOf:
+          - type: "null"
+          - type: array
+            items: { type: string }
+            minItems: 1
+            uniqueItems: true
+
+    additionalProperties: false
+    required: []
+
+  commits:
+    type: object
+    properties:
+      strict: { type: boolean }
+      types:
+        anyOf:
+          - type: "null"
+          - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
+      scopeRequired: { type: boolean }
+      scopes:
+        anyOf:
+          - type: "null"
+          - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
+
+    additionalProperties: false
+    required: []
+
+  docs:
+    anyOf:
+      - type: "null"
+      - type: object
+        properties:
+          location: { enum: [/, /docs] }
+          aliases: { type: object, additionalProperties: { type: string, format: uri } }
+
+          app:
+            type: object
+            properties:
+              api:
                 type: object
                 properties:
-                    npm:
-                        type: object
-                        properties:
-                            interval:
-                                anyOf:
-                                    - type: "null"
-                                    - enum: [daily, weekly, monthly]
-                        additionalProperties: false
-                    docker:
-                        type: object
-                        properties:
-                            interval:
-                                anyOf:
-                                    - type: "null"
-                                    - enum: [daily, weekly, monthly]
-                        additionalProperties: false
-                    github-actions:
-                        type: object
-                        properties:
-                            interval:
-                                anyOf:
-                                    - type: "null"
-                                    - enum: [daily, weekly, monthly]
-                        additionalProperties: false
+                  url: { type: string, format: uri }
+
                 additionalProperties: false
-
-            executables:
-                anyOf:
-                    - type: "null"
-                    - type: array
-                      items: { type: string }
-                      minItems: 1
-                      uniqueItems: true
-
-            repository:
+                required: [url]
+              rpc:
                 type: object
                 properties:
-                    archived: { type: ["null", boolean] }
-                    private: { type: ["null", boolean] }
-                    visibility:
-                        anyOf:
-                            - type: "null"
-                            - enum: [public, private]
-
-                    hasIssues: { type: ["null", boolean] }
-                    hasDiscussions: { type: ["null", boolean] }
-                    hasWiki: { type: ["null", boolean] }
-                    hasProjects: { type: ["null", boolean] }
-                    defaultBranch: { type: ["null", string] }
-                    allowForking: { type: ["null", boolean] }
-                    webCommitSignoffRequired: { type: ["null", boolean] }
-
-                    secretScanning:
-                        anyOf:
-                            - type: "null"
-                            - enum: [enabled, disabled]
-
-                    secretScanningPushProtection:
-                        anyOf:
-                            - type: "null"
-                            - enum: [enabled, disabled]
-
-                    vulnerabilityAlerts: { type: ["null", boolean] }
-                    dependabotsecurityupdates: { type: ["null", boolean] }
-                    privateVulnerabilityReporting: { type: ["null", boolean] }
+                  url: { type: string, format: uri }
 
                 additionalProperties: false
+                required: [url]
+
+            additionalProperties: false
+            required: []
+
+          changelog:
+            anyOf:
+              - { type: boolean }
+              - { type: string, format: uri }
+
+          favicon: { type: string }
+          generateReadme: { type: boolean, default: true }
+          logo:
+            anyOf:
+              - { type: boolean }
+              - { type: string, format: uri }
+              - type: object
+                properties:
+                  href: { type: string, format: uri }
+                  width: { type: integer, minimum: 32 }
+                  height: { type: integer, minimum: 32 }
+
+                additionalProperties: false
+                required: [href]
+
+          name: { type: string }
+          siteURL: { type: string, format: uri }
+          subMaxLevel: { type: integer, minimum: 0 }
+          types: { type: object, additionalProperties: { type: string } }
+          externalTypes: { type: array, items: { type: string }, uniqueItems: true }
 
         additionalProperties: false
-        required: [dependabot, executables, repository]
-
-    subPackages:
-        anyOf:
-            - type: "null"
-            - type: array
-              items: { type: string, format: glob-pattern, pattern: ^/ }
-              minItems: 1
-              uniqueItems: true
-
-    docker:
-        type: object
-        properties:
-            composeFile:
-                anyOf:
-                    - type: string
-                    - type: array
-                      items: { type: string }
-                      minItems: 1
-                      uniqueItems: true
-
-            defaultTag: { type: ["null", string] }
-            autoTags:
-                anyOf:
-                    - type: "null"
-                    - type: array
-                      items: { type: string }
-                      minItems: 1
-                      uniqueItems: true
-
-        additionalProperties: false
-        required: []
-
-    commits:
-        type: object
-        properties:
-            strict: { type: boolean }
-            types:
-                anyOf:
-                    - type: "null"
-                    - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
-            scopeRequired: { type: boolean }
-            scopes:
-                anyOf:
-                    - type: "null"
-                    - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
-
-        additionalProperties: false
-        required: []
-
-    docs:
-        anyOf:
-            - type: "null"
-            - type: object
-              properties:
-                  location: { enum: [/, /docs] }
-                  aliases: { type: object, additionalProperties: { type: string, format: uri } }
-
-                  app:
-                      type: object
-                      properties:
-                          api:
-                              type: object
-                              properties:
-                                  url: { type: string, format: uri }
-
-                              additionalProperties: false
-                              required: [url]
-                          rpc:
-                              type: object
-                              properties:
-                                  url: { type: string, format: uri }
-
-                              additionalProperties: false
-                              required: [url]
-
-                      additionalProperties: false
-                      required: []
-
-                  changelog:
-                      anyOf:
-                          - { type: boolean }
-                          - { type: string, format: uri }
-
-                  favicon: { type: string }
-                  generateReadme: { type: boolean, default: true }
-                  logo:
-                      anyOf:
-                          - { type: boolean }
-                          - { type: string, format: uri }
-                          - type: object
-                            properties:
-                                href: { type: string, format: uri }
-                                width: { type: integer, minimum: 32 }
-                                height: { type: integer, minimum: 32 }
-
-                            additionalProperties: false
-                            required: [href]
-
-                  name: { type: string }
-                  siteURL: { type: string, format: uri }
-                  subMaxLevel: { type: integer, minimum: 0 }
-                  types: { type: object, additionalProperties: { type: string } }
-                  externalTypes: { type: array, items: { type: string }, uniqueItems: true }
-
-              additionalProperties: false
-              required: [location]
+        required: [location]
 
 additionalProperties: false
 required: [releasable, meta]
