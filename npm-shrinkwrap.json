@@ -927,9 +927,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.136.12",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.136.12.tgz",
-            "integrity": "sha512-ldy5yc0DoqfX5z5q9Rc+1BS2Tq2KCIaGqVNwJM1lqI3epmiU4tJVjjtNjVNeyIE4ZgMQxQPqdXLSE5qqiQsHKQ==",
+            "version": "7.136.13",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.136.13.tgz",
+            "integrity": "sha512-F+YnoiyIQsIxMUGLLYB/IObfE+Bbr9WBGzKRApqjmE7B14jIBntQdY5kHiPaVkqfC0lbon8uIowrW58OQPpggw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2615,9 +2615,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.107",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.107.tgz",
-            "integrity": "sha512-dJr1o6yCntRkXElnhsHh1bAV19bo/hKyFf7tCcWgpXbuFIF0Lakjgqv5LRfSDaNzAII8Fnxg2tqgHkgCvxdbxw==",
+            "version": "1.5.108",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.108.tgz",
+            "integrity": "sha512-tiGxpQmvXBEzrfU5ertmbCV/nG5yqCkC1G4T1SIKP335Y5rjXzPWmijR6XcoGXZvVoo4dknfdNe4Tl7lcIROLg==",
             "license": "ISC"
         },
         "node_modules/emoji-regex": {
@@ -4930,9 +4930,9 @@
             }
         },
         "node_modules/micromark": {
-            "version": "4.0.1",
-            "resolved": "https://registry.npmjs.org/micromark/-/micromark-4.0.1.tgz",
-            "integrity": "sha512-eBPdkcoCNvYcxQOAKAlceo5SNdzZWfF+FcSupREAzdAh9rRmE239CEQAiTwIgblwnoM8zzj35sZ5ZwvSEOF6Kw==",
+            "version": "4.0.2",
+            "resolved": "https://registry.npmjs.org/micromark/-/micromark-4.0.2.tgz",
+            "integrity": "sha512-zpe98Q6kvavpCr1NPVSCMebCKfD7CA2NqZ+rykeNhONIJBpc1tFKt9hucLGwha3jNTNI8lHpctWJWoimVF4PfA==",
             "funding": [
                 {
                     "type": "GitHub Sponsors",
