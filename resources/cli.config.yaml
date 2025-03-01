@@ -17,7 +17,6 @@ meta:
     - tests/**/*.js
 
   repository:
-    archived: ~
     private: ~
     visibility: ~
     hasIssues: true
