@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.63.15 (2025-03-01)
+
+Other changes:
+
+- chore: refactor metadata
+- chore: rename upstream repository id
+- chore: update metadata
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.63.14...v3.63.15`](https://github.com/softvisio-node/cli/compare/v3.63.14...v3.63.15)
+
 ### 3.63.14 (2025-02-27)
 
 Other changes:
