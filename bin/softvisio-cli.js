@@ -74,14 +74,21 @@ try {
     var res = result.try( await new cli.module().run(), { "allowUndefined": true } );
 }
 catch ( e ) {
-    res = result.catch( e );
+    if ( result.isResult( e ) ) {
+        res = e;
+
+        if ( !res.ok ) {
+            console.error( ansi.error( " Error: " ), res.statusText );
+        }
+    }
+    else {
+        res = result.catch( e );
+    }
 }
 
 if ( res.ok ) {
     process.exit( 0 );
 }
 else {
-    console.error( ansi.error( " Error: " ), res.statusText );
-
     process.exit( 2 );
 }
