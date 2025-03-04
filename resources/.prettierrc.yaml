@@ -1,16 +1,25 @@
+# https://prettier.io/docs/options
+
+# endOfLine: lf # inherited from .editorconfig "end_of_line"
 # printWidth: .inf # inherited from .editorconfig "max_line_length"
 # tabWidth: 4 # inherited from .editorconfig "indent_size"
 # useTabs: false # inherited from .editorconfig "indent_style"
-semi: true
-singleQuote: false
-quoteProps: as-needed
-jsxSingleQuote: false
-trailingComma: es5
-bracketSpacing: true
-bracketSameLine: false
+
 arrowParens: avoid
-proseWrap: preserve # TODO test
+bracketSameLine: false
+bracketSpacing: true
+embeddedLanguageFormatting: auto
 htmlWhitespaceSensitivity: css
+insertPragma: false
+jsxSingleQuote: false
+objectWrap: preserve
+proseWrap: preserve # TODO test
+quoteProps: as-needed
+rangeStart: 0
+rangeEnd: .inf
+requirePragma: false
+semi: true
+singleAttributePerLine: false
+singleQuote: false
+trailingComma: es5
 vueIndentScriptAndStyle: false
-xmlWhitespaceSensitivity: preserve
-# endOfLine: lf # inherited from .editorconfig "end_of_line"
