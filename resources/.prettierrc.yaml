@@ -13,7 +13,7 @@ htmlWhitespaceSensitivity: css
 insertPragma: false
 jsxSingleQuote: false
 objectWrap: preserve
-proseWrap: preserve # TODO test
+proseWrap: preserve
 quoteProps: as-needed
 rangeStart: 0
 rangeEnd: .inf
