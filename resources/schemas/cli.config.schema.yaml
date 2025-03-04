@@ -15,6 +15,11 @@ properties:
                 anyOf:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
+              day: { type: string }
+              time: { type: string }
+              timezone: { type: string }
+              open-pull-requests-limit: { type: integer }
+
             additionalProperties: false
           docker:
             type: object
@@ -23,6 +28,11 @@ properties:
                 anyOf:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
+              day: { type: string }
+              time: { type: string }
+              timezone: { type: string }
+              open-pull-requests-limit: { type: integer }
+
             additionalProperties: false
           github-actions:
             type: object
@@ -31,6 +41,11 @@ properties:
                 anyOf:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
+              day: { type: string }
+              time: { type: string }
+              timezone: { type: string }
+              open-pull-requests-limit: { type: integer }
+
             additionalProperties: false
         additionalProperties: false
 
