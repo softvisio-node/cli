@@ -15,12 +15,13 @@ properties:
                 anyOf:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
-              day: { enum: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday] }
-              time: { type: string, format: iso-time }
-              timezone: { type: string }
+              day: { type: string, format: weekday }
+              time: { type: string, format: plain-time }
+              timezone: { type: string, format: timezone }
               open-pull-requests-limit: { type: integer, minimum: 0 }
 
             additionalProperties: false
+
           docker:
             type: object
             properties:
@@ -28,12 +29,13 @@ properties:
                 anyOf:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
-              day: { enum: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday] }
-              time: { type: string, format: iso-time }
-              timezone: { type: string }
+              day: { type: string, format: weekday }
+              time: { type: string, format: plain-time }
+              timezone: { type: string, format: timezone }
               open-pull-requests-limit: { type: integer, minimum: 0 }
 
             additionalProperties: false
+
           github-actions:
             type: object
             properties:
@@ -41,9 +43,9 @@ properties:
                 anyOf:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
-              day: { enum: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday] }
-              time: { type: string, format: iso-time }
-              timezone: { type: string }
+              day: { type: string, format: weekday }
+              time: { type: string, format: plain-time }
+              timezone: { type: string, format: timezone }
               open-pull-requests-limit: { type: integer, minimum: 0 }
 
             additionalProperties: false
