@@ -16,9 +16,9 @@ properties:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
               day: { type: string }
-              time: { type: string }
+              time: { type: string, format: iso-time }
               timezone: { type: string }
-              open-pull-requests-limit: { type: integer }
+              open-pull-requests-limit: { type: integer, minimum: 0 }
 
             additionalProperties: false
           docker:
@@ -29,9 +29,9 @@ properties:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
               day: { type: string }
-              time: { type: string }
+              time: { type: string, format: iso-time }
               timezone: { type: string }
-              open-pull-requests-limit: { type: integer }
+              open-pull-requests-limit: { type: integer, minimum: 0 }
 
             additionalProperties: false
           github-actions:
@@ -42,9 +42,9 @@ properties:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
               day: { type: string }
-              time: { type: string }
+              time: { type: string, format: iso-time }
               timezone: { type: string }
-              open-pull-requests-limit: { type: integer }
+              open-pull-requests-limit: { type: integer, minimum: 0 }
 
             additionalProperties: false
         additionalProperties: false

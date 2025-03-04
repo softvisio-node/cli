@@ -7,19 +7,19 @@ meta:
     npm:
       interval: weekly
       day: monday
-      time: 00:00
+      time: 00:00:00
       timezone: UTC
       open-pull-requests-limit: 5
     docker:
       interval: daily
       day: monday
-      time: 00:00
+      time: 00:00:00
       timezone: UTC
       open-pull-requests-limit: 5
     github-actions:
       interval: daily
       day: monday
-      time: 00:00
+      time: 00:00:00
       timezone: UTC
       open-pull-requests-limit: 5
 
