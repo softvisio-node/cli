@@ -75,15 +75,13 @@ try {
 }
 catch ( e ) {
     res = result.catch( e );
-
-    if ( !res.ok ) {
-        console.error( ansi.error( " Error: " ), res.statusText );
-    }
 }
 
 if ( res.ok ) {
     process.exit( 0 );
 }
 else {
+    console.error( ansi.error( " Error: " ), res.statusText );
+
     process.exit( 2 );
 }
