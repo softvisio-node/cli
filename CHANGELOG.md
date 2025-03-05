@@ -1,5 +1,19 @@
 # Changelog
 
+### 3.63.17 (2025-03-05)
+
+Other changes:
+
+- chore: update cli error reporting
+- chore: update default cli config
+- chore: update metadata updater
+- chore: update package dependencies
+- chore: update package metadata
+- chore: update prettierrc
+- chore: use ajv temporal formats
+
+Compare with the previous release: [`v3.63.16...v3.63.17`](https://github.com/softvisio-node/cli/compare/v3.63.16...v3.63.17)
+
 ### 3.63.16 (2025-03-03)
 
 Other changes:
