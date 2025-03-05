@@ -74,15 +74,10 @@ try {
     var res = result.try( await new cli.module().run(), { "allowUndefined": true } );
 }
 catch ( e ) {
-    if ( result.isResult( e ) ) {
-        res = e;
+    res = result.catch( e );
 
-        if ( !res.ok ) {
-            console.error( ansi.error( " Error: " ), res.statusText );
-        }
-    }
-    else {
-        res = result.catch( e );
+    if ( !res.ok ) {
+        console.error( ansi.error( " Error: " ), res.statusText );
     }
 }
 
