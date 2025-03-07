@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ROOT=$(pwd)
 DISTS=$ROOT/dists
