@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.63.20 (2025-03-09)
+
+Other changes:
+
+- chore: fix translation memory path
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.63.19...v3.63.20`](https://github.com/softvisio-node/cli/compare/v3.63.19...v3.63.20)
+
 ### 3.63.19 (2025-03-09)
 
 Other changes:
