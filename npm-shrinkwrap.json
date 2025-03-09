@@ -936,9 +936,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.141.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.141.0.tgz",
-            "integrity": "sha512-FTbYRfk2JefPscqvhcCXUuW0dOG44R7zn1OVwFWP6MELDMgbAzJ8GAqWI7q6qAxgOHK7K0VZjs1ciJsvZzTqMw==",
+            "version": "7.141.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.141.1.tgz",
+            "integrity": "sha512-fyodwkD2zxKh1vOKVp3cPZFBeoLexw0Dpu/AcJ2bFjJ6rCXggD7Uhuw4Ri7o67ptAhw0KozP+bcCD4sAP2xbsg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -1978,9 +1978,9 @@
             }
         },
         "node_modules/ci-info": {
-            "version": "4.1.0",
-            "resolved": "https://registry.npmjs.org/ci-info/-/ci-info-4.1.0.tgz",
-            "integrity": "sha512-HutrvTNsF48wnxkzERIXOe5/mlcfFcbfCmwcg6CJnizbSue78AbDt+1cgl26zwn61WFxhcPykPfZrbqjGmBb4A==",
+            "version": "4.2.0",
+            "resolved": "https://registry.npmjs.org/ci-info/-/ci-info-4.2.0.tgz",
+            "integrity": "sha512-cYY9mypksY8NRqgDB1XD1RiJL338v/551niynFTGkZOO2LHuB2OmOYxDIe/ttN9AHwrqdum1360G3ald0W9kCg==",
             "funding": [
                 {
                     "type": "github",
