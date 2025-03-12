@@ -1,5 +1,18 @@
 # Changelog
 
+### 3.64.0 (2025-03-12)
+
+Features:
+
+- feat: add force options to update dependencies
+
+Other changes:
+
+- chore: update lint report
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.63.21...v3.64.0`](https://github.com/softvisio-node/cli/compare/v3.63.21...v3.64.0)
+
 ### 3.63.21 (2025-03-09)
 
 Other changes:
