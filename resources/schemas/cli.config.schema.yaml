@@ -179,7 +179,7 @@ properties:
               - { type: string, format: uri }
 
           favicon: { type: string }
-          generateReadme: { type: boolean, default: true }
+          generateReadme: { type: boolean }
           logo:
             anyOf:
               - { type: boolean }
