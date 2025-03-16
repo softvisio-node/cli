@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.64.3 (2025-03-16)
+
+Other changes:
+
+- chore: add package hasDependencies property
+
+Compare with the previous release: [`v3.64.2...v3.64.3`](https://github.com/softvisio-node/cli/compare/v3.64.2...v3.64.3)
+
 ### 3.64.2 (2025-03-16)
 
 Other changes:
