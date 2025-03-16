@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.64.2 (2025-03-16)
+
+Other changes:
+
+- chore: add force option
+- chore: enabled ajv strict mode
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.64.1...v3.64.2`](https://github.com/softvisio-node/cli/compare/v3.64.1...v3.64.2)
+
 ### 3.64.1 (2025-03-14)
 
 Other changes:
