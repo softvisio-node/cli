@@ -16,7 +16,7 @@ properties:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
               day: { type: string, format: weekday }
-              time: { type: string, format: plain-time }
+              time: { type: string, format: time }
               timezone: { type: string, format: timezone }
               open-pull-requests-limit: { type: integer, minimum: 0 }
 
@@ -30,7 +30,7 @@ properties:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
               day: { type: string, format: weekday }
-              time: { type: string, format: plain-time }
+              time: { type: string, format: time }
               timezone: { type: string, format: timezone }
               open-pull-requests-limit: { type: integer, minimum: 0 }
 
@@ -44,7 +44,7 @@ properties:
                   - type: "null"
                   - enum: [daily, weekly, monthly]
               day: { type: string, format: weekday }
-              time: { type: string, format: plain-time }
+              time: { type: string, format: time }
               timezone: { type: string, format: timezone }
               open-pull-requests-limit: { type: integer, minimum: 0 }
 
