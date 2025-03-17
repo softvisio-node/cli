@@ -1,5 +1,19 @@
 # Changelog
 
+### 3.64.4 (2025-03-17)
+
+Fixes:
+
+- fix: fix package slugs
+
+Other changes:
+
+- chore: add package dependencies unlink option
+- chore: update ajv date / time formats
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.64.3...v3.64.4`](https://github.com/softvisio-node/cli/compare/v3.64.3...v3.64.4)
+
 ### 3.64.3 (2025-03-16)
 
 Other changes:
