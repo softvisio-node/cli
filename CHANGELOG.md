@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.64.6 (2025-03-20)
+
+Other changes:
+
+- chore: remove package archive command
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.64.5...v3.64.6`](https://github.com/softvisio-node/cli/compare/v3.64.5...v3.64.6)
+
 ### 3.64.5 (2025-03-20)
 
 Other changes:
