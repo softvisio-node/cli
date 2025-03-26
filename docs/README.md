@@ -2,12 +2,12 @@
 
 ## Install
 
-```shell
+```sh
 npm install --global @softvisio/cli
 ```
 
 ## Usage
 
-```shell
+```sh
 softvisio-cli --help
 ```

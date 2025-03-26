@@ -15,7 +15,7 @@ Default commit types:
 
 Examples:
 
-```shell
+```sh
 # bug fix
 git commit -m"fix: commit description"
 
