@@ -1,5 +1,16 @@
 # Changelog
 
+### 3.64.7 (2025-03-26)
+
+Other changes:
+
+- chore: add lint support for vim and lua
+- chore: update markdown code tags
+- chore: update package dependencies
+- chore: update package description
+
+Compare with the previous release: [`v3.64.6...v3.64.7`](https://github.com/softvisio-node/cli/compare/v3.64.6...v3.64.7)
+
 ### 3.64.6 (2025-03-20)
 
 Other changes:
