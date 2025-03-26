@@ -38,6 +38,7 @@
         "/src"
     ],
     "scripts": {
+        "install": "node bin/install.js",
         "test": "node --test tests/**/*.test.js"
     },
     "dependencies": {
