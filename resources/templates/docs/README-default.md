@@ -4,7 +4,7 @@
 
 ## Install
 
-```shell
+```sh
 npm install <%- npmName %>
 ```
 
