@@ -1,5 +1,22 @@
 # Changelog
 
+### 3.65.0 (2025-03-28)
+
+Features:
+
+- feat: add prism-js resource
+
+Other changes:
+
+- chore: refactor deps updater
+- chore: refactor docs
+- chore: refactor lint
+- chore: refactor markdown module
+- chore: update markdown code tags
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.64.7...v3.65.0`](https://github.com/softvisio-node/cli/compare/v3.64.7...v3.65.0)
+
 ### 3.64.7 (2025-03-26)
 
 Other changes:
