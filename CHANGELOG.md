@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.66.0 (2025-03-30)
+
+Features:
+
+- feat: add workspace build-docs command
+
+Other changes:
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.65.0...v3.66.0`](https://github.com/softvisio-node/cli/compare/v3.65.0...v3.66.0)
+
 ### 3.65.0 (2025-03-28)
 
 Features:
