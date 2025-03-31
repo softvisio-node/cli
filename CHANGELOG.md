@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.66.1 (2025-03-31)
+
+Other changes:
+
+- chore: update lint log header
+
+Compare with the previous release: [`v3.66.0...v3.66.1`](https://github.com/softvisio-node/cli/compare/v3.66.0...v3.66.1)
+
 ### 3.66.0 (2025-03-30)
 
 Features:
