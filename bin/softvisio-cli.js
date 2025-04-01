@@ -51,10 +51,10 @@ const spec = {
             "title": "Generate data",
             "module": () => new URL( "../lib/commands/generate.js", import.meta.url ),
         },
-        "rpc": {
+        "lsp": {
             "short": "r",
-            "title": "Run RPC service",
-            "module": () => new URL( "../lib/commands/rpc.js", import.meta.url ),
+            "title": "Manage LSP service",
+            "module": () => new URL( "../lib/commands/lsp.js", import.meta.url ),
         },
         "debian-repository": {
             "short": false,
