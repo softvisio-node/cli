@@ -1,5 +1,21 @@
 # Changelog
 
+### 3.67.0 (2025-04-03)
+
+Features:
+
+- feat: add LSP service
+
+Fixes:
+
+- fix: fix cli config schema
+
+Other changes:
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.66.1...v3.67.0`](https://github.com/softvisio-node/cli/compare/v3.66.1...v3.67.0)
+
 ### 3.66.1 (2025-03-31)
 
 Other changes:
