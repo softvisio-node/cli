@@ -196,7 +196,13 @@ properties:
           name: { type: string }
           siteURL: { type: string, format: uri }
           subMaxLevel: { type: integer, minimum: 0 }
-          types: { type: object, additionalProperties: { type: string } }
+          types:
+            anyOf:
+              - type: "null"
+              - type: object
+                additionalProperties:
+                  type: ["null", string]
+
           externalTypes: { type: array, items: { type: string }, uniqueItems: true }
 
         additionalProperties: false
