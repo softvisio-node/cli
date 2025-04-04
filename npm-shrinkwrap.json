@@ -920,9 +920,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.142.6",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.142.6.tgz",
-            "integrity": "sha512-nCPheOPt6w5QdKziHOC1KW9sd3bugiHjt5zeZ8Ec3vaUKePHRYYGSHj4x8m95uOyQwlzZCGsu2RBtku+1bbFqg==",
+            "version": "7.142.9",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.142.9.tgz",
+            "integrity": "sha512-5JQw46gMcTfQ9YJHmp/C60j+2g/SCrqVJZnMkZzstCKGHuQIuSjJ7RW8vuFma21HEhdr+ZZr0x3FCRMf4Jc7hg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2589,9 +2589,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.130",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.130.tgz",
-            "integrity": "sha512-Ou2u7L9j2XLZbhqzyX0jWDj6gA8D3jIfVzt4rikLf3cGBa0VdReuFimBKS9tQJA4+XpeCxj1NoWlfBXzbMa9IA==",
+            "version": "1.5.131",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.131.tgz",
+            "integrity": "sha512-fJFRYXVEJgDCiqFOgRGJm8XR97hZ13tw7FXI9k2yC5hgY+nyzC2tMO8baq1cQR7Ur58iCkASx2zrkZPZUnfzPg==",
             "license": "ISC"
         },
         "node_modules/entities": {
@@ -7878,9 +7878,9 @@
             }
         },
         "node_modules/vue-eslint-parser": {
-            "version": "10.1.1",
-            "resolved": "https://registry.npmjs.org/vue-eslint-parser/-/vue-eslint-parser-10.1.1.tgz",
-            "integrity": "sha512-bh2Z/Au5slro9QJ3neFYLanZtb1jH+W2bKqGHXAoYD4vZgNG3KeotL7JpPv5xzY4UXUXJl7TrIsnzECH63kd3Q==",
+            "version": "10.1.2",
+            "resolved": "https://registry.npmjs.org/vue-eslint-parser/-/vue-eslint-parser-10.1.2.tgz",
+            "integrity": "sha512-1guOfYgNlD7JH2popr/bt5vc7Mzt6quRCnEbqLgpMHvoHEGV1oImzdqrLd+oMD76cHt8ilBP4cda9WA72TLFDQ==",
             "license": "MIT",
             "dependencies": {
                 "debug": "^4.4.0",
