@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.67.1 (2025-04-04)
+
+Other changes:
+
+- chore: fix typo
+- chore: update ls report
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.0...v3.67.1`](https://github.com/softvisio-node/cli/compare/v3.67.0...v3.67.1)
+
 ### 3.67.0 (2025-04-03)
 
 Features:
