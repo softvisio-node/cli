@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.67.4 (2025-04-10)
+
+Other changes:
+
+- chore: rename dockerfile
+- chore: update linter
+- chore: update mime types
+- chore: update package dependencies
+- chore: update prettier sh
+
+Compare with the previous release: [`v3.67.3...v3.67.4`](https://github.com/softvisio-node/cli/compare/v3.67.3...v3.67.4)
+
 ### 3.67.3 (2025-04-06)
 
 Other changes:
