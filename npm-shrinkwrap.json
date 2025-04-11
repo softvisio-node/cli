@@ -917,9 +917,9 @@
             }
         },
         "node_modules/@reteps/dockerfmt": {
-            "version": "0.3.4",
-            "resolved": "https://registry.npmjs.org/@reteps/dockerfmt/-/dockerfmt-0.3.4.tgz",
-            "integrity": "sha512-IHIyUHVsASQmUheWTmIVxnMdOayvIa4e9XGyt1qpuz6l+dv89H8WXg/jV6PNMX9286O0m2wd3zvmNfgpp7IsCA==",
+            "version": "0.3.5",
+            "resolved": "https://registry.npmjs.org/@reteps/dockerfmt/-/dockerfmt-0.3.5.tgz",
+            "integrity": "sha512-ib1LU/3lXHAH63hxaGu9O+G3nbe5JlCg5WoMS7zzfuuBUPenCeuO7cOhYhI7IwD2QaD1NBy8AJ+FrKyhaHtWLA==",
             "license": "MIT",
             "engines": {
                 "node": "^v12.20.0 || ^14.13.0 || >=16.0.0"
