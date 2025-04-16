@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.67.5 (2025-04-16)
+
+Other changes:
+
+- chore: add lint diagnostic
+- chore: update lsp
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.4...v3.67.5`](https://github.com/softvisio-node/cli/compare/v3.67.4...v3.67.5)
+
 ### 3.67.4 (2025-04-10)
 
 Other changes:
