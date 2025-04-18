@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.67.8 (2025-04-18)
+
+Other changes:
+
+- chore: update lsp
+
+Compare with the previous release: [`v3.67.7...v3.67.8`](https://github.com/softvisio-node/cli/compare/v3.67.7...v3.67.8)
+
 ### 3.67.7 (2025-04-18)
 
 Other changes:
