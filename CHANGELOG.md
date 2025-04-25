@@ -1,5 +1,18 @@
 # Changelog
 
+### 3.67.10 (2025-04-25)
+
+Other changes:
+
+- chore: fix git crypt
+- chore: lint
+- chore: refactor git api
+- chore: refactor git pre-commit hook
+- chore: update lint
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.9...v3.67.10`](https://github.com/softvisio-node/cli/compare/v3.67.9...v3.67.10)
+
 ### 3.67.9 (2025-04-23)
 
 Other changes:
