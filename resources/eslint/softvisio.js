@@ -14,7 +14,7 @@ const OVERRIDES = [
                 {
                     "properties": "never",
                     "ignoreImports": true,
-                    "strictCamelCase": false,
+                    "strictCamelCase": true,
                 },
             ],
         },
