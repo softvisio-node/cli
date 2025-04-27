@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.67.12 (2025-04-27)
+
+Other changes:
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.11...v3.67.12`](https://github.com/softvisio-node/cli/compare/v3.67.11...v3.67.12)
+
 ### 3.67.11 (2025-04-27)
 
 Fixes:
