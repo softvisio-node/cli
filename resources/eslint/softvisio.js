@@ -14,8 +14,7 @@ const OVERRIDES = [
                 {
                     "properties": "never",
                     "ignoreImports": true,
-                    "allowConsecutiveCapitalLetters": false,
-                    "allowedPrefixes": [ "API_" ],
+                    "strictCamelCase": false,
                 },
             ],
         },
