@@ -32,6 +32,8 @@ const CONFIG = [
             // XXX "unicorn/no-lonely-if": "error",
 
             "unicorn/no-named-default": "error",
+            "unicorn/no-unnecessary-array-flat-depth": "error",
+            "unicorn/no-unnecessary-array-splice-count": "error",
             "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-zero-fractions": "error",
             "unicorn/number-literal-case": "error",
@@ -40,6 +42,7 @@ const CONFIG = [
             "unicorn/prefer-date-now": "error",
             "unicorn/prefer-dom-node-append": "error",
             "unicorn/prefer-dom-node-remove": "error",
+            "unicorn/prefer-import-meta-properties": "error",
             "unicorn/prefer-modern-dom-apis": "error",
             "unicorn/prefer-modern-math-apis": "error",
             "unicorn/prefer-negative-index": "error",
