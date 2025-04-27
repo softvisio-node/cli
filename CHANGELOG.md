@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.67.15 (2025-04-27)
+
+Other changes:
+
+- chore: update package dependencies
+- chore: update unicorn
+
+Compare with the previous release: [`v3.67.14...v3.67.15`](https://github.com/softvisio-node/cli/compare/v3.67.14...v3.67.15)
+
 ### 3.67.14 (2025-04-27)
 
 Other changes:
