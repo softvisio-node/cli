@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.67.13 (2025-04-27)
+
+Other changes:
+
+- chore: update linter
+
+Compare with the previous release: [`v3.67.12...v3.67.13`](https://github.com/softvisio-node/cli/compare/v3.67.12...v3.67.13)
+
 ### 3.67.12 (2025-04-27)
 
 Other changes:
