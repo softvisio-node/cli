@@ -1,5 +1,20 @@
 # Changelog
 
+### 3.67.11 (2025-04-27)
+
+Fixes:
+
+- fix: use glob patterns in ls command
+
+Other changes:
+
+- chore: refacror deb packages update
+- chore: refactor git api
+- chore: update eslint camel-case rule
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.10...v3.67.11`](https://github.com/softvisio-node/cli/compare/v3.67.10...v3.67.11)
+
 ### 3.67.10 (2025-04-25)
 
 Other changes:
