@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.67.17 (2025-04-30)
+
+Other changes:
+
+- chore: add lint text/plain support
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.16...v3.67.17`](https://github.com/softvisio-node/cli/compare/v3.67.16...v3.67.17)
+
 ### 3.67.16 (2025-04-28)
 
 Other changes:
