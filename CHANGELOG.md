@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.67.21 (2025-05-04)
+
+Other changes:
+
+- chore: update deps updater git integration
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.20...v3.67.21`](https://github.com/softvisio-node/cli/compare/v3.67.20...v3.67.21)
+
 ### 3.67.20 (2025-05-03)
 
 Other changes:
