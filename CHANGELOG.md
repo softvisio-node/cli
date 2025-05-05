@@ -1,5 +1,17 @@
 # Changelog
 
+### 3.67.22 (2025-05-05)
+
+Fixes:
+
+- fix: encrypt files in git pre-commit hook
+
+Other changes:
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.21...v3.67.22`](https://github.com/softvisio-node/cli/compare/v3.67.21...v3.67.22)
+
 ### 3.67.21 (2025-05-04)
 
 Other changes:
