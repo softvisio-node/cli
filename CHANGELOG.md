@@ -1,5 +1,22 @@
 # Changelog
 
+### 3.68.0 (2025-05-06)
+
+Features:
+
+- feat: add package docs url property
+- feat: remove hasCliConfig property
+
+Other changes:
+
+- chore: refactor log command
+- chore: refactor ls command
+- chore: refactor status command
+- chore: update npm publish
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.67.22...v3.68.0`](https://github.com/softvisio-node/cli/compare/v3.67.22...v3.68.0)
+
 ### 3.67.22 (2025-05-05)
 
 Fixes:
