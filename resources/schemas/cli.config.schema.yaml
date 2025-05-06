@@ -5,6 +5,14 @@ properties:
   meta:
     type: object
     properties:
+      homepage:
+        anyOf:
+          - type: "null"
+          - { type: string, format: url }
+
+      license: { type: ["null", string] }
+      author: { type: ["null", string] }
+
       dependabot:
         type: object
         properties:

@@ -3,6 +3,10 @@ releasable: false
 subPackages: ~
 
 meta:
+  homepage: ~
+  license: ~
+  author: ~
+
   dependabot:
     npm:
       interval: weekly
