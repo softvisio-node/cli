@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.69.0 (2025-05-06)
+
+Features:
+
+- feat: add cli config meta properties
+
+Compare with the previous release: [`v3.68.1...v3.69.0`](https://github.com/softvisio-node/cli/compare/v3.68.1...v3.69.0)
+
 ### 3.68.1 (2025-05-06)
 
 Other changes:
