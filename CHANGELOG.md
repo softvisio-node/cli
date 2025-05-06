@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.68.1 (2025-05-06)
+
+Other changes:
+
+- chore: update npm publish
+- chore: update package cache
+
+Compare with the previous release: [`v3.68.0...v3.68.1`](https://github.com/softvisio-node/cli/compare/v3.68.0...v3.68.1)
+
 ### 3.68.0 (2025-05-06)
 
 Features:
