@@ -1,5 +1,14 @@
 # Changelog
 
+### 3.69.1 (2025-05-07)
+
+Other changes:
+
+- chore: update git commit message hook
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.69.0...v3.69.1`](https://github.com/softvisio-node/cli/compare/v3.69.0...v3.69.1)
+
 ### 3.69.0 (2025-05-06)
 
 Features:
