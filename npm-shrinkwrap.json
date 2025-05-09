@@ -3401,9 +3401,9 @@
             }
         },
         "node_modules/eventsource": {
-            "version": "3.0.6",
-            "resolved": "https://registry.npmjs.org/eventsource/-/eventsource-3.0.6.tgz",
-            "integrity": "sha512-l19WpE2m9hSuyP06+FbuUUf1G+R0SFLrtQfbRb9PRr+oimOfxQhgGCbVaXg5IvZyyTThJsxh6L/srkMiCeBPDA==",
+            "version": "3.0.7",
+            "resolved": "https://registry.npmjs.org/eventsource/-/eventsource-3.0.7.tgz",
+            "integrity": "sha512-CRT1WTyuQoD771GW56XEZFQ/ZoSfWid1alKGDYMmkt2yl8UXrVR4pspqWNEcqKvVIzg6PAltWjxcSSPrboA4iA==",
             "license": "MIT",
             "dependencies": {
                 "eventsource-parser": "^3.0.1"
@@ -6806,12 +6806,12 @@
             }
         },
         "node_modules/prettier-plugin-sh": {
-            "version": "0.17.2",
-            "resolved": "https://registry.npmjs.org/prettier-plugin-sh/-/prettier-plugin-sh-0.17.2.tgz",
-            "integrity": "sha512-7+dEo/IYbhrUj4qP+1QXj41/5Hv9ZkxBuEatI1jywrcAlVF1aGhdYJF4Sn+M67nkA16iRL53W4FSRe1bitTdmQ==",
+            "version": "0.17.4",
+            "resolved": "https://registry.npmjs.org/prettier-plugin-sh/-/prettier-plugin-sh-0.17.4.tgz",
+            "integrity": "sha512-aAVKXZ7GTEMZdZsIPSwMwddwPvt2ibMbRGd4OJAP0G7QoeYZV+mPNg2Oln3R53sZ4PVjeAA7Xzi/PuI0QlHHfQ==",
             "license": "MIT",
             "dependencies": {
-                "@reteps/dockerfmt": "^0.3.2",
+                "@reteps/dockerfmt": "^0.3.5",
                 "sh-syntax": "^0.5.6"
             },
             "engines": {
