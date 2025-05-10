@@ -1,4 +1,4 @@
-### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
+### <%- newVersion ? newVersion + " " : ""  -%>(<%- new Date().toISOString().substr( 0, 10 ) %>)
 <%_ if ( !changes.hasChanges ) { -%>
 
 No changes since the previous release.
@@ -6,53 +6,49 @@ No changes since the previous release.
 <%_ if ( changes.breakingChanges.length ) { -%>
 
 **Breaking changes:**
-
 <%_ for ( const change of changes.breakingChanges ) { -%>
--   <%- change.subject %>
+
+- <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^/gm, "    " ) %>
 <%_ } -%>
-
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.featureNonBreakingChanges.length ) { -%>
 
 **Features:**
-
 <%_ for ( const change of changes.featureNonBreakingChanges ) { -%>
--   <%- change.subject %>
+
+- <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^/gm, "    " ) %>
 <%_ } -%>
-
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.fixNonBreakingChanges.length ) { -%>
 
 **Fixes:**
-
 <%_ for ( const change of changes.fixNonBreakingChanges ) { -%>
--   <%- change.subject %>
+
+- <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^/gm, "    " ) %>
 <%_ } -%>
-
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.otherNonBreakingChanges.length ) { -%>
 
 **Other changes:**
-
 <%_ for ( const change of changes.otherNonBreakingChanges ) { -%>
--   <%- change.subject %>
+
+- <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^/gm, "    " ) %>
 <%_ } -%>
-
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
