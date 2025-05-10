@@ -9,6 +9,10 @@ No changes since the previous release.
 <%_ for ( const change of changes.breakingChanges ) { -%>
 
 - <%- change.subject %>
+<%_ if ( change.headers.issues ) { -%>
+
+    Issues:
+<%_ } -%>
 <%_ if ( change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
