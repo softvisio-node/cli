@@ -13,6 +13,10 @@ No changes since the previous release.
 
     Issues:
 <%_ } -%>
+<%_ if ( change.headers.fixes ) { -%>
+
+    Fix:
+<%_ } -%>
 <%_ if ( change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
