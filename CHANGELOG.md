@@ -1,5 +1,13 @@
 # Changelog
 
+### 3.69.5 (2025-05-10)
+
+**Fixes:**
+
+- fix: initialize commit type
+
+Compare with the previous release: [`v3.69.4...v3.69.5`](https://github.com/softvisio-node/cli/compare/v3.69.4...v3.69.5)
+
 ### 3.69.4 (2025-05-10)
 
 **Fixes:**
