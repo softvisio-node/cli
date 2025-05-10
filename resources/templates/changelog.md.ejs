@@ -21,6 +21,10 @@ Features:
 
 <%_ for ( const change of changes.featureNonBreakingChanges ) { -%>
 -   <%- change.subject %>
+<%_ if ( change.bodyText ) { -%>
+
+    <%- change.bodyText %>
+<%_ } -%>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.fixNonBreakingChanges.length ) { -%>
@@ -29,6 +33,10 @@ Fixes:
 
 <%_ for ( const change of changes.fixNonBreakingChanges ) { -%>
 -   <%- change.subject %>
+<%_ if ( change.bodyText ) { -%>
+
+    <%- change.bodyText %>
+<%_ } -%>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.otherNonBreakingChanges.length ) { -%>
@@ -37,6 +45,10 @@ Other changes:
 
 <%_ for ( const change of changes.otherNonBreakingChanges ) { -%>
 -   <%- change.subject %>
+<%_ if ( change.bodyText ) { -%>
+
+    <%- change.bodyText %>
+<%_ } -%>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
