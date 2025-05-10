@@ -5,49 +5,49 @@ No changes since the previous release.
 <%_ } else { -%>
 <%_ if ( changes.breakingChanges.length ) { -%>
 
-Breaking changes:
+**Breaking changes:**
 
 <%_ for ( const change of changes.breakingChanges ) { -%>
 -   <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
-    <%- change.bodyText %>
+<%- change.bodyText %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.featureNonBreakingChanges.length ) { -%>
 
-Features:
+**Features:**
 
 <%_ for ( const change of changes.featureNonBreakingChanges ) { -%>
 -   <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
-    <%- change.bodyText %>
+<%- change.bodyText %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.fixNonBreakingChanges.length ) { -%>
 
-Fixes:
+**Fixes:**
 
 <%_ for ( const change of changes.fixNonBreakingChanges ) { -%>
 -   <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
-    <%- change.bodyText %>
+<%- change.bodyText %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.otherNonBreakingChanges.length ) { -%>
 
-Other changes:
+**Other changes:**
 
 <%_ for ( const change of changes.otherNonBreakingChanges ) { -%>
 -   <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
-    <%- change.bodyText %>
+<%- change.bodyText %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
