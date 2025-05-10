@@ -11,7 +11,7 @@ No changes since the previous release.
 - <%- change.subject %>
 <%_ if ( change.headers.issues ) { -%>
 
-    Issues:
+    Issues: <%- change.headers.issues.map( issue => upstream ? `[#${ issue }](${ upstream.getIssueUrl( issue ) })` : `#${ issue }` ).join( ", " ) %>
 <%_ } -%>
 <%_ if ( change.headers.fixes ) { -%>
 
