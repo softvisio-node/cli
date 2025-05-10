@@ -8,7 +8,7 @@ No changes since the previous release.
 Breaking changes:
 
 <%_ for ( const change of changes.breakingChanges ) { -%>
--   <%- change.title %>
+-   <%- change.subject %>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.featureNonBreakingChanges.length ) { -%>
@@ -16,7 +16,7 @@ Breaking changes:
 Features:
 
 <%_ for ( const change of changes.featureNonBreakingChanges ) { -%>
--   <%- change.title %>
+-   <%- change.subject %>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.fixNonBreakingChanges.length ) { -%>
@@ -24,7 +24,7 @@ Features:
 Fixes:
 
 <%_ for ( const change of changes.fixNonBreakingChanges ) { -%>
--   <%- change.title %>
+-   <%- change.subject %>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.otherNonBreakingChanges.length ) { -%>
@@ -32,7 +32,7 @@ Fixes:
 Other changes:
 
 <%_ for ( const change of changes.otherNonBreakingChanges ) { -%>
--   <%- change.title %>
+-   <%- change.subject %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
