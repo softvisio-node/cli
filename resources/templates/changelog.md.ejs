@@ -3,10 +3,11 @@
 
 No changes since the previous release.
 <%_ } else { -%>
-<%_ if ( changes.breakingChanges.length ) { -%>
+<%_ for ( const [ title, property ] of Object.entries( blocks ) ) { -%>
+<%_ if ( changes[ property ].length ) { -%>
 
-**Breaking changes:**
-<%_ for ( const change of changes.breakingChanges ) { -%>
+**<%- title %>:**
+<%_ for ( const change of changes[ property ] ) { -%>
 
 - <%- change.subject %>
 <%_ if ( change.headers.issues || change.headers.fixes ) { -%>
@@ -22,41 +23,6 @@ No changes since the previous release.
 
 <%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
 <%_ } -%>
-<%_ } -%>
-<%_ } -%>
-<%_ if ( changes.featureNonBreakingChanges.length ) { -%>
-
-**Features:**
-<%_ for ( const change of changes.featureNonBreakingChanges ) { -%>
-
-- <%- change.subject %>
-<%_ if ( change.bodyText ) { -%>
-
-<%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
-<%_ } -%>
-<%_ } -%>
-<%_ } -%>
-<%_ if ( changes.fixNonBreakingChanges.length ) { -%>
-
-**Fixes:**
-<%_ for ( const change of changes.fixNonBreakingChanges ) { -%>
-
-- <%- change.subject %>
-<%_ if ( change.bodyText ) { -%>
-
-<%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
-<%_ } -%>
-<%_ } -%>
-<%_ } -%>
-<%_ if ( changes.otherNonBreakingChanges.length ) { -%>
-
-**Other changes:**
-<%_ for ( const change of changes.otherNonBreakingChanges ) { -%>
-
-- <%- change.subject %>
-<%_ if ( change.bodyText ) { -%>
-
-<%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
