@@ -1,5 +1,15 @@
 # Changelog
 
+### 3.69.3 (2025-05-10)
+
+**Other changes:**
+
+- chore: refactor git changesets
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.69.2...v3.69.3`](https://github.com/softvisio-node/cli/compare/v3.69.2...v3.69.3)
+
 ### 3.69.2 (2025-05-08)
 
 Other changes:
