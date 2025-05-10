@@ -9,6 +9,10 @@ Breaking changes:
 
 <%_ for ( const change of changes.breakingChanges ) { -%>
 -   <%- change.subject %>
+<%_ if ( change.bodyText ) { -%>
+
+    <%- change.bodyText %>
+<%_ } -%>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( changes.featureNonBreakingChanges.length ) { -%>
