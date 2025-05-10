@@ -11,7 +11,7 @@ No changes since the previous release.
 - <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
-<%- change.bodyText.replaceAll( /^/gm, "    " ) %>
+<%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
@@ -23,7 +23,7 @@ No changes since the previous release.
 - <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
-<%- change.bodyText.replaceAll( /^/gm, "    " ) %>
+<%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
@@ -35,7 +35,7 @@ No changes since the previous release.
 - <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
-<%- change.bodyText.replaceAll( /^/gm, "    " ) %>
+<%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
@@ -47,7 +47,7 @@ No changes since the previous release.
 - <%- change.subject %>
 <%_ if ( change.bodyText ) { -%>
 
-<%- change.bodyText.replaceAll( /^/gm, "    " ) %>
+<%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
