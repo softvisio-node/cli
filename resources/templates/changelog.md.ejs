@@ -15,7 +15,7 @@ No changes since the previous release.
 **<%- title %>:**
 <%_ for ( const change of changes[ property ] ) { -%>
 
-- <%- change.subject %>
+- <%- change.getChangelogSubject() %>
 <%_ if ( change.footers.issues || change.footers.fixes ) { -%>
 
 <%_ if ( change.footers.issues ) { -%>
