@@ -16,13 +16,13 @@ No changes since the previous release.
 <%_ for ( const change of changes[ property ] ) { -%>
 
 - <%- change.subject %>
-<%_ if ( change.headers.issues || change.headers.fixes ) { -%>
+<%_ if ( change.footers.issues || change.footers.fixes ) { -%>
 
-<%_ if ( change.headers.issues ) { -%>
-    Issues: <%- change.headers.issues.map( issue => upstream ? `[#${ issue }](${ upstream.getIssueUrl( issue ) })` : `#${ issue }` ).join( ", " ) %>
+<%_ if ( change.footers.issues ) { -%>
+    Issues: <%- change.footers.issues.map( issue => upstream ? `[#${ issue }](${ upstream.getIssueUrl( issue ) })` : `#${ issue }` ).join( ", " ) %>
 <%_ } -%>
-<%_ if ( change.headers.fixes ) { -%>
-    Fix: <%- change.headers.fixes.map( issue => upstream ? `[#${ issue }](${ upstream.getIssueUrl( issue ) })` : `#${ issue }` ).join( ", " ) %>
+<%_ if ( change.footers.fixes ) { -%>
+    Fix: <%- change.footers.fixes.map( issue => upstream ? `[#${ issue }](${ upstream.getIssueUrl( issue ) })` : `#${ issue }` ).join( ", " ) %>
 <%_ } -%>
 <%_ } -%>
 <%_ if ( change.bodyText ) { -%>
