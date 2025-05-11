@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.71.1 (2025-05-11)
+
+**Other changes:**
+
+- \[PATCH] chore: update changelog subject
+
+Compare with the previous release: [`v3.71.0...v3.71.1`](https://github.com/softvisio-node/cli/compare/v3.71.0...v3.71.1)
+
 ### v3.71.0 (2025-05-11)
 
 **Features:**
