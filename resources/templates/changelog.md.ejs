@@ -16,15 +16,6 @@ No changes since the previous release.
 <%_ for ( const change of changes[ property ] ) { -%>
 
 - <%- change.getChangelogSubject() %>
-<%_ if ( change.footers.issues || change.footers.fixes ) { -%>
-
-<%_ if ( change.footers.issues ) { -%>
-    Issues: <%- change.footers.issues.map( issue => upstream ? `[#${ issue }](${ upstream.getIssueUrl( issue ) })` : `#${ issue }` ).join( ", " ) %>
-<%_ } -%>
-<%_ if ( change.footers.fixes ) { -%>
-    Fix: <%- change.footers.fixes.map( issue => upstream ? `[#${ issue }](${ upstream.getIssueUrl( issue ) })` : `#${ issue }` ).join( ", " ) %>
-<%_ } -%>
-<%_ } -%>
 <%_ if ( change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
