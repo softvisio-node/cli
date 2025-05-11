@@ -1,5 +1,19 @@
 # Changelog
 
+### 3.69.6 (2025-05-11)
+
+**Other changes:**
+
+- chore: do not inherit breaking change flag from commit headers
+
+- chore: rename variables
+
+- chore: update changelog generator
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v3.69.5...v3.69.6`](https://github.com/softvisio-node/cli/compare/v3.69.5...v3.69.6)
+
 ### 3.69.5 (2025-05-10)
 
 **Fixes:**
