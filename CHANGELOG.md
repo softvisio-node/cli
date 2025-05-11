@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.71.0 (2025-05-11)
+
+**Features:**
+
+- \[MINOR] feat: add support for github keywords in commit message
+
+**Fixes:**
+
+- \[PATCH] fix: fix changelog generator
+
+Compare with the previous release: [`v3.70.1...v3.71.0`](https://github.com/softvisio-node/cli/compare/v3.70.1...v3.71.0)
+
 ### v3.70.1 (2025-05-11)
 
 **Fixes:**
