@@ -1,4 +1,10 @@
-### <%- newVersion ? newVersion + " " : ""  -%>(<%- new Date().toISOString().substr( 0, 10 ) %>)
+<%_ if ( newVersion ) { -%>
+### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
+<%_ } else if ( previousVersion ) { -%>
+### Changes since the release v<%- previousVersion %>
+<%_ } else { -%>
+### Changes since the initial commit
+<%_ } -%>
 <%_ if ( !changes.hasChanges ) { -%>
 
 No changes since the previous release.
