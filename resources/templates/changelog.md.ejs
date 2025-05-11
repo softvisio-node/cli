@@ -1,5 +1,5 @@
-<%_ if ( newVersion.versionString ) { -%>
-### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
+<%_ if ( newVersion ) { -%>
+### <%- newVersion.versionString %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
 <%_ } else if ( previousVersion ) { -%>
 ### Changes since the release: <%- previousVersion.versionString %>
 <%_ } else { -%>
