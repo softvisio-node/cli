@@ -1,7 +1,7 @@
 <%_ if ( newVersion ) { -%>
 ### <%- newVersion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
 <%_ } else if ( previousVersion ) { -%>
-### Changes since the release: <%- previousVersion.toVersionString() %>
+### Changes since the release: <%- previousVersion.versionString %>
 <%_ } else { -%>
 ### Changes since the initial commit
 <%_ } -%>
@@ -35,7 +35,7 @@ No changes since the previous release.
 <%_ } -%>
 <%_ if ( compareUrl ) { -%>
 
-Compare with the previous release: [`<%- previousVersion.toVersionString() %>...<%- newVersion.toVersionString() %>`](<%- compareUrl %>)
+Compare with the previous release: [`<%- previousVersion.versionString %>...<%- newVersion.versionString %>`](<%- compareUrl %>)
 <%_ } -%>
 <%_ if ( newVersion?.isMajor ) { -%>
 
