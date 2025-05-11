@@ -1,5 +1,23 @@
 # Changelog
 
+### 3.70.0 (2025-05-11)
+
+**Features:**
+
+- \[MINOR] feat: convert toVersionString() to property
+
+**Fixes:**
+
+- \[PATCH] fix: fix commit parser
+
+**Other changes:**
+
+- \[PATCH] chore: refactor changelog generator
+
+- \[PATCH] chore: update package dependencies
+
+Compare with the previous release: [`v3.69.6...v3.70.0`](https://github.com/softvisio-node/cli/compare/v3.69.6...v3.70.0)
+
 ### 3.69.6 (2025-05-11)
 
 **Other changes:**
