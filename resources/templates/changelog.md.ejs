@@ -18,7 +18,7 @@ No changes since the previous release.
 - <%- change.getChangelogSubject() %>
 <%_ if ( change.bodyText ) { -%>
 
-<%- change.bodyText.replaceAll( /^(?!$)/gm, "    " ) %>
+<%- change.bodyText.replaceAll( /^(?!$)/gm, " ".repeat( 4 ) ) %>
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
