@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.72.0 (2025-05-12)
+
+**Features:**
+
+- \[MINOR] feat: add change authors to change log (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: improve merge commits detection (👬 zdm)
+
+Compare with the previous release: [`v3.71.1...v3.72.0`](https://github.com/softvisio-node/cli/compare/v3.71.1...v3.72.0)
+
 ### v3.71.1 (2025-05-11)
 
 **Other changes:**
