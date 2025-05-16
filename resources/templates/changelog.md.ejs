@@ -24,13 +24,13 @@ No changes since the previous release.
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
+<%_ if ( changes.hasBreakingChanges ) { -%>
+
+**Migration notes:**
+
+See the list of the breaking changes for details.
+<%_ } -%>
 <%_ if ( compareUrl ) { -%>
 
 Compare with the previous release: [`<%- previousVersion.versionString %>...<%- newVersion.versionString %>`](<%- compareUrl %>)
-<%_ } -%>
-<%_ if ( newVersion?.hasBreakingChanges ) { -%>
-
-Migration notes:
-
-See the list of the breaking changes for details.
 <%_ } -%>
