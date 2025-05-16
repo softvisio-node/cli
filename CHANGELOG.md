@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.73.0 (2025-05-16)
+
+**Features:**
+
+- \[MINOR] feat: combine changelog from pre-prelease versions (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: commit docs separately on release (👬 zdm)
+
+- \[PATCH] chore: refactor log command (👬 zdm)
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+- \[PATCH] chore: use repeatAction call (👬 zdm)
+
+Compare with the previous release: [`v3.72.1...v3.73.0`](https://github.com/softvisio-node/cli/compare/v3.72.1...v3.73.0)
+
 ### v3.72.1 (2025-05-12)
 
 **Other changes:**
