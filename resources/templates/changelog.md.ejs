@@ -9,6 +9,12 @@
 
 No changes since the previous release.
 <%_ } else { -%>
+<%_ if ( changes.hasBreakingChanges ) { -%>
+
+**Migration notes:**
+
+See the list of the breaking changes below for details.
+<%_ } -%>
 <%_ for ( const [ title, property ] of Object.entries( blocks ) ) { -%>
 <%_ if ( changes[ property ].length ) { -%>
 
@@ -23,12 +29,6 @@ No changes since the previous release.
 <%_ } -%>
 <%_ } -%>
 <%_ } -%>
-<%_ } -%>
-<%_ if ( changes.hasBreakingChanges ) { -%>
-
-**Migration notes:**
-
-See the list of the breaking changes for details.
 <%_ } -%>
 <%_ if ( compareUrl ) { -%>
 
