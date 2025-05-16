@@ -28,7 +28,7 @@ No changes since the previous release.
 
 Compare with the previous release: [`<%- previousVersion.versionString %>...<%- newVersion.versionString %>`](<%- compareUrl %>)
 <%_ } -%>
-<%_ if ( newVersion?.isMajor ) { -%>
+<%_ if ( newVersion?.hasBreakingChanges ) { -%>
 
 Migration notes:
 
