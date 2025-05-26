@@ -1,5 +1,5 @@
 <%_ if ( previousReleaseVersion && releaseVerion ) { -%>
-### <%- previousReleaseVersion %>..<%- releaseVerion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
+### <%- releaseVerion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
 <%_ } else if ( !previousReleaseVersion && releaseVerion ) { -%>
 ### <%- releaseVerion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
 <%_ } else if ( previousReleaseVersion && !releaseVerion ) { -%>
