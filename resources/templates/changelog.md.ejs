@@ -1,27 +1,27 @@
-<%_ if ( previousReleaseVersion && releaseVerion ) { -%>
-### <%- releaseVerion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
-<%_ } else if ( !previousReleaseVersion && releaseVerion ) { -%>
-### <%- releaseVerion %> (<%- new Date().toISOString().substr( 0, 10 ) %>)
-<%_ } else if ( previousReleaseVersion && !releaseVerion ) { -%>
-### <%- previousReleaseVersion %>.. (<%- new Date().toISOString().substr( 0, 10 ) %>)
+<%_ if ( changelog.previousRelease && changelog.currentRelease ) { -%>
+### <%- changelog.currentRelease.versionString %> (<%- changelog.currentRelease.changelogDate %>)
+<%_ } else if ( !changelog.previousRelease && changelog.currentRelease ) { -%>
+### <%- changelog.currentRelease.versionString %> (<%- changelog.currentRelease.changelogDate %>)
+<%_ } else if ( changelog.previousRelease && !changelog.currentRelease ) { -%>
+### Changes since the release: <%- changelog.previousRelease.versionString %> (<%- changelog.previousRelease.changelogDate %>)
 <%_ } else { -%>
-### (<%- new Date().toISOString().substr( 0, 10 ) %>)
+### Changes since the initial commit
 <%_ } -%>
-<%_ if ( !changes.hasChanges ) { -%>
+<%_ if ( !changelog.hasChanges ) { -%>
 
 No changes since the previous release.
 <%_ } else { -%>
-<%_ if ( changes.hasBreakingChanges ) { -%>
+<%_ if ( changelog.hasBreakingChanges ) { -%>
 
 **Migration notes:**
 
 See the list of the breaking changes below for details.
 <%_ } -%>
 <%_ for ( const [ title, property ] of Object.entries( blocks ) ) { -%>
-<%_ if ( changes[ property ].length ) { -%>
+<%_ if ( changelog.changes[ property ].length ) { -%>
 
 **<%- title %>:**
-<%_ for ( const change of changes[ property ] ) { -%>
+<%_ for ( const change of changelog.changes[ property ] ) { -%>
 
 - <%- change.getChangelogSubject() %>
 <%_ if ( change.bodyText ) { -%>
@@ -34,5 +34,5 @@ See the list of the breaking changes below for details.
 <%_ } -%>
 <%_ if ( compareUrl ) { -%>
 
-Compare with the previous release: [`<%- previousReleaseVersion %>...<%- releaseVerion %>`](<%- compareUrl %>)
+Compare with the previous release: [`<%- changelog.previousRelease.versionString %>...<%- changelog.currentRelease.versionString %>`](<%- compareUrl %>)
 <%_ } -%>
