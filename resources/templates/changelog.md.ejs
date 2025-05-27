@@ -1,8 +1,8 @@
-<%_ if ( changelog.previousRelease && changelog.currentRelease ) { -%>
-### <%- changelog.currentRelease.versionString %> (<%- changelog.currentRelease.changelogDate %>)
-<%_ } else if ( !changelog.previousRelease && changelog.currentRelease ) { -%>
-### <%- changelog.currentRelease.versionString %> (<%- changelog.currentRelease.changelogDate %>)
-<%_ } else if ( changelog.previousRelease && !changelog.currentRelease ) { -%>
+<%_ if ( changelog.previousRelease && currentRelease ) { -%>
+### <%- currentRelease.versionString %> (<%- currentRelease.changelogDate %>)
+<%_ } else if ( !changelog.previousRelease && currentRelease ) { -%>
+### <%- currentRelease.versionString %> (<%- currentRelease.changelogDate %>)
+<%_ } else if ( changelog.previousRelease && !currentRelease ) { -%>
 ### Changes since the release: <%- changelog.previousRelease.versionString %> (<%- changelog.previousRelease.changelogDate %>)
 <%_ } else { -%>
 ### Changes since the initial commit
@@ -34,5 +34,5 @@ See the list of the breaking changes below for details.
 <%_ } -%>
 <%_ if ( compareUrl ) { -%>
 
-Compare with the previous release: [`<%- changelog.previousRelease.versionString %>...<%- changelog.currentRelease.versionString %>`](<%- compareUrl %>)
+Compare with the previous release: [`<%- changelog.previousRelease.versionString %>...<%- currentRelease.versionString %>`](<%- compareUrl %>)
 <%_ } -%>
