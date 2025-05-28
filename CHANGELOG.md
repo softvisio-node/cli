@@ -1,3 +1,11 @@
+# Changelog
+
+### v3.74.1 (2025-05-28)
+
+**Fixes:**
+
+- \[PATCH] fix: fix changelog builder (👬 zdm)
+
 ### v3.74.0 (2025-05-28)
 
 **Features:**
