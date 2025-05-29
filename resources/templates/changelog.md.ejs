@@ -17,14 +17,14 @@ No changes since the previous release.
 
 See the list of the breaking changes below for details.
 <%_ } -%>
-<%_ for ( const [ title, changes ] of Object.entries( changesGroups ) ) { -%>
-<%_ if ( changes.length ) { -%>
+<%_ for ( const [ title, group ] of Object.entries( changesGroups ) ) { -%>
+<%_ if ( group.changes.length ) { -%>
 
 **<%- title %>:**
-<%_ for ( const change of changes ) { -%>
+<%_ for ( const change of group.changes ) { -%>
 
 - <%- change.getChangelogSubject() %>
-<%_ if ( change.bodyText ) { -%>
+<%_ if ( group.showAnnotatiion && change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^(?!$)/gm, " ".repeat( 4 ) ) %>
 <%_ } -%>
