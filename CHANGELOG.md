@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.75.3 (2025-05-30)
+
+**Other changes:**
+
+- \[PATCH] chore: update changelog (👬 zdm)
+
+Compare with the previous release: [`v3.75.2...v3.75.3`](https://github.com/softvisio-node/cli/compare/v3.75.2...v3.75.3)
+
 ### v3.75.2 (2025-05-30)
 
 **Fixes:**
