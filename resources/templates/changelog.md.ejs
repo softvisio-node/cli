@@ -1,8 +1,6 @@
-<%_ if ( changelog.previousRelease && currentRelease ) { -%>
+<%_ if ( currentRelease ) { -%>
 ### <%- currentRelease.versionString %> (<%- currentRelease.changelogDate %>)
-<%_ } else if ( !changelog.previousRelease && currentRelease ) { -%>
-### <%- currentRelease.versionString %> (<%- currentRelease.changelogDate %>)
-<%_ } else if ( changelog.previousRelease && !currentRelease ) { -%>
+<%_ } else if ( changelog.previousRelease ) { -%>
 ### Changes since the release: <%- changelog.previousRelease.versionString %> (<%- changelog.previousRelease.changelogDate %>)
 <%_ } else { -%>
 ### Changes since the initial commit
