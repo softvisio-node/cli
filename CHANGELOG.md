@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.75.2 (2025-05-30)
+
+**Fixes:**
+
+- \[PATCH] fix: fix changelog (👬 zdm)
+
+- \[PATCH] fix: fix git tags messages (👬 zdm)
+
+Compare with the previous release: [`v3.75.1...v3.75.2`](https://github.com/softvisio-node/cli/compare/v3.75.1...v3.75.2)
+
 ### v3.75.1 (2025-05-30)
 
 **Fixes:**
