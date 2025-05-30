@@ -1,12 +1,12 @@
 {
     "name": "@softvisio/cli",
-    "version": "3.75.3",
+    "version": "3.75.4",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "@softvisio/cli",
-            "version": "3.75.3",
+            "version": "3.75.4",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
