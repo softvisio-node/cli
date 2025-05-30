@@ -1,5 +1,35 @@
 # Changelog
 
+### v3.75.0 (2025-05-30)
+
+**Features:**
+
+- \[MINOR] feat: add changelog to the release version tag annotation (👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: check merge commit message (👬 zdm)
+
+- \[PATCH] fix: fix changelog (👬 zdm)
+
+- \[PATCH] fix: fix git changelog (👬 zdm)
+
+- \[PATCH] fix: fix package release (👬 zdm)
+
+- \[PATCH] fix: fix release branch check (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: fix status command result (👬 zdm)
+
+- \[PATCH] chore: refactor changelog (👬 zdm)
+
+- \[PATCH] chore: refactor git api (👬 zdm)
+
+- \[PATCH] chore: remove error log (👬 zdm)
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
 ### v3.74.1 (2025-05-28)
 
 **Fixes:**
