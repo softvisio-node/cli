@@ -1,5 +1,11 @@
 # Changelog
 
+### v3.75.1 (2025-05-30)
+
+**Fixes:**
+
+- \[PATCH] fix: fix git release messages (👬 zdm)
+
 ### v3.75.0 (2025-05-30)
 
 **Features:**
