@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.75.6 (2025-05-31)
+
+**Fixes:**
+
+- \[PATCH] fix: check message for merge commits (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [`v3.75.5...v3.75.6`](https://github.com/softvisio-node/cli/compare/v3.75.5...v3.75.6)
+
 ### v3.75.5 (2025-05-31)
 
 **Other changes:**
