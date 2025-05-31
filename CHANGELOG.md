@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.75.7 (2025-05-31)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor git api (👬 zdm)
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [`v3.75.6...v3.75.7`](https://github.com/softvisio-node/cli/compare/v3.75.6...v3.75.7)
+
 ### v3.75.6 (2025-05-31)
 
 **Fixes:**
