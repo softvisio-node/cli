@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.75.5 (2025-05-31)
+
+**Other changes:**
+
+- \[PATCH] chore: linkify devserver listen url (👬 zdm)
+
+- \[PATCH] chore: refactor changelog issues linkification (👬 zdm)
+
+- \[PATCH] chore: refactor git upstream (👬 zdm)
+
+- \[PATCH] chore: update changelog (👬 zdm)
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [`v3.75.4...v3.75.5`](https://github.com/softvisio-node/cli/compare/v3.75.4...v3.75.5)
+
 ### v3.75.4 (2025-05-30)
 
 **Other changes:**
