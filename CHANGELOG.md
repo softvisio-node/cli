@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.75.11 (2025-06-01)
+
+**Fixes:**
+
+- \[PATCH] fix: fix release commit and tag message (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [`v3.75.10...v3.75.11`](https://github.com/softvisio-node/cli/compare/v3.75.10...v3.75.11)
+
 ### v3.75.10 (2025-06-01)
 
 **Other changes:**
