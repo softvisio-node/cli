@@ -1,10 +1,3 @@
-<%_ if ( currentRelease ) { -%>
-### <%- currentRelease.versionString %> (<%- currentRelease.changelogDate %>)
-<%_ } else if ( changelog.previousRelease ) { -%>
-### Changes since the release: <%- changelog.previousRelease.versionString %> (<%- changelog.previousRelease.changelogDate %>)
-<%_ } else { -%>
-### Changes since the initial commit
-<%_ } -%>
 <%_ if ( !changelog.hasChanges ) { -%>
 
 No changes since the previous release.
