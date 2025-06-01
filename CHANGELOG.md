@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.75.13 (2025-06-01)
+
+**Other changes:**
+
+- \[PATCH] chore: update changelog (👬 zdm)
+
+- \[PATCH] chore: update docs (👬 zdm)
+
+- \[PATCH] chore: update issues icon (👬 zdm)
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+- \[PATCH] chore: update release workflow (👬 zdm)
+
+Compare with the previous release: [v3.75.12](https://github.com/softvisio-node/cli/compare/v3.75.12...v3.75.13)
+
 ### v3.75.12 (2025-06-01)
 
 **Other changes:**
