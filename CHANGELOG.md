@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.75.15 (2025-06-03)
+
+**Other changes:**
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [v3.75.14](https://github.com/softvisio-node/cli/compare/v3.75.14...v3.75.15)
+
 ### v3.75.14 (2025-06-03)
 
 **Other changes:**
