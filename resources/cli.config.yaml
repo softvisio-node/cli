@@ -1,5 +1,3 @@
-releasable: false
-
 subPackages: ~
 
 meta:
@@ -47,6 +45,10 @@ meta:
     vulnerabilityAlerts: true
     dependabotsecurityupdates: true
     privateVulnerabilityReporting: true
+
+release:
+  enabled: false
+  branches: [main]
 
 docker:
   composeFile: compose.yaml

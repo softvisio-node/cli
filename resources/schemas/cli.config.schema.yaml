@@ -1,7 +1,5 @@
 type: object
 properties:
-  releasable: { type: boolean }
-
   meta:
     type: object
     properties:
@@ -112,6 +110,14 @@ properties:
         minItems: 1
         uniqueItems: true
 
+  release:
+    type: object
+    properties:
+      enabled: { type: boolean }
+      branches: { type: array, items: { type: string }, uniqueItems: true, minItems: 1 }
+    additionalProperties: false
+    required: [enabled, branches]
+
   docker:
     type: object
     properties:
@@ -217,4 +223,4 @@ properties:
         required: [location]
 
 additionalProperties: false
-required: [releasable, meta]
+required: [meta, release]
