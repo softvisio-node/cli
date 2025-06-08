@@ -941,9 +941,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.161.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.161.0.tgz",
-            "integrity": "sha512-A3mm5bxS9+xUSkEs9Jkpe6KkHedE2EvibbUhqPGEjYRMFr4yXJoLBQmbRKxyp73QgXMB3Mcd5yS9iVYHBzoa8g==",
+            "version": "7.163.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.163.0.tgz",
+            "integrity": "sha512-3+1vPV01vSaqZFrW65+Oi+kBy45hGk5yu91VP4jbpQPvomNki0Oyehg+tIeIDGexkSAxH/bVHuDtCOm1S0U8lA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -3422,9 +3422,9 @@
             "license": "BSD-3-Clause"
         },
         "node_modules/fast-xml-parser": {
-            "version": "5.2.4",
-            "resolved": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.2.4.tgz",
-            "integrity": "sha512-6mNrAVwHip2nGyPYn6xQJK/znBbIoz6to5VMNysrka1/aoSylbB8vjYgkpaFp05EFojiflVV+3QzXe9Ap3Esng==",
+            "version": "5.2.5",
+            "resolved": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.2.5.tgz",
+            "integrity": "sha512-pfX9uG9Ki0yekDHx2SiuRIyFdyAr1kMIMitPvb0YBo8SUfKvia7w7FIyd/l6av85pFYRhZscS75MwMnbvY+hcQ==",
             "funding": [
                 {
                     "type": "github",
