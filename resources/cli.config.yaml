@@ -56,15 +56,33 @@ docker:
   autoTags: ~
 
 commits:
-  strict: true
+  requireType: true
+  strictType: true
 
   types:
-    - chore
-    - feat
-    - fix
-
-  scopeRequired: false
+    feat:
+      title: Features
+      other: false
+      requireScope: false
+      strictScope: true
+    fix:
+      title: Fixes
+      other: false
+      requireScope: false
+      strictScope: true
+    refactor:
+      title: Refactoring
+      other: false
+      requireScope: false
+      strictScope: true
+    chore:
+      title: Other changes
+      other: true
+      requireScope: false
+      strictScope: true
 
   scopes: ~
+
+  otherScopes: [deps, docs, lint, metadata, release]
 
 docs: ~

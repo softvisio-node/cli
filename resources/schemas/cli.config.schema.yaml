@@ -144,19 +144,34 @@ properties:
   commits:
     type: object
     properties:
-      strict: { type: boolean }
+      requireType: { type: boolean }
+      strictType: { type: boolean }
+
       types:
-        anyOf:
-          - type: "null"
-          - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
-      scopeRequired: { type: boolean }
+        type: object
+        propertyNames: { type: string, format: kebab-case }
+        additionalProperties:
+          type: object
+          properties:
+            title: { type: string }
+            other: { type: boolean }
+            requireScope: { type: boolean }
+            strictScope: { type: boolean }
+          additionalProperties: false
+          required: [title, other, requireScope, strictScope]
+
       scopes:
         anyOf:
           - type: "null"
           - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
 
+      otherScopes:
+        anyOf:
+          - type: "null"
+          - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
+
     additionalProperties: false
-    required: []
+    required: [requireType, strictType, types, scopes, otherScopes]
 
   docs:
     anyOf:
@@ -223,4 +238,4 @@ properties:
         required: [location]
 
 additionalProperties: false
-required: [meta, release]
+required: [meta, release, commits]
