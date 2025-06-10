@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.76.1 (2025-06-10)
+
+**New features:**
+
+- \[MINOR] feat: introduce changelog notable changes (👬 zdm)
+
+- \[MINOR] feat: introduce changelog primary changes (👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: update release confirmations (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore(deps): update package dependencies (👬 zdm)
+
+Compare with the previous release: [v3.76.0](https://github.com/softvisio-node/cli/compare/v3.76.0...v3.76.1)
+
 ### v3.76.0 (2025-06-10)
 
 **New features:**
