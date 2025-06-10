@@ -158,7 +158,7 @@ properties:
             requireScope: { type: boolean }
             strictScope: { type: boolean }
           additionalProperties: false
-          required: [title, other, requireScope, strictScope]
+          required: [requireScope, strictScope]
 
       scopes:
         anyOf:

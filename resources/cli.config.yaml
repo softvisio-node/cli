@@ -61,22 +61,15 @@ commits:
 
   types:
     feat:
-      title: Features
-      other: false
       requireScope: false
       strictScope: true
     fix:
-      title: Fixes
-      other: false
       requireScope: false
       strictScope: true
     refactor:
-      title: Refactoring
-      other: false
       requireScope: false
       strictScope: true
     chore:
-      title: Other changes
       other: true
       requireScope: false
       strictScope: true
