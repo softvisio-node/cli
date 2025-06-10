@@ -71,7 +71,7 @@ commits:
       strictScope: true
     chore:
       other: true
-      requireScope: false
+      requireScope: true
       strictScope: true
 
   scopes: ~
