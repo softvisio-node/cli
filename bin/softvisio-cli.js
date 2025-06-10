@@ -70,18 +70,20 @@ const spec = {
 
 const cli = await CLI.parse( spec );
 
+var res;
+
 try {
-    var res = result.try( await new cli.module().run(), { "allowUndefined": true } );
+    res = result.try( await new cli.module().run(), { "allowUndefined": true } );
 }
 catch ( e ) {
     res = result.catch( e );
+
+    console.error( ansi.error( " Error: " ), res.statusText );
 }
 
 if ( res.ok ) {
     process.exit( 0 );
 }
 else {
-    console.error( ansi.error( " Error: " ), res.statusText );
-
     process.exit( 2 );
 }
