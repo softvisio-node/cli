@@ -154,25 +154,25 @@ properties:
           type: object
           properties:
             title: { type: string }
+            primaryChange: { type: boolean }
             notableChange: { type: boolean }
-            other: { type: boolean }
             requireScope: { type: boolean }
             strictScope: { type: boolean }
           additionalProperties: false
-          required: [notableChange, requireScope, strictScope]
+          required: [primaryChange, notableChange, requireScope, strictScope]
 
-      scopes:
+      primaryScopes:
         anyOf:
           - type: "null"
           - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
 
-      otherScopes:
+      secondaryScopes:
         anyOf:
           - type: "null"
           - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
 
     additionalProperties: false
-    required: [requireType, strictType, types, scopes, otherScopes]
+    required: [requireType, strictType, types, primaryScopes, secondaryScopes]
 
   docs:
     anyOf:

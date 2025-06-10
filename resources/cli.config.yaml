@@ -61,25 +61,28 @@ commits:
 
   types:
     feat:
+      primaryChange: true
       notableChange: true
-      requireScope: false
+      requireScope: true
       strictScope: true
     fix:
+      primaryChange: true
       notableChange: true
-      requireScope: false
+      requireScope: true
       strictScope: true
     refactor:
+      primaryChange: true
       notableChange: false
-      requireScope: false
+      requireScope: true
       strictScope: true
     chore:
-      other: true
+      primaryChange: false
       notableChange: false
       requireScope: true
       strictScope: true
 
-  scopes: ~
+  primaryScopes: ~
 
-  otherScopes: [deps, docs, lint, metadata, release]
+  secondaryScopes: [deps, docs, lint, metadata, release]
 
 docs: ~
