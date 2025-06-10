@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.76.2 (2025-06-10)
+
+**Refactoring:**
+
+- \[PATCH] refactor: do not log cli error on normal return (👬 zdm)
+
+- \[PATCH] refactor: fix package release in batch mode (👬 zdm)
+
+- \[PATCH] refactor: hide non-notable changes in changelog report (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore(deps): update package dependencies (👬 zdm)
+
+Compare with the previous release: [v3.76.1](https://github.com/softvisio-node/cli/compare/v3.76.1...v3.76.2)
+
 ### v3.76.1 (2025-06-10)
 
 **New features:**
