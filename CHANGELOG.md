@@ -1,5 +1,45 @@
 # Changelog
 
+### v3.76.0 (2025-06-10)
+
+**New features:**
+
+- \[MINOR] feat: add docker builder working tree build (👬 zdm)
+
+- \[MINOR] feat: check branch on release (👬 zdm)
+
+- \[MINOR] feat: highlight non-default branch in ls command (👬 zdm)
+
+- \[MINOR] feat: highlight pre-release versions in ls command (👬 zdm)
+
+- \[MINOR] feat: make chore commit scope required by default (👬 zdm)
+
+- \[MINOR] feat: update cli commits config (👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: handle empty repos (👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: update changelog (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor git branch status (👬 zdm)
+
+- \[PATCH] chore: refactor git dirty status (👬 zdm)
+
+- \[PATCH] chore: refactor git working tree status (👬 zdm)
+
+- \[PATCH] chore: refactor package release (👬 zdm)
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+- \[PATCH] chore(deps): update package dependencies (👬 zdm)
+
+Compare with the previous release: [v3.75.15](https://github.com/softvisio-node/cli/compare/v3.75.15...v3.76.0)
+
 ### v3.75.15 (2025-06-03)
 
 **Other changes:**
