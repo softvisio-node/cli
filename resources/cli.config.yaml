@@ -61,16 +61,20 @@ commits:
 
   types:
     feat:
+      notableChange: true
       requireScope: false
       strictScope: true
     fix:
+      notableChange: true
       requireScope: false
       strictScope: true
     refactor:
+      notableChange: false
       requireScope: false
       strictScope: true
     chore:
       other: true
+      notableChange: false
       requireScope: true
       strictScope: true
 

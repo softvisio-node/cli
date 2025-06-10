@@ -154,11 +154,12 @@ properties:
           type: object
           properties:
             title: { type: string }
+            notableChange: { type: boolean }
             other: { type: boolean }
             requireScope: { type: boolean }
             strictScope: { type: boolean }
           additionalProperties: false
-          required: [requireScope, strictScope]
+          required: [notableChange, requireScope, strictScope]
 
       scopes:
         anyOf:
