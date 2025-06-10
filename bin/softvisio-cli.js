@@ -77,13 +77,13 @@ try {
 }
 catch ( e ) {
     res = result.catch( e );
-
-    console.error( ansi.error( " Error: " ), res.statusText );
 }
 
 if ( res.ok ) {
     process.exit( 0 );
 }
 else {
+    console.error( ansi.error( "[E]" ), res.statusText );
+
     process.exit( 2 );
 }
