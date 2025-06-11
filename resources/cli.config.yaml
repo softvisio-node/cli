@@ -83,6 +83,12 @@ commits:
 
   primaryScopes: ~
 
-  secondaryScopes: [build, deps, docs, metadata, release, style]
+  secondaryScopes:
+    build: Package build related changes
+    deps: Package dependencies updates
+    docs: Documentation changes
+    metadata: Package metadata changes
+    release: Package release
+    style: Code stylistic changes
 
 docs: ~

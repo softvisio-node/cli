@@ -151,25 +151,37 @@ properties:
         type: object
         propertyNames: { type: string, format: kebab-case }
         additionalProperties:
-          type: object
-          properties:
-            title: { type: string }
-            primaryChange: { type: boolean }
-            notableChange: { type: boolean }
-            requireScope: { type: boolean }
-            strictScope: { type: boolean }
-          additionalProperties: false
-          required: [primaryChange, notableChange, requireScope, strictScope]
+          anyOf:
+            - const: false
+            - type: object
+              properties:
+                title: { type: string }
+                primaryChange: { type: boolean }
+                notableChange: { type: boolean }
+                requireScope: { type: boolean }
+                strictScope: { type: boolean }
+              additionalProperties: false
+              required: [primaryChange, notableChange, requireScope, strictScope]
 
       primaryScopes:
         anyOf:
           - type: "null"
-          - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
+          - type: object
+            propertyNames: { type: string, format: kebab-case }
+            additionalProperties:
+              anyOf:
+                - const: false
+                - type: string
 
       secondaryScopes:
         anyOf:
           - type: "null"
-          - { type: array, items: { type: string, format: kebab-case }, minItems: 1, uniqueItems: true }
+          - type: object
+            propertyNames: { type: string, format: kebab-case }
+            additionalProperties:
+              anyOf:
+                - const: false
+                - type: string
 
     additionalProperties: false
     required: [requireType, strictType, types, primaryScopes, secondaryScopes]
