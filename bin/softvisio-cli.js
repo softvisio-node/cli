@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import "#core/result";
+import ansi from "#core/ansi";
 import CLI from "#core/cli";
-import ansi from "#core/text/ansi";
 
 const spec = {
     "title": "Softvisio CLI",
