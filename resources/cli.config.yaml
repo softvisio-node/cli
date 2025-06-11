@@ -83,6 +83,6 @@ commits:
 
   primaryScopes: ~
 
-  secondaryScopes: [deps, docs, metadata, release, style]
+  secondaryScopes: [build, deps, docs, metadata, release, style]
 
 docs: ~
