@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.76.4 (2025-06-11)
+
+**New features:**
+
+- \[MINOR] feat: linkify changelog (● [4c52a7a](https://github.com/softvisio-node/cli/commit/4c52a7ab); 👬 zdm)
+
+Compare with the previous release: [v3.76.3](https://github.com/softvisio-node/cli/compare/v3.76.3...v3.76.4)
+
 ### v3.76.3 (2025-06-11)
 
 **New features:**
