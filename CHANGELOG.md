@@ -1,5 +1,31 @@
 # Changelog
 
+### v3.76.3 (2025-06-11)
+
+**New features:**
+
+- \[MINOR] feat: restrict breaking changes for primary changes only (● 8e62dad2; 👬 zdm)
+
+- \[MINOR] feat: show semantic version type for primary changes only (● ce339526; 👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix lint status text (● 8e194123; 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: rename ansi classs (● 76a39637; 👬 zdm)
+
+- \[PATCH] refactor: update changelog groups generation (● 02551d51; 👬 zdm)
+
+- \[PATCH] refactor: update commit error message (● 62fbbc1c; 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● 56323e8c, 552636c2, 92e1d116; 👬 zdm)
+
+Compare with the previous release: [v3.76.2](https://github.com/softvisio-node/cli/compare/v3.76.2...v3.76.3)
+
 ### v3.76.2 (2025-06-10)
 
 **Refactoring:**
