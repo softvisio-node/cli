@@ -1,5 +1,27 @@
 # Changelog
 
+### v3.77.0 (2025-06-11)
+
+**New features:**
+
+- \[MINOR] feat: use `alpha` as default pre-release tag when required (● [1d1384e](https://github.com/softvisio-node/cli/commit/1d1384e1); 👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix invalid version increment during release (● [1bca4b5](https://github.com/softvisio-node/cli/commit/1bca4b52); 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: update next release version generator (● [5d0738b](https://github.com/softvisio-node/cli/commit/5d0738bb), [32f4fe5](https://github.com/softvisio-node/cli/commit/32f4fe5a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [27a9388](https://github.com/softvisio-node/cli/commit/27a93886); 👬 zdm)
+
+- chore(style): fix typo (● [7597cd7](https://github.com/softvisio-node/cli/commit/7597cd7f); 👬 zdm)
+
+Compare with the previous release: [v3.76.6](https://github.com/softvisio-node/cli/compare/v3.76.6...v3.77.0)
+
 ### v3.76.6 (2025-06-11)
 
 **New features:**
