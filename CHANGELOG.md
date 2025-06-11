@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.76.5 (2025-06-11)
+
+**Refactoring:**
+
+- \[PATCH] refactor: replace `lint` commit scope with `style` (● [266bb5f](https://github.com/softvisio-node/cli/commit/266bb5fd); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [0294e97](https://github.com/softvisio-node/cli/commit/0294e973); 👬 zdm)
+
+Compare with the previous release: [v3.76.4](https://github.com/softvisio-node/cli/compare/v3.76.4...v3.76.5)
+
 ### v3.76.4 (2025-06-11)
 
 **New features:**
