@@ -12,7 +12,7 @@ See the list of the breaking changes below for details.
 **<%- title %>:**
 <%_ for ( const change of group.changes ) { -%>
 
-- <%- change.getChangelogSubject() %>
+- <%- change.getChangelogSubject( { "withSemanticVersionType": group.primaryChange, "withCommits": true } ) %>
 <%_ if ( group.showAnnotatiion && change.bodyText ) { -%>
 
 <%- change.bodyText.replaceAll( /^(?!$)/gm, " ".repeat( 4 ) ) %>
