@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.76.6 (2025-06-11)
+
+**New features:**
+
+- \[MINOR] feat: add git build scope (● [51477b7](https://github.com/softvisio-node/cli/commit/51477b79); 👬 zdm)
+
+- \[MINOR] feat: change cli config commits structure (● [1559fc8](https://github.com/softvisio-node/cli/commit/1559fc85); 👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix log comman behaviour (● [c835941](https://github.com/softvisio-node/cli/commit/c8359413); 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: update ls report (● [e6e9078](https://github.com/softvisio-node/cli/commit/e6e90780); 👬 zdm)
+
+Compare with the previous release: [v3.76.5](https://github.com/softvisio-node/cli/compare/v3.76.5...v3.76.6)
+
 ### v3.76.5 (2025-06-11)
 
 **Refactoring:**
