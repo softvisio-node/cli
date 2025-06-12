@@ -156,12 +156,13 @@ properties:
             - type: object
               properties:
                 title: { type: string }
+                description: { type: string }
                 primaryChange: { type: boolean }
                 notableChange: { type: boolean }
                 requireScope: { type: boolean }
                 strictScope: { type: boolean }
               additionalProperties: false
-              required: [primaryChange, notableChange, requireScope, strictScope]
+              required: [description, primaryChange, notableChange, requireScope, strictScope]
 
       primaryScopes:
         anyOf:

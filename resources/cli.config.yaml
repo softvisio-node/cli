@@ -61,21 +61,25 @@ commits:
 
   types:
     feat:
+      description: a commit that introduces a new feature to the codebase (MINOR in Semantic Versioning)
       primaryChange: true
       notableChange: true
       requireScope: true
       strictScope: true
     fix:
+      description: a commit that patches a bug in your codebase (PATCH in Semantic Versioning)
       primaryChange: true
       notableChange: true
       requireScope: true
       strictScope: true
     refactor:
+      description: a code change that neither fixes a bug nor adds a feature
       primaryChange: true
       notableChange: false
       requireScope: true
       strictScope: true
     chore:
+      description: a commit that does not affect main codebase
       primaryChange: false
       notableChange: false
       requireScope: true
@@ -84,11 +88,11 @@ commits:
   primaryScopes: ~
 
   secondaryScopes:
-    build: Package build related changes
-    deps: Package dependencies updates
-    docs: Documentation changes
-    metadata: Package metadata changes
-    release: Package release
-    style: Code stylistic changes
+    build: package build related changes
+    deps: package dependencies updates
+    docs: documentation changes
+    metadata: package metadata changes
+    release: package release
+    style: code stylistic changes
 
 docs: ~
