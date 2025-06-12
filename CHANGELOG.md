@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.78.0 (2025-06-12)
+
+**New features:**
+
+- \[MINOR] feat: add commit types description (● [31add36](https://github.com/softvisio-node/cli/commit/31add36b); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [503c632](https://github.com/softvisio-node/cli/commit/503c632a); 👬 zdm)
+
+Compare with the previous release: [v3.77.0](https://github.com/softvisio-node/cli/compare/v3.77.0...v3.78.0)
+
 ### v3.77.0 (2025-06-11)
 
 **New features:**
