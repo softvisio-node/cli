@@ -954,9 +954,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.167.2",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.167.2.tgz",
-            "integrity": "sha512-cP/x++1yWl0sv83JPZ3+r6sEd4MpCpSkCI7PLF+S90mu3oyhITOtE0vEMr4Cu9d0OIrtU/uKiyCjnmR+WrFpRw==",
+            "version": "7.168.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.168.2.tgz",
+            "integrity": "sha512-aUCVZ5WPzhWub71jZWUgFo9Ob0OeWmO2XeOzc77Vtge98LkcTPpjriMfS9kCQlWvZGFgDNHgqf0MPrgPBEhE/A==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -1963,9 +1963,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001722",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001722.tgz",
-            "integrity": "sha512-DCQHBBZtiK6JVkAGw7drvAMK0Q0POD/xZvEmDp6baiMMP6QXXk9HpD6mNYBZWhOPG6LvIDb82ITqtWjhDckHCA==",
+            "version": "1.0.30001723",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001723.tgz",
+            "integrity": "sha512-1R/elMjtehrFejxwmexeXAtae5UO9iSyFn6G/I806CYC/BLyyBk1EPhrKBkWhy6wM6Xnm47dSJQec+tLJ39WHw==",
             "funding": [
                 {
                     "type": "opencollective",
