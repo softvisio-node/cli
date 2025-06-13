@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.78.1 (2025-06-13)
+
+**Fixes:**
+
+- \[PATCH] fix: fix changelog groups (● [de49b89](https://github.com/softvisio-node/cli/commit/de49b891); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [e711e53](https://github.com/softvisio-node/cli/commit/e711e53f), [5d3f237](https://github.com/softvisio-node/cli/commit/5d3f237f); 👬 zdm)
+
+- chore(style): fix typo (● [9d98a16](https://github.com/softvisio-node/cli/commit/9d98a16a); 👬 zdm)
+
+Compare with the previous release: [v3.78.0](https://github.com/softvisio-node/cli/compare/v3.78.0...v3.78.1)
+
 ### v3.78.0 (2025-06-12)
 
 **New features:**
