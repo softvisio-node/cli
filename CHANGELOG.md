@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.78.2 (2025-06-17)
+
+**Fixes:**
+
+- \[PATCH] fix: reinstall missing and linked deps (● [ca98dd0](https://github.com/softvisio-node/cli/commit/ca98dd00); 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: update commits config (● [aa74bea](https://github.com/softvisio-node/cli/commit/aa74bea9); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [c885278](https://github.com/softvisio-node/cli/commit/c8852787), [661c030](https://github.com/softvisio-node/cli/commit/661c030f), [f95131c](https://github.com/softvisio-node/cli/commit/f95131c9); 👬 zdm)
+
+- deps: update package dependencies (● [48bfe0d](https://github.com/softvisio-node/cli/commit/48bfe0d6); 👬 zdm)
+
+Compare with the previous release: [v3.78.1](https://github.com/softvisio-node/cli/compare/v3.78.1...v3.78.2)
+
 ### v3.78.1 (2025-06-13)
 
 **Fixes:**
