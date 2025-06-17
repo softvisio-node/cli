@@ -161,20 +161,19 @@ properties:
                 notableChange: { type: boolean }
                 requireScope: { type: boolean }
                 strictScope: { type: boolean }
+                scopes:
+                  anyOf:
+                    - type: "null"
+                    - type: object
+                      propertyNames: { type: string, format: kebab-case }
+                      additionalProperties:
+                        anyOf:
+                          - const: false
+                          - type: string
               additionalProperties: false
-              required: [description, primaryChange, notableChange, requireScope, strictScope]
+              required: [description]
 
-      primaryScopes:
-        anyOf:
-          - type: "null"
-          - type: object
-            propertyNames: { type: string, format: kebab-case }
-            additionalProperties:
-              anyOf:
-                - const: false
-                - type: string
-
-      secondaryScopes:
+      scopes:
         anyOf:
           - type: "null"
           - type: object
@@ -185,7 +184,7 @@ properties:
                 - type: string
 
     additionalProperties: false
-    required: [requireType, strictType, types, primaryScopes, secondaryScopes]
+    required: [requireType, strictType, types, scopes]
 
   docs:
     anyOf:

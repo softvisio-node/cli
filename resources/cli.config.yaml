@@ -78,21 +78,36 @@ commits:
       notableChange: false
       requireScope: true
       strictScope: true
+
+    build:
+      description: package build related changes
+      requireScope: true
+      strictScope: true
     chore:
       description: a commit that does not affect main codebase
-      primaryChange: false
-      notableChange: false
+      requireScope: true
+      strictScope: true
+    deps:
+      description: package dependencies updates
+      requireScope: true
+      strictScope: true
+    docs:
+      description: documentation changes
+      requireScope: true
+      strictScope: true
+    metadata:
+      description: package metadata changes
+      requireScope: true
+      strictScope: true
+    release:
+      description: package release
+      requireScope: true
+      strictScope: true
+    style:
+      description: code stylistic changes
       requireScope: true
       strictScope: true
 
-  primaryScopes: ~
-
-  secondaryScopes:
-    build: package build related changes
-    deps: package dependencies updates
-    docs: documentation changes
-    metadata: package metadata changes
-    release: package release
-    style: code stylistic changes
+  scopes: ~
 
 docs: ~
