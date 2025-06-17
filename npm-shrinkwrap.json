@@ -954,9 +954,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.170.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.170.5.tgz",
-            "integrity": "sha512-HIIiTfV1PUYuVhorn+0yjmFJ5coogkDF5XsNX2aCeOhIutRrpFGH+no40oLZq7QLNXnXI1DcMPiFTDJqaSACkA==",
+            "version": "7.170.6",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.170.6.tgz",
+            "integrity": "sha512-3oJ1U6h/CxkDcYT27X3XuhDUQ520feRDI4MxDb4Hs/OhMlhGMUHzumibgeVwECH0RQkGyWdJsib+Y5h3uEWN9g==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2701,9 +2701,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.168",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.168.tgz",
-            "integrity": "sha512-RUNQmFLNIWVW6+z32EJQ5+qx8ci6RGvdtDC0Ls+F89wz6I2AthpXF0w0DIrn2jpLX0/PU9ZCo+Qp7bg/EckJmA==",
+            "version": "1.5.169",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.169.tgz",
+            "integrity": "sha512-q7SQx6mkLy0GTJK9K9OiWeaBMV4XQtBSdf6MJUzDB/H/5tFXfIiX38Lci1Kl6SsgiEhz1SQI1ejEOU5asWEhwQ==",
             "license": "ISC"
         },
         "node_modules/entities": {
@@ -5546,9 +5546,9 @@
             }
         },
         "node_modules/mmdb-lib": {
-            "version": "3.0.0",
-            "resolved": "https://registry.npmjs.org/mmdb-lib/-/mmdb-lib-3.0.0.tgz",
-            "integrity": "sha512-S2SN8Ti75GZVgBRHFO3aUa+260jTkyqqbGQ1l/OPdwBuCsElpVjGkF3AGm2Ny9Ed6gLFWsQtH5Hf85HRTA3QAw==",
+            "version": "3.0.1",
+            "resolved": "https://registry.npmjs.org/mmdb-lib/-/mmdb-lib-3.0.1.tgz",
+            "integrity": "sha512-dyAyMR+cRykZd1mw5altC9f4vKpCsuywPwo8l/L5fKqDay2zmqT0mF/BvUoXnQiqGn+nceO914rkPKJoyFnGxA==",
             "license": "MIT",
             "engines": {
                 "node": ">=10",
@@ -7514,9 +7514,9 @@
             "license": "ISC"
         },
         "node_modules/terser": {
-            "version": "5.42.0",
-            "resolved": "https://registry.npmjs.org/terser/-/terser-5.42.0.tgz",
-            "integrity": "sha512-UYCvU9YQW2f/Vwl+P0GfhxJxbUGLwd+5QrrGgLajzWAtC/23AX0vcise32kkP7Eu0Wu9VlzzHAXkLObgjQfFlQ==",
+            "version": "5.43.0",
+            "resolved": "https://registry.npmjs.org/terser/-/terser-5.43.0.tgz",
+            "integrity": "sha512-CqNNxKSGKSZCunSvwKLTs8u8sGGlp27sxNZ4quGh0QeNuyHM0JSEM/clM9Mf4zUp6J+tO2gUXhgXT2YMMkwfKQ==",
             "license": "BSD-2-Clause",
             "dependencies": {
                 "@jridgewell/source-map": "^0.3.3",

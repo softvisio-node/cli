@@ -59,52 +59,51 @@ commits:
   requireType: true
   strictType: true
 
+  # DOCS: https://www.bavaga.com/blog/2025/01/27/my-ultimate-conventional-commit-types-cheatsheet/
   types:
     feat:
-      description: a commit that introduces a new feature to the codebase (MINOR in Semantic Versioning)
-      primaryChange: true
+      description: Uused for adding new features or functionality. (MINOR in semantic versioning).
+      productionChange: true
       notableChange: true
       requireScope: true
       strictScope: true
     fix:
-      description: a commit that patches a bug in your codebase (PATCH in Semantic Versioning)
-      primaryChange: true
+      description: Used to address actual bugs that cause incorrect behavior in production code. (PATCH in semantic versioning).
+      productionChange: true
       notableChange: true
       requireScope: true
       strictScope: true
     refactor:
-      description: a code change that neither fixes a bug nor adds a feature
-      primaryChange: true
+      description: Is for structural improvements to the code without changing its behavior. Unlike style, refactor focuses on enhancing the internal structure, logic, or organization of the code without altering its external behavior.
+      productionChange: true
       notableChange: false
       requireScope: true
       strictScope: true
 
     build:
-      description: package build related changes
-      requireScope: true
+      title: Build process or dependencies
+      description: Should be used for changes that impact the build process or production dependencies, including tools and configurations necessary for application deployment or runtime.
+      requireScope: false
       strictScope: true
+      scopes:
+        deps: Changing or upgrading dependencies that affect production code.
+        release: Releasing code.
     chore:
-      description: a commit that does not affect main codebase
-      requireScope: true
+      title: Maintenance and routine tasks
+      description: Used for administrative or supportive tasks that do not impact production code.
+      requireScope: false
       strictScope: true
-    deps:
-      description: package dependencies updates
-      requireScope: true
-      strictScope: true
+      scopes:
+        deps: Updating development dependencies.
+        metadata: Updating package metadata.
     docs:
-      description: documentation changes
-      requireScope: true
-      strictScope: true
-    metadata:
-      description: package metadata changes
-      requireScope: true
-      strictScope: true
-    release:
-      description: package release
+      title: Documentation
+      description: Used for changes to documentation, comments, or API descriptions.
       requireScope: true
       strictScope: true
     style:
-      description: code stylistic changes
+      title: Code formatting and style-only changes
+      description: Is for cosmetic changes to code that do not affect its behavior. Style changes are purely superficial and do not affect the structure, semantics, or functionality of the code.
       requireScope: true
       strictScope: true
 
