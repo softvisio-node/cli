@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.79.0 (2025-06-18)
+
+**New features:**
+
+- \[MINOR] feat: refactor commits (● [6f3ed08](https://github.com/softvisio-node/cli/commit/6f3ed083); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix commit docs on release (● [3e4d0c9](https://github.com/softvisio-node/cli/commit/3e4d0c9c); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update changelog report (● [da54f45](https://github.com/softvisio-node/cli/commit/da54f45a), [10b596d](https://github.com/softvisio-node/cli/commit/10b596df), [545f408](https://github.com/softvisio-node/cli/commit/545f4088); 👬 zdm)
+
+- \[PATCH] refactor: update notable changes (● [f4ca61a](https://github.com/softvisio-node/cli/commit/f4ca61a7); 👬 zdm)
+
+Compare with the previous release: [v3.78.3](https://github.com/softvisio-node/cli/compare/v3.78.3...v3.79.0)
+
 ### v3.78.3 (2025-06-17)
 
 **Other changes:**
