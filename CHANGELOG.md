@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.79.2 (2025-06-18)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [7d6cdb3](https://github.com/softvisio-node/cli/commit/7d6cdb3f); 👬 zdm)
+
+- style: fix empty console log (● [94527ef](https://github.com/softvisio-node/cli/commit/94527ef3); 👬 zdm)
+
+- style: fix release log (● [4c2547b](https://github.com/softvisio-node/cli/commit/4c2547bc); 👬 zdm)
+
+Compare with the previous release: [v3.79.1](https://github.com/softvisio-node/cli/compare/v3.79.1...v3.79.2)
+
 ### v3.79.1 (2025-06-18)
 
 **Code refactoring:**
