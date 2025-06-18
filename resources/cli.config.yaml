@@ -64,19 +64,16 @@ commits:
     feat:
       description: Uused for adding new features or functionality. (MINOR in semantic versioning).
       productionChange: true
-      notableChange: true
       requireScope: true
       strictScope: true
     fix:
       description: Used to address actual bugs that cause incorrect behavior in production code. (PATCH in semantic versioning).
       productionChange: true
-      notableChange: true
       requireScope: true
       strictScope: true
     refactor:
       description: Is for structural improvements to the code without changing its behavior. Unlike style, refactor focuses on enhancing the internal structure, logic, or organization of the code without altering its external behavior.
       productionChange: true
-      notableChange: false
       requireScope: true
       strictScope: true
 
