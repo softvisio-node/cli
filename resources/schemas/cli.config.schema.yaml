@@ -158,6 +158,7 @@ properties:
                 title: { type: string }
                 description: { type: string }
                 productionChange: { type: boolean }
+                notableChange: { type: boolean }
                 requireScope: { type: boolean }
                 strictScope: { type: boolean }
                 scopes:
