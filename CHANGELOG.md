@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.79.1 (2025-06-18)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: release documentation (● [54ed0c2](https://github.com/softvisio-node/cli/commit/54ed0c27); 👬 zdm)
+
+- \[PATCH] refactor: show npm log in case of error (● [3eb54f8](https://github.com/softvisio-node/cli/commit/3eb54f80); 👬 zdm)
+
+**Other changes:**
+
+- style: update package tests log (● [14f4776](https://github.com/softvisio-node/cli/commit/14f47760); 👬 zdm)
+
+- style: update release log (● [737a681](https://github.com/softvisio-node/cli/commit/737a681c); 👬 zdm)
+
+Compare with the previous release: [v3.79.0](https://github.com/softvisio-node/cli/compare/v3.79.0...v3.79.1)
+
 ### v3.79.0 (2025-06-18)
 
 **New features:**
