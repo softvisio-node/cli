@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.79.3 (2025-06-18)
+
+**Other changes:**
+
+- style: fix release log (● [e00d9c1](https://github.com/softvisio-node/cli/commit/e00d9c16); 👬 zdm)
+
+Compare with the previous release: [v3.79.2](https://github.com/softvisio-node/cli/compare/v3.79.2...v3.79.3)
+
 ### v3.79.2 (2025-06-18)
 
 **Other changes:**
