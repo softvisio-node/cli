@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.80.1 (2025-06-19)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update cli options (● [2bbef96](https://github.com/softvisio-node/cli/commit/2bbef96a), [5d0a029](https://github.com/softvisio-node/cli/commit/5d0a0290); 👬 zdm)
+
+Compare with the previous release: [v3.80.0](https://github.com/softvisio-node/cli/compare/v3.80.0...v3.80.1)
+
 ### v3.80.0 (2025-06-19)
 
 **New features:**
