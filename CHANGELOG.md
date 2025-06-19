@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.80.0 (2025-06-19)
+
+**New features:**
+
+- \[MINOR] feat: refactor dependencies updater (● [c4a9d89](https://github.com/softvisio-node/cli/commit/c4a9d894), [e990ca3](https://github.com/softvisio-node/cli/commit/e990ca34), [cba3fdf](https://github.com/softvisio-node/cli/commit/cba3fdf7), [eff52ed](https://github.com/softvisio-node/cli/commit/eff52ed6); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: show outdates deps for current package only (● [fa3b57a](https://github.com/softvisio-node/cli/commit/fa3b57a3), [935e519](https://github.com/softvisio-node/cli/commit/935e5194); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update cli (● [3cc04f7](https://github.com/softvisio-node/cli/commit/3cc04f71), [dbae1b6](https://github.com/softvisio-node/cli/commit/dbae1b6e); 👬 zdm)
+
+Compare with the previous release: [v3.79.3](https://github.com/softvisio-node/cli/compare/v3.79.3...v3.80.0)
+
 ### v3.79.3 (2025-06-18)
 
 **Other changes:**
