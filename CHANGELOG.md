@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.81.0 (2025-06-20)
+
+**New features:**
+
+- \[MINOR] feat: workspace packages filter match all is has no patterns (● [0869e0f](https://github.com/softvisio-node/cli/commit/0869e0fa); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update commit message hook error help (● [e016978](https://github.com/softvisio-node/cli/commit/e0169782); 👬 zdm)
+
+- \[PATCH] refactor: update ls report (● [d38499b](https://github.com/softvisio-node/cli/commit/d38499b3); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [6f5f558](https://github.com/softvisio-node/cli/commit/6f5f558e), [d5bd685](https://github.com/softvisio-node/cli/commit/d5bd6852), [84a016b](https://github.com/softvisio-node/cli/commit/84a016b5), [49de268](https://github.com/softvisio-node/cli/commit/49de268a), [bdbbdc6](https://github.com/softvisio-node/cli/commit/bdbbdc6f); 👬 zdm)
+
+Compare with the previous release: [v3.80.1](https://github.com/softvisio-node/cli/compare/v3.80.1...v3.81.0)
+
 ### v3.80.1 (2025-06-19)
 
 **Code refactoring:**
