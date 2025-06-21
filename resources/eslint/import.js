@@ -25,6 +25,7 @@ const CONFIG = [
             },
         },
         "rules": {
+            "import/enforce-node-protocol-usage": [ "error", "always" ],
             "import/export": "error",
             "import/no-named-as-default-member": "error",
             "import/no-duplicates": "error",
