@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.81.1 (2025-06-21)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update eslint rules (● [b0bc493](https://github.com/softvisio-node/cli/commit/b0bc493d); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [b1d9030](https://github.com/softvisio-node/cli/commit/b1d90307); 👬 zdm)
+
+Compare with the previous release: [v3.81.0](https://github.com/softvisio-node/cli/compare/v3.81.0...v3.81.1)
+
 ### v3.81.0 (2025-06-20)
 
 **New features:**
