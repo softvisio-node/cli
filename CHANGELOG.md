@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.82.0 (2025-06-21)
+
+**New features:**
+
+- \[MINOR] feat: prohibit make stable release with pre-release dependencies (● [caa6ee0](https://github.com/softvisio-node/cli/commit/caa6ee0e); 👬 zdm)
+
+Compare with the previous release: [v3.81.1](https://github.com/softvisio-node/cli/compare/v3.81.1...v3.82.0)
+
 ### v3.81.1 (2025-06-21)
 
 **Code refactoring:**
