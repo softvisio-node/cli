@@ -1,9 +1,7 @@
 #!/usr/bin/env sh
 
-set -e
-
 if [ -x node_modules/.bin/softvisio-cli ]; then
-    node_modules/.bin/softvisio-cli git commit-msg $1
+    node_modules/.bin/softvisio-cli git commit-msg $1 || exit 1
 elif [ -x "$(command -v softvisio-cli)" ]; then
-    softvisio-cli git commit-msg $1
+    softvisio-cli git commit-msg $1 || exit 1
 fi
