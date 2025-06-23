@@ -1298,9 +1298,9 @@
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.7.29",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.29.tgz",
-            "integrity": "sha512-b+iSQ1+E0KjR9q47zd9bMfPJssVIr5k7KCdM7axvJNnmkUs7XXXrDZEzCTkYCqY/Rk3jR2j+FbNjKT0F9V94Iw==",
+            "version": "1.7.30",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.30.tgz",
+            "integrity": "sha512-wi4AJNFI3kP9vKod+DJAsrjP8XP4IoWeSjnEgiaXrYly56zLYcy1rTrcLv7SOcrfnBCwNuAxT9JQPZgAnfqCgg==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
