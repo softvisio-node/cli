@@ -9,7 +9,6 @@ Project documentation site generator.
 - Data type definition should be placed in angle brackets. Example: {string}.
 
 - Primitive data type should be in the lowercase. Example: {boolean}. List of primitive types:
-
     - {any} any data type;
     - {string};
     - {number};
