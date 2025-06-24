@@ -10,7 +10,7 @@
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
-                "@prettier/plugin-oxc": "^0.0.3",
+                "@prettier/plugin-oxc": "^0.0.4",
                 "@prettier/plugin-xml": "^3.4.1",
                 "@softvisio/core": "^7.0.0",
                 "@softvisio/eslint-plugin": "^1.0.1",
@@ -1197,9 +1197,9 @@
             }
         },
         "node_modules/@prettier/plugin-oxc": {
-            "version": "0.0.3",
-            "resolved": "https://registry.npmjs.org/@prettier/plugin-oxc/-/plugin-oxc-0.0.3.tgz",
-            "integrity": "sha512-mtVlaFQA4Bq6flltVUUD0UaXwSWnDkQpcb5tkQColZzWb6tr4C27YGJpxIIUgKzJ0NrLxFrdcEkUgQXU/RJdtg==",
+            "version": "0.0.4",
+            "resolved": "https://registry.npmjs.org/@prettier/plugin-oxc/-/plugin-oxc-0.0.4.tgz",
+            "integrity": "sha512-UGXe+g/rSRbglL0FOJiar+a+nUrst7KaFmsg05wYbKiInGWP6eAj/f8A2Uobgo5KxEtb2X10zeflNH6RK2xeIQ==",
             "license": "MIT",
             "dependencies": {
                 "oxc-parser": "0.74.0"
