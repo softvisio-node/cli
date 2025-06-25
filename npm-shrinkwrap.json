@@ -1320,9 +1320,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.28.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.4.tgz",
-            "integrity": "sha512-tr6MpflWcxmtNcL3GQ8t6g9F2+0ETkwAAn2BFpS4AjbSkDHk4TEsm6TJuqZjV7IXp0fnBXDq+AmovME0c1TABg==",
+            "version": "1.28.5",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.5.tgz",
+            "integrity": "sha512-nNTbEQDGcSxT8y5B1Q9M2scVXbbbWntXZgbMLHKe6e4n35dAjQD98kdFN3rVTuES3NYLVhR0ozHq9UAX8M926A==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
