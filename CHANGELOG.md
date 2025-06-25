@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.82.2 (2025-06-25)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove bash set -e (● [90d638b](https://github.com/softvisio-node/cli/commit/90d638b2); 👬 zdm)
+
+- \[PATCH] refactor: switch to prettier oxc parser (● [f4435f5](https://github.com/softvisio-node/cli/commit/f4435f5d); 👬 zdm)
+
+- \[PATCH] refactor: update bash scripts errors handling (● [dfdd257](https://github.com/softvisio-node/cli/commit/dfdd2570), [bccd07b](https://github.com/softvisio-node/cli/commit/bccd07b3); 👬 zdm)
+
+- \[PATCH] refactor: update deps updater result on error (● [a729881](https://github.com/softvisio-node/cli/commit/a7298812); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [48de374](https://github.com/softvisio-node/cli/commit/48de3741), [6a0d6d5](https://github.com/softvisio-node/cli/commit/6a0d6d55), [a2e4351](https://github.com/softvisio-node/cli/commit/a2e4351a), [68f9917](https://github.com/softvisio-node/cli/commit/68f99170), [5fe7a4a](https://github.com/softvisio-node/cli/commit/5fe7a4a8), [785f340](https://github.com/softvisio-node/cli/commit/785f340b), [499623d](https://github.com/softvisio-node/cli/commit/499623d8), [5f43af3](https://github.com/softvisio-node/cli/commit/5f43af34); 👬 zdm)
+
+Compare with the previous release: [v3.82.1](https://github.com/softvisio-node/cli/compare/v3.82.1...v3.82.2)
+
 ### v3.82.1 (2025-06-22)
 
 **Code refactoring:**
