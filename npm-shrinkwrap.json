@@ -30,7 +30,7 @@
                 "postcss": "^8.2.4",
                 "prettier": "^3.0.0",
                 "prettier-plugin-packagejson": "^2.2.9",
-                "prettier-plugin-sh": "^0.17.2",
+                "prettier-plugin-sh": "^0.18.0",
                 "sharp": "^0.34.0",
                 "terser": "^5.5.1",
                 "typescript-eslint": "^8.0.0",
@@ -288,12 +288,12 @@
             }
         },
         "node_modules/@eslint/plugin-kit": {
-            "version": "0.3.2",
-            "resolved": "https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.3.2.tgz",
-            "integrity": "sha512-4SaFZCNfJqvk/kenHpI8xvN42DMaoycy4PzKc5otHxRswww1kAt82OlBuwRVLofCACCTZEcla2Ydxv8scMXaTg==",
+            "version": "0.3.3",
+            "resolved": "https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.3.3.tgz",
+            "integrity": "sha512-1+WqvgNMhmlAambTvT3KPtCl/Ibr68VldY2XY40SL1CE0ZXiakFR/cbTspaF5HsnpDMvcYYoJHfl4980NBjGag==",
             "license": "Apache-2.0",
             "dependencies": {
-                "@eslint/core": "^0.15.0",
+                "@eslint/core": "^0.15.1",
                 "levn": "^0.4.1"
             },
             "engines": {
@@ -301,9 +301,9 @@
             }
         },
         "node_modules/@eslint/plugin-kit/node_modules/@eslint/core": {
-            "version": "0.15.0",
-            "resolved": "https://registry.npmjs.org/@eslint/core/-/core-0.15.0.tgz",
-            "integrity": "sha512-b7ePw78tEWWkpgZCDYkbqDOP8dmM6qe+AOC6iuJqlq1R/0ahMAeH3qynpnqKFGkMltrp44ohV4ubGyvLX28tzw==",
+            "version": "0.15.1",
+            "resolved": "https://registry.npmjs.org/@eslint/core/-/core-0.15.1.tgz",
+            "integrity": "sha512-bkOp+iumZCCbt1K1CmWf0R9pM5yKpDv+ZXtvSyQpudrI9kuFLp+bM2WOPXImuD/ceQuaa8f5pj93Y7zyECIGNA==",
             "license": "Apache-2.0",
             "dependencies": {
                 "@types/json-schema": "^7.0.15"
@@ -3010,9 +3010,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.173",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.173.tgz",
-            "integrity": "sha512-2bFhXP2zqSfQHugjqJIDFVwa+qIxyNApenmXTp9EjaKtdPrES5Qcn9/aSFy/NaP2E+fWG/zxKu/LBvY36p5VNQ==",
+            "version": "1.5.176",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.176.tgz",
+            "integrity": "sha512-2nDK9orkm7M9ZZkjO3PjbEd3VUulQLyg5T9O3enJdFvUg46Hzd4DUvTvAuEgbdHYXyFsiG4A5sO9IzToMH1cDg==",
             "license": "ISC"
         },
         "node_modules/entities": {
@@ -6841,12 +6841,12 @@
             }
         },
         "node_modules/prettier-plugin-packagejson": {
-            "version": "2.5.15",
-            "resolved": "https://registry.npmjs.org/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.5.15.tgz",
-            "integrity": "sha512-2QSx6y4IT6LTwXtCvXAopENW5IP/aujC8fobEM2pDbs0IGkiVjW/ipPuYAHuXigbNe64aGWF7vIetukuzM3CBw==",
+            "version": "2.5.16",
+            "resolved": "https://registry.npmjs.org/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.5.16.tgz",
+            "integrity": "sha512-1EORN4SahAWU55ll+xp0PXhiUmD93PJlBE88GbWv7X5xtZ7ycj3GNbRGX+r75zWn70KAoYVO08rF2C/TqGCHPA==",
             "license": "MIT",
             "dependencies": {
-                "sort-package-json": "3.2.1",
+                "sort-package-json": "3.2.2",
                 "synckit": "0.11.8"
             },
             "peerDependencies": {
@@ -6859,13 +6859,13 @@
             }
         },
         "node_modules/prettier-plugin-sh": {
-            "version": "0.17.4",
-            "resolved": "https://registry.npmjs.org/prettier-plugin-sh/-/prettier-plugin-sh-0.17.4.tgz",
-            "integrity": "sha512-aAVKXZ7GTEMZdZsIPSwMwddwPvt2ibMbRGd4OJAP0G7QoeYZV+mPNg2Oln3R53sZ4PVjeAA7Xzi/PuI0QlHHfQ==",
+            "version": "0.18.0",
+            "resolved": "https://registry.npmjs.org/prettier-plugin-sh/-/prettier-plugin-sh-0.18.0.tgz",
+            "integrity": "sha512-cW1XL27FOJQ/qGHOW6IHwdCiNWQsAgK+feA8V6+xUTaH0cD3Mh+tFAtBvEEWvuY6hTDzRV943Fzeii+qMOh7nQ==",
             "license": "MIT",
             "dependencies": {
-                "@reteps/dockerfmt": "^0.3.5",
-                "sh-syntax": "^0.5.6"
+                "@reteps/dockerfmt": "^0.3.6",
+                "sh-syntax": "^0.5.8"
             },
             "engines": {
                 "node": ">=16.0.0"
@@ -6874,7 +6874,7 @@
                 "url": "https://opencollective.com/unts"
             },
             "peerDependencies": {
-                "prettier": "^3.0.3"
+                "prettier": "^3.6.0"
             }
         },
         "node_modules/punycode": {
@@ -7448,9 +7448,9 @@
             "license": "MIT"
         },
         "node_modules/sort-package-json": {
-            "version": "3.2.1",
-            "resolved": "https://registry.npmjs.org/sort-package-json/-/sort-package-json-3.2.1.tgz",
-            "integrity": "sha512-rTfRdb20vuoAn7LDlEtCqOkYfl2X+Qze6cLbNOzcDpbmKEhJI30tTN44d5shbKJnXsvz24QQhlCm81Bag7EOKg==",
+            "version": "3.2.2",
+            "resolved": "https://registry.npmjs.org/sort-package-json/-/sort-package-json-3.2.2.tgz",
+            "integrity": "sha512-twAMvmzOcEPsN3N9zKPDpl6zproGU0JcBOQFU4T6e5wrStH8iuPiAjFz9g+cMRC52eQBUbZlFCeGt+F4vginkw==",
             "license": "MIT",
             "dependencies": {
                 "detect-indent": "^7.0.1",
