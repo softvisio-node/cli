@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.82.3 (2025-06-26)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [087af48](https://github.com/softvisio-node/cli/commit/087af48a), [3c5af48](https://github.com/softvisio-node/cli/commit/3c5af483), [83d4ed2](https://github.com/softvisio-node/cli/commit/83d4ed29); 👬 zdm)
+
+Compare with the previous release: [v3.82.2](https://github.com/softvisio-node/cli/compare/v3.82.2...v3.82.3)
+
 ### v3.82.2 (2025-06-25)
 
 **Code refactoring:**
