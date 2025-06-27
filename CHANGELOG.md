@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.82.4 (2025-06-27)
+
+**Bug fixes:**
+
+- \[PATCH] fix: commit only package locks on deps update (● [038bc6c](https://github.com/softvisio-node/cli/commit/038bc6c3); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [9d37543](https://github.com/softvisio-node/cli/commit/9d37543d), [5394308](https://github.com/softvisio-node/cli/commit/53943084), [afbd231](https://github.com/softvisio-node/cli/commit/afbd2312); 👬 zdm)
+
+Compare with the previous release: [v3.82.3](https://github.com/softvisio-node/cli/compare/v3.82.3...v3.82.4)
+
 ### v3.82.3 (2025-06-26)
 
 **Other changes:**
