@@ -3010,9 +3010,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.176",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.176.tgz",
-            "integrity": "sha512-2nDK9orkm7M9ZZkjO3PjbEd3VUulQLyg5T9O3enJdFvUg46Hzd4DUvTvAuEgbdHYXyFsiG4A5sO9IzToMH1cDg==",
+            "version": "1.5.177",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.177.tgz",
+            "integrity": "sha512-7EH2G59nLsEMj97fpDuvVcYi6lwTcM1xuWw3PssD8xzboAW7zj7iB3COEEEATUfjLHrs5uKBLQT03V/8URx06g==",
             "license": "ISC"
         },
         "node_modules/entities": {
@@ -6826,9 +6826,9 @@
             }
         },
         "node_modules/prettier": {
-            "version": "3.6.1",
-            "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.6.1.tgz",
-            "integrity": "sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==",
+            "version": "3.6.2",
+            "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.6.2.tgz",
+            "integrity": "sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==",
             "license": "MIT",
             "bin": {
                 "prettier": "bin/prettier.cjs"
