@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.82.5 (2025-06-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependency updater changes detection (● [b4c1236](https://github.com/softvisio-node/cli/commit/b4c1236d); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [5fb85bc](https://github.com/softvisio-node/cli/commit/5fb85bcb), [5548cff](https://github.com/softvisio-node/cli/commit/5548cfff); 👬 zdm)
+
+Compare with the previous release: [v3.82.4](https://github.com/softvisio-node/cli/compare/v3.82.4...v3.82.5)
+
 ### v3.82.4 (2025-06-27)
 
 **Bug fixes:**
