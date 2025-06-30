@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.83.0-alpha.0 (2025-06-30)
+
+**New features:**
+
+- \[MINOR] feat: add ssh encryption command (● [f6e8e23](https://github.com/softvisio-node/cli/commit/f6e8e23a), [70db522](https://github.com/softvisio-node/cli/commit/70db522d), [b5be4f5](https://github.com/softvisio-node/cli/commit/b5be4f55), [d06cb31](https://github.com/softvisio-node/cli/commit/d06cb311), [87c02af](https://github.com/softvisio-node/cli/commit/87c02aff); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump @softvisio/core 7.172.0-alpha.0 (● [c17b605](https://github.com/softvisio-node/cli/commit/c17b6054); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [8e42c28](https://github.com/softvisio-node/cli/commit/8e42c282), [11935cd](https://github.com/softvisio-node/cli/commit/11935cde), [761c0da](https://github.com/softvisio-node/cli/commit/761c0dab), [2078bd0](https://github.com/softvisio-node/cli/commit/2078bd0a); 👬 zdm)
+
+- style: update package dependencies report (● [56f5598](https://github.com/softvisio-node/cli/commit/56f55989); 👬 zdm)
+
+Compare with the previous release: [v3.82.5](https://github.com/softvisio-node/cli/compare/v3.82.5...v3.83.0-alpha.0)
+
 ### v3.82.5 (2025-06-28)
 
 **Bug fixes:**
