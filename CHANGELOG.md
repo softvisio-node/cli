@@ -1,5 +1,25 @@
 # Changelog
 
+### v3.83.0-alpha.1 (2025-07-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix deps locks commit (● [b68fe2e](https://github.com/softvisio-node/cli/commit/b68fe2e7); 👬 zdm)
+
+- \[PATCH] fix: fix outdated dependency detection (● [e0061d1](https://github.com/softvisio-node/cli/commit/e0061d17); 👬 zdm)
+
+- \[PATCH] fix: remove useless log (● [dd8e3ac](https://github.com/softvisio-node/cli/commit/dd8e3acb); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: add cli negated shorts (● [a6fd76a](https://github.com/softvisio-node/cli/commit/a6fd76a0); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [f35bd90](https://github.com/softvisio-node/cli/commit/f35bd909), [184f009](https://github.com/softvisio-node/cli/commit/184f009c), [edd42ee](https://github.com/softvisio-node/cli/commit/edd42eeb), [0237ae6](https://github.com/softvisio-node/cli/commit/0237ae6c), [c0dfe31](https://github.com/softvisio-node/cli/commit/c0dfe31a), [c417758](https://github.com/softvisio-node/cli/commit/c417758d); 👬 zdm)
+
+Compare with the previous release: [v3.83.0-alpha.0](https://github.com/softvisio-node/cli/compare/v3.83.0-alpha.0...v3.83.0-alpha.1)
+
 ### v3.83.0-alpha.0 (2025-06-30)
 
 **New features:**
