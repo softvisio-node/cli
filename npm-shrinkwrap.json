@@ -1239,9 +1239,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.172.0-alpha.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.172.0-alpha.4.tgz",
-            "integrity": "sha512-fc1Ez+lYGPSoiqNOhHy9FUZ+9KCp6fdst+xHRum4FucQ15J7k1DX/73DrWyoh/iLwgZdKVodb0+sanV7a3Ts6Q==",
+            "version": "7.172.0-alpha.5",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.172.0-alpha.5.tgz",
+            "integrity": "sha512-j85R5C2I/DNywCB27q0x6fAnCjWYgvOP+tP6+tcu+js1fhqxWe5daZhunoUo4OnXQ6O68n4sFYaz2ukfNRoSTw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
