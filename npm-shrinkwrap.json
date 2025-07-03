@@ -12,7 +12,7 @@
             "dependencies": {
                 "@prettier/plugin-oxc": "^0.0.4",
                 "@prettier/plugin-xml": "^3.4.1",
-                "@softvisio/core": "^7.172.0-alpha.0",
+                "@softvisio/core": "^7.172.0",
                 "@softvisio/eslint-plugin": "^1.0.1",
                 "@stylistic/eslint-plugin": "^5.0.0",
                 "@vue/compiler-sfc": "^3.2.36",
@@ -1239,9 +1239,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.172.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.172.0.tgz",
-            "integrity": "sha512-8aBgT531o4dqAWTHqQCLnVVvMQZLoYbgWjxwAUQQSHsH5IdTIK80VhaxIBIZOfYEX2h9KN71oYrJUV/Omct24A==",
+            "version": "7.172.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.172.1.tgz",
+            "integrity": "sha512-9p5lUeWoBevjeSpzKZVj6FP+dkRV6Xw8UD8eqcXb+gH1t1msgDN1kVVbPL/VmBWD+7MO/prlvSDH3XLNjar1gA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
