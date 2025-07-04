@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.83.3 (2025-07-04)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix url format in schemas (● [62a70bd](https://github.com/softvisio-node/cli/commit/62a70bd5); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e2cd343](https://github.com/softvisio-node/cli/commit/e2cd3433); 👬 zdm)
+
+Compare with the previous release: [v3.83.2](https://github.com/softvisio-node/cli/compare/v3.83.2...v3.83.3)
+
 ### v3.83.2 (2025-07-04)
 
 **Other changes:**
