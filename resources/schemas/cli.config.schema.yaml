@@ -192,7 +192,7 @@ properties:
       - type: object
         properties:
           location: { enum: [/, /docs] }
-          aliases: { type: object, additionalProperties: { type: string, format: uri } }
+          aliases: { type: object, additionalProperties: { type: string, format: url } }
 
           app:
             type: object
@@ -200,14 +200,14 @@ properties:
               api:
                 type: object
                 properties:
-                  url: { type: string, format: uri }
+                  url: { type: string, format: url }
 
                 additionalProperties: false
                 required: [url]
               rpc:
                 type: object
                 properties:
-                  url: { type: string, format: uri }
+                  url: { type: string, format: url }
 
                 additionalProperties: false
                 required: [url]
@@ -218,17 +218,17 @@ properties:
           changelog:
             anyOf:
               - { type: boolean }
-              - { type: string, format: uri }
+              - { type: string, format: url }
 
           favicon: { type: string }
           generateReadme: { type: boolean }
           logo:
             anyOf:
               - { type: boolean }
-              - { type: string, format: uri }
+              - { type: string, format: url }
               - type: object
                 properties:
-                  href: { type: string, format: uri }
+                  href: { type: string, format: url }
                   width: { type: integer, minimum: 32 }
                   height: { type: integer, minimum: 32 }
 
@@ -236,7 +236,7 @@ properties:
                 required: [href]
 
           name: { type: string }
-          siteURL: { type: string, format: uri }
+          siteURL: { type: string, format: url }
           subMaxLevel: { type: integer, minimum: 0 }
           types:
             anyOf:
