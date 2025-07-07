@@ -2940,10 +2940,9 @@
             }
         },
         "node_modules/editorconfig": {
-            "version": "3.0.0",
-            "resolved": "https://registry.npmjs.org/editorconfig/-/editorconfig-3.0.0.tgz",
-            "integrity": "sha512-cU9vLVQ1YmDmLL047KkgQ3Yv9jSI6ZlqW4XjEdG0RrFhz7kYQ5lxD7SfhQci8g1TQu9iMA+54rRLe6yvWxXxcA==",
-            "license": "MIT",
+            "version": "3.0.1",
+            "resolved": "https://registry.npmjs.org/editorconfig/-/editorconfig-3.0.1.tgz",
+            "integrity": "sha512-k5NZM2XNIJfH/omUv0SRYaiLae4VRwg1ILW6xLOjuP4AQGAGcvzNij5imJ+m1rbzDIH0ov6EbH53BW96amFXpQ==",
             "dependencies": {
                 "@one-ini/wasm": "0.2.0",
                 "commander": "^14.0.0",
