@@ -1,5 +1,27 @@
 # Changelog
 
+### v3.83.4-alpha.0 (2025-07-11)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix pre-release deps detection (● [1a76e0b](https://github.com/softvisio-node/cli/commit/1a76e0b4); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor package dependencies (● [2a80f6a](https://github.com/softvisio-node/cli/commit/2a80f6a9); 👬 zdm)
+
+- \[PATCH] refactor: update pre-release deps parser (● [5e891de](https://github.com/softvisio-node/cli/commit/5e891deb); 👬 zdm)
+
+- \[PATCH] refactor: update stream pipeline (● [7fcee5e](https://github.com/softvisio-node/cli/commit/7fcee5e4), [478599d](https://github.com/softvisio-node/cli/commit/478599d8); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump @softvisio/core 7.175.0-alpha.0 (● [3a2bad2](https://github.com/softvisio-node/cli/commit/3a2bad27); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [4306fd5](https://github.com/softvisio-node/cli/commit/4306fd54), [34ad62a](https://github.com/softvisio-node/cli/commit/34ad62a7), [9f7d135](https://github.com/softvisio-node/cli/commit/9f7d1353), [6915b19](https://github.com/softvisio-node/cli/commit/6915b198), [9a8f93e](https://github.com/softvisio-node/cli/commit/9a8f93ec), [7c96ca8](https://github.com/softvisio-node/cli/commit/7c96ca81); 👬 zdm)
+
+Compare with the previous release: [v3.83.3](https://github.com/softvisio-node/cli/compare/v3.83.3...v3.83.4-alpha.0)
+
 ### v3.83.3 (2025-07-04)
 
 **Bug fixes:**
