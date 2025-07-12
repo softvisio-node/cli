@@ -44,7 +44,7 @@
     "dependencies": {
         "@prettier/plugin-oxc": "^0.0.4",
         "@prettier/plugin-xml": "^3.4.1",
-        "@softvisio/core": "^7.175.0-alpha.0",
+        "@softvisio/core": "^7.175.0",
         "@softvisio/eslint-plugin": "^1.0.1",
         "@stylistic/eslint-plugin": "^5.0.0",
         "@vue/compiler-sfc": "^3.2.36",
