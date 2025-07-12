@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.83.4-alpha.1 (2025-07-12)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [2a48a93](https://github.com/softvisio-node/cli/commit/2a48a93b); 👬 zdm)
+
+- style: remove dead code (● [fb0c835](https://github.com/softvisio-node/cli/commit/fb0c835e); 👬 zdm)
+
+Compare with the previous release: [v3.83.4-alpha.0](https://github.com/softvisio-node/cli/compare/v3.83.4-alpha.0...v3.83.4-alpha.1)
+
 ### v3.83.4-alpha.0 (2025-07-11)
 
 **Bug fixes:**
