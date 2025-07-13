@@ -35,6 +35,10 @@ if [[ ! -z $FORCE_VERSION ]]; then
     VERSION=$FORCE_VERSION
 fi
 
+VERSION_STRING=
+FILE_VERSION_STRING=
+BUILD_ARCHITECTURE=
+
 function _build_local() {
     local cwd=$PWD
 
@@ -47,7 +51,7 @@ function _build_local() {
     if [[ $? == 0 ]]; then
         _pack
 
-        echo -e "\nPackage built successfully"
+        echo -e "\nPackage built successfully: $NAME $VERSION_STRING $BUILD_ARCHITECTURE"
     else
         error=1
 
@@ -66,11 +70,8 @@ function _build() { (
     build
 ); }
 
-function _pack() { (
+function _pack() {
     local VERSION_ID=$(source /etc/os-release && echo $VERSION_ID)
-    local VERSION_STRING=
-    local FILE_VERSION_STRING=
-    local BUILD_ARCHITECTURE=
     local TARGET=
 
     if [[ -z $EPOCH || $EPOCH == "0" ]]; then
@@ -115,7 +116,6 @@ EOF
 
     mkdir -p $(dirname $TARGET)
     dpkg-deb --build -Zgzip --root-owner-group $DESTDIR $TARGET
-
-); }
+}
 
 _build_local
