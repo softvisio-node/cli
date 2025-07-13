@@ -39,6 +39,25 @@ VERSION_STRING=
 FILE_VERSION_STRING=
 BUILD_ARCHITECTURE=
 
+if [[ -z $EPOCH || $EPOCH == "0" ]]; then
+    VERSION_STRING=$VERSION
+    FILE_VERSION_STRING=$VERSION
+else
+    VERSION_STRING=$EPOCH:$VERSION
+    FILE_VERSION_STRING=$EPOCH-$VERSION
+fi
+
+if [[ ! -z $REVISION && $REVISION != "0" ]]; then
+    VERSION_STRING=$VERSION_STRING-$REVISION
+    FILE_VERSION_STRING=$FILE_VERSION_STRING-$REVISION
+fi
+
+if [[ $ARCHITECTURE == "all" ]]; then
+    BUILD_ARCHITECTURE=all
+else
+    BUILD_ARCHITECTURE=$(dpkg --print-architecture)
+fi
+
 function _build_local() {
     local cwd=$PWD
 
@@ -74,25 +93,10 @@ function _pack() {
     local VERSION_ID=$(source /etc/os-release && echo $VERSION_ID)
     local TARGET=
 
-    if [[ -z $EPOCH || $EPOCH == "0" ]]; then
-        VERSION_STRING=$VERSION
-        FILE_VERSION_STRING=$VERSION
-    else
-        VERSION_STRING=$EPOCH:$VERSION
-        FILE_VERSION_STRING=$EPOCH-$VERSION
-    fi
-
-    if [[ ! -z $REVISION && $REVISION != "0" ]]; then
-        VERSION_STRING=$VERSION_STRING-$REVISION
-        FILE_VERSION_STRING=$FILE_VERSION_STRING-$REVISION
-    fi
-
     if [[ $ARCHITECTURE == "all" ]]; then
-        BUILD_ARCHITECTURE=all
-        TARGET=$DISTS/binary-all/${NAME}_${FILE_VERSION_STRING}_all.deb
+        TARGET=${DISTS}/binary-all/${NAME}_${FILE_VERSION_STRING}_all.deb
     else
-        BUILD_ARCHITECTURE=$(dpkg --print-architecture)
-        TARGET=$DISTS/$VERSION_ID/$COMPONENT/binary-$BUILD_ARCHITECTURE/${NAME}_${FILE_VERSION_STRING}_$BUILD_ARCHITECTURE.deb
+        TARGET=${DISTS}/${VERSION_ID}/${COMPONENT}/binary-${BUILD_ARCHITECTURE}/${NAME}_${FILE_VERSION_STRING}_${BUILD_ARCHITECTURE}.deb
     fi
 
     # debian/control
