@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.83.6 (2025-07-14)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix changelog header markdown (● [3a753f5](https://github.com/softvisio-node/cli/commit/3a753f50); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [cc035f7](https://github.com/softvisio-node/cli/commit/cc035f78), [55f8ee5](https://github.com/softvisio-node/cli/commit/55f8ee53); 👬 zdm)
+
+Compare with the previous release: [v3.83.5](https://github.com/softvisio-node/cli/compare/v3.83.5...v3.83.6)
+
 ### v3.83.5 (2025-07-14)
 
 **Code refactoring:**
