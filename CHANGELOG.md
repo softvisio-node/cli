@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.83.5 (2025-07-14)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: improve deb build log (● [f409292](https://github.com/softvisio-node/cli/commit/f409292f), [6d7c227](https://github.com/softvisio-node/cli/commit/6d7c2272); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [be669f1](https://github.com/softvisio-node/cli/commit/be669f1f); 👬 zdm)
+
+Compare with the previous release: [v3.83.4](https://github.com/softvisio-node/cli/compare/v3.83.4...v3.83.5)
+
 ### v3.83.4 (2025-07-12)
 
 **Bug fixes:**
