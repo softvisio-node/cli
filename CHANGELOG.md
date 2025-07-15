@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.83.7 (2025-07-15)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [cf5384a](https://github.com/softvisio-node/cli/commit/cf5384a2); 👬 zdm)
+
+Compare with the previous release: [v3.83.6](https://github.com/softvisio-node/cli/compare/v3.83.6...v3.83.7)
+
 ### v3.83.6 (2025-07-14)
 
 **Bug fixes:**
