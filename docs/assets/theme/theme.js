@@ -53,12 +53,12 @@ class Theme {
         this.#currentTheme = theme;
 
         if ( theme === "light" ) {
-            document.querySelector( `#lightTheme` ).removeAttribute( "disabled" );
-            document.querySelector( `#darkTheme` ).setAttribute( "disabled", "true" );
+            document.querySelector( "#lightTheme" ).removeAttribute( "disabled" );
+            document.querySelector( "#darkTheme" ).setAttribute( "disabled", "true" );
         }
         else {
-            document.querySelector( `#darkTheme` ).removeAttribute( "disabled" );
-            document.querySelector( `#lightTheme` ).setAttribute( "disabled", "true" );
+            document.querySelector( "#darkTheme" ).removeAttribute( "disabled" );
+            document.querySelector( "#lightTheme" ).setAttribute( "disabled", "true" );
         }
 
         localStorage.setItem( STORAGE_KEY, theme );
