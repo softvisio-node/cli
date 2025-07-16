@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.83.10 (2025-07-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix eslint stylistic rules (● [fbffbff](https://github.com/softvisio-node/cli/commit/fbffbff0), [cb5c5a4](https://github.com/softvisio-node/cli/commit/cb5c5a49); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [7d292eb](https://github.com/softvisio-node/cli/commit/7d292eb6); 👬 zdm)
+
+- style: lint (● [3952a09](https://github.com/softvisio-node/cli/commit/3952a095); 👬 zdm)
+
+Compare with the previous release: [v3.83.9](https://github.com/softvisio-node/cli/compare/v3.83.9...v3.83.10)
+
 ### v3.83.9 (2025-07-16)
 
 **Other changes:**
