@@ -89,7 +89,7 @@ const CONFIG = [
             ],
             "@stylistic/padded-blocks": "off", // NOTE conflicts with @stylistic/lines-around-comment
             "@stylistic/quote-props": [ "error", "always" ],
-            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": true } ],
+            "@stylistic/quotes": [ "error", "double", { "avoidEscape": true, "allowTemplateLiterals": "avoidEscape" } ],
             "@stylistic/semi": [ "error", "always" ],
             "@stylistic/semi-spacing": [ "error", { "before": false, "after": true } ],
             "@stylistic/space-before-function-paren": [ "error", "always" ],
