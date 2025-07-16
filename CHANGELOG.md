@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.83.9 (2025-07-16)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [85e2a08](https://github.com/softvisio-node/cli/commit/85e2a08a); 👬 zdm)
+
+- docs: replace text with emoji (● [eeafc68](https://github.com/softvisio-node/cli/commit/eeafc685); 👬 zdm)
+
+Compare with the previous release: [v3.83.8](https://github.com/softvisio-node/cli/compare/v3.83.8...v3.83.9)
+
 ### v3.83.8 (2025-07-16)
 
 **Other changes:**
