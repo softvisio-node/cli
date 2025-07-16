@@ -1236,9 +1236,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.9.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.9.3.tgz",
-            "integrity": "sha512-PqacaFrWDXGyL/Vngo0yrNdgUREIHXtLmfmvn3bCRvWCJ3GZwZbgt4BgmdnvsfSQr1VsvqKU5aCcP/+mmcdXzA==",
+            "version": "1.9.4",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.9.4.tgz",
+            "integrity": "sha512-t/TTsy4u7I95Etu+TCio40JL9NgkmCR+5QDuMTFu6NOJI4YLp6b1AUmjihIBteOOHRpPO4jpEXy+9g5lwlFPdQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -1249,9 +1249,9 @@
             }
         },
         "node_modules/@softvisio/core": {
-            "version": "7.175.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.175.3.tgz",
-            "integrity": "sha512-wz54uVKUN6Uq0E9415iLBGXzfYUVcx/FI3uo1vAzOcAuUEOd3CJ3sHahk1dKF2Ej/QUhfipE+XfYPJyhc+yO8g==",
+            "version": "7.175.4",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.175.4.tgz",
+            "integrity": "sha512-YnNZULFzmvhFQEM8YuKJgmwwNJTcp6FU5lFCf5PljC9SI8tqcRCEwBEY7a5MVHLCxAoymlXa0iFFYqq1ud8kew==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -1295,31 +1295,31 @@
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.7.30",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.30.tgz",
-            "integrity": "sha512-wi4AJNFI3kP9vKod+DJAsrjP8XP4IoWeSjnEgiaXrYly56zLYcy1rTrcLv7SOcrfnBCwNuAxT9JQPZgAnfqCgg==",
+            "version": "1.7.31",
+            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.31.tgz",
+            "integrity": "sha512-QsFy3LxRGtYJZ26hcJCu3FR5coxs4bL4/HE59Fls0k5ZJgYsxKhdahIEQ9IqdGbwvtWwK2rXJzggkzNWleVwsA==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
             }
         },
         "node_modules/@softvisio/msgpack": {
-            "version": "3.4.7",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.4.7.tgz",
-            "integrity": "sha512-GOa0V49c1iuUkD5914OUGRwaAot0vnXdQ/OZDRHSb+BsGzcyZW75avheRUF4BIoRirUvUJIZTIEAkjI4lMExrQ==",
+            "version": "3.4.8",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.4.8.tgz",
+            "integrity": "sha512-zBw//z/2zTg7cfiHX9quzAfwHb0lTebO92UqQTjDpkGcsUK109tuAnW+GFXMVSPK93wOoBkHh3XriJmlmFhkiw==",
             "license": "ISC"
         },
         "node_modules/@softvisio/result": {
-            "version": "6.5.15",
-            "resolved": "https://registry.npmjs.org/@softvisio/result/-/result-6.5.15.tgz",
-            "integrity": "sha512-wZhoyUqQiXqCwMMA4UUJqBigR2RG2yVadXhIqgXy+3MNkFt6z4aHXhwQ6KTdYIXIrhLncGLSZSPWw+NeZTvLlA==",
+            "version": "6.5.16",
+            "resolved": "https://registry.npmjs.org/@softvisio/result/-/result-6.5.16.tgz",
+            "integrity": "sha512-YCt/JU+5unxQQrwiaLNS9C4+cO8bC43LQfYPrPxPKGI27lufVchSYtOwm3b4teq+0DbCOpW3Py7U/waBMpMP3A==",
             "license": "ISC",
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.28.7",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.7.tgz",
-            "integrity": "sha512-2FEZ2ZhLs9ges1nY6V4+RWwMJAs26jzLW/tCl3JFDEn3UvACDvWKSCstVifUJWYYpcDrDgzaSbS1HuiqsTDmQA==",
+            "version": "1.28.8",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.8.tgz",
+            "integrity": "sha512-3gCpakbVltklULBP2haDg6inLKp/xmV1ZcVZOd52SXtQrHpNHE8D0KqrWvwLKFndrsqcFDeJoj/DVtQ2+s4O/g==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1327,9 +1327,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "2.9.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.9.1.tgz",
-            "integrity": "sha512-IUT3hofs/ka8/esmeuNzCXun8JR0sf7d4PEnt3tHpksXulAGppqrPEofsQ/VPcKfJrwwFsOFuoHl/ZRrV5h38Q==",
+            "version": "2.9.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.9.2.tgz",
+            "integrity": "sha512-fl7eCV2rrwswcCSSFskEEwL9e/uZgJsNDRO9PGPi75SIvc9AqzcikHcTSnCJFv6qFl9qqXmLb3rmLYCkKXXacg==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -1337,9 +1337,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.11.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.11.3.tgz",
-            "integrity": "sha512-6w9sk6tBZUYxkKk/LABvQuH6suCQDlBDdwdi5LA4+4ar0e5WNbdbbDKbXSoAeB7f/9Ye+aeBsy9ChvUlQcxZ4g==",
+            "version": "2.11.4",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.11.4.tgz",
+            "integrity": "sha512-uVpbfYqtjMDVotJE+XPjaLyMsEBc6gcA82VC8TsPjKv6x53oJCNAi02wysxlty8Jtmerr7h2zRd0inX4b6qScw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1347,17 +1347,17 @@
             }
         },
         "node_modules/@stylistic/eslint-plugin": {
-            "version": "5.1.0",
-            "resolved": "https://registry.npmjs.org/@stylistic/eslint-plugin/-/eslint-plugin-5.1.0.tgz",
-            "integrity": "sha512-TJRJul4u/lmry5N/kyCU+7RWWOk0wyXN+BncRlDYBqpLFnzXkd7QGVfN7KewarFIXv0IX0jSF/Ksu7aHWEDeuw==",
+            "version": "5.2.0",
+            "resolved": "https://registry.npmjs.org/@stylistic/eslint-plugin/-/eslint-plugin-5.2.0.tgz",
+            "integrity": "sha512-RCEdbREv9EBiToUBQTlRhVYKG093I6ZnnQ990j08eJ6uRZh71DXkOnoxtTLfDQ6utVCVQzrhZFHZP0zfrfOIjA==",
             "license": "MIT",
             "dependencies": {
                 "@eslint-community/eslint-utils": "^4.7.0",
-                "@typescript-eslint/types": "^8.34.1",
+                "@typescript-eslint/types": "^8.37.0",
                 "eslint-visitor-keys": "^4.2.1",
                 "espree": "^10.4.0",
                 "estraverse": "^5.3.0",
-                "picomatch": "^4.0.2"
+                "picomatch": "^4.0.3"
             },
             "engines": {
                 "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
