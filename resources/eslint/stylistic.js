@@ -3,7 +3,7 @@ import eslintStylistic from "@stylistic/eslint-plugin";
 const CONFIG = [
 
     // @stylistic:recommended
-    eslintStylistic.configs[ "recommended-flat" ],
+    eslintStylistic.configs[ "recommended" ],
 
     // @stylistic:custom
     {
