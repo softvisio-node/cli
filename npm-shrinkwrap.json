@@ -1317,9 +1317,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.28.8",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.8.tgz",
-            "integrity": "sha512-3gCpakbVltklULBP2haDg6inLKp/xmV1ZcVZOd52SXtQrHpNHE8D0KqrWvwLKFndrsqcFDeJoj/DVtQ2+s4O/g==",
+            "version": "1.28.9",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.9.tgz",
+            "integrity": "sha512-V4xoT9AWNuZb+a/wQYIX/1MSjVKpurSB5x9gS+JnaNb6MkrC49hRBM2IzqSn7jmMVgUTCn31nnFOio9xENR7TA==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -2999,9 +2999,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.185",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.185.tgz",
-            "integrity": "sha512-dYOZfUk57hSMPePoIQ1fZWl1Fkj+OshhEVuPacNKWzC1efe56OsHY3l/jCfiAgIICOU3VgOIdoq7ahg7r7n6MQ==",
+            "version": "1.5.187",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.187.tgz",
+            "integrity": "sha512-cl5Jc9I0KGUoOoSbxvTywTa40uspGJt/BDBoDLoxJRSBpWh4FFXBsjNRHfQrONsV/OoEjDfHUmZQa2d6Ze4YgA==",
             "license": "ISC"
         },
         "node_modules/entities": {
