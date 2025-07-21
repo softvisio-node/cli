@@ -12,8 +12,9 @@ const CONFIG = [
             "curly": [ "error", "multi-line", "consistent" ],
             "eqeqeq": [ "error", "smart" ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
-            "no-constructor-return": [ "error" ],
+            "no-constructor-return": "error",
             "no-lone-blocks": "off", // XXX we are using lone blocks for code folding in vim
+            "no-useless-constructor": "error",
             "prefer-const": "error",
             "prefer-exponentiation-operator": "error",
             "yoda": [ "error", "never", { "exceptRange": true } ],
