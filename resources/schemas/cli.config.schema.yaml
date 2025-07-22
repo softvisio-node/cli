@@ -102,6 +102,13 @@ properties:
     additionalProperties: false
     required: [dependabot, executables, repository]
 
+  lint:
+    type: object
+    properties:
+      trim: { type: boolean }
+    additionalProperties: false
+    required: [trim]
+
   subPackages:
     anyOf:
       - type: "null"
@@ -251,4 +258,4 @@ properties:
         required: [location]
 
 additionalProperties: false
-required: [meta, release, commits]
+required: [meta, lint, release, commits]

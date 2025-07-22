@@ -46,6 +46,9 @@ meta:
     dependabotsecurityupdates: true
     privateVulnerabilityReporting: true
 
+lint:
+  trim: true
+
 release:
   enabled: false
   branches: [main]
