@@ -156,9 +156,7 @@ export default Super =>
                 rules[ "@stylistic/max-len" ] = [
                     "error",
                     {
-                        "code": editorConfig.max_line_length === "off"
-                            ? Infinity
-                            : editorConfig.max_line_length,
+                        "code": editorConfig.max_line_length,
                         "tabWidth": editorConfig.tab_width,
                     },
                 ];
