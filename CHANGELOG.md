@@ -1,5 +1,29 @@
 # Changelog
 
+### v3.84.0 (2025-07-22)
+
+**New features:**
+
+- \[MINOR] feat: add editorconfig trim option (● [e850f1a](https://github.com/softvisio-node/cli/commit/e850f1a7); 👬 zdm)
+
+- \[MINOR] feat: add lint trim option (● [c4d77a6](https://github.com/softvisio-node/cli/commit/c4d77a6a), [08d8de5](https://github.com/softvisio-node/cli/commit/08d8de5c); 👬 zdm)
+
+- \[MINOR] feat: update eslint rules (● [ba7aceb](https://github.com/softvisio-node/cli/commit/ba7aceb2); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix commit msg for no type (● [8f93cdd](https://github.com/softvisio-node/cli/commit/8f93cdd2); 👬 zdm)
+
+- \[PATCH] fix: fix lint insert_final_newline (● [afff161](https://github.com/softvisio-node/cli/commit/afff1616); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump eslint-plugin-unicorn v60.0.0 (● [9776e9d](https://github.com/softvisio-node/cli/commit/9776e9dc); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [979d3e0](https://github.com/softvisio-node/cli/commit/979d3e00), [8f4541f](https://github.com/softvisio-node/cli/commit/8f4541fd), [06af09c](https://github.com/softvisio-node/cli/commit/06af09cb), [980e461](https://github.com/softvisio-node/cli/commit/980e461d), [fe65fe4](https://github.com/softvisio-node/cli/commit/fe65fe41), [3e2347b](https://github.com/softvisio-node/cli/commit/3e2347b7), [f24c745](https://github.com/softvisio-node/cli/commit/f24c745e), [6760524](https://github.com/softvisio-node/cli/commit/67605247), [7036756](https://github.com/softvisio-node/cli/commit/7036756f); 👬 zdm)
+
+Compare with the previous release: [v3.83.10](https://github.com/softvisio-node/cli/compare/v3.83.10...v3.84.0)
+
 ### v3.83.10 (2025-07-16)
 
 **Bug fixes:**
