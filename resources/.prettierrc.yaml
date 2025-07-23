@@ -1,4 +1,4 @@
-# https://prettier.io/docs/options
+# DOCS: https://prettier.io/docs/options
 
 # endOfLine: lf # inherited from .editorconfig "end_of_line"
 # printWidth: .inf # inherited from .editorconfig "max_line_length"
@@ -15,8 +15,8 @@ jsxSingleQuote: false
 objectWrap: preserve
 proseWrap: preserve
 quoteProps: as-needed
-rangeStart: 0
 rangeEnd: .inf
+rangeStart: 0
 requirePragma: false
 semi: true
 singleAttributePerLine: false
