@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.84.1 (2025-07-29)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor docs builder (● [17cda8d](https://github.com/softvisio-node/cli/commit/17cda8d2), [688798d](https://github.com/softvisio-node/cli/commit/688798d1); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [1d3a905](https://github.com/softvisio-node/cli/commit/1d3a9052), [5b6d30d](https://github.com/softvisio-node/cli/commit/5b6d30d7), [54971bb](https://github.com/softvisio-node/cli/commit/54971bb7), [3ec1e67](https://github.com/softvisio-node/cli/commit/3ec1e678), [8c1a4bf](https://github.com/softvisio-node/cli/commit/8c1a4bf1); 👬 zdm)
+
+- style: format configs (● [a1dd980](https://github.com/softvisio-node/cli/commit/a1dd9807); 👬 zdm)
+
+Compare with the previous release: [v3.84.0](https://github.com/softvisio-node/cli/compare/v3.84.0...v3.84.1)
+
 ### v3.84.0 (2025-07-22)
 
 **New features:**
