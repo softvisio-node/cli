@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.84.3 (2025-08-01)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update lsp start shortcut (● [873784e](https://github.com/softvisio-node/cli/commit/873784ea); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [152cdd8](https://github.com/softvisio-node/cli/commit/152cdd82), [64b72db](https://github.com/softvisio-node/cli/commit/64b72db4); 👬 zdm)
+
+Compare with the previous release: [v3.84.2](https://github.com/softvisio-node/cli/compare/v3.84.2...v3.84.3)
+
 ### v3.84.2 (2025-07-29)
 
 **Other changes:**
