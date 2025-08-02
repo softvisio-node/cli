@@ -1317,9 +1317,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.28.12",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.12.tgz",
-            "integrity": "sha512-XrYRl1mhUwr9AikKyf+rFU+OlFz94kY9XPCSyWpW7Fnq8IE6/rYhSqy7iElEpuo3tnz3AbmKyyq8XhPIsc8C7g==",
+            "version": "1.28.13",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.13.tgz",
+            "integrity": "sha512-x6oWyxMDnutFyDYvC5JF9Jv4TEqbS5vSg+EndaS1rZxbihjQFuxaxqZvSxNsd1ibtC8RDOwD3u8n+kclwbCD7Q==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
