@@ -1,5 +1,25 @@
 # Changelog
 
+### v3.85.0 (2025-08-09)
+
+**New features:**
+
+- \[MINOR] feat: add argon2 hash (● [9718a9d](https://github.com/softvisio-node/cli/commit/9718a9d1), [0b81044](https://github.com/softvisio-node/cli/commit/0b810449), [9c8bcf0](https://github.com/softvisio-node/cli/commit/9c8bcf06), [cc95d4d](https://github.com/softvisio-node/cli/commit/cc95d4df); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update cli help (● [f24d159](https://github.com/softvisio-node/cli/commit/f24d1598); 👬 zdm)
+
+- \[PATCH] refactor: update json5 api (● [5c7f548](https://github.com/softvisio-node/cli/commit/5c7f5486); 👬 zdm)
+
+- \[PATCH] refactor: update yaml api (● [0a72e26](https://github.com/softvisio-node/cli/commit/0a72e263), [7512b1b](https://github.com/softvisio-node/cli/commit/7512b1b3); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [d99bdde](https://github.com/softvisio-node/cli/commit/d99bddeb), [b4da19e](https://github.com/softvisio-node/cli/commit/b4da19e5), [40c55a7](https://github.com/softvisio-node/cli/commit/40c55a72), [c27859c](https://github.com/softvisio-node/cli/commit/c27859ce), [8606397](https://github.com/softvisio-node/cli/commit/8606397f), [34060d2](https://github.com/softvisio-node/cli/commit/34060d29), [3b358a1](https://github.com/softvisio-node/cli/commit/3b358a17); 👬 zdm)
+
+Compare with the previous release: [v3.84.3](https://github.com/softvisio-node/cli/compare/v3.84.3...v3.85.0)
+
 ### v3.84.3 (2025-08-01)
 
 **Code refactoring:**
