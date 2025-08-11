@@ -1227,9 +1227,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.10.7",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.10.7.tgz",
-            "integrity": "sha512-5x1ORIF1z9E31d1HgYcZx2WMh246ijLgQtkeSz4zQlPlJvZn60tw0ZUO/nQtPyh+ZQyxkjuCgkpnKSoATRFBug==",
+            "version": "1.10.8",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.10.8.tgz",
+            "integrity": "sha512-n79uM7USGVifb7p1YKFwv/Nfbj+JDJQnT4dHX2sK3WMj7a6kaBgDhjb8ZCKMezhq05nBCVrbv5pfJSP+nkTIbQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
