@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.85.3 (2025-08-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update default argon2 settings (● [ea7a1a0](https://github.com/softvisio-node/cli/commit/ea7a1a0c), [3af01da](https://github.com/softvisio-node/cli/commit/3af01da7); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a05f576](https://github.com/softvisio-node/cli/commit/a05f5762), [4b70b6b](https://github.com/softvisio-node/cli/commit/4b70b6bc); 👬 zdm)
+
+Compare with the previous release: [v3.85.2](https://github.com/softvisio-node/cli/compare/v3.85.2...v3.85.3)
+
 ### v3.85.2 (2025-08-11)
 
 **Other changes:**
