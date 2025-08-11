@@ -1227,9 +1227,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.10.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.10.5.tgz",
-            "integrity": "sha512-pfBVm2v0k2XLNM+x11fCr83sWWZuNbW0esDcC8HfaRfaoC6Bqf8ZdPko0M96yqQQqSxxFva1Ehkx3g8hVCo6fw==",
+            "version": "1.10.7",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.10.7.tgz",
+            "integrity": "sha512-5x1ORIF1z9E31d1HgYcZx2WMh246ijLgQtkeSz4zQlPlJvZn60tw0ZUO/nQtPyh+ZQyxkjuCgkpnKSoATRFBug==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1315,9 +1315,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "2.10.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.10.3.tgz",
-            "integrity": "sha512-3VGAs9MDx4PpOVcPpzUti3BdI+LDSWOFr9L0btpkZD6W3+wweNvo22RAs6KQGaL6fkjUAt+kb4PJBO8aHpqOwQ==",
+            "version": "2.10.4",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.10.4.tgz",
+            "integrity": "sha512-8SIghxB9MTHhPF2QbPo4z5ErfFT2ysWGiG/vVpCiNw0R7GoKIAWeDaFFGVdZxAZdMKBV9LalPp+ppqeiW1Edig==",
             "license": "ISC",
             "peerDependencies": {
                 "@softvisio/result": "^6.1.1",
@@ -2249,9 +2249,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001733",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001733.tgz",
-            "integrity": "sha512-e4QKw/O2Kavj2VQTKZWrwzkt3IxOmIlU6ajRb6LP64LHpBo1J67k2Hi4Vu/TgJWsNtynurfS0uK3MaUTCPfu5Q==",
+            "version": "1.0.30001734",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001734.tgz",
+            "integrity": "sha512-uhE1Ye5vgqju6OI71HTQqcBCZrvHugk0MjLak7Q+HfoBgoq5Bi+5YnwjP4fjDgrtYr/l8MVRBvzz9dPD4KyK0A==",
             "funding": [
                 {
                     "type": "opencollective",
