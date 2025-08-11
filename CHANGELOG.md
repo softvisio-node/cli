@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.85.5 (2025-08-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update argon2 cli (● [474c487](https://github.com/softvisio-node/cli/commit/474c4872); 👬 zdm)
+
+Compare with the previous release: [v3.85.4](https://github.com/softvisio-node/cli/compare/v3.85.4...v3.85.5)
+
 ### v3.85.4 (2025-08-11)
 
 **Other changes:**
