@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.85.6 (2025-08-16)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: add lint text/plain filenames (● [41c4a7f](https://github.com/softvisio-node/cli/commit/41c4a7f8); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [082b8eb](https://github.com/softvisio-node/cli/commit/082b8eb6), [04feb0b](https://github.com/softvisio-node/cli/commit/04feb0bf), [6f32701](https://github.com/softvisio-node/cli/commit/6f327016); 👬 zdm)
+
+Compare with the previous release: [v3.85.5](https://github.com/softvisio-node/cli/compare/v3.85.5...v3.85.6)
+
 ### v3.85.5 (2025-08-11)
 
 **Code refactoring:**
