@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.86.0 (2025-08-19)
+
+**New features:**
+
+- \[MINOR] feat: add password-hash command (● [94f0474](https://github.com/softvisio-node/cli/commit/94f0474f), [7be3c51](https://github.com/softvisio-node/cli/commit/7be3c516), [9a88e46](https://github.com/softvisio-node/cli/commit/9a88e462), [42df821](https://github.com/softvisio-node/cli/commit/42df8217), [32ca9a0](https://github.com/softvisio-node/cli/commit/32ca9a00); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [dc53058](https://github.com/softvisio-node/cli/commit/dc530587), [293512b](https://github.com/softvisio-node/cli/commit/293512bc), [ce97ce7](https://github.com/softvisio-node/cli/commit/ce97ce76); 👬 zdm)
+
+Compare with the previous release: [v3.85.6](https://github.com/softvisio-node/cli/compare/v3.85.6...v3.86.0)
+
 ### v3.85.6 (2025-08-16)
 
 **Code refactoring:**
