@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.86.1 (2025-08-21)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update password hash cli (● [e9046d2](https://github.com/softvisio-node/cli/commit/e9046d2c), [e84af8d](https://github.com/softvisio-node/cli/commit/e84af8dd); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update password-hash api (● [77585ad](https://github.com/softvisio-node/cli/commit/77585ad3); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8814e0b](https://github.com/softvisio-node/cli/commit/8814e0be); 👬 zdm)
+
+Compare with the previous release: [v3.86.0](https://github.com/softvisio-node/cli/compare/v3.86.0...v3.86.1)
+
 ### v3.86.0 (2025-08-19)
 
 **New features:**
