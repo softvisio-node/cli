@@ -1214,9 +1214,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.11.2",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.11.2.tgz",
-            "integrity": "sha512-Md5M1IXIOIe9LHTMGcu3/Fc3X1/H3ZwXOR+9TvZtejW4VcxitEqQ01qCfHbGswQo3VUUQ+H6W9VY3sVcb5Bc0A==",
+            "version": "1.11.3",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.11.3.tgz",
+            "integrity": "sha512-iiYVA7nSmZkt8PQrPWBHp5LGkkttDvTT7ru3a787jzNPyPsNeSSTuNowFaohmQNek8YTXHuhjyFWMH8T+bqT6A==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1293,9 +1293,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.28.14",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.14.tgz",
-            "integrity": "sha512-PTlbw7tydvgEJ8104WwE1EEdJJP1cOAvWQ85YRIoH4QrXykL7l6Sj0p2eUmkVxNvwmE+t4J69tVpFActyMGKfA==",
+            "version": "1.28.15",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.15.tgz",
+            "integrity": "sha512-ciNKk6K+J2CtDP0H0E0bxTQzxg9pK0kmFFHKaCZgO79mJGJJa2r/Y4jSPuC5Ip1AMzf4OJE31bP0gsXUGIg4Nw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
