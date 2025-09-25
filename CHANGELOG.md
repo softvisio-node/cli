@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.86.4 (2025-09-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix docker build (● [c558d1e](https://github.com/softvisio-node/cli/commit/c558d1e9); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update unicorn rules (● [458cd34](https://github.com/softvisio-node/cli/commit/458cd34c); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump eslint-plugin-unicorn@^61.0.0 (● [b2833ec](https://github.com/softvisio-node/cli/commit/b2833ecb); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [34b24f1](https://github.com/softvisio-node/cli/commit/34b24f12), [b81375a](https://github.com/softvisio-node/cli/commit/b81375a2), [de282ef](https://github.com/softvisio-node/cli/commit/de282efb), [56e130a](https://github.com/softvisio-node/cli/commit/56e130a3), [e351344](https://github.com/softvisio-node/cli/commit/e351344a), [c1323b0](https://github.com/softvisio-node/cli/commit/c1323b0e), [e904ee7](https://github.com/softvisio-node/cli/commit/e904ee72), [a96df75](https://github.com/softvisio-node/cli/commit/a96df755), [704b275](https://github.com/softvisio-node/cli/commit/704b2756), [8fd71c8](https://github.com/softvisio-node/cli/commit/8fd71c86), [ebad2ec](https://github.com/softvisio-node/cli/commit/ebad2ec2), [0b86a6d](https://github.com/softvisio-node/cli/commit/0b86a6de), [86dbb52](https://github.com/softvisio-node/cli/commit/86dbb522), [bd9726d](https://github.com/softvisio-node/cli/commit/bd9726de), [309a4b1](https://github.com/softvisio-node/cli/commit/309a4b14), [cfdec1c](https://github.com/softvisio-node/cli/commit/cfdec1ca), [efc73e6](https://github.com/softvisio-node/cli/commit/efc73e65), [668d020](https://github.com/softvisio-node/cli/commit/668d020b), [a8684b1](https://github.com/softvisio-node/cli/commit/a8684b1a), [69eb0af](https://github.com/softvisio-node/cli/commit/69eb0afe), [2725c70](https://github.com/softvisio-node/cli/commit/2725c707), [f1a7c6f](https://github.com/softvisio-node/cli/commit/f1a7c6fb), [58f303b](https://github.com/softvisio-node/cli/commit/58f303b3); 👬 zdm)
+
+Compare with the previous release: [v3.86.3](https://github.com/softvisio-node/cli/compare/v3.86.3...v3.86.4)
+
 ### v3.86.3 (2025-08-28)
 
 **Other changes:**
