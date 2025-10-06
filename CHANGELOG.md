@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.87.0 (2025-10-06)
+
+**New features:**
+
+- \[MINOR] feat: use gpg api (● [28a1662](https://github.com/softvisio-node/cli/commit/28a16620), [ebaf4ee](https://github.com/softvisio-node/cli/commit/ebaf4ee7); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [f30dde0](https://github.com/softvisio-node/cli/commit/f30dde05), [6d20bcc](https://github.com/softvisio-node/cli/commit/6d20bccf), [97bb67d](https://github.com/softvisio-node/cli/commit/97bb67dc), [96d6c0a](https://github.com/softvisio-node/cli/commit/96d6c0a6); 👬 zdm)
+
+Compare with the previous release: [v3.86.4](https://github.com/softvisio-node/cli/compare/v3.86.4...v3.87.0)
+
 ### v3.86.4 (2025-09-25)
 
 **Bug fixes:**
