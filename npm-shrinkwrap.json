@@ -1225,9 +1225,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.11.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.11.3.tgz",
-            "integrity": "sha512-iiYVA7nSmZkt8PQrPWBHp5LGkkttDvTT7ru3a787jzNPyPsNeSSTuNowFaohmQNek8YTXHuhjyFWMH8T+bqT6A==",
+            "version": "1.11.4",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.11.4.tgz",
+            "integrity": "sha512-8p5Bhy7aEhZc9aFGIzyD4CIXRhAR1kmlsxElGgL2EZiQcG7yt/g46f2iCoCe9gyL5BtRJZZU0zwztS8boSNe0g==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1304,9 +1304,9 @@
             "peer": true
         },
         "node_modules/@softvisio/sqlite": {
-            "version": "1.28.16",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.16.tgz",
-            "integrity": "sha512-7MxILqlVtnfHoXS+lVY27/UgZXmfFJPc7dl4JWfv60zeWRMeqvHH661HbheW0fA80DfX2ydSlimwO18osyqkHQ==",
+            "version": "1.28.17",
+            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.17.tgz",
+            "integrity": "sha512-6LyOJS7g30BantnCVC7xwqBo9k5dtSq5An5tz0WY+zSWalqJoroLNIFo1nvLcaCmXS+je9Uwb67ho2Iupxg7eA==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -2987,9 +2987,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.235",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.235.tgz",
-            "integrity": "sha512-i/7ntLFwOdoHY7sgjlTIDo4Sl8EdoTjWIaKinYOVfC6bOp71bmwenyZthWHcasxgHDNWbWxvG9M3Ia116zIaYQ==",
+            "version": "1.5.236",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.236.tgz",
+            "integrity": "sha512-Yi43booTJp2VteesVja4xdcDrAcVFItkD6RrxhMSuGx1kShh+raMwnKyIGNOTl68reqSxPPls6bB8LgIcrK9Gg==",
             "license": "ISC"
         },
         "node_modules/entities": {
