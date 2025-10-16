@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.87.2 (2025-10-16)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [74e2d89](https://github.com/softvisio-node/cli/commit/74e2d893), [eaaa971](https://github.com/softvisio-node/cli/commit/eaaa971c), [56ba8ce](https://github.com/softvisio-node/cli/commit/56ba8ce6); 👬 zdm)
+
+Compare with the previous release: [v3.87.1](https://github.com/softvisio-node/cli/compare/v3.87.1...v3.87.2)
+
 ### v3.87.1 (2025-10-14)
 
 **Other changes:**
