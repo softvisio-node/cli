@@ -1225,9 +1225,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/argon2": {
-            "version": "1.11.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.11.4.tgz",
-            "integrity": "sha512-8p5Bhy7aEhZc9aFGIzyD4CIXRhAR1kmlsxElGgL2EZiQcG7yt/g46f2iCoCe9gyL5BtRJZZU0zwztS8boSNe0g==",
+            "version": "1.11.5",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.11.5.tgz",
+            "integrity": "sha512-Pi5IHsuz/D0sTLTcjYoNG8H/2g6luLDlpfPaohlY0MkpaMOQmW5CWM5R4xqhe9Bls64w4x4O8vFlwa+7GzIO1g==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1314,9 +1314,9 @@
             }
         },
         "node_modules/@softvisio/utils": {
-            "version": "2.10.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.10.4.tgz",
-            "integrity": "sha512-8SIghxB9MTHhPF2QbPo4z5ErfFT2ysWGiG/vVpCiNw0R7GoKIAWeDaFFGVdZxAZdMKBV9LalPp+ppqeiW1Edig==",
+            "version": "2.10.5",
+            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.10.5.tgz",
+            "integrity": "sha512-iP3sv/z+Rw0erL/a9iv1BKv4kR4ZWcW0TF6k5WOByU7F/1RK7pxMNU0gsnoNephhBh0rPwQjG6PXH0jk9vP81A==",
             "license": "ISC",
             "peer": true,
             "peerDependencies": {
@@ -2264,9 +2264,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001750",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001750.tgz",
-            "integrity": "sha512-cuom0g5sdX6rw00qOoLNSFCJ9/mYIsuSOA+yzpDw8eopiFqcVwQvZHqov0vmEighRxX++cfC0Vg1G+1Iy/mSpQ==",
+            "version": "1.0.30001751",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001751.tgz",
+            "integrity": "sha512-A0QJhug0Ly64Ii3eIqHu5X51ebln3k4yTUkY1j8drqpWHVreg/VLijN48cZ1bYPiqOQuqpkIKnzr/Ul8V+p6Cw==",
             "funding": [
                 {
                     "type": "opencollective",
@@ -5919,9 +5919,9 @@
             }
         },
         "node_modules/node-releases": {
-            "version": "2.0.23",
-            "resolved": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.23.tgz",
-            "integrity": "sha512-cCmFDMSm26S6tQSDpBCg/NR8NENrVPhAJSf+XbxBG4rPFaaonlEoE9wHQmun+cls499TQGSb7ZyPBRlzgKfpeg==",
+            "version": "2.0.25",
+            "resolved": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.25.tgz",
+            "integrity": "sha512-4auku8B/vw5psvTiiN9j1dAOsXvMoGqJuKJcR+dTdqiXEK20mMTk1UEo3HS16LeGQsVG6+qKTPM9u/qQ2LqATA==",
             "license": "MIT"
         },
         "node_modules/nth-check": {
