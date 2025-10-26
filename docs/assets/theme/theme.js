@@ -9,7 +9,7 @@ class Theme {
         var theme = localStorage.getItem( STORAGE_KEY );
 
         if ( !theme || !THEMES.has( theme ) ) {
-            theme = window.matchMedia && window.matchMedia( "(prefers-color-scheme: dark)" ).matches
+            theme = globalThis.matchMedia && globalThis.matchMedia( "(prefers-color-scheme: dark)" ).matches
                 ? "dark"
                 : "light";
         }
@@ -22,11 +22,11 @@ class Theme {
         // set gotoTop click handler
         document.querySelectorAll( `a[href="#gotoTop"]` ).forEach( el => ( el.onclick = this.#gotoTop.bind( this ) ) );
 
-        window.$docsify.plugins ||= [];
-        window.$docsify.plugins.push( this.#docsifyHook.bind( this ) );
+        globalThis.$docsify.plugins ||= [];
+        globalThis.$docsify.plugins.push( this.#docsifyHook.bind( this ) );
 
         // listen for system dark mode change
-        window.matchMedia( "(prefers-color-scheme: dark)" ).addEventListener( "change", e => {
+        globalThis.matchMedia( "(prefers-color-scheme: dark)" ).addEventListener( "change", e => {
             this.#setTheme( e.matches
                 ? "dark"
                 : "light" );
@@ -35,7 +35,7 @@ class Theme {
 
     // private
     #gotoTop ( e ) {
-        const oldUrl = window.location.href,
+        const oldUrl = globalThis.location.href,
             newUrl = oldUrl.replace( /\?.*/, "" );
 
         if ( oldUrl !== newUrl ) history.pushState( {}, null, newUrl );
@@ -100,7 +100,7 @@ class Theme {
     }
 
     #linkifyTypes ( markdown ) {
-        const types = window.$docsify.types;
+        const types = globalThis.$docsify.types;
 
         if ( !types ) return markdown;
 
@@ -143,7 +143,7 @@ class Theme {
     }
 
     #styleTypes () {
-        const types = window.$docsify.types;
+        const types = globalThis.$docsify.types;
 
         if ( !types ) return;
 

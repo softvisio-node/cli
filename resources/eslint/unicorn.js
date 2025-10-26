@@ -50,8 +50,7 @@ const CONFIG = [
             "unicorn/prefer-code-point": "error",
             "unicorn/prefer-date-now": "error",
             "unicorn/prefer-dom-node-append": "error",
-
-            // "unicorn/prefer-global-this": "error",
+            "unicorn/prefer-global-this": "error",
             "unicorn/prefer-dom-node-remove": "error",
             "unicorn/prefer-import-meta-properties": "error",
             "unicorn/prefer-modern-dom-apis": "error",
