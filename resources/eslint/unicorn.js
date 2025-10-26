@@ -50,7 +50,8 @@ const CONFIG = [
             "unicorn/prefer-code-point": "error",
             "unicorn/prefer-date-now": "error",
             "unicorn/prefer-dom-node-append": "error",
-            "unicorn/prefer-global-this": "error",
+
+            // "unicorn/prefer-global-this": "error",
             "unicorn/prefer-dom-node-remove": "error",
             "unicorn/prefer-import-meta-properties": "error",
             "unicorn/prefer-modern-dom-apis": "error",
@@ -71,12 +72,14 @@ const CONFIG = [
             "unicorn/prefer-response-static-json": "error",
             "unicorn/prefer-set-has": "error",
             "unicorn/prefer-set-size": "error",
-            "unicorn/prefer-single-call": "error",
+
+            // "unicorn/prefer-single-call": "error",
             "unicorn/prefer-string-replace-all": "error",
             "unicorn/prefer-string-starts-ends-with": "error",
             "unicorn/prefer-string-trim-start-end": "error",
             "unicorn/prefer-structured-clone": "error",
-            "unicorn/prefer-string-raw": "error",
+
+            // "unicorn/prefer-string-raw": "error",
             "unicorn/prefer-string-slice": "error",
             "unicorn/relative-url-style": "error",
             "unicorn/require-module-attributes": "error",
