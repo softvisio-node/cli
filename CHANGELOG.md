@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.87.3 (2025-10-26)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: add more eslint unicorn rules (● [b074e2d](https://github.com/softvisio-node/cli/commit/b074e2db), [d2bab4f](https://github.com/softvisio-node/cli/commit/d2bab4fa); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump eslint-plugin-unicorn\@62.0.0 (● [ac6b358](https://github.com/softvisio-node/cli/commit/ac6b3585); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [8be5359](https://github.com/softvisio-node/cli/commit/8be53597), [6d7fda9](https://github.com/softvisio-node/cli/commit/6d7fda91), [1161a44](https://github.com/softvisio-node/cli/commit/1161a44f), [2b5fa41](https://github.com/softvisio-node/cli/commit/2b5fa414), [d5cc3b5](https://github.com/softvisio-node/cli/commit/d5cc3b5a), [c6f1c04](https://github.com/softvisio-node/cli/commit/c6f1c041), [177cca3](https://github.com/softvisio-node/cli/commit/177cca3f), [71e0de7](https://github.com/softvisio-node/cli/commit/71e0de77), [75944ba](https://github.com/softvisio-node/cli/commit/75944ba1), [bf74c34](https://github.com/softvisio-node/cli/commit/bf74c344); 👬 zdm)
+
+- style: lint (● [645e7c0](https://github.com/softvisio-node/cli/commit/645e7c0c), [5310e20](https://github.com/softvisio-node/cli/commit/5310e203), [9069853](https://github.com/softvisio-node/cli/commit/9069853f); 👬 zdm)
+
+Compare with the previous release: [v3.87.2](https://github.com/softvisio-node/cli/compare/v3.87.2...v3.87.3)
+
 ### v3.87.2 (2025-10-16)
 
 **Other changes:**
