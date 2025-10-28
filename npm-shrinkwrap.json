@@ -2987,9 +2987,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.240",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.240.tgz",
-            "integrity": "sha512-OBwbZjWgrCOH+g6uJsA2/7Twpas2OlepS9uvByJjR2datRDuKGYeD+nP8lBBks2qnB7bGJNHDUx7c/YLaT3QMQ==",
+            "version": "1.5.241",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.241.tgz",
+            "integrity": "sha512-ILMvKX/ZV5WIJzzdtuHg8xquk2y0BOGlFOxBVwTpbiXqWIH0hamG45ddU4R3PQ0gYu+xgo0vdHXHli9sHIGb4w==",
             "license": "ISC"
         },
         "node_modules/entities": {
@@ -6184,9 +6184,9 @@
             }
         },
         "node_modules/pkijs": {
-            "version": "3.3.1",
-            "resolved": "https://registry.npmjs.org/pkijs/-/pkijs-3.3.1.tgz",
-            "integrity": "sha512-8x7OI5g+a6Bic88sAzyjcMCC5pgbiKdYszeOmNhcOp6Ix+kDT0K3bnIZ32Rcd7Lh/Fnr+y1q0/dkboWjLpM7Ww==",
+            "version": "3.3.2",
+            "resolved": "https://registry.npmjs.org/pkijs/-/pkijs-3.3.2.tgz",
+            "integrity": "sha512-sdhKKgWHsSMmVKp9GtvK4c5WJcfofEXakibwtwKpl0D/dq4kiamSEmuDka0rosWCxV9nOzw8f6F+Zf0M+Frpbg==",
             "license": "BSD-3-Clause",
             "dependencies": {
                 "@noble/hashes": "1.4.0",
@@ -6197,7 +6197,7 @@
                 "tslib": "^2.8.1"
             },
             "engines": {
-                "node": ">=22.0.0"
+                "node": ">=16.0.0"
             }
         },
         "node_modules/pluralize": {
