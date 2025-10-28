@@ -1224,24 +1224,13 @@
             "integrity": "sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==",
             "license": "MIT"
         },
-        "node_modules/@softvisio/argon2": {
-            "version": "1.11.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-1.11.5.tgz",
-            "integrity": "sha512-Pi5IHsuz/D0sTLTcjYoNG8H/2g6luLDlpfPaohlY0MkpaMOQmW5CWM5R4xqhe9Bls64w4x4O8vFlwa+7GzIO1g==",
-            "hasInstallScript": true,
-            "license": "ISC",
-            "peerDependencies": {
-                "@softvisio/utils": "^2.0.0"
-            }
-        },
         "node_modules/@softvisio/core": {
-            "version": "7.183.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.183.3.tgz",
-            "integrity": "sha512-p4BJo+jU16diq496svIG02wI7T/jb/3eyhldO2gsy2UWO3vr0o+x4eXbBwe7k4TagGYZrGPX5392nFUzer/XEA==",
+            "version": "7.184.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.184.1.tgz",
+            "integrity": "sha512-X/fLzzGbrEDehbAh33qTLfmiWkU2uw0Y4z2EZYu3RyyWaNJdYmiVv54EnMswPHQXfTPxa6HNp8omM/aDY+1PSg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
-                "@softvisio/argon2": "^1.2.5",
                 "@softvisio/msgpack": "^3.0.0",
                 "@softvisio/sqlite": "^1.15.39",
                 "@softvisio/utils": "^2.0.0",
@@ -1277,8 +1266,8 @@
                 "softvisio-api": "bin/softvisio-api.js"
             },
             "engines": {
-                "node": ">=22.11.0",
-                "npm": ">=10.9.0"
+                "node": ">=24.11.0",
+                "npm": ">=11.6.1"
             }
         },
         "node_modules/@softvisio/eslint-plugin": {
