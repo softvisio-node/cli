@@ -1249,9 +1249,9 @@
             "license": "MIT"
         },
         "node_modules/@softvisio/core": {
-            "version": "7.184.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.184.1.tgz",
-            "integrity": "sha512-X/fLzzGbrEDehbAh33qTLfmiWkU2uw0Y4z2EZYu3RyyWaNJdYmiVv54EnMswPHQXfTPxa6HNp8omM/aDY+1PSg==",
+            "version": "7.185.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.185.0.tgz",
+            "integrity": "sha512-Jn8Mdvn/aBbeNLNUiYRMVomgtd2GsBMXvrVPatP4Pyv2ikhjDZ/OA/42puTfHSlHYyg65n7jYzbgfzp+3rMAyg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
