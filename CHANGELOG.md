@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.87.5 (2025-10-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix permissions in npm package (● [f0e5fd4](https://github.com/softvisio-node/cli/commit/f0e5fd40); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [5a62396](https://github.com/softvisio-node/cli/commit/5a62396e), [b27076d](https://github.com/softvisio-node/cli/commit/b27076de), [5be6129](https://github.com/softvisio-node/cli/commit/5be6129c); 👬 zdm)
+
+Compare with the previous release: [v3.87.4](https://github.com/softvisio-node/cli/compare/v3.87.4...v3.87.5)
+
 ### v3.87.4 (2025-10-28)
 
 **Other changes:**
