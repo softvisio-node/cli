@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.87.7 (2025-10-31)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix spawn shell args (● [53216a4](https://github.com/softvisio-node/cli/commit/53216a4b), [9d2b0d0](https://github.com/softvisio-node/cli/commit/9d2b0d01), [01b4cd8](https://github.com/softvisio-node/cli/commit/01b4cd8b); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [4fbdeff](https://github.com/softvisio-node/cli/commit/4fbdeffa); 👬 zdm)
+
+Compare with the previous release: [v3.87.6](https://github.com/softvisio-node/cli/compare/v3.87.6...v3.87.7)
+
 ### v3.87.6 (2025-10-30)
 
 **Bug fixes:**
