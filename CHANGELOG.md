@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.87.10 (2025-11-02)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update tar streams (● [630f830](https://github.com/softvisio-node/cli/commit/630f830a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [4c01a2e](https://github.com/softvisio-node/cli/commit/4c01a2e0); 👬 zdm)
+
+Compare with the previous release: [v3.87.9](https://github.com/softvisio-node/cli/compare/v3.87.9...v3.87.10)
+
 ### v3.87.9 (2025-11-02)
 
 **Other changes:**
