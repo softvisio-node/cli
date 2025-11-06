@@ -1314,9 +1314,9 @@
             }
         },
         "node_modules/@softvisio/uws": {
-            "version": "2.11.11",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.11.11.tgz",
-            "integrity": "sha512-+NSMuBsHXViSxi9JWS+bxAe1fPY0Fcq7S79CEtIwWYgqIiahrh3F4MsN+NpMTATxi8cAwuJrwa0Qq8aY+WDWrQ==",
+            "version": "2.11.12",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.11.12.tgz",
+            "integrity": "sha512-sYevTr3c6Z1JswweDAoG6OQVh0KzpzECQhJuGOeq0LP5eJKiMETvGvU9vQe+yZiExtn/GXnK6XFaIJ0IN8s2dw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1649,59 +1649,59 @@
             }
         },
         "node_modules/@vue/compiler-core": {
-            "version": "3.5.22",
-            "resolved": "https://registry.npmjs.org/@vue/compiler-core/-/compiler-core-3.5.22.tgz",
-            "integrity": "sha512-jQ0pFPmZwTEiRNSb+i9Ow/I/cHv2tXYqsnHKKyCQ08irI2kdF5qmYedmF8si8mA7zepUFmJ2hqzS8CQmNOWOkQ==",
+            "version": "3.5.23",
+            "resolved": "https://registry.npmjs.org/@vue/compiler-core/-/compiler-core-3.5.23.tgz",
+            "integrity": "sha512-nW7THWj5HOp085ROk65LwaoxuzDsjIxr485F4iu63BoxsXoSqKqmsUUoP4A7Gl67DgIgi0zJ8JFgHfvny/74MA==",
             "license": "MIT",
             "dependencies": {
-                "@babel/parser": "^7.28.4",
-                "@vue/shared": "3.5.22",
+                "@babel/parser": "^7.28.5",
+                "@vue/shared": "3.5.23",
                 "entities": "^4.5.0",
                 "estree-walker": "^2.0.2",
                 "source-map-js": "^1.2.1"
             }
         },
         "node_modules/@vue/compiler-dom": {
-            "version": "3.5.22",
-            "resolved": "https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.5.22.tgz",
-            "integrity": "sha512-W8RknzUM1BLkypvdz10OVsGxnMAuSIZs9Wdx1vzA3mL5fNMN15rhrSCLiTm6blWeACwUwizzPVqGJgOGBEN/hA==",
+            "version": "3.5.23",
+            "resolved": "https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.5.23.tgz",
+            "integrity": "sha512-AT8RMw0vEzzzO0JU5gY0F6iCzaWUIh/aaRVordzMBKXRpoTllTT4kocHDssByPsvodNCfump/Lkdow2mT/O5KQ==",
             "license": "MIT",
             "dependencies": {
-                "@vue/compiler-core": "3.5.22",
-                "@vue/shared": "3.5.22"
+                "@vue/compiler-core": "3.5.23",
+                "@vue/shared": "3.5.23"
             }
         },
         "node_modules/@vue/compiler-sfc": {
-            "version": "3.5.22",
-            "resolved": "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.5.22.tgz",
-            "integrity": "sha512-tbTR1zKGce4Lj+JLzFXDq36K4vcSZbJ1RBu8FxcDv1IGRz//Dh2EBqksyGVypz3kXpshIfWKGOCcqpSbyGWRJQ==",
+            "version": "3.5.23",
+            "resolved": "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.5.23.tgz",
+            "integrity": "sha512-3QTEUo4qg7FtQwaDJa8ou1CUikx5WTtZlY61rRRDu3lK2ZKrGoAGG8mvDgOpDsQ4A1bez9s+WtBB6DS2KuFCPw==",
             "license": "MIT",
             "dependencies": {
-                "@babel/parser": "^7.28.4",
-                "@vue/compiler-core": "3.5.22",
-                "@vue/compiler-dom": "3.5.22",
-                "@vue/compiler-ssr": "3.5.22",
-                "@vue/shared": "3.5.22",
+                "@babel/parser": "^7.28.5",
+                "@vue/compiler-core": "3.5.23",
+                "@vue/compiler-dom": "3.5.23",
+                "@vue/compiler-ssr": "3.5.23",
+                "@vue/shared": "3.5.23",
                 "estree-walker": "^2.0.2",
-                "magic-string": "^0.30.19",
+                "magic-string": "^0.30.21",
                 "postcss": "^8.5.6",
                 "source-map-js": "^1.2.1"
             }
         },
         "node_modules/@vue/compiler-ssr": {
-            "version": "3.5.22",
-            "resolved": "https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.5.22.tgz",
-            "integrity": "sha512-GdgyLvg4R+7T8Nk2Mlighx7XGxq/fJf9jaVofc3IL0EPesTE86cP/8DD1lT3h1JeZr2ySBvyqKQJgbS54IX1Ww==",
+            "version": "3.5.23",
+            "resolved": "https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.5.23.tgz",
+            "integrity": "sha512-Hld2xphbMjXs9Q9WKxPf2EqmE+Rq/FEDnK/wUBtmYq74HCV4XDdSCheAaB823OQXIIFGq9ig/RbAZkF9s4U0Ow==",
             "license": "MIT",
             "dependencies": {
-                "@vue/compiler-dom": "3.5.22",
-                "@vue/shared": "3.5.22"
+                "@vue/compiler-dom": "3.5.23",
+                "@vue/shared": "3.5.23"
             }
         },
         "node_modules/@vue/shared": {
-            "version": "3.5.22",
-            "resolved": "https://registry.npmjs.org/@vue/shared/-/shared-3.5.22.tgz",
-            "integrity": "sha512-F4yc6palwq3TT0u+FYf0Ns4Tfl9GRFURDN2gWG7L1ecIaS/4fCIuFOjMTnCyjsu/OK6vaDKLCrGAa+KvvH+h4w==",
+            "version": "3.5.23",
+            "resolved": "https://registry.npmjs.org/@vue/shared/-/shared-3.5.23.tgz",
+            "integrity": "sha512-0YZ1DYuC5o/YJPf6pFdt2KYxVGDxkDbH/1NYJnVJWUkzr8ituBEmFVQRNX2gCaAsFEjEDnLkWpgqlZA7htgS/g==",
             "license": "MIT"
         },
         "node_modules/@xml-tools/parser": {
@@ -2031,9 +2031,9 @@
             "license": "MIT"
         },
         "node_modules/baseline-browser-mapping": {
-            "version": "2.8.24",
-            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.8.24.tgz",
-            "integrity": "sha512-uUhTRDPXamakPyghwrUcjaGvvBqGrWvBHReoiULMIpOJVM9IYzQh83Xk2Onx5HlGI2o10NNCzcs9TG/S3TkwrQ==",
+            "version": "2.8.25",
+            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.8.25.tgz",
+            "integrity": "sha512-2NovHVesVF5TXefsGX1yzx1xgr7+m9JQenvz6FQY3qd+YXkKkYiv+vTCc7OriP9mcDZpTC5mAOYN4ocd29+erA==",
             "license": "Apache-2.0",
             "bin": {
                 "baseline-browser-mapping": "dist/cli.js"
@@ -7750,9 +7750,9 @@
             "license": "ISC"
         },
         "node_modules/terser": {
-            "version": "5.44.0",
-            "resolved": "https://registry.npmjs.org/terser/-/terser-5.44.0.tgz",
-            "integrity": "sha512-nIVck8DK+GM/0Frwd+nIhZ84pR/BX7rmXMfYwyg+Sri5oGVE99/E3KvXqpC2xHFxyqXyGHTKBSioxxplrO4I4w==",
+            "version": "5.44.1",
+            "resolved": "https://registry.npmjs.org/terser/-/terser-5.44.1.tgz",
+            "integrity": "sha512-t/R3R/n0MSwnnazuPpPNVO60LX0SKL45pyl9YlvxIdkH0Of7D5qM2EVe+yASRIlY5pZ73nclYJfNANGWPwFDZw==",
             "license": "BSD-2-Clause",
             "dependencies": {
                 "@jridgewell/source-map": "^0.3.3",
