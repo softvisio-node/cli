@@ -35,14 +35,17 @@ const CONFIG = [
             "unicorn/no-named-default": "error",
             "unicorn/no-unnecessary-array-flat-depth": "error",
             "unicorn/no-unnecessary-array-splice-count": "error",
+            "unicorn/no-unnecessary-await": "error",
             "unicorn/no-useless-collection-argument": "error",
             "unicorn/no-useless-error-capture-stack-trace": "error",
             "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-useless-spread": "error",
             "unicorn/no-useless-undefined": "error",
             "unicorn/no-zero-fractions": "error",
+
             "unicorn/number-literal-case": "error",
             "unicorn/numeric-separators-style": "error",
+
             "unicorn/prefer-at": "error",
             "unicorn/prefer-bigint-literals": "error",
             "unicorn/prefer-class-fields": "error",
@@ -50,8 +53,8 @@ const CONFIG = [
             "unicorn/prefer-code-point": "error",
             "unicorn/prefer-date-now": "error",
             "unicorn/prefer-dom-node-append": "error",
-            "unicorn/prefer-global-this": "error",
             "unicorn/prefer-dom-node-remove": "error",
+            "unicorn/prefer-global-this": "error",
             "unicorn/prefer-import-meta-properties": "error",
             "unicorn/prefer-modern-dom-apis": "error",
             "unicorn/prefer-modern-math-apis": "error",
@@ -71,7 +74,10 @@ const CONFIG = [
             "unicorn/prefer-response-static-json": "error",
             "unicorn/prefer-set-has": "error",
             "unicorn/prefer-set-size": "error",
-            "unicorn/prefer-single-call": "error",
+
+            // combines consecutive push() calls into one, not safe for stream.push()
+            // "unicorn/prefer-single-call": "error",
+
             "unicorn/prefer-string-replace-all": "error",
             "unicorn/prefer-string-starts-ends-with": "error",
             "unicorn/prefer-string-trim-start-end": "error",
@@ -83,7 +89,6 @@ const CONFIG = [
             "unicorn/require-module-attributes": "error",
             "unicorn/require-module-specifiers": "error",
             "unicorn/text-encoding-identifier-case": "error",
-            "unicorn/no-unnecessary-await": "error",
         },
     },
 ];
