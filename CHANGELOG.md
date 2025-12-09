@@ -1,5 +1,37 @@
 # Changelog
 
+### v3.88.0 (2025-12-09)
+
+**New features:**
+
+- \[MINOR] feat: add npm api (● [fc49959](https://github.com/softvisio-node/cli/commit/fc499594), [6b2a7ed](https://github.com/softvisio-node/cli/commit/6b2a7ed1); 👬 zdm)
+
+- \[MINOR] feat: add publish workflow (● [795aa1f](https://github.com/softvisio-node/cli/commit/795aa1f6); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: disable unicorn unicorn/prefer-single-call rule (● [5370088](https://github.com/softvisio-node/cli/commit/53700889); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor release (● [88722b5](https://github.com/softvisio-node/cli/commit/88722b55), [8d8defe](https://github.com/softvisio-node/cli/commit/8d8defe9); 👬 zdm)
+
+- \[PATCH] refactor: rename exists() to pathExists() (● [cdf3c85](https://github.com/softvisio-node/cli/commit/cdf3c85a); 👬 zdm)
+
+- \[PATCH] refactor: update tar stream imports (● [74ad68b](https://github.com/softvisio-node/cli/commit/74ad68b5); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump @prettier/plugin-oxc@^0.1.2 (● [a5dbd22](https://github.com/softvisio-node/cli/commit/a5dbd22c); 👬 zdm)
+
+- build(deps): bump @prettier/plugin-oxc\@0.0.5 (● [13cd8f6](https://github.com/softvisio-node/cli/commit/13cd8f64); 👬 zdm)
+
+- build(deps): bump espree\@11.0.0 (● [ea603fc](https://github.com/softvisio-node/cli/commit/ea603fc2); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [4912ab4](https://github.com/softvisio-node/cli/commit/4912ab45), [b991d3d](https://github.com/softvisio-node/cli/commit/b991d3da), [8e021d0](https://github.com/softvisio-node/cli/commit/8e021d08), [cd82ab0](https://github.com/softvisio-node/cli/commit/cd82ab0a), [e6a462c](https://github.com/softvisio-node/cli/commit/e6a462c9), [a5be31f](https://github.com/softvisio-node/cli/commit/a5be31f0), [c69768e](https://github.com/softvisio-node/cli/commit/c69768e6), [fb5447b](https://github.com/softvisio-node/cli/commit/fb5447b6), [52d7258](https://github.com/softvisio-node/cli/commit/52d72585), [0e2def8](https://github.com/softvisio-node/cli/commit/0e2def81), [3c9dba5](https://github.com/softvisio-node/cli/commit/3c9dba59), [cdd46ef](https://github.com/softvisio-node/cli/commit/cdd46ef7), [3998ee5](https://github.com/softvisio-node/cli/commit/3998ee56), [ae57191](https://github.com/softvisio-node/cli/commit/ae571915), [7be11ef](https://github.com/softvisio-node/cli/commit/7be11ef7), [b508a6c](https://github.com/softvisio-node/cli/commit/b508a6c5), [b5e663a](https://github.com/softvisio-node/cli/commit/b5e663a6), [5ff98e3](https://github.com/softvisio-node/cli/commit/5ff98e3f), [175f051](https://github.com/softvisio-node/cli/commit/175f051d); 👬 zdm)
+
+Compare with the previous release: [v3.87.10](https://github.com/softvisio-node/cli/compare/v3.87.10...v3.88.0)
+
 ### v3.87.10 (2025-11-02)
 
 **Code refactoring:**
