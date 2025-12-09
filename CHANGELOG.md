@@ -1,5 +1,11 @@
 # Changelog
 
+### v3.89.1 (2025-12-09)
+
+No changes since the previous release.
+
+Compare with the previous release: [v3.89.0](https://github.com/softvisio-node/cli/compare/v3.89.0...v3.89.1)
+
 ### v3.89.0 (2025-12-09)
 
 **New features:**
