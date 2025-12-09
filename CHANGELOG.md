@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.89.0 (2025-12-09)
+
+**New features:**
+
+- \[MINOR] feat: add release workflow (● [f869efb](https://github.com/softvisio-node/cli/commit/f869efbe); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix npm api json parser (● [13b1842](https://github.com/softvisio-node/cli/commit/13b18429); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [1c54183](https://github.com/softvisio-node/cli/commit/1c541832); 👬 zdm)
+
+Compare with the previous release: [v3.88.0](https://github.com/softvisio-node/cli/compare/v3.88.0...v3.89.0)
+
 ### v3.88.0 (2025-12-09)
 
 **New features:**
