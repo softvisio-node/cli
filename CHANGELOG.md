@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.89.2 (2025-12-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix release publish (● [5773846](https://github.com/softvisio-node/cli/commit/57738468), [c856ae5](https://github.com/softvisio-node/cli/commit/c856ae55); 👬 zdm)
+
+- \[PATCH] fix: remove release workflow (● [9b03abb](https://github.com/softvisio-node/cli/commit/9b03abbf); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8aa740d](https://github.com/softvisio-node/cli/commit/8aa740db); 👬 zdm)
+
+Compare with the previous release: [v3.89.1](https://github.com/softvisio-node/cli/compare/v3.89.1...v3.89.2)
+
 ### v3.89.1 (2025-12-09)
 
 No changes since the previous release.
