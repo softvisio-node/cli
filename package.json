@@ -19,7 +19,7 @@
     "author": "root <root@softvisio.net>",
     "type": "module",
     "imports": {
-        "#core/*": "@softvisio/core/*",
+        "#core/*": "@c0rejs/core/*",
         "#lib/*": "./lib/*.js",
         "#resources/*": "./resources/*"
     },
@@ -42,10 +42,10 @@
         "test": "node --test tests/**/*.test.js"
     },
     "dependencies": {
+        "@c0rejs/core": "^7.175.0",
+        "@c0rejs/eslint-plugin": "^1.0.1",
         "@prettier/plugin-oxc": "^0.1.2",
         "@prettier/plugin-xml": "^3.4.1",
-        "@softvisio/core": "^7.175.0",
-        "@softvisio/eslint-plugin": "^1.0.1",
         "@stylistic/eslint-plugin": "^5.0.0",
         "@vue/compiler-sfc": "^3.2.36",
         "cssnano": "^7.0.0",

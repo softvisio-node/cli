@@ -18,7 +18,7 @@ const CLI = {
 
 await Cli.parse( CLI );
 
-externalResources.add( "softvisio-node/core/resources/prism-js" );
+externalResources.add( "c0rejs/core/resources/prism-js" );
 
 const res = await externalResources.install( {
     "force": process.cli.options.force,
