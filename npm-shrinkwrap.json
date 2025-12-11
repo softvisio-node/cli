@@ -10,10 +10,10 @@
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
+                "@c0rejs/core": "^7.175.0",
+                "@c0rejs/eslint-plugin": "^1.0.1",
                 "@prettier/plugin-oxc": "^0.1.2",
                 "@prettier/plugin-xml": "^3.4.1",
-                "@softvisio/core": "^7.175.0",
-                "@softvisio/eslint-plugin": "^1.0.1",
                 "@stylistic/eslint-plugin": "^5.0.0",
                 "@vue/compiler-sfc": "^3.2.36",
                 "cssnano": "^7.0.0",
@@ -84,6 +84,104 @@
             },
             "engines": {
                 "node": ">=6.9.0"
+            }
+        },
+        "node_modules/@c0rejs/core": {
+            "version": "7.189.6",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.189.6/11b6b7ac9f054d688c4c7b940b374ac509c9650e",
+            "integrity": "sha512-QqCEJ8cjWD4O+LcMsHUB/lDJBWf/xNHq4dBQlP3cn4fRYSKDdzL+8s4SiepwhuPpTMwrQDNzbadBNKk0xNckUA==",
+            "hasInstallScript": true,
+            "license": "ISC",
+            "dependencies": {
+                "@c0rejs/msgpack": "^3.0.0",
+                "@c0rejs/sqlite": "^1.15.39",
+                "@c0rejs/utils": "^2.0.0",
+                "@c0rejs/uws": "^2.0.0",
+                "adm-zip": "^0.5.16",
+                "ajv": "^8.0.1",
+                "ajv-errors": "^3.0.0",
+                "ajv-formats": "^3.0.0",
+                "ajv-formats-draft2019": "^1.4.3",
+                "ajv-keywords": "^5.0.0",
+                "decimal.js": "^10.4.3",
+                "ejs": "^3.1.5",
+                "fast-xml-parser": "^5.0.0",
+                "js-yaml": "^4.1.0",
+                "json5": "^2.2.0",
+                "linkedom": "^0.18.4",
+                "mdast-util-from-markdown": "^2.0.1",
+                "mdast-util-gfm": "^3.0.0",
+                "mdast-util-to-markdown": "^2.1.0",
+                "micromark-extension-gfm": "^3.0.0",
+                "minimatch": "^10.0.1",
+                "mmdb-lib": "^3.0.0",
+                "pkijs": "^3.2.4",
+                "semver": "^7.7.2",
+                "telegram": "^2.26.6",
+                "temporal-polyfill": "^0.3.0",
+                "undici": "^7.0.0",
+                "xz-decompress": "^0.2.3"
+            },
+            "bin": {
+                "install-google-chrome": "bin/install-google-chrome.js",
+                "nenv": "bin/nenv.js",
+                "softvisio-api": "bin/softvisio-api.js"
+            },
+            "engines": {
+                "node": ">=24.11.0",
+                "npm": ">=11.6.1"
+            }
+        },
+        "node_modules/@c0rejs/eslint-plugin": {
+            "version": "1.7.35",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/eslint-plugin/1.7.35/fa237e606ebd7437229a762ee780ed1d014b33c3",
+            "integrity": "sha512-5rJyWlT9AcRLMpkX5zOI82fMwnJ3WGTGQLjkZBTcShITrEVM7jZ5PV8Bn6bMAw2uZOXKZ2iAj6x4LNOiX7jU2A==",
+            "license": "ISC",
+            "dependencies": {
+                "json5": "^2.1.3"
+            }
+        },
+        "node_modules/@c0rejs/msgpack": {
+            "version": "3.5.3",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/msgpack/3.5.3/c61354fc740d47fa9ab30fdd0c761495faf7e6cb",
+            "integrity": "sha512-GI0tTrfY2GK1xF6o/NmT4cYnLU2S06orbBjmT9OgWlnLKQZ/fIuymQlEMOpyVOU41AQ53tNieRuRv5aXBHDwtA==",
+            "license": "ISC"
+        },
+        "node_modules/@c0rejs/result": {
+            "version": "6.5.23",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/result/6.5.23/3afaf7905a348afd6bc6b0623ce6992c6d639065",
+            "integrity": "sha512-9VBCcTwtxrPnoFB0doORt26lzpDAPA19ZC6TYLlhxbfXObbZmQVRjIUli22vl3nLB0CWUCmXgPFM08STqzQ65w==",
+            "license": "ISC",
+            "peer": true
+        },
+        "node_modules/@c0rejs/sqlite": {
+            "version": "1.28.29",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/sqlite/1.28.29/89e990688e10f8a865c2ecbc5487ca538ec7ca9a",
+            "integrity": "sha512-4HW+a42hBfLOTemBGjDXKUsUsG9nqcbEQe/FDYHp5rElfW93MOU+gzVPCnUb93ppfUHmNo0jygCdBoH5uonqqA==",
+            "hasInstallScript": true,
+            "license": "ISC",
+            "peerDependencies": {
+                "@c0rejs/utils": "^2.0.0"
+            }
+        },
+        "node_modules/@c0rejs/utils": {
+            "version": "2.10.6",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/utils/2.10.6/30665293a7c8981fa106118d58a148c1b1f8321b",
+            "integrity": "sha512-NjOs21bNCEgTXaUTu9Sn7D31iyV6Zvu22DtPLpFpAgsfnVFpMBkR6T2+1Ow3SrTrO/qmBmvsLOunNiEcgNk6XA==",
+            "license": "ISC",
+            "peerDependencies": {
+                "@c0rejs/result": "^6.1.1",
+                "tar": "^7.0.0"
+            }
+        },
+        "node_modules/@c0rejs/uws": {
+            "version": "2.11.22",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/uws/2.11.22/b239bfa2fdbcfcaee9df58ea71b28d8137185ac7",
+            "integrity": "sha512-DnHVvzri468etumJA+bIjdted651w2D3xyQU0WnoAxHGMipncfi3lXhTg4ln3TfhvIJp/hG/2DcpGRvaCfa7QQ==",
+            "hasInstallScript": true,
+            "license": "ISC",
+            "peerDependencies": {
+                "@c0rejs/utils": "^2.0.0"
             }
         },
         "node_modules/@cryptography/aes": {
@@ -1245,104 +1343,6 @@
             "integrity": "sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==",
             "license": "MIT"
         },
-        "node_modules/@softvisio/core": {
-            "version": "7.189.4",
-            "resolved": "https://registry.npmjs.org/@softvisio/core/-/core-7.189.4.tgz",
-            "integrity": "sha512-Ksh2CEJTnpC7z/eZETcCdsDxZrfKgccIfG1zgNNbepbQlkFvTumF002EX/ezkD5ar7VPAIehzVBuZFhQzxls8w==",
-            "hasInstallScript": true,
-            "license": "ISC",
-            "dependencies": {
-                "@softvisio/msgpack": "^3.0.0",
-                "@softvisio/sqlite": "^1.15.39",
-                "@softvisio/utils": "^2.0.0",
-                "@softvisio/uws": "^2.0.0",
-                "adm-zip": "^0.5.16",
-                "ajv": "^8.0.1",
-                "ajv-errors": "^3.0.0",
-                "ajv-formats": "^3.0.0",
-                "ajv-formats-draft2019": "^1.4.3",
-                "ajv-keywords": "^5.0.0",
-                "decimal.js": "^10.4.3",
-                "ejs": "^3.1.5",
-                "fast-xml-parser": "^5.0.0",
-                "js-yaml": "^4.1.0",
-                "json5": "^2.2.0",
-                "linkedom": "^0.18.4",
-                "mdast-util-from-markdown": "^2.0.1",
-                "mdast-util-gfm": "^3.0.0",
-                "mdast-util-to-markdown": "^2.1.0",
-                "micromark-extension-gfm": "^3.0.0",
-                "minimatch": "^10.0.1",
-                "mmdb-lib": "^3.0.0",
-                "pkijs": "^3.2.4",
-                "semver": "^7.7.2",
-                "telegram": "^2.26.6",
-                "temporal-polyfill": "^0.3.0",
-                "undici": "^7.0.0",
-                "xz-decompress": "^0.2.3"
-            },
-            "bin": {
-                "install-google-chrome": "bin/install-google-chrome.js",
-                "nenv": "bin/nenv.js",
-                "softvisio-api": "bin/softvisio-api.js"
-            },
-            "engines": {
-                "node": ">=24.11.0",
-                "npm": ">=11.6.1"
-            }
-        },
-        "node_modules/@softvisio/eslint-plugin": {
-            "version": "1.7.34",
-            "resolved": "https://registry.npmjs.org/@softvisio/eslint-plugin/-/eslint-plugin-1.7.34.tgz",
-            "integrity": "sha512-TGcpjGREpKM0KOLlgvr6dRk4bq5nrzR96cAAIUq+yPjOTAjKYGT5cLQmUKY/+i7y3SU6/jptHHqNZ/DDnmaNmQ==",
-            "license": "ISC",
-            "dependencies": {
-                "json5": "^2.1.3"
-            }
-        },
-        "node_modules/@softvisio/msgpack": {
-            "version": "3.5.2",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-3.5.2.tgz",
-            "integrity": "sha512-l5O3HLLnqq6EmuP2dGUf+ERh5vETbEY2MQSszLag99KRMSoUKFNQ/+2qxc9SCshQadcU8bj8faZe9V2lI/2A/Q==",
-            "license": "ISC"
-        },
-        "node_modules/@softvisio/result": {
-            "version": "6.5.21",
-            "resolved": "https://registry.npmjs.org/@softvisio/result/-/result-6.5.21.tgz",
-            "integrity": "sha512-tcFd4y4MBqgLz8DkERevBkHCCvMZ9DQ03RMXwXp3faL9hhfrKZIgZoC73fK0IAEEomHnOa6nFGcCK9JbO7aZiQ==",
-            "license": "ISC",
-            "peer": true
-        },
-        "node_modules/@softvisio/sqlite": {
-            "version": "1.28.22",
-            "resolved": "https://registry.npmjs.org/@softvisio/sqlite/-/sqlite-1.28.22.tgz",
-            "integrity": "sha512-iwAXhPRqpctrBbGPd2FW7sp7l85Vjce+Ofkc8gKRFHqSfb1cj4+CxAfxfh38DbANFdk8aI1C8Nl5TwnwY4IWGw==",
-            "hasInstallScript": true,
-            "license": "ISC",
-            "peerDependencies": {
-                "@softvisio/utils": "^2.0.0"
-            }
-        },
-        "node_modules/@softvisio/utils": {
-            "version": "2.10.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/utils/-/utils-2.10.5.tgz",
-            "integrity": "sha512-iP3sv/z+Rw0erL/a9iv1BKv4kR4ZWcW0TF6k5WOByU7F/1RK7pxMNU0gsnoNephhBh0rPwQjG6PXH0jk9vP81A==",
-            "license": "ISC",
-            "peerDependencies": {
-                "@softvisio/result": "^6.1.1",
-                "tar": "^7.0.0"
-            }
-        },
-        "node_modules/@softvisio/uws": {
-            "version": "2.11.13",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-2.11.13.tgz",
-            "integrity": "sha512-/wuqZPF/pCLQ4Jb1PgWeL5A8uIvGB9g3NNEr3PS2bF/zqcr/A5QAzePmzMXWDGESX9SD+GvK5pEPI8M+lFwfiA==",
-            "hasInstallScript": true,
-            "license": "ISC",
-            "peerDependencies": {
-                "@softvisio/utils": "^2.0.0"
-            }
-        },
         "node_modules/@stylistic/eslint-plugin": {
             "version": "5.6.1",
             "resolved": "https://registry.npmjs.org/@stylistic/eslint-plugin/-/eslint-plugin-5.6.1.tgz",
@@ -2062,9 +2062,9 @@
             "license": "MIT"
         },
         "node_modules/baseline-browser-mapping": {
-            "version": "2.9.5",
-            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.5.tgz",
-            "integrity": "sha512-D5vIoztZOq1XM54LUdttJVc96ggEsIfju2JBvht06pSzpckp3C7HReun67Bghzrtdsq9XdMGbSSB3v3GhMNmAA==",
+            "version": "2.9.6",
+            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.6.tgz",
+            "integrity": "sha512-v9BVVpOTLB59C9E7aSnmIF8h7qRsFpx+A2nugVMTszEOMcfjlZMsXRm4LF23I3Z9AJxc8ANpIvzbzONoX9VJlg==",
             "license": "Apache-2.0",
             "bin": {
                 "baseline-browser-mapping": "dist/cli.js"
