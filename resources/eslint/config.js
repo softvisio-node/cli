@@ -1,10 +1,10 @@
 import mixins from "#core/mixins";
+import C0rejs from "./c0rejs.js";
 import Comments from "./comments.js";
 import Eslint from "./eslint.js";
 import Globals from "./globals.js";
 import Import from "./import.js";
 import LanguageOptions from "./language-options.js";
-import Softvisio from "./softvisio.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
 
@@ -60,7 +60,7 @@ export default class Config extends mixins(
     Stylistic,
     Import,
     Unicorn,
-    Softvisio,
+    C0rejs,
     Comments,
     Eslint,
     EslintConfig
