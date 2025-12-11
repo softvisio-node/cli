@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.89.4 (2025-12-11)
+
+**Other changes:**
+
+- build: migrate to c0rejs namespace (● [30bde89](https://github.com/softvisio/cli/commit/30bde897); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [41f340f](https://github.com/softvisio/cli/commit/41f340f6), [616449c](https://github.com/softvisio/cli/commit/616449c4); 👬 zdm)
+
+Compare with the previous release: [v3.89.3](https://github.com/softvisio/cli/compare/v3.89.3...v3.89.4)
+
 ### v3.89.3 (2025-12-11)
 
 **Bug fixes:**
