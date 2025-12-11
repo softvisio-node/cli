@@ -155,9 +155,9 @@
             "peer": true
         },
         "node_modules/@c0rejs/sqlite": {
-            "version": "1.28.29",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/sqlite/1.28.29/89e990688e10f8a865c2ecbc5487ca538ec7ca9a",
-            "integrity": "sha512-4HW+a42hBfLOTemBGjDXKUsUsG9nqcbEQe/FDYHp5rElfW93MOU+gzVPCnUb93ppfUHmNo0jygCdBoH5uonqqA==",
+            "version": "1.28.30",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/sqlite/1.28.30/b34caefcc133c7eb01a9eac6768253c447c47bd3",
+            "integrity": "sha512-OS+zccVFXPJPi57ByGY3D1Vbx9GmzRLalPPxTIJDsuiceLudTD7Aazzd5ZoKMWeTdj1r2/NQ0R069FVrLgPYOw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -176,9 +176,9 @@
             }
         },
         "node_modules/@c0rejs/uws": {
-            "version": "2.11.22",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/uws/2.11.22/b239bfa2fdbcfcaee9df58ea71b28d8137185ac7",
-            "integrity": "sha512-DnHVvzri468etumJA+bIjdted651w2D3xyQU0WnoAxHGMipncfi3lXhTg4ln3TfhvIJp/hG/2DcpGRvaCfa7QQ==",
+            "version": "2.11.23",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/uws/2.11.23/41a416587897a91ec1c4b1620bdb09c04c1c0df5",
+            "integrity": "sha512-8HD/kmMzi4fQkOfU9lu97ZY5Ydiffd5frFnfP/9UvDQxBXGSfAp6xV9TS3Nj2EGMo8MIYMWstxiX5QMuDwqt1w==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
