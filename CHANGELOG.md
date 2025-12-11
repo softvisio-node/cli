@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.89.3 (2025-12-11)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix npm api (● [a4abcdc](https://github.com/softvisio/cli/commit/a4abcdc0), [c89648a](https://github.com/softvisio/cli/commit/c89648af), [499799b](https://github.com/softvisio/cli/commit/499799bd); 👬 zdm)
+
+- \[PATCH] fix: update npmrc (● [ee1b4ca](https://github.com/softvisio/cli/commit/ee1b4cab); 👬 zdm)
+
+**Other changes:**
+
+- build: migrate to c0rejs namespace (● [467714c](https://github.com/softvisio/cli/commit/467714c2), [cdafa28](https://github.com/softvisio/cli/commit/cdafa287), [c192a1b](https://github.com/softvisio/cli/commit/c192a1b5), [07da501](https://github.com/softvisio/cli/commit/07da5019), [62e690a](https://github.com/softvisio/cli/commit/62e690a2); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [807460b](https://github.com/softvisio/cli/commit/807460bb), [909f801](https://github.com/softvisio/cli/commit/909f8018), [43fa5db](https://github.com/softvisio/cli/commit/43fa5db9); 👬 zdm)
+
+- chore(metadata): update package metadata (● [6480f46](https://github.com/softvisio/cli/commit/6480f464); 👬 zdm)
+
+Compare with the previous release: [v3.89.2](https://github.com/softvisio/cli/compare/v3.89.2...v3.89.3)
+
 ### v3.89.2 (2025-12-09)
 
 **Bug fixes:**
