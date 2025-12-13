@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.90.0 (2025-12-13)
+
+**New features:**
+
+- \[MINOR] feat: add docker build secrets (● [dca273e](https://github.com/softvisio/cli/commit/dca273e9); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor oxc parser loader (● [2b3673c](https://github.com/softvisio/cli/commit/2b3673c7); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e02633c](https://github.com/softvisio/cli/commit/e02633cd), [6b448a5](https://github.com/softvisio/cli/commit/6b448a5d); 👬 zdm)
+
+Compare with the previous release: [v3.89.4](https://github.com/softvisio/cli/compare/v3.89.4...v3.90.0)
+
 ### v3.89.4 (2025-12-11)
 
 **Other changes:**
