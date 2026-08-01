@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.0.15 (2026-08-01)
+
+**Other changes:**
+
+- chore: rename softvisio to corejslib (● [50797f2](https://github.com/corejslib/cli/commit/50797f2f); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [1c7d2cb](https://github.com/corejslib/cli/commit/1c7d2cba), [d640418](https://github.com/corejslib/cli/commit/d640418f), [6adce7c](https://github.com/corejslib/cli/commit/6adce7c8), [584def2](https://github.com/corejslib/cli/commit/584def2a); 👬 zdm)
+
+- docs: update (● [c42b60f](https://github.com/corejslib/cli/commit/c42b60f6); 👬 zdm)
+
+Compare with the previous release: [v4.0.14...v4.0.15](https://github.com/corejslib/cli/compare/v4.0.14...v4.0.15)
+
 ### v4.0.14 (2026-08-01)
 
 **Other changes:**
