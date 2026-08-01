@@ -1,20 +1,19 @@
 {
-    "name": "@softvisio/cli",
+    "name": "@corejslib/cli",
     "version": "4.0.14",
     "description": "Softisio CLI Tool",
     "keywords": [
-        "softvisio",
         "cli",
-        "scli"
+        "ccli"
     ],
-    "homepage": "https://softvisio.github.io/cli/",
+    "homepage": "https://corejslib.github.io/cli/",
     "bugs": {
-        "url": "https://github.com/softvisio/cli/issues",
+        "url": "https://github.com/corejslib/cli/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/softvisio/cli.git"
+        "url": "git+https://github.com/corejslib/cli.git"
     },
     "license": "ISC",
     "author": "root <root@softvisio.net>",
@@ -29,7 +28,7 @@
         "./resources/*": "./resources/*"
     },
     "bin": {
-        "scli": "bin/scli.js"
+        "ccli": "bin/ccli.js"
     },
     "files": [
         "/bin",

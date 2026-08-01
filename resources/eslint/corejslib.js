@@ -1,13 +1,13 @@
-import eslintSoftvisio from "@corejslib/eslint-plugin";
+import eslintCorejslib from "@corejslib/eslint-plugin";
 
 const OVERRIDES = [
 
-    // @softvisio:recommended
-    eslintSoftvisio.configs.recommended,
+    // @corejslib:recommended
+    eslintCorejslib.configs.recommended,
 
-    // @softvisio:custom
+    // @corejslib:custom
     {
-        "name": "@softvisio custom",
+        "name": "@corejslib custom",
         "rules": {
             "@corejslib/camel-case": [
                 "error",

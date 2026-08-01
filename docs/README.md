@@ -3,11 +3,11 @@
 ## Install
 
 ```sh
-npm install --global @softvisio/cli
+npm install --global @corejslib/cli
 ```
 
 ## Usage
 
 ```sh
-scli --help
+ccli --help
 ```
