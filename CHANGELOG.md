@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.0.14 (2026-08-01)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [7f98fa7](https://github.com/softvisio/cli/commit/7f98fa76), [e056325](https://github.com/softvisio/cli/commit/e0563253), [d34cd89](https://github.com/softvisio/cli/commit/d34cd89f); 👬 zdm)
+
+Compare with the previous release: [v4.0.13...v4.0.14](https://github.com/softvisio/cli/compare/v4.0.13...v4.0.14)
+
 ### v4.0.13 (2026-07-30)
 
 **Other changes:**
