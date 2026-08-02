@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.0.17 (2026-08-02)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [34deeaf](https://github.com/corejslib/cli/commit/34deeaf6); 👬 zdm)
+
+Compare with the previous release: [v4.0.16...v4.0.17](https://github.com/corejslib/cli/compare/v4.0.16...v4.0.17)
+
 ### v4.0.16 (2026-08-02)
 
 **Bug fixes:**
