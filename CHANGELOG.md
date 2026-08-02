@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.0.19 (2026-08-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix native deps bundling (● [cbfe612](https://github.com/corejslib/cli/commit/cbfe6123); 👬 zdm)
+
+Compare with the previous release: [v4.0.18...v4.0.19](https://github.com/corejslib/cli/compare/v4.0.18...v4.0.19)
+
 ### v4.0.18 (2026-08-02)
 
 **Other changes:**
