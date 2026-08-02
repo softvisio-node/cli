@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.0.20 (2026-08-02)
+
+**Other changes:**
+
+- build: remove bundleDependencies (● [2b51346](https://github.com/corejslib/cli/commit/2b513468), [37395fc](https://github.com/corejslib/cli/commit/37395fc6); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [9aed6b2](https://github.com/corejslib/cli/commit/9aed6b20), [1ea6a74](https://github.com/corejslib/cli/commit/1ea6a747); 👬 zdm)
+
+Compare with the previous release: [v4.0.19...v4.0.20](https://github.com/corejslib/cli/compare/v4.0.19...v4.0.20)
+
 ### v4.0.19 (2026-08-02)
 
 **Bug fixes:**
