@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.0.16 (2026-08-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: change rpc namespace to ccli (● [22fdc0a](https://github.com/corejslib/cli/commit/22fdc0a6); 👬 zdm)
+
+Compare with the previous release: [v4.0.15...v4.0.16](https://github.com/corejslib/cli/compare/v4.0.15...v4.0.16)
+
 ### v4.0.15 (2026-08-01)
 
 **Other changes:**
