@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.1.1 (2026-08-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependabot config (● [1312f95](https://github.com/corejslib/cli/commit/1312f958); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [2869dd2](https://github.com/corejslib/cli/commit/2869dd21); 👬 zdm)
+
+Compare with the previous release: [v4.1.0...v4.1.1](https://github.com/corejslib/cli/compare/v4.1.0...v4.1.1)
+
 ### v4.1.0 (2026-08-03)
 
 **New features:**
