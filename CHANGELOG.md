@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.1.0 (2026-08-03)
+
+**New features:**
+
+- \[MINOR] feat: add lint --no-eslint option (● [35589a3](https://github.com/corejslib/cli/commit/35589a3c); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: make dependabot ignore minor and patch versions (● [928fe21](https://github.com/corejslib/cli/commit/928fe21a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [1e47db7](https://github.com/corejslib/cli/commit/1e47db73), [138175e](https://github.com/corejslib/cli/commit/138175e8); 👬 zdm)
+
+Compare with the previous release: [v4.0.20...v4.1.0](https://github.com/corejslib/cli/compare/v4.0.20...v4.1.0)
+
 ### v4.0.20 (2026-08-02)
 
 **Other changes:**
