@@ -22,8 +22,10 @@ const CONFIG = [
                 // FIXME [engine:node@>=26.0.0]: "unicorn/prefer-iterator-to-array-at-end": "error",
 
                 // "unicorn/consistent-arrow-return-style": "error",
-                // "unicorn/iteration-fallback-style": "error",
-                "unicorn/no-barrel-files": "error",
+                "unicorn/iteration-fallback-style": "error",
+
+                // XXX experimental
+                // "unicorn/no-barrel-files": "error",
 
                 // "unicorn/single-line-block-comment-style": [ "error", "single-line" ],
 
