@@ -1,18 +1,18 @@
 {
-    "name": "@corejslib/zcli",
+    "name": "@softvisio/zcli",
     "version": "4.1.2",
     "description": "zCLI toolset",
     "keywords": [
         "zcli"
     ],
-    "homepage": "https://corejslib.github.io/zcli/",
+    "homepage": "https://softvisio.github.io/zcli/",
     "bugs": {
-        "url": "https://github.com/corejslib/zcli/issues",
+        "url": "https://github.com/softvisio/zcli/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/corejslib/zcli.git"
+        "url": "git+https://github.com/softvisio/zcli.git"
     },
     "license": "ISC",
     "author": "root <root@softvisio.net>",

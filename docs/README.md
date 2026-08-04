@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm install --global @corejslib/zcli
+npm install --global @softvisio/zcli
 ```
 
 ## Usage

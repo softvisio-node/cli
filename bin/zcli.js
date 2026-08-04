@@ -5,7 +5,7 @@ import ansi from "#core/ansi";
 import CLI from "#core/cli";
 
 const spec = {
-    "title": "@corejslib/zcli",
+    "title": "@softvisio/zcli",
     "commands": {
         "ls": {
             "title": "List packages in workspace",
