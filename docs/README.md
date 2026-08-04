@@ -3,11 +3,11 @@
 ## Install
 
 ```sh
-npm install --global @corejslib/cli
+npm install --global @corejslib/zcli
 ```
 
 ## Usage
 
 ```sh
-ccli --help
+zcli --help
 ```

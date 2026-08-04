@@ -2,8 +2,8 @@
 
 set -Eeuo pipefail
 
-if [[ -x node_modules/.bin/ccli ]]; then
-    node_modules/.bin/ccli git pre-commit
-elif [[ -x "$(command -v ccli)" ]]; then
-    ccli git pre-commit
+if [[ -x node_modules/.bin/zcli ]]; then
+    node_modules/.bin/zcli git pre-commit
+elif [[ -x "$(command -v zcli)" ]]; then
+    zcli git pre-commit
 fi

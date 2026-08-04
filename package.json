@@ -1,19 +1,18 @@
 {
-    "name": "@corejslib/cli",
+    "name": "@corejslib/zcli",
     "version": "4.1.2",
-    "description": "Softisio CLI Tool",
+    "description": "zCLI toolset",
     "keywords": [
-        "cli",
-        "ccli"
+        "zcli"
     ],
-    "homepage": "https://corejslib.github.io/cli/",
+    "homepage": "https://corejslib.github.io/zcli/",
     "bugs": {
-        "url": "https://github.com/corejslib/cli/issues",
+        "url": "https://github.com/corejslib/zcli/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/corejslib/cli.git"
+        "url": "git+https://github.com/corejslib/zcli.git"
     },
     "license": "ISC",
     "author": "root <root@softvisio.net>",
@@ -28,7 +27,7 @@
         "./resources/*": "./resources/*"
     },
     "bin": {
-        "ccli": "bin/ccli.js"
+        "zcli": "bin/zcli.js"
     },
     "files": [
         "/bin",
