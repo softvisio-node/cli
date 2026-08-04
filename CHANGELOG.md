@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.1.4 (2026-08-04)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix translation-memory location (● [dc8b0c7](https://github.com/softvisio/zcli/commit/dc8b0c74); 👬 zdm)
+
+Compare with the previous release: [v4.1.3...v4.1.4](https://github.com/softvisio/zcli/compare/v4.1.3...v4.1.4)
+
 ### v4.1.3 (2026-08-04)
 
 **Other changes:**
