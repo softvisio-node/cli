@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.1.2 (2026-08-04)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: add unicorn rules (● [3edfbd3](https://github.com/corejslib/cli/commit/3edfbd37), [674866f](https://github.com/corejslib/cli/commit/674866f8); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp eslint-plugin-unicorn@^73.0.0 (● [e5443ca](https://github.com/corejslib/cli/commit/e5443ca0); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [e658b64](https://github.com/corejslib/cli/commit/e658b644), [ff01a79](https://github.com/corejslib/cli/commit/ff01a796), [323f734](https://github.com/corejslib/cli/commit/323f7347); 👬 zdm)
+
+- style: lint (● [68a1454](https://github.com/corejslib/cli/commit/68a14540), [d44c10d](https://github.com/corejslib/cli/commit/d44c10df); 👬 zdm)
+
+Compare with the previous release: [v4.1.1...v4.1.2](https://github.com/corejslib/cli/compare/v4.1.1...v4.1.2)
+
 ### v4.1.1 (2026-08-03)
 
 **Bug fixes:**
