@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.1.3 (2026-08-04)
+
+**Other changes:**
+
+- chore: rename ccli to zcli (● [04accea](https://github.com/softvisio/zcli/commit/04accea1), [058eb70](https://github.com/softvisio/zcli/commit/058eb709), [01a03fa](https://github.com/softvisio/zcli/commit/01a03fab), [e95f13d](https://github.com/softvisio/zcli/commit/e95f13d1); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [c8facfd](https://github.com/softvisio/zcli/commit/c8facfd0), [24bd7ce](https://github.com/softvisio/zcli/commit/24bd7ce4); 👬 zdm)
+
+Compare with the previous release: [v4.1.2...v4.1.3](https://github.com/softvisio/zcli/compare/v4.1.2...v4.1.3)
+
 ### v4.1.2 (2026-08-04)
 
 **Code refactoring:**
