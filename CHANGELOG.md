@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.0 (2026-08-06)
+
+**New features:**
+
+- \[MINOR] feat: add dry-run mode to dependencies update (● [a5c3d5b](https://github.com/softvisio/zcli/commit/a5c3d5b8); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [293a517](https://github.com/softvisio/zcli/commit/293a517f), [92092be](https://github.com/softvisio/zcli/commit/92092be5), [ac8ef61](https://github.com/softvisio/zcli/commit/ac8ef616); 👬 zdm)
+
+Compare with the previous release: [v4.1.4...v4.2.0](https://github.com/softvisio/zcli/compare/v4.1.4...v4.2.0)
+
 ### v4.1.4 (2026-08-04)
 
 **Bug fixes:**
