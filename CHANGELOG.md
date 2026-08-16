@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.2.2 (2026-08-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix glob api (● [5312dc8](https://github.com/softvisio/zcli/commit/5312dc88), [cabc23e](https://github.com/softvisio/zcli/commit/cabc23e1), [46d0217](https://github.com/softvisio/zcli/commit/46d02178), [8a4b47a](https://github.com/softvisio/zcli/commit/8a4b47ab), [88c7f3b](https://github.com/softvisio/zcli/commit/88c7f3be), [6a6b7b5](https://github.com/softvisio/zcli/commit/6a6b7b50), [2059254](https://github.com/softvisio/zcli/commit/2059254d), [7974f1c](https://github.com/softvisio/zcli/commit/7974f1c8); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update glob api (● [b72c3cd](https://github.com/softvisio/zcli/commit/b72c3cd3), [1b8a2ac](https://github.com/softvisio/zcli/commit/1b8a2ace); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [2447c91](https://github.com/softvisio/zcli/commit/2447c918), [05352b3](https://github.com/softvisio/zcli/commit/05352b33), [79ea4d0](https://github.com/softvisio/zcli/commit/79ea4d02), [5ce963b](https://github.com/softvisio/zcli/commit/5ce963b4), [d96a9db](https://github.com/softvisio/zcli/commit/d96a9db9), [b051207](https://github.com/softvisio/zcli/commit/b051207d), [f692bfc](https://github.com/softvisio/zcli/commit/f692bfce), [18136b8](https://github.com/softvisio/zcli/commit/18136b82), [8ebe904](https://github.com/softvisio/zcli/commit/8ebe904a), [f57c56c](https://github.com/softvisio/zcli/commit/f57c56cf), [88fae11](https://github.com/softvisio/zcli/commit/88fae112), [51f48ab](https://github.com/softvisio/zcli/commit/51f48abb), [9a31f4b](https://github.com/softvisio/zcli/commit/9a31f4b6), [cbb0cb1](https://github.com/softvisio/zcli/commit/cbb0cb1c), [113f203](https://github.com/softvisio/zcli/commit/113f2036); 👬 zdm)
+
+Compare with the previous release: [v4.2.1...v4.2.2](https://github.com/softvisio/zcli/compare/v4.2.1...v4.2.2)
+
 ### v4.2.1 (2026-08-06)
 
 **Bug fixes:**
