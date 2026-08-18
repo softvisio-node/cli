@@ -1,5 +1,19 @@
 # Changelog
 
+### v4.3.1 (2026-08-18)
+
+**Bug fixes:**
+
+- \[PATCH] fix: disable prettier for markdown (● [3df614b](https://github.com/softvisio/zcli/commit/3df614be); 👬 zdm)
+
+- \[PATCH] fix: fix markdown list indentation (● [053a7aa](https://github.com/softvisio/zcli/commit/053a7aad), [d0aa17b](https://github.com/softvisio/zcli/commit/d0aa17ba), [0ce3027](https://github.com/softvisio/zcli/commit/0ce3027c); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [987a7c7](https://github.com/softvisio/zcli/commit/987a7c70); 👬 zdm)
+
+Compare with the previous release: [v4.3.0...v4.3.1](https://github.com/softvisio/zcli/compare/v4.3.0...v4.3.1)
+
 ### v4.3.0 (2026-08-18)
 
 **New features:**
