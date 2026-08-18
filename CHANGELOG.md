@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.3.0 (2026-08-18)
+
+**New features:**
+
+- \[MINOR] feat: add markdown frontmatter support (● [3cbac0f](https://github.com/softvisio/zcli/commit/3cbac0f7), [4bd548b](https://github.com/softvisio/zcli/commit/4bd548b5); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor glob api (● [b01e558](https://github.com/softvisio/zcli/commit/b01e5580); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ee580c1](https://github.com/softvisio/zcli/commit/ee580c1e), [b796794](https://github.com/softvisio/zcli/commit/b7967945), [62c85ff](https://github.com/softvisio/zcli/commit/62c85ff0); 👬 zdm)
+
+Compare with the previous release: [v4.2.3...v4.3.0](https://github.com/softvisio/zcli/compare/v4.2.3...v4.3.0)
+
 ### v4.2.3 (2026-08-17)
 
 **Other changes:**
