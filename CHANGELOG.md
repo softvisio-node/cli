@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.3.2 (2026-08-19)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove markdown list indentation (● [c40b90c](https://github.com/softvisio/zcli/commit/c40b90ce), [c2d11a6](https://github.com/softvisio/zcli/commit/c2d11a67), [fdd8c55](https://github.com/softvisio/zcli/commit/fdd8c55c); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [405acc6](https://github.com/softvisio/zcli/commit/405acc65), [0102349](https://github.com/softvisio/zcli/commit/01023490); 👬 zdm)
+
+Compare with the previous release: [v4.3.1...v4.3.2](https://github.com/softvisio/zcli/compare/v4.3.1...v4.3.2)
+
 ### v4.3.1 (2026-08-18)
 
 **Bug fixes:**
