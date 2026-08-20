@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.3.3 (2026-08-20)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix glob api (● [0316efd](https://github.com/softvisio/zcli/commit/0316efd5); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [9b8e5ee](https://github.com/softvisio/zcli/commit/9b8e5ee1), [295c4ad](https://github.com/softvisio/zcli/commit/295c4ad8); 👬 zdm)
+
+Compare with the previous release: [v4.3.2...v4.3.3](https://github.com/softvisio/zcli/compare/v4.3.2...v4.3.3)
+
 ### v4.3.2 (2026-08-19)
 
 **Code refactoring:**
