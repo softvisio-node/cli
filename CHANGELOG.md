@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.3.6 (2026-08-25)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update markdown types (● [477d1e7](https://github.com/softvisio/zcli/commit/477d1e71); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [01b151c](https://github.com/softvisio/zcli/commit/01b151c7), [01fd8d8](https://github.com/softvisio/zcli/commit/01fd8d84), [1c7ccba](https://github.com/softvisio/zcli/commit/1c7ccba2), [620b32d](https://github.com/softvisio/zcli/commit/620b32de), [2143aea](https://github.com/softvisio/zcli/commit/2143aea7), [d566afb](https://github.com/softvisio/zcli/commit/d566afbe); 👬 zdm)
+
+Compare with the previous release: [v4.3.5...v4.3.6](https://github.com/softvisio/zcli/compare/v4.3.5...v4.3.6)
+
 ### v4.3.5 (2026-08-21)
 
 **Other changes:**
