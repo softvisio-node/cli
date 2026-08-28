@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.3.10 (2026-08-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix filetype by shebang detection (● [a5436b6](https://github.com/softvisio/zcli/commit/a5436b69); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [1b2f201](https://github.com/softvisio/zcli/commit/1b2f201d); 👬 zdm)
+
+Compare with the previous release: [v4.3.9...v4.3.10](https://github.com/softvisio/zcli/compare/v4.3.9...v4.3.10)
+
 ### v4.3.9 (2026-08-28)
 
 **Bug fixes:**
