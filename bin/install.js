@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S node
 
 import Cli from "#core/cli";
 import externalResources from "#core/external-resources";

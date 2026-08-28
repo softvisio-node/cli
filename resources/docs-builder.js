@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S node
 
 const options = JSON.parse( process.argv[ 2 ] );
 
