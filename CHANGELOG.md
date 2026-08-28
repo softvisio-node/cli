@@ -1,5 +1,19 @@
 # Changelog
 
+### v4.3.9 (2026-08-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix shebang (● [078ec4d](https://github.com/softvisio/zcli/commit/078ec4d7); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp cssnano\@9.0.0 (● [485b6a9](https://github.com/softvisio/zcli/commit/485b6a92); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [635c98a](https://github.com/softvisio/zcli/commit/635c98a1), [3e13126](https://github.com/softvisio/zcli/commit/3e131268), [72a9e45](https://github.com/softvisio/zcli/commit/72a9e45a); 👬 zdm)
+
+Compare with the previous release: [v4.3.8...v4.3.9](https://github.com/softvisio/zcli/compare/v4.3.8...v4.3.9)
+
 ### v4.3.8 (2026-08-27)
 
 **Other changes:**
