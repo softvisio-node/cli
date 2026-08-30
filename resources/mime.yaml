@@ -2,6 +2,11 @@ application/json:
   extnames:
     - .gyp
 
+application/node:
+  shebangs:
+    - /^#!\/usr\/bin\/env node/v
+    - /^#!\/usr\/bin\/env -S node/v
+
 application/x-sh:
   filenames:
     - .gitignore
@@ -19,17 +24,6 @@ application/x-sh:
     - /^#!\/usr\/bin\/env -S sh/v
     - /^#!\/usr\/bin\/env -S bash/v
 
-application/node:
-  shebangs:
-    - /^#!\/usr\/bin\/env node/v
-    - /^#!\/usr\/bin\/env -S node/v
-
-text/plain:
-  filenames:
-    - .editorconfig
-    - .gitattributes
-    - - .npmrc
-
 application/x-typescript:
   compressible: true
   extnames:
@@ -44,15 +38,11 @@ application/x-vue:
   extnames:
     - .vue
 
-text/x-vim:
-  compressible: true
-  extnames:
-    - .vim
-
-text/x-lua:
-  shebangs:
-    - /^#!\/usr\/bin\/env lua/v
-    - /^#!\/usr\/bin\/env -S lua/v
+text/plain:
+  filenames:
+    - .editorconfig
+    - .gitattributes
+    - .npmrc
 
 text/x-dockerfile:
   compressible: true
@@ -60,7 +50,17 @@ text/x-dockerfile:
     - dockerfile
     - "*.dockerfile"
 
+text/x-lua:
+  shebangs:
+    - /^#!\/usr\/bin\/env lua/v
+    - /^#!\/usr\/bin\/env -S lua/v
+
 text/x-peggy:
   compressible: true
   extnames:
     - .peggy
+
+text/x-vim:
+  compressible: true
+  extnames:
+    - .vim
