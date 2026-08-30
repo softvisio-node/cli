@@ -1,5 +1,27 @@
 # Changelog
 
+### v4.4.0 (2026-08-30)
+
+**New features:**
+
+- \[MINOR] feat: mime shebangs regexps (● [584ec42](https://github.com/softvisio/zcli/commit/584ec42e); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix file slice (● [808724f](https://github.com/softvisio/zcli/commit/808724fd); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor mime (● [3efe3ee](https://github.com/softvisio/zcli/commit/3efe3ee9), [b52b976](https://github.com/softvisio/zcli/commit/b52b9762); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp eslint-plugin-unicorn@^74.0.0 (● [579241d](https://github.com/softvisio/zcli/commit/579241df); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [001cdb9](https://github.com/softvisio/zcli/commit/001cdb9f), [5a08777](https://github.com/softvisio/zcli/commit/5a087774), [a5a2af4](https://github.com/softvisio/zcli/commit/a5a2af44), [d07386f](https://github.com/softvisio/zcli/commit/d07386fc); 👬 zdm)
+
+Compare with the previous release: [v4.3.10...v4.4.0](https://github.com/softvisio/zcli/compare/v4.3.10...v4.4.0)
+
 ### v4.3.10 (2026-08-28)
 
 **Bug fixes:**
