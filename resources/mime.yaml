@@ -1,0 +1,66 @@
+application/json:
+  extnames:
+    - .gyp
+
+application/x-sh:
+  filenames:
+    - .gitignore
+    - .npmignore
+    - .dockerignore
+    - .lintignore
+
+  shebangs:
+    - /^#!\/bin\/sh/v
+    - /^#!\/bin\/bash/v
+    - /^#!\/usr\/bin\/sh/v
+    - /^#!\/usr\/bin\/bash/v
+    - /^#!\/usr\/bin\/env sh/v
+    - /^#!\/usr\/bin\/env bash/v
+    - /^#!\/usr\/bin\/env -S sh/v
+    - /^#!\/usr\/bin\/env -S bash/v
+
+application/node:
+  shebangs:
+    - /^#!\/usr\/bin\/env node/v
+    - /^#!\/usr\/bin\/env -S node/v
+
+text/plain:
+  filenames:
+    - .editorconfig
+    - .gitattributes
+    - - .npmrc
+
+application/x-typescript:
+  compressible: true
+  extnames:
+    # NOTE: ".ts" conflicted with the "video/mp2t"
+    - .ts
+    - .tsx
+    - .mts
+    - .cts
+
+application/x-vue:
+  compressible: true
+  extnames:
+    - .vue
+
+text/x-vim:
+  compressible: true
+  extnames:
+    - .vim
+
+text/x-lua:
+  shebangs:
+    - /^#!\/usr\/bin\/env lua/v
+    - /^#!\/usr\/bin\/env -S lua/v
+
+text/x-dockerfile:
+  compressible: true
+  filenames:
+    - dockerfile
+    - "*.dockerfile"
+
+text/x-peggy:
+  compressible: true
+  extnames:
+    - .peggy
