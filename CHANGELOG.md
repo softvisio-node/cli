@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.4.1 (2026-09-05)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix mime (● [f95c8d5](https://github.com/softvisio/zcli/commit/f95c8d50); 👬 zdm)
+
+- \[PATCH] fix: fix workspace resources updater (● [858d044](https://github.com/softvisio/zcli/commit/858d0447); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor mime (● [f328f9e](https://github.com/softvisio/zcli/commit/f328f9e3); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [84dec3b](https://github.com/softvisio/zcli/commit/84dec3b0), [d39edff](https://github.com/softvisio/zcli/commit/d39edffb), [a52ee95](https://github.com/softvisio/zcli/commit/a52ee956), [506aa58](https://github.com/softvisio/zcli/commit/506aa588), [83d131b](https://github.com/softvisio/zcli/commit/83d131b9), [62d9494](https://github.com/softvisio/zcli/commit/62d94943), [b6c8a84](https://github.com/softvisio/zcli/commit/b6c8a840), [f68cf33](https://github.com/softvisio/zcli/commit/f68cf330), [8fbf939](https://github.com/softvisio/zcli/commit/8fbf939c); 👬 zdm)
+
+Compare with the previous release: [v4.4.0...v4.4.1](https://github.com/softvisio/zcli/compare/v4.4.0...v4.4.1)
+
 ### v4.4.0 (2026-08-30)
 
 **New features:**
