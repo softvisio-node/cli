@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.4.2 (2026-09-07)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename .install() to .update() (● [701766a](https://github.com/softvisio/zcli/commit/701766aa); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [b899b08](https://github.com/softvisio/zcli/commit/b899b089), [7bf533a](https://github.com/softvisio/zcli/commit/7bf533ab), [140ae67](https://github.com/softvisio/zcli/commit/140ae677); 👬 zdm)
+
+Compare with the previous release: [v4.4.1...v4.4.2](https://github.com/softvisio/zcli/compare/v4.4.1...v4.4.2)
+
 ### v4.4.1 (2026-09-05)
 
 **Bug fixes:**
