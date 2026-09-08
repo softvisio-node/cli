@@ -4,8 +4,7 @@ application/json:
 
 application/node:
   shebangs:
-    - /^#!\/usr\/bin\/env node/v
-    - /^#!\/usr\/bin\/env -S node/v
+    - "/^#!\/usr\/bin\/env(?: -S)? node/v"
 
 application/x-sh:
   filenames:
@@ -15,14 +14,8 @@ application/x-sh:
     - .lintignore
 
   shebangs:
-    - /^#!\/bin\/sh/v
-    - /^#!\/bin\/bash/v
-    - /^#!\/usr\/bin\/sh/v
-    - /^#!\/usr\/bin\/bash/v
-    - /^#!\/usr\/bin\/env sh/v
-    - /^#!\/usr\/bin\/env bash/v
-    - /^#!\/usr\/bin\/env -S sh/v
-    - /^#!\/usr\/bin\/env -S bash/v
+    - /^#!(?:\/usr)?\/bin\/(?:sh|bash)/v
+    - "/^#!\/usr\/bin\/env(?: -S)? (?:sh|bash)/v"
 
 application/x-typescript:
   compressible: true
@@ -52,8 +45,7 @@ text/x-dockerfile:
 
 text/x-lua:
   shebangs:
-    - /^#!\/usr\/bin\/env lua/v
-    - /^#!\/usr\/bin\/env -S lua/v
+    - "/^#!\/usr\/bin\/env(?: -S)? lua/v"
 
 text/x-peggy:
   compressible: true
